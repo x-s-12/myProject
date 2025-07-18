@@ -1,0 +1,46 @@
+--挑战副本-龙珠副本
+
+DragonBallFubenCfg = 
+{
+	index = 6,
+	pos = 7,					--按钮的排序(1技能，2坐骑，3强化，4翅膀，5装备，6金币，7龙珠)
+	dailyChellengeTimes = 2,			--每天挑战次数
+	fubens = 
+	{
+		{
+			fubenType 	= 6,								--龙珠副本
+			name 		= OldLang.Script.StrongFBName05,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc05,		--副本描述
+			titleIcon	= 103,		--标题图片
+			backIcon	= 206,		--背景图片
+			sceneId 	= 29,								--场景ID
+			fubenId 	= 11,								--副本ID
+			levelLimit 	= {1,84},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 20000,							--推荐战力(不强制要求)
+			enterPos 	= {41,52},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=210, sceneId=29, num=1, pos={50,58,51,59}, livetime=1800,},--万蛛
+				{ monsterId=218, sceneId=29, num=5, pos={45,52,55,64}, livetime=1800,},--荒冢恶虫
+			},
+
+			makeScore = 							--评分
+			{
+				--{killTime = {0,   60}, score = 3, },			--击杀时间评分-3分
+				--{killTime = {61, 120}, score = 2, },	
+				--{killTime = {121, 300}, score = 1, },		
+			},
+
+			awards = 
+			{
+				{type = 0, id = 863, count = 9, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 40,			--翻倍领取需要的元宝
+		},
+	},
+}
+
+

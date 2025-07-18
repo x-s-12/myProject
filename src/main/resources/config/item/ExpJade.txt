@@ -1,0 +1,9 @@
+--¾­Ñé¹´Óñ
+
+ExpJadeTable = 
+{
+	{
+		item_id = 893, expTab = 1,value = 500,
+	},
+
+}

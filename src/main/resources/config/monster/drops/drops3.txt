@@ -1,0 +1,13 @@
+{ group = 1, type = 0, id = 13, propability = 200, count = 1 },
+{ group = 1, type = 0, id = 22, propability = 400, count = 1 },
+{ group = 1, type = 0, id = 31, propability = 600, count = 1 },
+{ group = 1, type = 0, id = 14, propability = 800, count = 1 },
+{ group = 1, type = 0, id = 23, propability = 1000, count = 1 },
+{ group = 1, type = 0, id = 32, propability = 1200, count = 1 },
+{ group = 1, type = 0, id = 15, propability = 1400, count = 1 },
+{ group = 1, type = 0, id = 24, propability = 1600, count = 1 },
+{ group = 1, type = 0, id = 33, propability = 1800, count = 1 },
+{ group = 1, type = 0, id = 16, propability = 2000, count = 1 },
+{ group = 1, type = 0, id = 25, propability = 2200, count = 1 },
+{ group = 1, type = 0, id = 34, propability = 2400, count = 1 },
+--

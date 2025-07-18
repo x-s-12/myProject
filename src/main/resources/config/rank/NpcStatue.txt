@@ -1,0 +1,32 @@
+
+  
+--����NPC��Ҫ�ڶ�Ӧ�ĳ��������ö�Ӧ��NPC Ҫ��ͬ������ ��ͬ���� 
+--type:�������� 
+--[[
+//NPC��������
+enum NpcStatueType 
+{
+	stNormal = 0,
+	stRsCastellan = 1,	//����Ӣ�۳ǳ�������
+	stCsCastellan = 2,	//���Ӣ�۳ǳ�������
+	stRsVocation = 3,	//����ְҵ����
+	stCsVocation = 4,	//���ְҵ����
+};
+--]]
+--param:�������� ��type = 3��4ʱ����ְҵID
+--npcScene:NPC���ڳ�����
+--npcName:NPC����
+--maleModelid:����ģ��ID
+--femaleModelid:Ů��ģ��ID
+NpcStatue = 
+{ 	-- NPCSTATUE
+	--[[{type = 1, param = 0, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00084, maleModelid = 20, femaleModelid = 23},
+	{type = 3, param = 1, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00085, maleModelid = 24, femaleModelid = 26},
+	{type = 3, param = 2, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00086, maleModelid = 33, femaleModelid = 35},
+	{type = 3, param = 3, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00087, maleModelid = 28, femaleModelid = 30},
+	{type = 2, param = 0, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00088, maleModelid = 20, femaleModelid = 22},
+	{type = 4, param = 1, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00089, maleModelid = 24, femaleModelid = 26},
+	{type = 4, param = 2, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00090, maleModelid = 33, femaleModelid = 35},
+	{type = 4, param = 3, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00091, maleModelid = 28, femaleModelid = 30},
+	{type = 2, param = 0, npcScene=OldLang.SceneName.s00002, npcName=OldLang.EntityName.n00097, maleModelid = 20, femaleModelid = 22},]]
+} 

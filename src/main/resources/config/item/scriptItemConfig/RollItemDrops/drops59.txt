@@ -1,0 +1,36 @@
+--[[
+	--propability概率，概率的数字越大的话掉的物品的概率越高
+	--group是分组的id，类似怪物的爆率的配置, group为0，必出；相同group的按propability出一个
+--]]
+drops=
+{
+{ group = 0, type = 0, id = 226, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1},
+{ group = 0, type = 0, id = 227, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex= 0},
+{ group = 0, type = 0, id = 228, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex= 1},
+{ group = 0, type = 0, id = 229, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1},
+{ group = 0, type = 0, id = 230, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1},
+{ group = 0, type = 0, id = 231, count = 2, bind = 0, propability=1, broadcast=0, job=1,sex=-1},
+{ group = 0, type = 0, id = 232, count = 2, bind = 0, propability=1, broadcast=0, job=1,sex=-1},
+{ group = 0, type = 0, id = 233, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1},
+{ group = 0, type = 0, id = 234, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1},
+
+{ group = 0, type = 0, id = 235, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1},
+{ group = 0, type = 0, id = 236, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex= 0},
+{ group = 0, type = 0, id = 237, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex= 1},
+{ group = 0, type = 0, id = 238, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1},
+{ group = 0, type = 0, id = 239, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1},
+{ group = 0, type = 0, id = 240, count = 2, bind = 0, propability=1, broadcast=0, job=2,sex=-1},
+{ group = 0, type = 0, id = 241, count = 2, bind = 0, propability=1, broadcast=0, job=2,sex=-1},
+{ group = 0, type = 0, id = 242, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1},
+{ group = 0, type = 0, id = 243, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1},
+
+{ group = 0, type = 0, id = 244, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1},
+{ group = 0, type = 0, id = 245, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex= 0},
+{ group = 0, type = 0, id = 246, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex= 1},
+{ group = 0, type = 0, id = 247, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1},
+{ group = 0, type = 0, id = 248, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1},
+{ group = 0, type = 0, id = 249, count = 2, bind = 0, propability=1, broadcast=0, job=3,sex=-1},
+{ group = 0, type = 0, id = 250, count = 2, bind = 0, propability=1, broadcast=0, job=3,sex=-1},
+{ group = 0, type = 0, id = 251, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1},
+{ group = 0, type = 0, id = 252, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1},
+}

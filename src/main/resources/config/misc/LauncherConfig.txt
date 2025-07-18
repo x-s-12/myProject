@@ -1,0 +1,13 @@
+LauncherConfig = 
+{
+    Awards = 
+	{
+    	{ type = 0, id = 938, count = 3, bind = 1 , strong = 0 , quality = 0, },
+		{ type = 0, id = 762, count = 3, bind = 1 , strong = 0 , quality = 0, },
+		{ type = 0, id = 937, count = 10, bind = 1 , strong = 0 , quality = 0, },
+		{ type = 0, id = 785, count = 5, bind = 1 , strong = 0 , quality = 0, },
+
+	},
+
+
+}

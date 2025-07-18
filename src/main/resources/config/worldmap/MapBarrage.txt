@@ -1,0 +1,550 @@
+--#include "..\..\language\LangCode.txt"
+
+--[[
+	{
+		lv = {0,0},		--等级段限制，指定等级则两个值配相同，没有限制则配置0
+		monsterId = 0,		--杀死那个怪物没有配置0
+		mapId = {1,25},         --进入那个地图,这条一定要配,可配多个场景id
+		questId = 2,		--接受那个任务没有配置0
+		itemId = 0,		--获得那个物品没有配置0
+		tips = OldLang.SceneName.mb0001,
+	},
+]]
+
+
+MapBarrage={
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {1,25},        
+		  questId = 2,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0001,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {1,25},        
+		  questId = 3,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0002,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {1,25},        
+		  questId = 4,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0003,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {1,25},        
+		  questId = 6,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0004,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {1,25},        
+		  questId = 8,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0005,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 79,     
+		  mapId = {1,25},        
+		  questId = 8,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0006,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {1,25},        
+		  questId = 9,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0007,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 80,     
+		  mapId = {1,25},        
+		  questId = 9,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0008,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {2},        
+		  questId = 11,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0009,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {2},        
+		  questId = 12,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0010,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {2},        
+		  questId = 13,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0011,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {2},        
+		  questId = 14,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0012,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {2},        
+		  questId = 15,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0013,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 83,     
+		  mapId = {2},        
+		  questId = 15,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0014,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {2},        
+		  questId = 16,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0015,
+		 },
+
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {3},        
+		  questId = 19,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0016,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 86,     
+		  mapId = {3},        
+		  questId = 20,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0017,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 87,     
+		  mapId = {3},        
+		  questId = 21,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0018,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {3},        
+		  questId = 22,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0019,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {3},        
+		  questId = 24,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0020,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 25,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0021,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 26,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0022,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 27,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0023,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 28,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0024,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 29,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0025,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 31,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0026,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 33,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0027,
+		 },
+
+
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {12},        
+		  questId = 37,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0028,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {12},        
+		  questId = 39,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0029,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {12},        
+		  questId = 97,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0030,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {12},        
+		  questId = 41,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0031,
+		 },
+
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 44,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0032,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {5},        
+		  questId = 45,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0033,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {5},        
+		  questId = 46,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0034,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {5},        
+		  questId = 47,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0035,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {5},        
+		  questId = 48,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0036,
+		 },
+
+
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {15},        
+		  questId = 86,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0037,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {15},        
+		  questId = 88,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0038,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {67},        
+		  questId = 51,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0039,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {68},        
+		  questId = 51,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0040,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {17},        
+		  questId = 53,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0041,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 104,     
+		  mapId = {17},        
+		  questId = 54,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0042,
+		 },
+
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {17},        
+		  questId = 98,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0043,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {17},        
+		  questId = 57,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0044,
+		 },
+
+
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 61,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0045,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 62,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0046,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {15},        
+		  questId = 63,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0047,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {20},        
+		  questId = 65,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0048,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {20},        
+		  questId = 67,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0049,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {20},        
+		  questId = 68,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0050,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {20},        
+		  questId = 70,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0051,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 73,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0052,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 75,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0053,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 77,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0054,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {42},        
+		  questId = 79,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0055,
+		 },
+
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {42},        
+		  questId = 82,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0056,
+		 },
+
+
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 90,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0057,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 91,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0058,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 92,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0059,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 93,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0060,
+		 },
+
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 95,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0061,
+		 },
+		{
+		  lv = {0,0},          
+		  monsterId = 0,     
+		  mapId = {4},        
+		  questId = 96,       
+		  itemId = 0,       
+		  tips = OldLang.SceneName.mb0062,
+		 },
+}

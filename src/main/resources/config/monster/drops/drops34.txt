@@ -1,0 +1,2 @@
+{ group = 1, type = 0, id = 720, propability = 1, count = 1, bind = 1 },
+--

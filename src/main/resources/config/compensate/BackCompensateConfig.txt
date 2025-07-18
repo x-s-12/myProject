@@ -1,0 +1,243 @@
+﻿
+--后台开启补偿配置
+
+BackCompensateConfig=
+{
+	--补偿方案配置
+	{
+		id = 1,	--补偿方案ID 用于 后台进行开启
+		title = OldLang.Script.compensate001,	--补偿标题
+		limitLevel = 60,	--领取补偿等级
+		items =	--补偿物品配置
+		{
+{ type = 0, id = 1093, count = 10, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1267, count = 1, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1255, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1279, count = 1, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 2,	--补偿方案ID 用于 后台进行开启
+		title = OldLang.Script.compensate001,	--补偿标题
+		limitLevel = 60,	--领取补偿等级
+		items =	--补偿物品配置
+		{
+{ type = 0, id = 1093, count = 10, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1070, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1255, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1069, count = 1, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 3,	--补偿方案ID 用于 后台进行开启
+		title = OldLang.Script.compensate001,	--补偿标题
+		limitLevel = 60,	--领取补偿等级
+		items =	--补偿物品配置
+		{
+{ type = 0, id = 1093, count = 10, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1291, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1255, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1103, count = 10, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 4,	--补偿方案ID 用于 后台进行开启
+		title = OldLang.Script.compensate001,	--补偿标题
+		limitLevel = 60,	--领取补偿等级
+		items =	--补偿物品配置
+		{
+{ type = 0, id = 1093, count = 10, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1288, count = 1, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1255, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1354, count = 5, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 5,
+		title = OldLang.Script.compensate002,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1093, count = 18, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1267, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1291, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1256, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1279, count = 2, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 6,
+		title = OldLang.Script.compensate002,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1093, count = 18, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1070, count = 8, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1354, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1256, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1069, count = 1, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 7,
+		title = OldLang.Script.compensate002,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1093, count = 18, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1371, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1104, count = 8, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1256, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1231, count = 2, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 8,
+		title = OldLang.Script.compensate002,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1093, count = 18, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1289, count = 1, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1231, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1256, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1279, count = 2, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 9,
+		title = OldLang.Script.compensate003,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1253, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1268, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1292, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1257, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1371, count = 2, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+	
+	{
+		id = 10,
+		title = OldLang.Script.compensate003,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1253, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1070, count = 12, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1290, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1257, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1069, count = 1, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 11,
+		title = OldLang.Script.compensate003,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1253, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1112, count = 10, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1104, count = 10, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1118, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1257, count = 3, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 12,
+		title = OldLang.Script.compensate003,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1253, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1289, count = 1, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1231, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1257, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1279, count = 8, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 13,
+		title = OldLang.Script.compensate004,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1102, count = 30, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1118, count = 8, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1121, count = 8, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1113, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1231, count = 5, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 14,
+		title = OldLang.Script.compensate004,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1254, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1257, count = 18, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1293, count = 6, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1268, count = 3, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1231, count = 5, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 15,
+		title = OldLang.Script.compensate004,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1254, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1257, count = 10, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1070, count = 25, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1371, count = 12, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1231, count = 5, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+	{
+		id = 16,
+		title = OldLang.Script.compensate004,
+		limitLevel = 60,
+		items =
+		{
+{ type = 0, id = 1254, count = 8, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1290, count = 2, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1371, count = 6, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1231, count = 5, quality = 0, strong = 0, bind = 1, },
+{ type = 0, id = 1110, count = 2, quality = 0, strong = 0, bind = 1, },
+
+		}
+	}, 
+
+}

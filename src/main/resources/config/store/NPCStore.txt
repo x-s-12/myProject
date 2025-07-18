@@ -1,0 +1,114 @@
+﻿--NPC商店和背包商店配置
+--#include "..\..\language\LangCode.txt"
+
+--Npc和商店对应表，点击npc选项出现商店界面
+--npcId:npcId
+--dlgStr:显示在npc对话框上的选项字符串
+NPCBuyStore = {
+	
+	--{npcId = 14, npcDlgStr = OldLang.Store.NpcStoreDlgStr002},
+	--{npcId = 46, npcDlgStr = OldLang.Store.NpcStoreDlgStr002},
+	--{npcId = 47, npcDlgStr = OldLang.Store.NpcStoreDlgStr003},
+	--{npcId = 45, npcDlgStr = OldLang.Store.NpcStoreDlgStr004},
+}
+
+-- NPC商店和背包商店【cbp】
+-- npcStoreId 商店id
+-- selltip  标签页名称
+-- moneyType 金钱类型: mtBindCoin =0, mtCoin=1,mtBindYuanbao =2, mtYuanbao=3,
+-- moneyCount 金钱数量
+NPCStore = {
+	
+	{--背包商店
+		npcStoreId = 1,
+		selltip = OldLang.Store.npcStore001,
+		items = 		--服务器实际扣款（单价）,配置出售的道具不可重复
+		{
+			{
+				showLv= {100,255},
+				consumes = {type = 3,id = 0,count = 10000,quality = 0,strong = 0},
+				awards = {type = 0,id = 1154,count = 1,quality = 0,strong = 0},
+			 },
+			{
+				showLv= {1,99},
+				consumes = {type = 3,id = 0,count = 8000,quality = 0,strong = 0},
+				awards = {type = 0,id = 1156,count = 1,quality = 0,strong = 0},
+			 },
+			 {
+				--showLv= {40,50},
+				consumes = {type = 3,id = 0,count = 1000,quality = 0,strong = 0},
+				awards = {type = 0,id = 1264,count = 1,quality = 0,strong = 0},
+			 },
+			 {
+				--showLv= {40,50},
+				consumes = {type = 3,id = 0,count = 1000,quality = 0,strong = 0},
+				awards = {type = 0,id = 1265,count = 1,quality = 0,strong = 0},
+			 },
+		},
+
+		itemsCLientShow = 	--客户端显示，配置出售的道具可重复
+		{
+			{type= 3,id = 1154, count = 1},
+			{type= 3,id = 1154, count = 8},
+			{type= 3,id = 1156, count = 1},
+			{type= 3,id = 1156, count = 8},
+			{type= 3,id = 1264, count = 50},
+			{type= 3,id = 1265, count = 50},
+		},
+	},
+	{--武器
+		npcStoreId = 2,
+		selltip = OldLang.Store.npcStore002,
+		items = 
+		{
+			{id = 488, moneyType = 0, moneyCount = 5000},
+			{id = 489, moneyType = 0, moneyCount = 3000},
+		},
+	},
+	{--药店
+		npcStoreId = 3,
+		selltip = OldLang.Store.npcStore003,
+		items = 
+		{
+			{id = 792, moneyType = 0, moneyCount = 500},
+			{id = 793, moneyType = 0, moneyCount = 500},
+		},
+	},
+	{--书店
+		npcStoreId = 4,
+		selltip = OldLang.Store.npcStore004,
+		items = 
+		{
+			{id = 469, moneyType = mtBindCoin, bind = 1, moneyCount = 50000000},
+			{id = 472, moneyType = mtBindCoin, bind = 1, moneyCount = 50000000},
+			{id = 479, moneyType = mtBindCoin, bind = 1, moneyCount = 50000000},
+
+			{id = 463, moneyType = mtBindCoin, bind = 1, moneyCount = 10000},
+			{id = 476, moneyType = mtBindCoin, bind = 1, moneyCount = 10000},
+			{id = 477, moneyType = mtBindCoin, bind = 1, moneyCount = 10000},
+			{id = 466, moneyType = mtBindCoin, bind = 1, moneyCount = 20000},
+			{id = 474, moneyType = mtBindCoin, bind = 1, moneyCount = 20000},
+			{id = 478, moneyType = mtBindCoin, bind = 1, moneyCount = 20000},
+			{id = 464, moneyType = mtBindCoin, bind = 1, moneyCount = 30000},
+			{id = 471, moneyType = mtBindCoin, bind = 1, moneyCount = 30000},
+			{id = 481, moneyType = mtBindCoin, bind = 1, moneyCount = 30000},
+			{id = 465, moneyType = mtBindCoin, bind = 1, moneyCount = 40000},
+			{id = 470, moneyType = mtBindCoin, bind = 1, moneyCount = 40000},
+			{id = 480, moneyType = mtBindCoin, bind = 1, moneyCount = 40000},
+			{id = 467, moneyType = mtBindCoin, bind = 1, moneyCount = 50000},
+			{id = 473, moneyType = mtBindCoin, bind = 1, moneyCount = 50000},
+			{id = 482, moneyType = mtBindCoin, bind = 1, moneyCount = 50000},
+		},
+	},
+	{--杂货商
+		npcStoreId = 5,
+		selltip = OldLang.Store.npcStore005,
+		items = 
+		{
+			{id = 488, moneyType = 0, moneyCount = 5000},
+			{id = 489, moneyType = 0, moneyCount = 3000},
+		},
+	},
+	
+	
+}

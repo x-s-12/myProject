@@ -1,0 +1,28 @@
+--#include "StrongFubenConfig.txt" once 
+--#include "SkillFubenConfig.txt" once 
+--#include "CoinFubenConfig.txt" once 
+--#include "WingFubenConfig.txt" once 
+--#include "DragonBallFubenConfig.txt" once 
+--#include "RideFubenConfig.txt" once 
+--#include "EquipFubenConfig.txt" once 
+
+--[[
+注意，每个副本的fubenType要按照如下定义配置
+1-强化副本
+2-技能副本
+]]
+
+ChallengeFubenConfig = 
+{
+	challengeFuben=
+	{
+		[1] = SkillFubenCfg,		--技能副本  65级
+		[2] = RideFubenCfg,		--坐骑副本  67级
+		[3] = StrongFubenCfg,		--强化副本  76级
+		[4] = WingFubenCfg,		--翅膀副本  77级
+		[5] = EquipFubenCfg,		--装备副本  78级
+		[6] = DragonBallFubenCfg,	--龙珠副本  1转84级
+		[7] = CoinFubenCfg,		--金币副本  1转83级
+	},
+}
+

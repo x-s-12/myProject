@@ -1,0 +1,16 @@
+﻿{
+	-- = 极品库114,
+	-- = 
+{type = 120,prop = 2,typeValue = {{min = 0.006,max = 0.008,prop = 1,},{min = 0.009,max = 0.012,prop = 3,},{min = 0.012,max = 0.016,prop = 6,},},},
+	-- = 
+{type = 120,prop = 7,typeValue = {{min = 0.009,max = 0.012,prop = 3,},{min = 0.018,max = 0.024,prop = 4,},{min = 0.021,max = 0.028,prop = 3,},},},
+	-- = 
+{type = 120,prop = 1,typeValue = {{min = 0.024,max = 0.032,prop = 6,},{min = 0.027,max = 0.036,prop = 3,},{min = 0.03,max = 0.04,prop = 1,},},},
+	-- = 
+--,
+	-- = 
+--,
+	-- = 
+--,
+	-- = ,
+},

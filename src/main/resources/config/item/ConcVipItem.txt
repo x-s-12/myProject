@@ -1,0 +1,27 @@
+--并行VIP道具（钻石贵族卡）
+
+
+--使用VIP道具（钻石贵族卡）
+ConcVipItemTable = 
+{
+	{
+		item_id = 1111,
+		addHour = 720, --按小时算
+		vipType = enConcVip1,
+	},
+	{
+		item_id = 1333,
+		addHour = 24, --按小时算
+		vipType = enConcVip1,
+	},
+
+	--[[{
+		item_id = 915,
+		vipType = enConcVip2,
+	},
+
+	{
+		item_id = 916,
+		vipType = enConcVip3,
+	},]]
+}

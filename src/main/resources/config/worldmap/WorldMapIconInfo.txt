@@ -1,0 +1,27 @@
+﻿--#include "..\..\language\LangCode.txt"
+--世界地图-图标说明配置
+WorldMapIconInfoConfig =
+{
+	--世界地图块列表
+	list =
+	{
+		--sceneId:场景Id 
+		{sceneId = 4,
+		   --说明列表
+		    infoList={
+		  --type:事件类型  0:没有事件(光显示) 1:自动寻路 
+		  --icon:图标(https://192.168.0.50/svn/LongChen/trunk/Res/Xgame/!Dev-Envir/jxClient/data/worldmap/desc_img)
+		  --posX:场景坐标X   
+		  --posy:场景坐标Y 
+		  --offsetX:偏移量X 
+		  --offsetY:偏移量Y  
+		  --paras:参数 type=1 paras[0] 自动寻路字符串配置
+		  --name:名称显示
+		     
+		     
+		     
+		    },
+		},
+		
+	},
+}

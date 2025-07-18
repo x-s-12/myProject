@@ -1,0 +1,6 @@
+--#include ".\EquipStrengthen.config" once	
+--#include ".\FourStars.config" once	
+--#include ".\SpecialRing.config" once	
+--#include ".\RingBuyJob.config" once
+--#include ".\WordFormula.config" once
+--#include ".\EquipIntensify.config" once

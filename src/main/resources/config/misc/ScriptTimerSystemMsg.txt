@@ -1,0 +1,18 @@
+
+-- npcFunc= "SystemMsg,1"  ��ӦSystemMsgConfig���ã�1��Ӧid=1�Ĺ���
+
+-- type = 
+-- ttTipmsgWindow =1, //ֻ���Ҳ���ʾ����ʾ
+-- ttScreenCenter=2, //��Ļ���룬����xxx��xxxǿ����6��֮���ȫ������
+-- ttDialog =4,      //������
+-- ttBroadcast =8,  //������������GM��֪ͨ
+-- ttMessage = 16,	//����Ϣ������Ļ�������ң������鿴���ݣ�
+-- ttWarmTip  =32,   //��ܰ��ʾ
+-- ttGmTip = 64,	// Gm��ʾ��Ϣ
+-- ttChatWindow =128, //��������������һЩϵͳ��������������ʾ
+-- CondFunc ����ϵͳ��������(�������),�ɲ���д
+
+ScriptTimerSystemMsgConfig =
+{
+	--{id = 5,type = ttScreenCenter + ttChatWindow, msg = OldLang.Script.openserverAct0016, CondFunc = IsInOpenServerActTime},
+}

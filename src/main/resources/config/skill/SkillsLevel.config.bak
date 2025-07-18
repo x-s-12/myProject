@@ -1,0 +1,7456 @@
+--J-技能配置.xlsx 技能等级总表
+SkillsLevelConf={
+[1] = {
+	[1] = {
+		id = 1,
+		level = 1,
+		upgradeConds = {
+  {cond = 1, value=7, consume = false},
+},
+		actRange = {1},
+		skillName = "skillicon_zs1",
+	},
+	[2] = {
+		id = 1,
+		level = 2,
+		upgradeConds = {
+  {cond = 1, value=10, consume = false},
+},
+		actRange = {2},
+		skillName = "skillicon_zs1",
+	},
+	[3] = {
+		id = 1,
+		level = 3,
+		upgradeConds = {
+  {cond = 1, value=13, consume = false},
+},
+		actRange = {3},
+		skillName = "skillicon_zs1",
+	},
+	[4] = {
+		id = 1,
+		level = 4,
+		upgradeConds = {
+  {cond = 1, value=16, consume = false},
+  {cond = 3,value = 261, count=10,consume = true}
+},
+		actRange = {4},
+		skillName = "skillicon_zs1",
+	},
+	[5] = {
+		id = 1,
+		level = 5,
+		upgradeConds = {
+  {cond = 1, value=19, consume = false},
+  {cond = 3,value = 261, count=30,consume = true}
+},
+		actRange = {5},
+		skillName = "skillicon_zs1",
+	},
+	[6] = {
+		id = 1,
+		level = 6,
+		upgradeConds = {
+  {cond = 1, value=22, consume = false},
+  {cond = 3,value = 261, count=50,consume = true}
+},
+		actRange = {6},
+		skillName = "skillicon_zs1",
+	},
+	[7] = {
+		id = 1,
+		level = 7,
+		upgradeConds = {
+  {cond = 1, value=25, consume = false},
+  {cond = 3,value = 261, count=70,consume = true}
+},
+		actRange = {7},
+		skillName = "skillicon_zs1",
+	},
+	[8] = {
+		id = 1,
+		level = 8,
+		upgradeConds = {
+  {cond = 1, value=28, consume = false},
+  {cond = 3,value = 261, count=70,consume = true}
+},
+		actRange = {8},
+		skillName = "skillicon_zs1",
+	},
+	[9] = {
+		id = 1,
+		level = 9,
+		upgradeConds = {
+  {cond = 1, value=31, consume = false},
+  {cond = 3,value = 261, count=90,consume = true}
+},
+		actRange = {9},
+		skillName = "skillicon_zs1",
+	},
+	[10] = {
+		id = 1,
+		level = 10,
+		upgradeConds = {
+  {cond = 1, value=34, consume = false},
+  {cond = 3,value = 261, count=110,consume = true}
+},
+		actRange = {10},
+		skillName = "skillicon_zs1",
+	},
+},
+[2] = {
+	[1] = {
+		id = 2,
+		level = 1,
+		upgradeConds = {
+  {cond = 1, value=12, consume = false},
+},
+		actRange = {11,322},
+		prepareId = 1,
+		skillName = "skillicon_zs2",
+	},
+	[2] = {
+		id = 2,
+		level = 2,
+		upgradeConds = {
+  {cond = 1, value=15, consume = false},
+},
+		actRange = {12,323},
+		prepareId = 1,
+		skillName = "skillicon_zs2",
+	},
+	[3] = {
+		id = 2,
+		level = 3,
+		upgradeConds = {
+  {cond = 1, value=18, consume = false},
+},
+		actRange = {13,324},
+		prepareId = 1,
+		skillName = "skillicon_zs2",
+	},
+	[4] = {
+		id = 2,
+		level = 4,
+		upgradeConds = {
+  {cond = 1, value=21, consume = false},
+  {cond = 3,value = 261, count=20,consume = true}
+},
+		actRange = {14,325},
+		prepareId = 1,
+		skillName = "skillicon_zs2",
+	},
+	[5] = {
+		id = 2,
+		level = 5,
+		upgradeConds = {
+  {cond = 1, value=24, consume = false},
+  {cond = 3,value = 261, count=40,consume = true}
+},
+		actRange = {15,326},
+		prepareId = 2,
+		skillName = "skillicon_zs2",
+	},
+	[6] = {
+		id = 2,
+		level = 6,
+		upgradeConds = {
+  {cond = 1, value=27, consume = false},
+  {cond = 3,value = 261, count=60,consume = true}
+},
+		actRange = {16,327},
+		prepareId = 2,
+		skillName = "skillicon_zs2",
+	},
+	[7] = {
+		id = 2,
+		level = 7,
+		upgradeConds = {
+  {cond = 1, value=30, consume = false},
+  {cond = 3,value = 261, count=80,consume = true}
+},
+		actRange = {17,328},
+		prepareId = 2,
+		skillName = "skillicon_zs2",
+	},
+	[8] = {
+		id = 2,
+		level = 8,
+		upgradeConds = {
+  {cond = 1, value=33, consume = false},
+  {cond = 3,value = 261, count=100,consume = true}
+},
+		actRange = {18,329},
+		prepareId = 2,
+		skillName = "skillicon_zs2",
+	},
+	[9] = {
+		id = 2,
+		level = 9,
+		upgradeConds = {
+  {cond = 1, value=36, consume = false},
+  {cond = 3,value = 261, count=200,consume = true}
+},
+		actRange = {19,330},
+		prepareId = 2,
+		skillName = "skillicon_zs2",
+	},
+	[10] = {
+		id = 2,
+		level = 10,
+		upgradeConds = {
+  {cond = 1, value=39, consume = false},
+  {cond = 3,value = 261, count=300,consume = true}
+},
+		actRange = {20,331},
+		prepareId = 94,
+		skillName = "skillicon_zs2",
+	},
+},
+[3] = {
+	[1] = {
+		id = 3,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 5000,
+		upgradeConds = {
+  {cond = 1, value=7, consume = false},
+},
+		actRange = {21},
+		prepareId = 3,
+		skillName = "skillicon_zs3",
+	},
+	[2] = {
+		id = 3,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 5000,
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+},
+		actRange = {22},
+		prepareId = 3,
+		skillName = "skillicon_zs3",
+	},
+	[3] = {
+		id = 3,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 5000,
+		upgradeConds = {
+  {cond = 1, value=55, consume = false},
+},
+		actRange = {23},
+		prepareId = 3,
+		skillName = "skillicon_zs3",
+	},
+},
+[4] = {
+	[1] = {
+		id = 4,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 5000,
+		upgradeConds = {
+  {cond = 1, value=23, consume = false},
+},
+		actRange = {25,26,27,332},
+		prepareId = 5,
+		skillName = "skillicon_zs4",
+	},
+	[2] = {
+		id = 4,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 5000,
+		upgradeConds = {
+  {cond = 1, value=26, consume = false},
+},
+		actRange = {25,28,29,333},
+		prepareId = 5,
+		skillName = "skillicon_zs4",
+	},
+	[3] = {
+		id = 4,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 5000,
+		upgradeConds = {
+  {cond = 1, value=29, consume = false},
+},
+		actRange = {25,30,31,334},
+		prepareId = 5,
+		skillName = "skillicon_zs4",
+	},
+},
+[5] = {
+	[1] = {
+		id = 5,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 12000,
+		spellConds = {
+  {cond = 2, value = 1, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=30, consume = false},
+},
+		actRange = {46,47,48},
+		prepareId = 7,
+		skillName = "skillicon_zs5",
+	},
+	[2] = {
+		id = 5,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 8000,
+		spellConds = {
+  {cond = 2, value = 1, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=36, consume = false},
+},
+		actRange = {49,50,51},
+		prepareId = 7,
+		skillName = "skillicon_zs5",
+	},
+	[3] = {
+		id = 5,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 5000,
+		spellConds = {
+  {cond = 2, value = 1, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+},
+		actRange = {52,53,54,55,448,449},
+		prepareId = 7,
+		skillName = "skillicon_zs5",
+	},
+},
+[6] = {
+	[1] = {
+		id = 6,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=35, consume = false},
+},
+		actRange = {56,342},
+		prepareId = 8,
+		skillName = "skillicon_zs6",
+	},
+	[2] = {
+		id = 6,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=37, consume = false},
+},
+		actRange = {57,343},
+		prepareId = 8,
+		skillName = "skillicon_zs6",
+	},
+	[3] = {
+		id = 6,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+},
+		actRange = {58,344},
+		prepareId = 8,
+		skillName = "skillicon_zs6",
+	},
+	[4] = {
+		id = 6,
+		level = 4,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=42, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {59,345},
+		prepareId = 8,
+		skillName = "skillicon_zs6",
+	},
+	[5] = {
+		id = 6,
+		level = 5,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=44, consume = false},
+  {cond = 3,value = 261,count = 100,consume = true}
+},
+		actRange = {60,346},
+		prepareId = 9,
+		skillName = "skillicon_zs6",
+	},
+	[6] = {
+		id = 6,
+		level = 6,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=46, consume = false},
+  {cond = 3,value = 261,count = 150,consume = true}
+},
+		actRange = {61,347},
+		prepareId = 9,
+		skillName = "skillicon_zs6",
+	},
+	[7] = {
+		id = 6,
+		level = 7,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=48, consume = false},
+  {cond = 3,value = 261,count = 200,consume = true}
+},
+		actRange = {62,348},
+		prepareId = 9,
+		skillName = "skillicon_zs6",
+	},
+	[8] = {
+		id = 6,
+		level = 8,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=50, consume = false},
+  {cond = 3,value = 261,count = 350,consume = true}
+},
+		actRange = {63,349},
+		prepareId = 9,
+		skillName = "skillicon_zs6",
+	},
+	[9] = {
+		id = 6,
+		level = 9,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=52, consume = false},
+  {cond = 3,value = 261,count = 600,consume = true}
+},
+		actRange = {64,350},
+		prepareId = 9,
+		skillName = "skillicon_zs6",
+	},
+	[10] = {
+		id = 6,
+		level = 10,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=54, consume = false},
+  {cond = 3,value = 261,count = 900,consume = true}
+},
+		actRange = {65,351},
+		prepareId = 96,
+		skillName = "skillicon_zs6",
+	},
+},
+[7] = {
+	[1] = {
+		id = 7,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=43, consume = false},
+},
+		actRange = {66},
+		prepareId = 10,
+		skillName = "skillicon_zs7",
+	},
+	[2] = {
+		id = 7,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 8000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=46, consume = false},
+},
+		actRange = {67},
+		prepareId = 10,
+		skillName = "skillicon_zs7",
+	},
+	[3] = {
+		id = 7,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 4000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=50, consume = false},
+},
+		actRange = {68},
+		prepareId = 10,
+		skillName = "skillicon_zs7",
+	},
+},
+[8] = {
+	[1] = {
+		id = 8,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=47, consume = false},
+},
+		actRange = {69,352},
+		prepareId = 11,
+		skillName = "skillicon_zs8",
+	},
+	[2] = {
+		id = 8,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=50, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {70,353},
+		prepareId = 11,
+		skillName = "skillicon_zs8",
+	},
+	[3] = {
+		id = 8,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=53, consume = false},
+  {cond = 3,value = 261,count = 100,consume = true}
+},
+		actRange = {71,354},
+		prepareId = 11,
+		skillName = "skillicon_zs8",
+	},
+	[4] = {
+		id = 8,
+		level = 4,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=56, consume = false},
+  {cond = 3,value = 261,count = 150,consume = true}
+},
+		actRange = {72,355},
+		prepareId = 11,
+		skillName = "skillicon_zs8",
+	},
+	[5] = {
+		id = 8,
+		level = 5,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=59, consume = false},
+  {cond = 3,value = 261,count = 200,consume = true}
+},
+		actRange = {73,356},
+		prepareId = 12,
+		skillName = "skillicon_zs8",
+	},
+	[6] = {
+		id = 8,
+		level = 6,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=62, consume = false},
+  {cond = 3,value = 261,count = 250,consume = true}
+},
+		actRange = {74,357},
+		prepareId = 12,
+		skillName = "skillicon_zs8",
+	},
+	[7] = {
+		id = 8,
+		level = 7,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=65, consume = false},
+  {cond = 3,value = 261,count = 300,consume = true}
+},
+		actRange = {75,358},
+		prepareId = 12,
+		skillName = "skillicon_zs8",
+	},
+	[8] = {
+		id = 8,
+		level = 8,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=68, consume = false},
+  {cond = 3,value = 261,count = 400,consume = true}
+},
+		actRange = {76,359},
+		prepareId = 12,
+		skillName = "skillicon_zs8",
+	},
+	[9] = {
+		id = 8,
+		level = 9,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=71, consume = false},
+  {cond = 3,value = 261,count = 600,consume = true}
+},
+		actRange = {77,360},
+		prepareId = 12,
+		skillName = "skillicon_zs8",
+	},
+	[10] = {
+		id = 8,
+		level = 10,
+		delayTime = 0,
+		cooldownTime = 14000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=74, consume = false},
+  {cond = 3,value = 261,count = 900,consume = true}
+},
+		actRange = {78,361},
+		prepareId = 98,
+		skillName = "skillicon_zs8",
+	},
+},
+[9] = {
+	[1] = {
+		id = 9,
+		level = 1,
+		delayTime = 2000,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {79},
+		prepareId = 13,
+		hitId = 15,
+		ballisticId = 14,
+		skillName = "skillicon_fs1",
+	},
+	[2] = {
+		id = 9,
+		level = 2,
+		delayTime = 2000,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {80},
+		prepareId = 13,
+		hitId = 15,
+		ballisticId = 14,
+		skillName = "skillicon_fs1",
+	},
+	[3] = {
+		id = 9,
+		level = 3,
+		delayTime = 2000,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {81},
+		prepareId = 13,
+		hitId = 15,
+		ballisticId = 14,
+		skillName = "skillicon_fs1",
+	},
+},
+[10] = {
+	[1] = {
+		id = 10,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=12, consume = false},
+},
+		actRange = {92},
+		prepareId = 16,
+		skillName = "skillicon_fs2",
+	},
+	[2] = {
+		id = 10,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=19, consume = false},
+},
+		actRange = {93},
+		prepareId = 16,
+		skillName = "skillicon_fs2",
+	},
+	[3] = {
+		id = 10,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=30, consume = false},
+},
+		actRange = {94},
+		prepareId = 16,
+		skillName = "skillicon_fs2",
+	},
+},
+[11] = {
+	[1] = {
+		id = 11,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=15, consume = false},
+  {cond = 3,value = 933,count = 1,consume = true}
+},
+		actRange = {95},
+		prepareId = 17,
+		hitId = 18,
+		skillName = "skillicon_fs3",
+		maxpet = 1,
+	},
+	[2] = {
+		id = 11,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=25, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {96},
+		prepareId = 17,
+		hitId = 18,
+		skillName = "skillicon_fs3",
+		maxpet = 1,
+	},
+	[3] = {
+		id = 11,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=35, consume = false},
+  {cond = 3,value = 261,count = 350,consume = true}
+},
+		actRange = {97},
+		prepareId = 17,
+		hitId = 18,
+		skillName = "skillicon_fs3",
+		maxpet = 2,
+	},
+},
+[12] = {
+	[1] = {
+		id = 12,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=7, consume = false},
+},
+		actRange = {82},
+		hitId = 19,
+		skillName = "skillicon_fs4",
+	},
+	[2] = {
+		id = 12,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=19, consume = false},
+},
+		actRange = {83},
+		hitId = 19,
+		skillName = "skillicon_fs4",
+	},
+	[3] = {
+		id = 12,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=22, consume = false},
+},
+		actRange = {84},
+		hitId = 19,
+		skillName = "skillicon_fs4",
+	},
+	[4] = {
+		id = 12,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=25, consume = false},
+  {cond = 3,value = 261,count = 20,consume = true}
+},
+		actRange = {85},
+		hitId = 19,
+		skillName = "skillicon_fs4",
+	},
+	[5] = {
+		id = 12,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=28, consume = false},
+  {cond = 3,value = 261,count = 40,consume = true}
+},
+		actRange = {86},
+		hitId = 99,
+		skillName = "skillicon_fs4",
+	},
+	[6] = {
+		id = 12,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=31, consume = false},
+  {cond = 3,value = 261,count = 60,consume = true}
+},
+		actRange = {87},
+		hitId = 99,
+		skillName = "skillicon_fs4",
+	},
+	[7] = {
+		id = 12,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=34, consume = false},
+  {cond = 3,value = 261,count = 80,consume = true}
+},
+		actRange = {88},
+		hitId = 99,
+		skillName = "skillicon_fs4",
+	},
+	[8] = {
+		id = 12,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=37, consume = false},
+  {cond = 3,value = 261,count = 100,consume = true}
+},
+		actRange = {89},
+		hitId = 99,
+		skillName = "skillicon_fs4",
+	},
+	[9] = {
+		id = 12,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+  {cond = 3,value = 261,count = 120,consume = true}
+},
+		actRange = {90},
+		hitId = 99,
+		skillName = "skillicon_fs4",
+	},
+	[10] = {
+		id = 12,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=43, consume = false},
+  {cond = 3,value = 261,count = 140,consume = true}
+},
+		actRange = {91},
+		hitId = 100,
+		skillName = "skillicon_fs4",
+	},
+},
+[13] = {
+	[1] = {
+		id = 13,
+		level = 1,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=18, consume = false},
+},
+		actRange = {98},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[2] = {
+		id = 13,
+		level = 2,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=20, consume = false},
+},
+		actRange = {99},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[3] = {
+		id = 13,
+		level = 3,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=22, consume = false},
+},
+		actRange = {100},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[4] = {
+		id = 13,
+		level = 4,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=24, consume = false},
+  {cond = 2,value = 500000, consume = true}
+},
+		actRange = {101},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[5] = {
+		id = 13,
+		level = 5,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=26, consume = false},
+  {cond = 2,value = 600000, consume = true}
+},
+		actRange = {102},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[6] = {
+		id = 13,
+		level = 6,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=28, consume = false},
+  {cond = 2,value = 700000, consume = true}
+},
+		actRange = {103},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[7] = {
+		id = 13,
+		level = 7,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=30, consume = false},
+  {cond = 2,value = 800000, consume = true}
+},
+		actRange = {104},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[8] = {
+		id = 13,
+		level = 8,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=32, consume = false},
+  {cond = 2,value = 900000, consume = true}
+},
+		actRange = {105},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[9] = {
+		id = 13,
+		level = 9,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=34, consume = false},
+  {cond = 2,value = 1000000, consume = true}
+},
+		actRange = {106},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+	[10] = {
+		id = 13,
+		level = 10,
+		delayTime = 750,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=36, consume = false},
+  {cond = 2,value = 1100000, consume = true}
+},
+		actRange = {107},
+		prepareId = 20,
+		skillName = "skillicon_fs5",
+	},
+},
+[14] = {
+	[1] = {
+		id = 14,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=24, consume = false},
+},
+		actRange = {108},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[2] = {
+		id = 14,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=27, consume = false},
+},
+		actRange = {109},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[3] = {
+		id = 14,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=30, consume = false},
+},
+		actRange = {110},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[4] = {
+		id = 14,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=33, consume = false},
+  {cond = 3,value = 261,count = 10,consume = true}
+},
+		actRange = {111},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[5] = {
+		id = 14,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=36, consume = false},
+  {cond = 3,value = 261,count = 20,consume = true}
+},
+		actRange = {112},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[6] = {
+		id = 14,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=39, consume = false},
+  {cond = 3,value = 261,count = 30,consume = true}
+},
+		actRange = {113},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[7] = {
+		id = 14,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=42, consume = false},
+  {cond = 3,value = 261,count = 40,consume = true}
+},
+		actRange = {114},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[8] = {
+		id = 14,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=45, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {115},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[9] = {
+		id = 14,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=48, consume = false},
+  {cond = 3,value = 261,count = 60,consume = true}
+},
+		actRange = {116},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+	[10] = {
+		id = 14,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 7500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=51, consume = false},
+  {cond = 3,value = 261,count = 70,consume = true}
+},
+		actRange = {117},
+		prepareId = 22,
+		hitId = 23,
+		skillName = "skillicon_fs6",
+	},
+},
+[15] = {
+	[1] = {
+		id = 15,
+		level = 1,
+		delayTime = 750,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {168},
+		prepareId = 24,
+		ballisticId = 25,
+		skillName = "skillicon_fs7",
+	},
+	[2] = {
+		id = 15,
+		level = 2,
+		delayTime = 750,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {168},
+		prepareId = 24,
+		ballisticId = 25,
+		skillName = "skillicon_fs7",
+	},
+	[3] = {
+		id = 15,
+		level = 3,
+		delayTime = 750,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {168},
+		prepareId = 24,
+		ballisticId = 25,
+		skillName = "skillicon_fs7",
+	},
+},
+[16] = {
+	[1] = {
+		id = 16,
+		level = 1,
+		delayTime = 200,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {169},
+		prepareId = 26,
+		skillName = "skillicon_fs8",
+	},
+	[2] = {
+		id = 16,
+		level = 2,
+		delayTime = 200,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {169},
+		prepareId = 26,
+		skillName = "skillicon_fs8",
+	},
+	[3] = {
+		id = 16,
+		level = 3,
+		delayTime = 200,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {169},
+		prepareId = 26,
+		skillName = "skillicon_fs8",
+	},
+},
+[17] = {
+	[1] = {
+		id = 17,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=30, consume = false},
+},
+		actRange = {118},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[2] = {
+		id = 17,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=31, consume = false},
+},
+		actRange = {119},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[3] = {
+		id = 17,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=32, consume = false},
+},
+		actRange = {120},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[4] = {
+		id = 17,
+		level = 4,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=33, consume = false},
+  {cond = 3,value = 261,count = 10,consume = true}
+},
+		actRange = {121},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[5] = {
+		id = 17,
+		level = 5,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=34, consume = false},
+  {cond = 3,value = 261,count = 20,consume = true}
+},
+		actRange = {122},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[6] = {
+		id = 17,
+		level = 6,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=35, consume = false},
+  {cond = 3,value = 261,count = 30,consume = true}
+},
+		actRange = {123},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[7] = {
+		id = 17,
+		level = 7,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=36, consume = false},
+  {cond = 3,value = 261,count = 40,consume = true}
+},
+		actRange = {124},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[8] = {
+		id = 17,
+		level = 8,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=37, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {125},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[9] = {
+		id = 17,
+		level = 9,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=38, consume = false},
+  {cond = 3,value = 261,count = 60,consume = true}
+},
+		actRange = {126},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+	[10] = {
+		id = 17,
+		level = 10,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=39, consume = false},
+  {cond = 3,value = 261,count = 70,consume = true}
+},
+		actRange = {127},
+		prepareId = 27,
+		skillName = "skillicon_fs9",
+	},
+},
+[18] = {
+	[1] = {
+		id = 18,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=35, consume = false},
+},
+		actRange = {128},
+		isSceneEffect = 1,
+		prepareId = 28,
+		hitId = 29,
+		skillName = "skillicon_fs10",
+	},
+	[2] = {
+		id = 18,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=37, consume = false},
+},
+		actRange = {129},
+		isSceneEffect = 1,
+		prepareId = 28,
+		hitId = 29,
+		skillName = "skillicon_fs10",
+	},
+	[3] = {
+		id = 18,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+},
+		actRange = {130},
+		isSceneEffect = 1,
+		prepareId = 28,
+		hitId = 29,
+		skillName = "skillicon_fs10",
+	},
+	[4] = {
+		id = 18,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=42, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {131},
+		isSceneEffect = 1,
+		prepareId = 28,
+		hitId = 29,
+		skillName = "skillicon_fs10",
+	},
+	[5] = {
+		id = 18,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=44, consume = false},
+  {cond = 3,value = 261,count = 100,consume = true}
+},
+		actRange = {132},
+		isSceneEffect = 1,
+		prepareId = 30,
+		hitId = 31,
+		skillName = "skillicon_fs10",
+	},
+	[6] = {
+		id = 18,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=46, consume = false},
+  {cond = 3,value = 261,count = 150,consume = true}
+},
+		actRange = {133},
+		isSceneEffect = 1,
+		prepareId = 30,
+		hitId = 31,
+		skillName = "skillicon_fs10",
+	},
+	[7] = {
+		id = 18,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=48, consume = false},
+  {cond = 3,value = 261,count = 200,consume = true}
+},
+		actRange = {134},
+		isSceneEffect = 1,
+		prepareId = 30,
+		hitId = 31,
+		skillName = "skillicon_fs10",
+	},
+	[8] = {
+		id = 18,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=50, consume = false},
+  {cond = 3,value = 261,count = 250,consume = true}
+},
+		actRange = {135},
+		isSceneEffect = 1,
+		prepareId = 30,
+		hitId = 31,
+		skillName = "skillicon_fs10",
+	},
+	[9] = {
+		id = 18,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=52, consume = false},
+  {cond = 3,value = 261,count = 500,consume = true}
+},
+		actRange = {136},
+		isSceneEffect = 1,
+		prepareId = 30,
+		hitId = 31,
+		skillName = "skillicon_fs10",
+	},
+	[10] = {
+		id = 18,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=54, consume = false},
+  {cond = 3,value = 261,count = 900,consume = true}
+},
+		actRange = {137},
+		isSceneEffect = 1,
+		prepareId = 101,
+		hitId = 102,
+		skillName = "skillicon_fs10",
+	},
+},
+[19] = {
+	[1] = {
+		id = 19,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=36, consume = false},
+},
+		actRange = {138,148},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[2] = {
+		id = 19,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=39, consume = false},
+},
+		actRange = {139,149},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[3] = {
+		id = 19,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=42, consume = false},
+},
+		actRange = {140,150},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[4] = {
+		id = 19,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=45, consume = false},
+  {cond = 2,value = 1000000, consume = true},
+},
+		actRange = {141,151},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[5] = {
+		id = 19,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=48, consume = false},
+  {cond = 2,value = 1200000, consume = true},
+},
+		actRange = {142,152},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[6] = {
+		id = 19,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=51, consume = false},
+  {cond = 2,value = 1400000, consume = true},
+},
+		actRange = {143,153},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[7] = {
+		id = 19,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=54, consume = false},
+  {cond = 2,value = 1600000, consume = true},
+},
+		actRange = {144,154},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[8] = {
+		id = 19,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=57, consume = false},
+  {cond = 2,value = 1800000, consume = true},
+},
+		actRange = {145,155},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[9] = {
+		id = 19,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=60, consume = false},
+  {cond = 2,value = 2000000, consume = true},
+},
+		actRange = {146,156},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+	[10] = {
+		id = 19,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=63, consume = false},
+  {cond = 2,value = 2200000, consume = true},
+},
+		actRange = {147,157},
+		prepareId = 32,
+		hitId = 34,
+		ballisticId = 33,
+		skillName = "skillicon_fs11",
+	},
+},
+[20] = {
+	[1] = {
+		id = 20,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {170},
+		prepareId = 35,
+		hitId = 36,
+		skillName = "skillicon_fs12",
+	},
+	[2] = {
+		id = 20,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {170},
+		prepareId = 35,
+		hitId = 36,
+		skillName = "skillicon_fs12",
+	},
+	[3] = {
+		id = 20,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {170},
+		prepareId = 35,
+		hitId = 36,
+		skillName = "skillicon_fs12",
+	},
+},
+[21] = {
+	[1] = {
+		id = 21,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=47, consume = false},
+},
+		actRange = {158,362},
+		isSceneEffect = 1,
+		prepareId = 37,
+		hitId = 38,
+		skillName = "skillicon_fs13",
+	},
+	[2] = {
+		id = 21,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=50, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {159,363},
+		isSceneEffect = 1,
+		prepareId = 37,
+		hitId = 38,
+		skillName = "skillicon_fs13",
+	},
+	[3] = {
+		id = 21,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=53, consume = false},
+  {cond = 3,value = 261,count = 100,consume = true}
+},
+		actRange = {160,364},
+		isSceneEffect = 1,
+		prepareId = 37,
+		hitId = 38,
+		skillName = "skillicon_fs13",
+	},
+	[4] = {
+		id = 21,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=56, consume = false},
+  {cond = 3,value = 261,count = 150,consume = true}
+},
+		actRange = {161,365},
+		isSceneEffect = 1,
+		prepareId = 37,
+		hitId = 38,
+		skillName = "skillicon_fs13",
+	},
+	[5] = {
+		id = 21,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=59, consume = false},
+  {cond = 3,value = 261,count = 200,consume = true}
+},
+		actRange = {162,366},
+		isSceneEffect = 1,
+		prepareId = 103,
+		hitId = 104,
+		skillName = "skillicon_fs13",
+	},
+	[6] = {
+		id = 21,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=62, consume = false},
+  {cond = 3,value = 261,count = 250,consume = true}
+},
+		actRange = {163,367},
+		isSceneEffect = 1,
+		prepareId = 103,
+		hitId = 104,
+		skillName = "skillicon_fs13",
+	},
+	[7] = {
+		id = 21,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=65, consume = false},
+  {cond = 3,value = 261,count = 300,consume = true}
+},
+		actRange = {164,368},
+		isSceneEffect = 1,
+		prepareId = 103,
+		hitId = 104,
+		skillName = "skillicon_fs13",
+	},
+	[8] = {
+		id = 21,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=68, consume = false},
+  {cond = 3,value = 261,count = 350,consume = true}
+},
+		actRange = {165,369},
+		isSceneEffect = 1,
+		prepareId = 103,
+		hitId = 104,
+		skillName = "skillicon_fs13",
+	},
+	[9] = {
+		id = 21,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=71, consume = false},
+  {cond = 3,value = 261,count = 500,consume = true}
+},
+		actRange = {166,370},
+		isSceneEffect = 1,
+		prepareId = 103,
+		hitId = 104,
+		skillName = "skillicon_fs13",
+	},
+	[10] = {
+		id = 21,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=74, consume = false},
+  {cond = 3,value = 261,count = 900,consume = true}
+},
+		actRange = {167,371},
+		isSceneEffect = 1,
+		prepareId = 105,
+		hitId = 106,
+		skillName = "skillicon_fs13",
+	},
+},
+[22] = {
+	[1] = {
+		id = 22,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=7, consume = false},
+},
+		actRange = {171},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[2] = {
+		id = 22,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=19, consume = false},
+},
+		actRange = {172},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[3] = {
+		id = 22,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=21, consume = false},
+},
+		actRange = {173},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[4] = {
+		id = 22,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=23, consume = false},
+  {cond = 2,value = 200000, consume = true}
+},
+		actRange = {174},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[5] = {
+		id = 22,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=25, consume = false},
+  {cond = 2,value = 250000, consume = true}
+},
+		actRange = {175},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[6] = {
+		id = 22,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=27, consume = false},
+  {cond = 2,value = 300000, consume = true}
+},
+		actRange = {176},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[7] = {
+		id = 22,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=29, consume = false},
+  {cond = 2,value = 350000, consume = true}
+},
+		actRange = {177},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[8] = {
+		id = 22,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=31, consume = false},
+  {cond = 2,value = 400000, consume = true}
+},
+		actRange = {178},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[9] = {
+		id = 22,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=33, consume = false},
+  {cond = 2,value = 450000, consume = true}
+},
+		actRange = {179},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+	[10] = {
+		id = 22,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=35, consume = false},
+  {cond = 2,value = 500000, consume = true}
+},
+		actRange = {180},
+		prepareId = 39,
+		hitId = 40,
+		skillName = "skillicon_ds1",
+	},
+},
+[23] = {
+	[1] = {
+		id = 23,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=13, consume = false},
+},
+		actRange = {191,194},
+		prepareId = 41,
+		hitId = 42,
+		skillName = "skillicon_ds2",
+	},
+	[2] = {
+		id = 23,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=30, consume = false},
+},
+		actRange = {192,195},
+		prepareId = 41,
+		hitId = 42,
+		skillName = "skillicon_ds2",
+	},
+	[3] = {
+		id = 23,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+},
+		actRange = {193,196},
+		prepareId = 41,
+		hitId = 42,
+		skillName = "skillicon_ds2",
+	},
+},
+[24] = {
+	[1] = {
+		id = 24,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=11, consume = false},
+},
+		actRange = {181},
+		prepareId = 43,
+		hitId = 45,
+		ballisticId = 44,
+		skillName = "skillicon_ds3",
+	},
+	[2] = {
+		id = 24,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=15, consume = false},
+},
+		actRange = {182},
+		prepareId = 43,
+		hitId = 45,
+		ballisticId = 44,
+		skillName = "skillicon_ds3",
+	},
+	[3] = {
+		id = 24,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=19, consume = false},
+},
+		actRange = {183},
+		prepareId = 43,
+		hitId = 45,
+		ballisticId = 44,
+		skillName = "skillicon_ds3",
+	},
+	[4] = {
+		id = 24,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=23, consume = false},
+  {cond = 3,value = 261,count = 20,consume = true}
+},
+		actRange = {184},
+		prepareId = 43,
+		hitId = 45,
+		ballisticId = 44,
+		skillName = "skillicon_ds3",
+	},
+	[5] = {
+		id = 24,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=27, consume = false},
+  {cond = 3,value = 261,count = 40,consume = true}
+},
+		actRange = {185},
+		prepareId = 43,
+		hitId = 119,
+		ballisticId = 107,
+		skillName = "skillicon_ds3",
+	},
+	[6] = {
+		id = 24,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=31, consume = false},
+  {cond = 3,value = 261,count = 60,consume = true}
+},
+		actRange = {186},
+		prepareId = 43,
+		hitId = 119,
+		ballisticId = 107,
+		skillName = "skillicon_ds3",
+	},
+	[7] = {
+		id = 24,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=35, consume = false},
+  {cond = 3,value = 261,count = 80,consume = true}
+},
+		actRange = {187},
+		prepareId = 43,
+		hitId = 119,
+		ballisticId = 107,
+		skillName = "skillicon_ds3",
+	},
+	[8] = {
+		id = 24,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=39, consume = false},
+  {cond = 3,value = 261,count = 150,consume = true}
+},
+		actRange = {188},
+		prepareId = 43,
+		hitId = 119,
+		ballisticId = 107,
+		skillName = "skillicon_ds3",
+	},
+	[9] = {
+		id = 24,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=43, consume = false},
+  {cond = 3,value = 261,count = 300,consume = true}
+},
+		actRange = {189},
+		prepareId = 43,
+		hitId = 119,
+		ballisticId = 107,
+		skillName = "skillicon_ds3",
+	},
+	[10] = {
+		id = 24,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=47, consume = false},
+  {cond = 3,value = 261,count = 500,consume = true}
+},
+		actRange = {190},
+		prepareId = 43,
+		hitId = 120,
+		ballisticId = 108,
+		skillName = "skillicon_ds3",
+	},
+},
+[25] = {
+	[1] = {
+		id = 25,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=19, consume = false},
+},
+		actRange = {313},
+		prepareId = 46,
+		skillName = "skillicon_ds4",
+	},
+},
+[26] = {
+	[1] = {
+		id = 26,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=20, consume = false},
+},
+		actRange = {197},
+		prepareId = 47,
+		skillName = "skillicon_ds5",
+	},
+	[2] = {
+		id = 26,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=30, consume = false},
+},
+		actRange = {198},
+		prepareId = 47,
+		skillName = "skillicon_ds5",
+	},
+	[3] = {
+		id = 26,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+},
+		actRange = {199},
+		prepareId = 47,
+		skillName = "skillicon_ds5",
+	},
+},
+[27] = {
+	[1] = {
+		id = 27,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=26, consume = false},
+  {cond = 2,value = 2252, consume = true}
+},
+		actRange = {210},
+		prepareId = 48,
+		hitId = 50,
+		ballisticId = 49,
+		skillName = "skillicon_ds6",
+	},
+	[2] = {
+		id = 27,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=66, consume = false},
+  {cond = 2,value = 58532, consume = true},
+  {cond = 3,value = 261,count = 60,consume = true},
+  {cond = 4, value = 1,consume = false}
+},
+		actRange = {211},
+		prepareId = 48,
+		hitId = 50,
+		ballisticId = 49,
+		skillName = "skillicon_ds6",
+	},
+	[3] = {
+		id = 27,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=86, consume = false},
+  {cond = 2,value = 136572, consume = true},
+  {cond = 3,value = 261,count = 135,consume = true},
+  {cond = 4, value = 2,consume = false}
+},
+		actRange = {212},
+		prepareId = 48,
+		hitId = 50,
+		ballisticId = 49,
+		skillName = "skillicon_ds6",
+	},
+},
+[28] = {
+	[1] = {
+		id = 28,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=25, consume = false},
+},
+		actRange = {200,303},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[2] = {
+		id = 28,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=28, consume = false},
+},
+		actRange = {201,304},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[3] = {
+		id = 28,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=31, consume = false},
+},
+		actRange = {202,305},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[4] = {
+		id = 28,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=34, consume = false},
+  {cond = 3,value = 261,count = 10,consume = true}
+},
+		actRange = {203,306},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[5] = {
+		id = 28,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=37, consume = false},
+  {cond = 3,value = 261,count = 20,consume = true}
+},
+		actRange = {204,307},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[6] = {
+		id = 28,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+  {cond = 3,value = 261,count = 30,consume = true}
+},
+		actRange = {205,308},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[7] = {
+		id = 28,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=43, consume = false},
+  {cond = 3,value = 261,count = 40,consume = true}
+},
+		actRange = {206,309},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[8] = {
+		id = 28,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=46, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {207,310},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[9] = {
+		id = 28,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=49, consume = false},
+  {cond = 3,value = 261,count = 80,consume = true}
+},
+		actRange = {208,311},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+	[10] = {
+		id = 28,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 3000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=52, consume = false},
+  {cond = 3,value = 261,count = 100,consume = true}
+},
+		actRange = {209,312},
+		isSceneEffect = 1,
+		prepareId = 51,
+		hitId = 53,
+		ballisticId = 52,
+		skillName = "skillicon_ds7",
+	},
+},
+[29] = {
+	[1] = {
+		id = 29,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=33, consume = false},
+},
+		actRange = {213},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[2] = {
+		id = 29,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=35, consume = false},
+},
+		actRange = {214},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[3] = {
+		id = 29,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=37, consume = false},
+},
+		actRange = {215},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[4] = {
+		id = 29,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=39, consume = false},
+  {cond = 2,value = 500000, consume = true},
+},
+		actRange = {216},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[5] = {
+		id = 29,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=41, consume = false},
+  {cond = 2,value = 600000, consume = true},
+},
+		actRange = {217},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[6] = {
+		id = 29,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=43, consume = false},
+  {cond = 2,value = 700000, consume = true},
+},
+		actRange = {218},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[7] = {
+		id = 29,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=45, consume = false},
+  {cond = 2,value = 800000, consume = true},
+},
+		actRange = {219},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[8] = {
+		id = 29,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=47, consume = false},
+  {cond = 2,value = 900000, consume = true},
+},
+		actRange = {220},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[9] = {
+		id = 29,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=49, consume = false},
+  {cond = 2,value = 1000000, consume = true},
+},
+		actRange = {221},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+	[10] = {
+		id = 29,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 40000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=51, consume = false},
+  {cond = 2,value = 1100000, consume = true},
+},
+		actRange = {222},
+		isSceneEffect = 1,
+		prepareId = 54,
+		hitId = 55,
+		skillName = "skillicon_ds8",
+	},
+},
+[30] = {
+	[1] = {
+		id = 30,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=35, consume = false},
+},
+		actRange = {223},
+		prepareId = 56,
+		skillName = "skillicon_ds9",
+	},
+	[2] = {
+		id = 30,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=37, consume = false},
+},
+		actRange = {224},
+		prepareId = 56,
+		skillName = "skillicon_ds9",
+	},
+	[3] = {
+		id = 30,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=40, consume = false},
+},
+		actRange = {225},
+		prepareId = 56,
+		skillName = "skillicon_ds9",
+	},
+	[4] = {
+		id = 30,
+		level = 4,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=42, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {226},
+		prepareId = 56,
+		skillName = "skillicon_ds9",
+	},
+	[5] = {
+		id = 30,
+		level = 5,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=44, consume = false},
+  {cond = 3,value = 261,count = 100,consume = true}
+},
+		actRange = {227},
+		prepareId = 109,
+		skillName = "skillicon_ds9",
+	},
+	[6] = {
+		id = 30,
+		level = 6,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=46, consume = false},
+  {cond = 3,value = 261,count = 150,consume = true}
+},
+		actRange = {228},
+		prepareId = 109,
+		skillName = "skillicon_ds9",
+	},
+	[7] = {
+		id = 30,
+		level = 7,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=48, consume = false},
+  {cond = 3,value = 261,count = 200,consume = true}
+},
+		actRange = {229},
+		prepareId = 109,
+		skillName = "skillicon_ds9",
+	},
+	[8] = {
+		id = 30,
+		level = 8,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=50, consume = false},
+  {cond = 3,value = 261,count = 250,consume = true}
+},
+		actRange = {230},
+		prepareId = 109,
+		skillName = "skillicon_ds9",
+	},
+	[9] = {
+		id = 30,
+		level = 9,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=52, consume = false},
+  {cond = 3,value = 261,count = 400,consume = true}
+},
+		actRange = {231},
+		prepareId = 109,
+		skillName = "skillicon_ds9",
+	},
+	[10] = {
+		id = 30,
+		level = 10,
+		delayTime = 0,
+		cooldownTime = 1500,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=54, consume = false},
+  {cond = 3,value = 261,count = 700,consume = true}
+},
+		actRange = {232},
+		prepareId = 110,
+		skillName = "skillicon_ds9",
+	},
+},
+[31] = {
+	[1] = {
+		id = 31,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=38, consume = false},
+},
+		actRange = {233},
+		prepareId = 57,
+		skillName = "skillicon_ds10",
+	},
+	[2] = {
+		id = 31,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=41, consume = false},
+},
+		actRange = {234},
+		prepareId = 57,
+		skillName = "skillicon_ds10",
+	},
+	[3] = {
+		id = 31,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=54, consume = false},
+},
+		actRange = {235},
+		prepareId = 57,
+		skillName = "skillicon_ds10",
+	},
+},
+[32] = {
+	[1] = {
+		id = 32,
+		level = 1,
+		delayTime = 600,
+		cooldownTime = 20000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {266},
+		prepareId = 58,
+		skillName = "skillicon_ds11",
+	},
+	[2] = {
+		id = 32,
+		level = 2,
+		delayTime = 600,
+		cooldownTime = 20000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {266},
+		prepareId = 58,
+		skillName = "skillicon_ds11",
+	},
+	[3] = {
+		id = 32,
+		level = 3,
+		delayTime = 600,
+		cooldownTime = 20000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value = 1, consume = false}
+},
+		actRange = {266},
+		prepareId = 58,
+		skillName = "skillicon_ds11",
+	},
+},
+[33] = {
+	[1] = {
+		id = 33,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=47, consume = false},
+},
+		actRange = {246,256,372},
+		prepareId = 59,
+		hitId = 60,
+		skillName = "skillicon_ds12",
+	},
+	[2] = {
+		id = 33,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=50, consume = false},
+  {cond = 3,value = 261,count = 50,consume = true}
+},
+		actRange = {247,257,373},
+		prepareId = 59,
+		hitId = 60,
+		skillName = "skillicon_ds12",
+	},
+	[3] = {
+		id = 33,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=53, consume = false},
+  {cond = 3,value = 261,count = 100,consume = true}
+},
+		actRange = {248,258,374},
+		prepareId = 59,
+		hitId = 60,
+		skillName = "skillicon_ds12",
+	},
+	[4] = {
+		id = 33,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=56, consume = false},
+  {cond = 3,value = 261,count = 150,consume = true}
+},
+		actRange = {249,259,375},
+		prepareId = 59,
+		hitId = 60,
+		skillName = "skillicon_ds12",
+	},
+	[5] = {
+		id = 33,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=59, consume = false},
+  {cond = 3,value = 261,count = 200,consume = true}
+},
+		actRange = {250,260,376},
+		prepareId = 63,
+		hitId = 64,
+		skillName = "skillicon_ds12",
+	},
+	[6] = {
+		id = 33,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=62, consume = false},
+  {cond = 3,value = 261,count = 250,consume = true}
+},
+		actRange = {251,261,377},
+		prepareId = 63,
+		hitId = 64,
+		skillName = "skillicon_ds12",
+	},
+	[7] = {
+		id = 33,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=65, consume = false},
+  {cond = 3,value = 261,count = 300,consume = true}
+},
+		actRange = {252,262,378},
+		prepareId = 63,
+		hitId = 64,
+		skillName = "skillicon_ds12",
+	},
+	[8] = {
+		id = 33,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=68, consume = false},
+  {cond = 3,value = 261,count = 350,consume = true}
+},
+		actRange = {253,263,379},
+		prepareId = 63,
+		hitId = 64,
+		skillName = "skillicon_ds12",
+	},
+	[9] = {
+		id = 33,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=71, consume = false},
+  {cond = 3,value = 261,count = 500,consume = true}
+},
+		actRange = {254,264,380},
+		prepareId = 63,
+		hitId = 64,
+		skillName = "skillicon_ds12",
+	},
+	[10] = {
+		id = 33,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 10000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {
+  {cond = 1, value=74, consume = false},
+  {cond = 3,value = 261,count = 900,consume = true}
+},
+		actRange = {255,265,381},
+		prepareId = 111,
+		hitId = 112,
+		skillName = "skillicon_ds12",
+	},
+},
+[34] = {
+	[1] = {
+		id = 34,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {269},
+	},
+},
+[35] = {
+	[1] = {
+		id = 35,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 8},},
+		upgradeConds = {},
+		actRange = {270},
+		ballisticId = 71,
+	},
+},
+[36] = {
+	[1] = {
+		id = 36,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 8},},
+		upgradeConds = {},
+		actRange = {271},
+		ballisticId = 82,
+	},
+},
+[37] = {
+	[1] = {
+		id = 37,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 8},},
+		upgradeConds = {},
+		actRange = {272},
+		ballisticId = 65,
+	},
+},
+[38] = {
+	[1] = {
+		id = 38,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 9},},
+		upgradeConds = {},
+		actRange = {273},
+		hitId = 67,
+	},
+},
+[39] = {
+	[1] = {
+		id = 39,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 4},},
+		upgradeConds = {},
+		actRange = {274},
+		prepareId = 68,
+	},
+},
+[40] = {
+	[1] = {
+		id = 40,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {275},
+		prepareId = 69,
+	},
+},
+[41] = {
+	[1] = {
+		id = 41,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 2},},
+		upgradeConds = {},
+		actRange = {276},
+		ballisticId = 70,
+	},
+},
+[42] = {
+	[1] = {
+		id = 42,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {277},
+		prepareId = 72,
+	},
+},
+[43] = {
+	[1] = {
+		id = 43,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {278},
+		prepareId = 73,
+	},
+},
+[44] = {
+	[1] = {
+		id = 44,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {279},
+		prepareId = 74,
+	},
+},
+[45] = {
+	[1] = {
+		id = 45,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {280},
+		prepareId = 75,
+	},
+},
+[46] = {
+	[1] = {
+		id = 46,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {281},
+		prepareId = 76,
+	},
+},
+[47] = {
+	[1] = {
+		id = 47,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {282},
+		prepareId = 77,
+	},
+},
+[48] = {
+	[1] = {
+		id = 48,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {283},
+		hitId = 79,
+	},
+},
+[49] = {
+	[1] = {
+		id = 49,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {284},
+		prepareId = 80,
+	},
+},
+[50] = {
+	[1] = {
+		id = 50,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {285,321},
+		prepareId = 81,
+	},
+},
+[51] = {
+	[1] = {
+		id = 51,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {286},
+		prepareId = 83,
+	},
+},
+[52] = {
+	[1] = {
+		id = 52,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 4, value = 2},},
+		upgradeConds = {},
+		actRange = {287},
+		prepareId = 117,
+	},
+},
+[53] = {
+	[1] = {
+		id = 53,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {288},
+		prepareId = 89,
+	},
+},
+[54] = {
+	[1] = {
+		id = 54,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 0,
+		spellConds = {
+  {cond = 4, value = 5},},
+		upgradeConds = {},
+		actRange = {267,268},
+	},
+},
+[55] = {
+	[1] = {
+		id = 55,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 40000,
+		upgradeConds = {
+{cond=1,value=1,consume=false}
+}
+,
+		actRange = {289},
+		prepareId = 118,
+		skillName = "skillicon_ty2",
+	},
+	[2] = {
+		id = 55,
+		level = 2,
+		delayTime = 0,
+		cooldownTime = 20000,
+		upgradeConds = {
+{cond=1,value=42,consume=false},
+{cond=2,value=80000,consume=true},
+},
+		actRange = {289},
+		prepareId = 118,
+		skillName = "skillicon_ty2",
+	},
+	[3] = {
+		id = 55,
+		level = 3,
+		delayTime = 0,
+		cooldownTime = 5000,
+		upgradeConds = {
+{cond=1,value=50,consume=false},
+{cond=2,value=180000,consume=true},
+},
+		actRange = {289},
+		prepareId = 118,
+		skillName = "skillicon_ty2",
+	},
+},
+[56] = {
+	[1] = {
+		id = 56,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 5, value = 1,consume=true},},
+		upgradeConds = {
+{cond=1,value=1,consume=false}
+},
+		actRange = {290},
+		prepareId = 118,
+		skillName = "skillicon_ty3",
+	},
+},
+[57] = {
+	[1] = {
+		id = 57,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 5, value = 1,consume=true},},
+		upgradeConds = {
+{cond=1,value=1,consume=false}
+},
+		actRange = {291},
+		prepareId = 118,
+		skillName = "skillicon_ty4",
+	},
+},
+[58] = {
+	[1] = {
+		id = 58,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {{cond=5,value=1,count=251,consume=true},},
+		upgradeConds = {
+{cond=1,value=1,consume=false}
+},
+		actRange = {292},
+		prepareId = 118,
+		skillName = "skillicon_ty5",
+	},
+},
+[59] = {
+	[1] = {
+		id = 59,
+		level = 1,
+		upgradeConds = {
+{cond=1,value=41,consume=false},
+{cond=2,value=100000,consume=true},
+},
+		actRange = {293},
+		skillName = "skillicon_ty6",
+	},
+	[2] = {
+		id = 59,
+		level = 2,
+		upgradeConds = {
+{cond=1,value=42,consume=false},
+{cond=2,value=200000,consume=true},
+},
+		actRange = {294},
+		skillName = "skillicon_ty6",
+	},
+	[3] = {
+		id = 59,
+		level = 3,
+		upgradeConds = {
+{cond=1,value=43,consume=false},
+{cond=2,value=400000,consume=true},
+},
+		actRange = {295},
+		skillName = "skillicon_ty6",
+	},
+	[4] = {
+		id = 59,
+		level = 4,
+		upgradeConds = {
+{cond=1,value=44,consume=false},
+{cond=2,value=600000,consume=true},
+},
+		actRange = {296},
+		skillName = "skillicon_ty6",
+	},
+	[5] = {
+		id = 59,
+		level = 5,
+		upgradeConds = {
+{cond=1,value=45,consume=false},
+{cond=3,value=261,count=80,consume=true},
+},
+		actRange = {297},
+		skillName = "skillicon_ty6",
+	},
+	[6] = {
+		id = 59,
+		level = 6,
+		upgradeConds = {
+{cond=1,value=46,consume=false},
+{cond=3,value=261,count=200,consume=true},
+},
+		actRange = {298},
+		skillName = "skillicon_ty6",
+	},
+	[7] = {
+		id = 59,
+		level = 7,
+		upgradeConds = {
+{cond=1,value=47,consume=false},
+{cond=3,value=261,count=400,consume=true},
+},
+		actRange = {299},
+		skillName = "skillicon_ty6",
+	},
+	[8] = {
+		id = 59,
+		level = 8,
+		upgradeConds = {
+{cond=1,value=48,consume=false},
+{cond=3,value=261,count=600,consume=true},
+},
+		actRange = {300},
+		skillName = "skillicon_ty6",
+	},
+	[9] = {
+		id = 59,
+		level = 9,
+		upgradeConds = {
+{cond=1,value=49,consume=false},
+{cond=3,value=261,count=800,consume=true},
+},
+		actRange = {301},
+		skillName = "skillicon_ty6",
+	},
+	[10] = {
+		id = 59,
+		level = 10,
+		upgradeConds = {
+{cond=1,value=50,consume=false},
+{cond=3,value=261,count=1000,consume=true},
+},
+		actRange = {302},
+		skillName = "skillicon_ty6",
+	},
+},
+[60] = {
+	[1] = {
+		id = 60,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 4, value = 13},},
+		upgradeConds = {},
+		actRange = {314},
+		hitId = 91,
+		ballisticId = 90,
+	},
+},
+[61] = {
+	[1] = {
+		id = 61,
+		level = 1,
+		delayTime = 400,
+		cooldownTime = 120000,
+		spellConds = {
+  {cond = 4, value = 25},},
+		upgradeConds = {},
+		actRange = {315},
+		isSceneEffect = 1,
+		prepareId = 92,
+	},
+},
+[62] = {
+	[1] = {
+		id = 62,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 8},},
+		upgradeConds = {},
+		actRange = {316},
+		hitId = 91,
+		ballisticId = 90,
+	},
+},
+[63] = {
+	[1] = {
+		id = 63,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 8},},
+		upgradeConds = {},
+		actRange = {317},
+		hitId = 19,
+	},
+},
+[64] = {
+	[1] = {
+		id = 64,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {318},
+		prepareId = 75,
+	},
+},
+[65] = {
+	[1] = {
+		id = 65,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 15000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {319},
+	},
+},
+[66] = {
+	[1] = {
+		id = 66,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 4, value = 2},},
+		upgradeConds = {},
+		actRange = {287},
+		prepareId = 115,
+	},
+},
+[67] = {
+	[1] = {
+		id = 67,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 2000,
+		spellConds = {
+  {cond = 4, value = 2},},
+		upgradeConds = {},
+		actRange = {287},
+		prepareId = 116,
+	},
+},
+[68] = {
+	[1] = {
+		id = 68,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {382,383,384,385},
+		prepareId = 73,
+	},
+},
+[69] = {
+	[1] = {
+		id = 69,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 180000,
+		spellConds = {
+  {cond = 4, value = 18},},
+		upgradeConds = {},
+		actRange = {386},
+		hitId = 91,
+		ballisticId = 90,
+	},
+},
+[70] = {
+	[1] = {
+		id = 70,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {382,383,384,385},
+		prepareId = 72,
+	},
+},
+[71] = {
+	[1] = {
+		id = 71,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {382,383,384,385},
+		prepareId = 76,
+	},
+},
+[72] = {
+	[1] = {
+		id = 72,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {382,383,384,385},
+		prepareId = 80,
+	},
+},
+[73] = {
+	[1] = {
+		id = 73,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {387},
+		prepareId = 83,
+	},
+},
+[74] = {
+	[1] = {
+		id = 74,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {387},
+		prepareId = 75,
+	},
+},
+[75] = {
+	[1] = {
+		id = 75,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {387},
+		prepareId = 74,
+	},
+},
+[76] = {
+	[1] = {
+		id = 76,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 2},},
+		upgradeConds = {},
+		actRange = {387},
+		prepareId = 117,
+	},
+},
+[77] = {
+	[1] = {
+		id = 77,
+		level = 1,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 3,value = 261, count=100,consume = true}
+},
+		actRange = {388},
+		skillName = "skillicon_ty10",
+	},
+	[2] = {
+		id = 77,
+		level = 2,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 3,value = 261, count=200,consume = true}
+},
+		actRange = {389},
+		skillName = "skillicon_ty10",
+	},
+	[3] = {
+		id = 77,
+		level = 3,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 3,value = 261, count=300,consume = true}
+},
+		actRange = {390},
+		skillName = "skillicon_ty10",
+	},
+	[4] = {
+		id = 77,
+		level = 4,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 3,value = 261, count=400,consume = true}
+},
+		actRange = {391},
+		skillName = "skillicon_ty10",
+	},
+	[5] = {
+		id = 77,
+		level = 5,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 3,value = 261, count=500,consume = true}
+},
+		actRange = {392},
+		skillName = "skillicon_ty10",
+	},
+	[6] = {
+		id = 77,
+		level = 6,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 3,value = 261, count=600,consume = true}
+},
+		actRange = {393},
+		skillName = "skillicon_ty10",
+	},
+	[7] = {
+		id = 77,
+		level = 7,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 3,value = 261, count=700,consume = true}
+},
+		actRange = {394},
+		skillName = "skillicon_ty10",
+	},
+	[8] = {
+		id = 77,
+		level = 8,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 3,value = 261, count=800,consume = true}
+},
+		actRange = {395},
+		skillName = "skillicon_ty10",
+	},
+	[9] = {
+		id = 77,
+		level = 9,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 3,value = 261, count=900,consume = true}
+},
+		actRange = {396},
+		skillName = "skillicon_ty10",
+	},
+	[10] = {
+		id = 77,
+		level = 10,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 3,value = 261, count=1000,consume = true}
+},
+		actRange = {397},
+		skillName = "skillicon_ty10",
+	},
+	[11] = {
+		id = 77,
+		level = 11,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=1100,consume = true}
+},
+		actRange = {398},
+		skillName = "skillicon_ty10",
+	},
+	[12] = {
+		id = 77,
+		level = 12,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=1200,consume = true}
+},
+		actRange = {399},
+		skillName = "skillicon_ty10",
+	},
+	[13] = {
+		id = 77,
+		level = 13,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=1300,consume = true}
+},
+		actRange = {400},
+		skillName = "skillicon_ty10",
+	},
+	[14] = {
+		id = 77,
+		level = 14,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=1400,consume = true}
+},
+		actRange = {401},
+		skillName = "skillicon_ty10",
+	},
+	[15] = {
+		id = 77,
+		level = 15,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=1500,consume = true}
+},
+		actRange = {402},
+		skillName = "skillicon_ty10",
+	},
+	[16] = {
+		id = 77,
+		level = 16,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1600,consume = true}
+},
+		actRange = {403},
+		skillName = "skillicon_ty10",
+	},
+	[17] = {
+		id = 77,
+		level = 17,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1700,consume = true}
+},
+		actRange = {404},
+		skillName = "skillicon_ty10",
+	},
+	[18] = {
+		id = 77,
+		level = 18,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1800,consume = true}
+},
+		actRange = {405},
+		skillName = "skillicon_ty10",
+	},
+	[19] = {
+		id = 77,
+		level = 19,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1900,consume = true}
+},
+		actRange = {406},
+		skillName = "skillicon_ty10",
+	},
+	[20] = {
+		id = 77,
+		level = 20,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=2000,consume = true}
+},
+		actRange = {407},
+		skillName = "skillicon_ty10",
+	},
+	[21] = {
+		id = 77,
+		level = 21,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=2100,consume = true}
+},
+		actRange = {408},
+		skillName = "skillicon_ty10",
+	},
+	[22] = {
+		id = 77,
+		level = 22,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=2200,consume = true}
+},
+		actRange = {409},
+		skillName = "skillicon_ty10",
+	},
+	[23] = {
+		id = 77,
+		level = 23,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=2300,consume = true}
+},
+		actRange = {410},
+		skillName = "skillicon_ty10",
+	},
+	[24] = {
+		id = 77,
+		level = 24,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=2400,consume = true}
+},
+		actRange = {411},
+		skillName = "skillicon_ty10",
+	},
+	[25] = {
+		id = 77,
+		level = 25,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=2500,consume = true}
+},
+		actRange = {412},
+		skillName = "skillicon_ty10",
+	},
+	[26] = {
+		id = 77,
+		level = 26,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2600,consume = true}
+},
+		actRange = {413},
+		skillName = "skillicon_ty10",
+	},
+	[27] = {
+		id = 77,
+		level = 27,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2700,consume = true}
+},
+		actRange = {414},
+		skillName = "skillicon_ty10",
+	},
+	[28] = {
+		id = 77,
+		level = 28,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2800,consume = true}
+},
+		actRange = {415},
+		skillName = "skillicon_ty10",
+	},
+	[29] = {
+		id = 77,
+		level = 29,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2900,consume = true}
+},
+		actRange = {416},
+		skillName = "skillicon_ty10",
+	},
+	[30] = {
+		id = 77,
+		level = 30,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=3000,consume = true}
+},
+		actRange = {417},
+		skillName = "skillicon_ty10",
+	},
+},
+[78] = {
+	[1] = {
+		id = 78,
+		level = 1,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 2,value = 500000,consume = true}
+},
+		actRange = {418},
+		skillName = "skillicon_ty11",
+	},
+	[2] = {
+		id = 78,
+		level = 2,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 2,value = 800000,consume = true}
+},
+		actRange = {419},
+		skillName = "skillicon_ty11",
+	},
+	[3] = {
+		id = 78,
+		level = 3,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 2,value = 1100000,consume = true}
+},
+		actRange = {420},
+		skillName = "skillicon_ty11",
+	},
+	[4] = {
+		id = 78,
+		level = 4,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 2,value = 1400000,consume = true}
+},
+		actRange = {421},
+		skillName = "skillicon_ty11",
+	},
+	[5] = {
+		id = 78,
+		level = 5,
+		upgradeConds = {
+  {cond = 6, value=5, consume = false},
+  {cond = 2,value = 1700000,consume = true}
+},
+		actRange = {422},
+		skillName = "skillicon_ty11",
+	},
+	[6] = {
+		id = 78,
+		level = 6,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 2,value = 2000000,consume = true}
+},
+		actRange = {423},
+		skillName = "skillicon_ty11",
+	},
+	[7] = {
+		id = 78,
+		level = 7,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 2,value = 2300000,consume = true}
+},
+		actRange = {424},
+		skillName = "skillicon_ty11",
+	},
+	[8] = {
+		id = 78,
+		level = 8,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 2,value = 2600000,consume = true}
+},
+		actRange = {425},
+		skillName = "skillicon_ty11",
+	},
+	[9] = {
+		id = 78,
+		level = 9,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 2,value = 2900000,consume = true}
+},
+		actRange = {426},
+		skillName = "skillicon_ty11",
+	},
+	[10] = {
+		id = 78,
+		level = 10,
+		upgradeConds = {
+  {cond = 6, value=10, consume = false},
+  {cond = 2,value = 3200000,consume = true}
+},
+		actRange = {427},
+		skillName = "skillicon_ty11",
+	},
+	[11] = {
+		id = 78,
+		level = 11,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=500,consume = true}
+},
+		actRange = {428},
+		skillName = "skillicon_ty11",
+	},
+	[12] = {
+		id = 78,
+		level = 12,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=600,consume = true}
+},
+		actRange = {429},
+		skillName = "skillicon_ty11",
+	},
+	[13] = {
+		id = 78,
+		level = 13,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=700,consume = true}
+},
+		actRange = {430},
+		skillName = "skillicon_ty11",
+	},
+	[14] = {
+		id = 78,
+		level = 14,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=800,consume = true}
+},
+		actRange = {431},
+		skillName = "skillicon_ty11",
+	},
+	[15] = {
+		id = 78,
+		level = 15,
+		upgradeConds = {
+  {cond = 6, value=15, consume = false},
+  {cond = 3,value = 261, count=900,consume = true}
+},
+		actRange = {432},
+		skillName = "skillicon_ty11",
+	},
+	[16] = {
+		id = 78,
+		level = 16,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1000,consume = true}
+},
+		actRange = {433},
+		skillName = "skillicon_ty11",
+	},
+	[17] = {
+		id = 78,
+		level = 17,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1100,consume = true}
+},
+		actRange = {434},
+		skillName = "skillicon_ty11",
+	},
+	[18] = {
+		id = 78,
+		level = 18,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1200,consume = true}
+},
+		actRange = {435},
+		skillName = "skillicon_ty11",
+	},
+	[19] = {
+		id = 78,
+		level = 19,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1300,consume = true}
+},
+		actRange = {436},
+		skillName = "skillicon_ty11",
+	},
+	[20] = {
+		id = 78,
+		level = 20,
+		upgradeConds = {
+  {cond = 6, value=20, consume = false},
+  {cond = 3,value = 261, count=1400,consume = true}
+},
+		actRange = {437},
+		skillName = "skillicon_ty11",
+	},
+	[21] = {
+		id = 78,
+		level = 21,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=1500,consume = true}
+},
+		actRange = {438},
+		skillName = "skillicon_ty11",
+	},
+	[22] = {
+		id = 78,
+		level = 22,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=1600,consume = true}
+},
+		actRange = {439},
+		skillName = "skillicon_ty11",
+	},
+	[23] = {
+		id = 78,
+		level = 23,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=1700,consume = true}
+},
+		actRange = {440},
+		skillName = "skillicon_ty11",
+	},
+	[24] = {
+		id = 78,
+		level = 24,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=1800,consume = true}
+},
+		actRange = {441},
+		skillName = "skillicon_ty11",
+	},
+	[25] = {
+		id = 78,
+		level = 25,
+		upgradeConds = {
+  {cond = 6, value=25, consume = false},
+  {cond = 3,value = 261, count=1900,consume = true}
+},
+		actRange = {442},
+		skillName = "skillicon_ty11",
+	},
+	[26] = {
+		id = 78,
+		level = 26,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2000,consume = true}
+},
+		actRange = {443},
+		skillName = "skillicon_ty11",
+	},
+	[27] = {
+		id = 78,
+		level = 27,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2100,consume = true}
+},
+		actRange = {444},
+		skillName = "skillicon_ty11",
+	},
+	[28] = {
+		id = 78,
+		level = 28,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2200,consume = true}
+},
+		actRange = {445},
+		skillName = "skillicon_ty11",
+	},
+	[29] = {
+		id = 78,
+		level = 29,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2300,consume = true}
+},
+		actRange = {446},
+		skillName = "skillicon_ty11",
+	},
+	[30] = {
+		id = 78,
+		level = 30,
+		upgradeConds = {
+  {cond = 6, value=30, consume = false},
+  {cond = 3,value = 261, count=2400,consume = true}
+},
+		actRange = {447},
+		skillName = "skillicon_ty11",
+	},
+},
+[79] = {
+	[1] = {
+		id = 79,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 8},},
+		upgradeConds = {},
+		actRange = {450},
+		hitId = 19,
+	},
+},
+[80] = {
+	[1] = {
+		id = 80,
+		level = 1,
+		delayTime = 0,
+		cooldownTime = 1000,
+		spellConds = {
+  {cond = 4, value = 1},},
+		upgradeConds = {},
+		actRange = {451},
+		prepareId = 3,
+	},
+},
+[81] = {
+	[1] = {
+		id = 81,
+		level = 1,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {452},
+		skillName = "skillicon2_nz8",
+	},
+	[2] = {
+		id = 81,
+		level = 2,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {453},
+		skillName = "skillicon2_nz8",
+	},
+	[3] = {
+		id = 81,
+		level = 3,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {454},
+		skillName = "skillicon2_nz8",
+	},
+	[4] = {
+		id = 81,
+		level = 4,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {455},
+		skillName = "skillicon2_nz8",
+	},
+	[5] = {
+		id = 81,
+		level = 5,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=250,consume = true},},
+		actRange = {456},
+		skillName = "skillicon2_nz8",
+	},
+	[6] = {
+		id = 81,
+		level = 6,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {457},
+		skillName = "skillicon2_nz8",
+	},
+	[7] = {
+		id = 81,
+		level = 7,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=350,consume = true},},
+		actRange = {458},
+		skillName = "skillicon2_nz8",
+	},
+	[8] = {
+		id = 81,
+		level = 8,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=400,consume = true},},
+		actRange = {459},
+		skillName = "skillicon2_nz8",
+	},
+	[9] = {
+		id = 81,
+		level = 9,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=450,consume = true},},
+		actRange = {460},
+		skillName = "skillicon2_nz8",
+	},
+	[10] = {
+		id = 81,
+		level = 10,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=500,consume = true},},
+		actRange = {461},
+		skillName = "skillicon2_nz8",
+	},
+	[11] = {
+		id = 81,
+		level = 11,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=550,consume = true},},
+		actRange = {462},
+		skillName = "skillicon2_nz8",
+	},
+	[12] = {
+		id = 81,
+		level = 12,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {463},
+		skillName = "skillicon2_nz8",
+	},
+	[13] = {
+		id = 81,
+		level = 13,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=650,consume = true},},
+		actRange = {464},
+		skillName = "skillicon2_nz8",
+	},
+	[14] = {
+		id = 81,
+		level = 14,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=700,consume = true},},
+		actRange = {465},
+		skillName = "skillicon2_nz8",
+	},
+	[15] = {
+		id = 81,
+		level = 15,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=750,consume = true},},
+		actRange = {466},
+		skillName = "skillicon2_nz8",
+	},
+	[16] = {
+		id = 81,
+		level = 16,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=800,consume = true},},
+		actRange = {467},
+		skillName = "skillicon2_nz8",
+	},
+	[17] = {
+		id = 81,
+		level = 17,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=850,consume = true},},
+		actRange = {468},
+		skillName = "skillicon2_nz8",
+	},
+	[18] = {
+		id = 81,
+		level = 18,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {469},
+		skillName = "skillicon2_nz8",
+	},
+	[19] = {
+		id = 81,
+		level = 19,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=950,consume = true},},
+		actRange = {470},
+		skillName = "skillicon2_nz8",
+	},
+	[20] = {
+		id = 81,
+		level = 20,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=1000,consume = true},},
+		actRange = {471},
+		skillName = "skillicon2_nz8",
+	},
+},
+[82] = {
+	[1] = {
+		id = 82,
+		level = 1,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {472},
+		skillName = "skillicon2_nz7",
+	},
+	[2] = {
+		id = 82,
+		level = 2,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {473},
+		skillName = "skillicon2_nz7",
+	},
+	[3] = {
+		id = 82,
+		level = 3,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {474},
+		skillName = "skillicon2_nz7",
+	},
+	[4] = {
+		id = 82,
+		level = 4,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=400,consume = true},},
+		actRange = {475},
+		skillName = "skillicon2_nz7",
+	},
+	[5] = {
+		id = 82,
+		level = 5,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=500,consume = true},},
+		actRange = {476},
+		skillName = "skillicon2_nz7",
+	},
+	[6] = {
+		id = 82,
+		level = 6,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {477},
+		skillName = "skillicon2_nz7",
+	},
+	[7] = {
+		id = 82,
+		level = 7,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=700,consume = true},},
+		actRange = {478},
+		skillName = "skillicon2_nz7",
+	},
+	[8] = {
+		id = 82,
+		level = 8,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=800,consume = true},},
+		actRange = {479},
+		skillName = "skillicon2_nz7",
+	},
+	[9] = {
+		id = 82,
+		level = 9,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {480},
+		skillName = "skillicon2_nz7",
+	},
+	[10] = {
+		id = 82,
+		level = 10,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=1000,consume = true},},
+		actRange = {481},
+		skillName = "skillicon2_nz7",
+	},
+	[11] = {
+		id = 82,
+		level = 11,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1100,consume = true},},
+		actRange = {482},
+		skillName = "skillicon2_nz7",
+	},
+	[12] = {
+		id = 82,
+		level = 12,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1200,consume = true},},
+		actRange = {483},
+		skillName = "skillicon2_nz7",
+	},
+	[13] = {
+		id = 82,
+		level = 13,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1300,consume = true},},
+		actRange = {484},
+		skillName = "skillicon2_nz7",
+	},
+	[14] = {
+		id = 82,
+		level = 14,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1400,consume = true},},
+		actRange = {485},
+		skillName = "skillicon2_nz7",
+	},
+	[15] = {
+		id = 82,
+		level = 15,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1500,consume = true},},
+		actRange = {486},
+		skillName = "skillicon2_nz7",
+	},
+	[16] = {
+		id = 82,
+		level = 16,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1600,consume = true},},
+		actRange = {487},
+		skillName = "skillicon2_nz7",
+	},
+	[17] = {
+		id = 82,
+		level = 17,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1700,consume = true},},
+		actRange = {488},
+		skillName = "skillicon2_nz7",
+	},
+	[18] = {
+		id = 82,
+		level = 18,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1800,consume = true},},
+		actRange = {489},
+		skillName = "skillicon2_nz7",
+	},
+	[19] = {
+		id = 82,
+		level = 19,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1900,consume = true},},
+		actRange = {490},
+		skillName = "skillicon2_nz7",
+	},
+	[20] = {
+		id = 82,
+		level = 20,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=2000,consume = true},},
+		actRange = {491},
+		skillName = "skillicon2_nz7",
+	},
+},
+[83] = {
+	[1] = {
+		id = 83,
+		level = 1,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {492},
+		skillName = "skillicon2_nz6",
+	},
+	[2] = {
+		id = 83,
+		level = 2,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {493},
+		skillName = "skillicon2_nz6",
+	},
+	[3] = {
+		id = 83,
+		level = 3,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {494},
+		skillName = "skillicon2_nz6",
+	},
+	[4] = {
+		id = 83,
+		level = 4,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=400,consume = true},},
+		actRange = {495},
+		skillName = "skillicon2_nz6",
+	},
+	[5] = {
+		id = 83,
+		level = 5,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=500,consume = true},},
+		actRange = {496},
+		skillName = "skillicon2_nz6",
+	},
+	[6] = {
+		id = 83,
+		level = 6,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {497},
+		skillName = "skillicon2_nz6",
+	},
+	[7] = {
+		id = 83,
+		level = 7,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=700,consume = true},},
+		actRange = {498},
+		skillName = "skillicon2_nz6",
+	},
+	[8] = {
+		id = 83,
+		level = 8,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=800,consume = true},},
+		actRange = {499},
+		skillName = "skillicon2_nz6",
+	},
+	[9] = {
+		id = 83,
+		level = 9,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {500},
+		skillName = "skillicon2_nz6",
+	},
+	[10] = {
+		id = 83,
+		level = 10,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=1000,consume = true},},
+		actRange = {501},
+		skillName = "skillicon2_nz6",
+	},
+	[11] = {
+		id = 83,
+		level = 11,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1100,consume = true},},
+		actRange = {502},
+		skillName = "skillicon2_nz6",
+	},
+	[12] = {
+		id = 83,
+		level = 12,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1200,consume = true},},
+		actRange = {503},
+		skillName = "skillicon2_nz6",
+	},
+	[13] = {
+		id = 83,
+		level = 13,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1300,consume = true},},
+		actRange = {504},
+		skillName = "skillicon2_nz6",
+	},
+	[14] = {
+		id = 83,
+		level = 14,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1400,consume = true},},
+		actRange = {505},
+		skillName = "skillicon2_nz6",
+	},
+	[15] = {
+		id = 83,
+		level = 15,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1500,consume = true},},
+		actRange = {506},
+		skillName = "skillicon2_nz6",
+	},
+	[16] = {
+		id = 83,
+		level = 16,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1600,consume = true},},
+		actRange = {507},
+		skillName = "skillicon2_nz6",
+	},
+	[17] = {
+		id = 83,
+		level = 17,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1700,consume = true},},
+		actRange = {508},
+		skillName = "skillicon2_nz6",
+	},
+	[18] = {
+		id = 83,
+		level = 18,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1800,consume = true},},
+		actRange = {509},
+		skillName = "skillicon2_nz6",
+	},
+	[19] = {
+		id = 83,
+		level = 19,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1900,consume = true},},
+		actRange = {510},
+		skillName = "skillicon2_nz6",
+	},
+	[20] = {
+		id = 83,
+		level = 20,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=2000,consume = true},},
+		actRange = {511},
+		skillName = "skillicon2_nz6",
+	},
+},
+[84] = {
+	[1] = {
+		id = 84,
+		level = 1,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {602},
+		skillName = "skillicon2_nz3",
+	},
+	[2] = {
+		id = 84,
+		level = 2,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {603},
+		skillName = "skillicon2_nz3",
+	},
+	[3] = {
+		id = 84,
+		level = 3,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {604},
+		skillName = "skillicon2_nz3",
+	},
+	[4] = {
+		id = 84,
+		level = 4,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {605},
+		skillName = "skillicon2_nz3",
+	},
+	[5] = {
+		id = 84,
+		level = 5,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=250,consume = true},},
+		actRange = {606},
+		skillName = "skillicon2_nz3",
+	},
+	[6] = {
+		id = 84,
+		level = 6,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {607},
+		skillName = "skillicon2_nz3",
+	},
+	[7] = {
+		id = 84,
+		level = 7,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=350,consume = true},},
+		actRange = {608},
+		skillName = "skillicon2_nz3",
+	},
+	[8] = {
+		id = 84,
+		level = 8,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=400,consume = true},},
+		actRange = {609},
+		skillName = "skillicon2_nz3",
+	},
+	[9] = {
+		id = 84,
+		level = 9,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=450,consume = true},},
+		actRange = {610},
+		skillName = "skillicon2_nz3",
+	},
+	[10] = {
+		id = 84,
+		level = 10,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=500,consume = true},},
+		actRange = {611},
+		skillName = "skillicon2_nz3",
+	},
+	[11] = {
+		id = 84,
+		level = 11,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=550,consume = true},},
+		actRange = {612},
+		skillName = "skillicon2_nz3",
+	},
+	[12] = {
+		id = 84,
+		level = 12,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {613},
+		skillName = "skillicon2_nz3",
+	},
+	[13] = {
+		id = 84,
+		level = 13,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=650,consume = true},},
+		actRange = {614},
+		skillName = "skillicon2_nz3",
+	},
+	[14] = {
+		id = 84,
+		level = 14,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=700,consume = true},},
+		actRange = {615},
+		skillName = "skillicon2_nz3",
+	},
+	[15] = {
+		id = 84,
+		level = 15,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=750,consume = true},},
+		actRange = {616},
+		skillName = "skillicon2_nz3",
+	},
+	[16] = {
+		id = 84,
+		level = 16,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=800,consume = true},},
+		actRange = {617},
+		skillName = "skillicon2_nz3",
+	},
+	[17] = {
+		id = 84,
+		level = 17,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=850,consume = true},},
+		actRange = {618},
+		skillName = "skillicon2_nz3",
+	},
+	[18] = {
+		id = 84,
+		level = 18,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {619},
+		skillName = "skillicon2_nz3",
+	},
+	[19] = {
+		id = 84,
+		level = 19,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=950,consume = true},},
+		actRange = {620},
+		skillName = "skillicon2_nz3",
+	},
+	[20] = {
+		id = 84,
+		level = 20,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=1000,consume = true},},
+		actRange = {621},
+		skillName = "skillicon2_nz3",
+	},
+},
+[85] = {
+	[1] = {
+		id = 85,
+		level = 1,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {622},
+		skillName = "skillicon2_nz5",
+	},
+	[2] = {
+		id = 85,
+		level = 2,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {623},
+		skillName = "skillicon2_nz5",
+	},
+	[3] = {
+		id = 85,
+		level = 3,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {624},
+		skillName = "skillicon2_nz5",
+	},
+	[4] = {
+		id = 85,
+		level = 4,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {625},
+		skillName = "skillicon2_nz5",
+	},
+	[5] = {
+		id = 85,
+		level = 5,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=250,consume = true},},
+		actRange = {626},
+		skillName = "skillicon2_nz5",
+	},
+	[6] = {
+		id = 85,
+		level = 6,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {627},
+		skillName = "skillicon2_nz5",
+	},
+	[7] = {
+		id = 85,
+		level = 7,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=350,consume = true},},
+		actRange = {628},
+		skillName = "skillicon2_nz5",
+	},
+	[8] = {
+		id = 85,
+		level = 8,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=400,consume = true},},
+		actRange = {629},
+		skillName = "skillicon2_nz5",
+	},
+	[9] = {
+		id = 85,
+		level = 9,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=450,consume = true},},
+		actRange = {630},
+		skillName = "skillicon2_nz5",
+	},
+	[10] = {
+		id = 85,
+		level = 10,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=500,consume = true},},
+		actRange = {631},
+		skillName = "skillicon2_nz5",
+	},
+	[11] = {
+		id = 85,
+		level = 11,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=550,consume = true},},
+		actRange = {632},
+		skillName = "skillicon2_nz5",
+	},
+	[12] = {
+		id = 85,
+		level = 12,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {633},
+		skillName = "skillicon2_nz5",
+	},
+	[13] = {
+		id = 85,
+		level = 13,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=650,consume = true},},
+		actRange = {634},
+		skillName = "skillicon2_nz5",
+	},
+	[14] = {
+		id = 85,
+		level = 14,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=700,consume = true},},
+		actRange = {635},
+		skillName = "skillicon2_nz5",
+	},
+	[15] = {
+		id = 85,
+		level = 15,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=750,consume = true},},
+		actRange = {636},
+		skillName = "skillicon2_nz5",
+	},
+	[16] = {
+		id = 85,
+		level = 16,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=800,consume = true},},
+		actRange = {637},
+		skillName = "skillicon2_nz5",
+	},
+	[17] = {
+		id = 85,
+		level = 17,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=850,consume = true},},
+		actRange = {638},
+		skillName = "skillicon2_nz5",
+	},
+	[18] = {
+		id = 85,
+		level = 18,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {639},
+		skillName = "skillicon2_nz5",
+	},
+	[19] = {
+		id = 85,
+		level = 19,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=950,consume = true},},
+		actRange = {640},
+		skillName = "skillicon2_nz5",
+	},
+	[20] = {
+		id = 85,
+		level = 20,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=1000,consume = true},},
+		actRange = {641},
+		skillName = "skillicon2_nz5",
+	},
+},
+[86] = {
+	[1] = {
+		id = 86,
+		level = 1,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {642},
+		skillName = "skillicon2_nz4",
+	},
+	[2] = {
+		id = 86,
+		level = 2,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {643},
+		skillName = "skillicon2_nz4",
+	},
+	[3] = {
+		id = 86,
+		level = 3,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {644},
+		skillName = "skillicon2_nz4",
+	},
+	[4] = {
+		id = 86,
+		level = 4,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=400,consume = true},},
+		actRange = {645},
+		skillName = "skillicon2_nz4",
+	},
+	[5] = {
+		id = 86,
+		level = 5,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=500,consume = true},},
+		actRange = {646},
+		skillName = "skillicon2_nz4",
+	},
+	[6] = {
+		id = 86,
+		level = 6,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {647},
+		skillName = "skillicon2_nz4",
+	},
+	[7] = {
+		id = 86,
+		level = 7,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=700,consume = true},},
+		actRange = {648},
+		skillName = "skillicon2_nz4",
+	},
+	[8] = {
+		id = 86,
+		level = 8,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=800,consume = true},},
+		actRange = {649},
+		skillName = "skillicon2_nz4",
+	},
+	[9] = {
+		id = 86,
+		level = 9,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {650},
+		skillName = "skillicon2_nz4",
+	},
+	[10] = {
+		id = 86,
+		level = 10,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=1000,consume = true},},
+		actRange = {651},
+		skillName = "skillicon2_nz4",
+	},
+	[11] = {
+		id = 86,
+		level = 11,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1100,consume = true},},
+		actRange = {652},
+		skillName = "skillicon2_nz4",
+	},
+	[12] = {
+		id = 86,
+		level = 12,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1200,consume = true},},
+		actRange = {653},
+		skillName = "skillicon2_nz4",
+	},
+	[13] = {
+		id = 86,
+		level = 13,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1300,consume = true},},
+		actRange = {654},
+		skillName = "skillicon2_nz4",
+	},
+	[14] = {
+		id = 86,
+		level = 14,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1400,consume = true},},
+		actRange = {655},
+		skillName = "skillicon2_nz4",
+	},
+	[15] = {
+		id = 86,
+		level = 15,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1500,consume = true},},
+		actRange = {656},
+		skillName = "skillicon2_nz4",
+	},
+	[16] = {
+		id = 86,
+		level = 16,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1600,consume = true},},
+		actRange = {657},
+		skillName = "skillicon2_nz4",
+	},
+	[17] = {
+		id = 86,
+		level = 17,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1700,consume = true},},
+		actRange = {658},
+		skillName = "skillicon2_nz4",
+	},
+	[18] = {
+		id = 86,
+		level = 18,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1800,consume = true},},
+		actRange = {659},
+		skillName = "skillicon2_nz4",
+	},
+	[19] = {
+		id = 86,
+		level = 19,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1900,consume = true},},
+		actRange = {660},
+		skillName = "skillicon2_nz4",
+	},
+	[20] = {
+		id = 86,
+		level = 20,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=2000,consume = true},},
+		actRange = {661},
+		skillName = "skillicon2_nz4",
+	},
+},
+[87] = {
+	[1] = {
+		id = 87,
+		level = 1,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {662},
+		skillName = "skillicon2_nz1",
+	},
+	[2] = {
+		id = 87,
+		level = 2,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {663},
+		skillName = "skillicon2_nz1",
+	},
+	[3] = {
+		id = 87,
+		level = 3,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {664},
+		skillName = "skillicon2_nz1",
+	},
+	[4] = {
+		id = 87,
+		level = 4,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {665},
+		skillName = "skillicon2_nz1",
+	},
+	[5] = {
+		id = 87,
+		level = 5,
+		upgradeConds = {{cond=6,value=11,consume = false},{cond=3,value=265,count=250,consume = true},},
+		actRange = {666},
+		skillName = "skillicon2_nz1",
+	},
+	[6] = {
+		id = 87,
+		level = 6,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {667},
+		skillName = "skillicon2_nz1",
+	},
+	[7] = {
+		id = 87,
+		level = 7,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=350,consume = true},},
+		actRange = {668},
+		skillName = "skillicon2_nz1",
+	},
+	[8] = {
+		id = 87,
+		level = 8,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=400,consume = true},},
+		actRange = {669},
+		skillName = "skillicon2_nz1",
+	},
+	[9] = {
+		id = 87,
+		level = 9,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=450,consume = true},},
+		actRange = {670},
+		skillName = "skillicon2_nz1",
+	},
+	[10] = {
+		id = 87,
+		level = 10,
+		upgradeConds = {{cond=6,value=17,consume = false},{cond=3,value=265,count=500,consume = true},},
+		actRange = {671},
+		skillName = "skillicon2_nz1",
+	},
+	[11] = {
+		id = 87,
+		level = 11,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=550,consume = true},},
+		actRange = {672},
+		skillName = "skillicon2_nz1",
+	},
+	[12] = {
+		id = 87,
+		level = 12,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {673},
+		skillName = "skillicon2_nz1",
+	},
+	[13] = {
+		id = 87,
+		level = 13,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=650,consume = true},},
+		actRange = {674},
+		skillName = "skillicon2_nz1",
+	},
+	[14] = {
+		id = 87,
+		level = 14,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=700,consume = true},},
+		actRange = {675},
+		skillName = "skillicon2_nz1",
+	},
+	[15] = {
+		id = 87,
+		level = 15,
+		upgradeConds = {{cond=6,value=23,consume = false},{cond=3,value=265,count=750,consume = true},},
+		actRange = {676},
+		skillName = "skillicon2_nz1",
+	},
+	[16] = {
+		id = 87,
+		level = 16,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=800,consume = true},},
+		actRange = {677},
+		skillName = "skillicon2_nz1",
+	},
+	[17] = {
+		id = 87,
+		level = 17,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=850,consume = true},},
+		actRange = {678},
+		skillName = "skillicon2_nz1",
+	},
+	[18] = {
+		id = 87,
+		level = 18,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {679},
+		skillName = "skillicon2_nz1",
+	},
+	[19] = {
+		id = 87,
+		level = 19,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=950,consume = true},},
+		actRange = {680},
+		skillName = "skillicon2_nz1",
+	},
+	[20] = {
+		id = 87,
+		level = 20,
+		upgradeConds = {{cond=6,value=28,consume = false},{cond=3,value=265,count=1000,consume = true},},
+		actRange = {681},
+		skillName = "skillicon2_nz1",
+	},
+},
+[88] = {
+	[1] = {
+		id = 88,
+		level = 1,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {682},
+		skillName = "skillicon2_nz2",
+	},
+	[2] = {
+		id = 88,
+		level = 2,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {683},
+		skillName = "skillicon2_nz2",
+	},
+	[3] = {
+		id = 88,
+		level = 3,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {684},
+		skillName = "skillicon2_nz2",
+	},
+	[4] = {
+		id = 88,
+		level = 4,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=400,consume = true},},
+		actRange = {685},
+		skillName = "skillicon2_nz2",
+	},
+	[5] = {
+		id = 88,
+		level = 5,
+		upgradeConds = {{cond=6,value=21,consume = false},{cond=3,value=265,count=500,consume = true},},
+		actRange = {686},
+		skillName = "skillicon2_nz2",
+	},
+	[6] = {
+		id = 88,
+		level = 6,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {687},
+		skillName = "skillicon2_nz2",
+	},
+	[7] = {
+		id = 88,
+		level = 7,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=700,consume = true},},
+		actRange = {688},
+		skillName = "skillicon2_nz2",
+	},
+	[8] = {
+		id = 88,
+		level = 8,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=800,consume = true},},
+		actRange = {689},
+		skillName = "skillicon2_nz2",
+	},
+	[9] = {
+		id = 88,
+		level = 9,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {690},
+		skillName = "skillicon2_nz2",
+	},
+	[10] = {
+		id = 88,
+		level = 10,
+		upgradeConds = {{cond=6,value=27,consume = false},{cond=3,value=265,count=1000,consume = true},},
+		actRange = {691},
+		skillName = "skillicon2_nz2",
+	},
+	[11] = {
+		id = 88,
+		level = 11,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1100,consume = true},},
+		actRange = {692},
+		skillName = "skillicon2_nz2",
+	},
+	[12] = {
+		id = 88,
+		level = 12,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1200,consume = true},},
+		actRange = {693},
+		skillName = "skillicon2_nz2",
+	},
+	[13] = {
+		id = 88,
+		level = 13,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1300,consume = true},},
+		actRange = {694},
+		skillName = "skillicon2_nz2",
+	},
+	[14] = {
+		id = 88,
+		level = 14,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1400,consume = true},},
+		actRange = {695},
+		skillName = "skillicon2_nz2",
+	},
+	[15] = {
+		id = 88,
+		level = 15,
+		upgradeConds = {{cond=6,value=33,consume = false},{cond=3,value=265,count=1500,consume = true},},
+		actRange = {696},
+		skillName = "skillicon2_nz2",
+	},
+	[16] = {
+		id = 88,
+		level = 16,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1600,consume = true},},
+		actRange = {697},
+		skillName = "skillicon2_nz2",
+	},
+	[17] = {
+		id = 88,
+		level = 17,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1700,consume = true},},
+		actRange = {698},
+		skillName = "skillicon2_nz2",
+	},
+	[18] = {
+		id = 88,
+		level = 18,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1800,consume = true},},
+		actRange = {699},
+		skillName = "skillicon2_nz2",
+	},
+	[19] = {
+		id = 88,
+		level = 19,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=1900,consume = true},},
+		actRange = {700},
+		skillName = "skillicon2_nz2",
+	},
+	[20] = {
+		id = 88,
+		level = 20,
+		upgradeConds = {{cond=6,value=39,consume = false},{cond=3,value=265,count=2000,consume = true},},
+		actRange = {701},
+		skillName = "skillicon2_nz2",
+	},
+},
+[89] = {
+	[1] = {
+		id = 89,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 80000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=35,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {512,522,532},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[2] = {
+		id = 89,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 76000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=38,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {513,523,533},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[3] = {
+		id = 89,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 72000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=41,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {514,524,534},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[4] = {
+		id = 89,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 70000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=44,consume = false},{cond=3,value=265,count=1200,consume = true},},
+		actRange = {515,525,535},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[5] = {
+		id = 89,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 68000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=47,consume = false},{cond=3,value=265,count=1500,consume = true},},
+		actRange = {516,526,536},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[6] = {
+		id = 89,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 66000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=50,consume = false},{cond=3,value=265,count=1800,consume = true},},
+		actRange = {517,527,537},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[7] = {
+		id = 89,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 64000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=53,consume = false},{cond=3,value=265,count=2100,consume = true},},
+		actRange = {518,528,538},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[8] = {
+		id = 89,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 64000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=56,consume = false},{cond=3,value=265,count=2400,consume = true},},
+		actRange = {519,529,539},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[9] = {
+		id = 89,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 62000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=59,consume = false},{cond=3,value=265,count=2700,consume = true},},
+		actRange = {520,530,540},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[10] = {
+		id = 89,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 60000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=62,consume = false},{cond=3,value=265,count=3000,consume = true},},
+		actRange = {521,531,541},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+},
+[90] = {
+	[1] = {
+		id = 90,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 80000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=35,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {802,812,822},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[2] = {
+		id = 90,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 76000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=38,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {803,813,823},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[3] = {
+		id = 90,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 72000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=41,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {804,814,824},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[4] = {
+		id = 90,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 70000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=44,consume = false},{cond=3,value=265,count=1200,consume = true},},
+		actRange = {805,815,825},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[5] = {
+		id = 90,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 68000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=47,consume = false},{cond=3,value=265,count=1500,consume = true},},
+		actRange = {806,816,826},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[6] = {
+		id = 90,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 66000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=50,consume = false},{cond=3,value=265,count=1800,consume = true},},
+		actRange = {807,817,827},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[7] = {
+		id = 90,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 64000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=53,consume = false},{cond=3,value=265,count=2100,consume = true},},
+		actRange = {808,818,828},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[8] = {
+		id = 90,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 64000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=56,consume = false},{cond=3,value=265,count=2400,consume = true},},
+		actRange = {809,819,829},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[9] = {
+		id = 90,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 62000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=59,consume = false},{cond=3,value=265,count=2700,consume = true},},
+		actRange = {810,820,830},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[10] = {
+		id = 90,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 60000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=62,consume = false},{cond=3,value=265,count=3000,consume = true},},
+		actRange = {811,821,831},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+},
+[91] = {
+	[1] = {
+		id = 91,
+		level = 1,
+		delayTime = 500,
+		cooldownTime = 80000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=35,consume = false},{cond=3,value=265,count=300,consume = true},},
+		actRange = {832,842,852},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[2] = {
+		id = 91,
+		level = 2,
+		delayTime = 500,
+		cooldownTime = 76000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=38,consume = false},{cond=3,value=265,count=600,consume = true},},
+		actRange = {833,843,853},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[3] = {
+		id = 91,
+		level = 3,
+		delayTime = 500,
+		cooldownTime = 72000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=41,consume = false},{cond=3,value=265,count=900,consume = true},},
+		actRange = {834,844,854},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[4] = {
+		id = 91,
+		level = 4,
+		delayTime = 500,
+		cooldownTime = 70000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=44,consume = false},{cond=3,value=265,count=1200,consume = true},},
+		actRange = {835,845,855},
+		isSceneEffect = 1,
+		hitId = 127,
+		skillName = "skillicon_fs14",
+	},
+	[5] = {
+		id = 91,
+		level = 5,
+		delayTime = 500,
+		cooldownTime = 68000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=47,consume = false},{cond=3,value=265,count=1500,consume = true},},
+		actRange = {836,846,856},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[6] = {
+		id = 91,
+		level = 6,
+		delayTime = 500,
+		cooldownTime = 66000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=50,consume = false},{cond=3,value=265,count=1800,consume = true},},
+		actRange = {837,847,857},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[7] = {
+		id = 91,
+		level = 7,
+		delayTime = 500,
+		cooldownTime = 64000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=53,consume = false},{cond=3,value=265,count=2100,consume = true},},
+		actRange = {838,848,858},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[8] = {
+		id = 91,
+		level = 8,
+		delayTime = 500,
+		cooldownTime = 64000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=56,consume = false},{cond=3,value=265,count=2400,consume = true},},
+		actRange = {839,849,859},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[9] = {
+		id = 91,
+		level = 9,
+		delayTime = 500,
+		cooldownTime = 62000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=59,consume = false},{cond=3,value=265,count=2700,consume = true},},
+		actRange = {840,850,860},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+	[10] = {
+		id = 91,
+		level = 10,
+		delayTime = 500,
+		cooldownTime = 60000,
+		spellConds = {
+  {cond = 2, value = 5, consume = true},},
+		upgradeConds = {{cond=6,value=62,consume = false},{cond=3,value=265,count=3000,consume = true},},
+		actRange = {841,851,861},
+		isSceneEffect = 1,
+		hitId = 130,
+		skillName = "skillicon_fs14",
+	},
+},
+[92] = {
+	[1] = {
+		id = 92,
+		level = 1,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=10,consume = true},},
+		actRange = {542},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[2] = {
+		id = 92,
+		level = 2,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=20,consume = true},},
+		actRange = {543},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[3] = {
+		id = 92,
+		level = 3,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=30,consume = true},},
+		actRange = {544},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[4] = {
+		id = 92,
+		level = 4,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=40,consume = true},},
+		actRange = {545},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[5] = {
+		id = 92,
+		level = 5,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {546},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[6] = {
+		id = 92,
+		level = 6,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=60,consume = true},},
+		actRange = {547},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[7] = {
+		id = 92,
+		level = 7,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=70,consume = true},},
+		actRange = {548},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[8] = {
+		id = 92,
+		level = 8,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=80,consume = true},},
+		actRange = {549},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[9] = {
+		id = 92,
+		level = 9,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=90,consume = true},},
+		actRange = {550},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[10] = {
+		id = 92,
+		level = 10,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {551},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[11] = {
+		id = 92,
+		level = 11,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=110,consume = true},},
+		actRange = {552},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[12] = {
+		id = 92,
+		level = 12,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=120,consume = true},},
+		actRange = {553},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[13] = {
+		id = 92,
+		level = 13,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=130,consume = true},},
+		actRange = {554},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[14] = {
+		id = 92,
+		level = 14,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=140,consume = true},},
+		actRange = {555},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[15] = {
+		id = 92,
+		level = 15,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {556},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[16] = {
+		id = 92,
+		level = 16,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=160,consume = true},},
+		actRange = {557},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[17] = {
+		id = 92,
+		level = 17,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=170,consume = true},},
+		actRange = {558},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[18] = {
+		id = 92,
+		level = 18,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=180,consume = true},},
+		actRange = {559},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[19] = {
+		id = 92,
+		level = 19,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=190,consume = true},},
+		actRange = {560},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+	[20] = {
+		id = 92,
+		level = 20,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {561},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz8",
+	},
+},
+[93] = {
+	[1] = {
+		id = 93,
+		level = 1,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=30,consume = true},},
+		actRange = {562},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[2] = {
+		id = 93,
+		level = 2,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {563},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[3] = {
+		id = 93,
+		level = 3,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=70,consume = true},},
+		actRange = {564},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[4] = {
+		id = 93,
+		level = 4,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=90,consume = true},},
+		actRange = {565},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[5] = {
+		id = 93,
+		level = 5,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=110,consume = true},},
+		actRange = {566},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[6] = {
+		id = 93,
+		level = 6,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=130,consume = true},},
+		actRange = {567},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[7] = {
+		id = 93,
+		level = 7,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {568},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[8] = {
+		id = 93,
+		level = 8,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=170,consume = true},},
+		actRange = {569},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[9] = {
+		id = 93,
+		level = 9,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=190,consume = true},},
+		actRange = {570},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[10] = {
+		id = 93,
+		level = 10,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=210,consume = true},},
+		actRange = {571},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[11] = {
+		id = 93,
+		level = 11,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=230,consume = true},},
+		actRange = {572},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[12] = {
+		id = 93,
+		level = 12,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=250,consume = true},},
+		actRange = {573},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[13] = {
+		id = 93,
+		level = 13,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=270,consume = true},},
+		actRange = {574},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[14] = {
+		id = 93,
+		level = 14,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=290,consume = true},},
+		actRange = {575},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[15] = {
+		id = 93,
+		level = 15,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=310,consume = true},},
+		actRange = {576},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[16] = {
+		id = 93,
+		level = 16,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=330,consume = true},},
+		actRange = {577},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[17] = {
+		id = 93,
+		level = 17,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=350,consume = true},},
+		actRange = {578},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[18] = {
+		id = 93,
+		level = 18,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=370,consume = true},},
+		actRange = {579},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[19] = {
+		id = 93,
+		level = 19,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=390,consume = true},},
+		actRange = {580},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+	[20] = {
+		id = 93,
+		level = 20,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=410,consume = true},},
+		actRange = {581},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz7",
+	},
+},
+[94] = {
+	[1] = {
+		id = 94,
+		level = 1,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=30,consume = true},},
+		actRange = {582},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[2] = {
+		id = 94,
+		level = 2,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {583},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[3] = {
+		id = 94,
+		level = 3,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=70,consume = true},},
+		actRange = {584},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[4] = {
+		id = 94,
+		level = 4,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=90,consume = true},},
+		actRange = {585},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[5] = {
+		id = 94,
+		level = 5,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=110,consume = true},},
+		actRange = {586},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[6] = {
+		id = 94,
+		level = 6,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=130,consume = true},},
+		actRange = {587},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[7] = {
+		id = 94,
+		level = 7,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {588},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[8] = {
+		id = 94,
+		level = 8,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=170,consume = true},},
+		actRange = {589},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[9] = {
+		id = 94,
+		level = 9,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=190,consume = true},},
+		actRange = {590},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[10] = {
+		id = 94,
+		level = 10,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=210,consume = true},},
+		actRange = {591},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[11] = {
+		id = 94,
+		level = 11,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=230,consume = true},},
+		actRange = {592},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[12] = {
+		id = 94,
+		level = 12,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=250,consume = true},},
+		actRange = {593},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[13] = {
+		id = 94,
+		level = 13,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=270,consume = true},},
+		actRange = {594},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[14] = {
+		id = 94,
+		level = 14,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=290,consume = true},},
+		actRange = {595},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[15] = {
+		id = 94,
+		level = 15,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=310,consume = true},},
+		actRange = {596},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[16] = {
+		id = 94,
+		level = 16,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=330,consume = true},},
+		actRange = {597},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[17] = {
+		id = 94,
+		level = 17,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=350,consume = true},},
+		actRange = {598},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[18] = {
+		id = 94,
+		level = 18,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=370,consume = true},},
+		actRange = {599},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[19] = {
+		id = 94,
+		level = 19,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=390,consume = true},},
+		actRange = {600},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+	[20] = {
+		id = 94,
+		level = 20,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=410,consume = true},},
+		actRange = {601},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz6",
+	},
+},
+[95] = {
+	[1] = {
+		id = 95,
+		level = 1,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=10,consume = true},},
+		actRange = {702},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[2] = {
+		id = 95,
+		level = 2,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=20,consume = true},},
+		actRange = {703},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[3] = {
+		id = 95,
+		level = 3,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=30,consume = true},},
+		actRange = {704},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[4] = {
+		id = 95,
+		level = 4,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=40,consume = true},},
+		actRange = {705},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[5] = {
+		id = 95,
+		level = 5,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {706},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[6] = {
+		id = 95,
+		level = 6,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=60,consume = true},},
+		actRange = {707},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[7] = {
+		id = 95,
+		level = 7,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=70,consume = true},},
+		actRange = {708},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[8] = {
+		id = 95,
+		level = 8,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=80,consume = true},},
+		actRange = {709},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[9] = {
+		id = 95,
+		level = 9,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=90,consume = true},},
+		actRange = {710},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[10] = {
+		id = 95,
+		level = 10,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {711},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[11] = {
+		id = 95,
+		level = 11,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=110,consume = true},},
+		actRange = {712},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[12] = {
+		id = 95,
+		level = 12,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=120,consume = true},},
+		actRange = {713},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[13] = {
+		id = 95,
+		level = 13,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=130,consume = true},},
+		actRange = {714},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[14] = {
+		id = 95,
+		level = 14,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=140,consume = true},},
+		actRange = {715},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[15] = {
+		id = 95,
+		level = 15,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {716},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[16] = {
+		id = 95,
+		level = 16,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=160,consume = true},},
+		actRange = {717},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[17] = {
+		id = 95,
+		level = 17,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=170,consume = true},},
+		actRange = {718},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[18] = {
+		id = 95,
+		level = 18,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=180,consume = true},},
+		actRange = {719},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[19] = {
+		id = 95,
+		level = 19,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=190,consume = true},},
+		actRange = {720},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+	[20] = {
+		id = 95,
+		level = 20,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {721},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz3",
+	},
+},
+[96] = {
+	[1] = {
+		id = 96,
+		level = 1,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=10,consume = true},},
+		actRange = {722},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[2] = {
+		id = 96,
+		level = 2,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=20,consume = true},},
+		actRange = {723},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[3] = {
+		id = 96,
+		level = 3,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=30,consume = true},},
+		actRange = {724},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[4] = {
+		id = 96,
+		level = 4,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=40,consume = true},},
+		actRange = {725},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[5] = {
+		id = 96,
+		level = 5,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {726},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[6] = {
+		id = 96,
+		level = 6,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=60,consume = true},},
+		actRange = {727},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[7] = {
+		id = 96,
+		level = 7,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=70,consume = true},},
+		actRange = {728},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[8] = {
+		id = 96,
+		level = 8,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=80,consume = true},},
+		actRange = {729},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[9] = {
+		id = 96,
+		level = 9,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=90,consume = true},},
+		actRange = {730},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[10] = {
+		id = 96,
+		level = 10,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {731},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[11] = {
+		id = 96,
+		level = 11,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=110,consume = true},},
+		actRange = {732},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[12] = {
+		id = 96,
+		level = 12,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=120,consume = true},},
+		actRange = {733},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[13] = {
+		id = 96,
+		level = 13,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=130,consume = true},},
+		actRange = {734},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[14] = {
+		id = 96,
+		level = 14,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=140,consume = true},},
+		actRange = {735},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[15] = {
+		id = 96,
+		level = 15,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {736},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[16] = {
+		id = 96,
+		level = 16,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=160,consume = true},},
+		actRange = {737},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[17] = {
+		id = 96,
+		level = 17,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=170,consume = true},},
+		actRange = {738},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[18] = {
+		id = 96,
+		level = 18,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=180,consume = true},},
+		actRange = {739},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[19] = {
+		id = 96,
+		level = 19,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=190,consume = true},},
+		actRange = {740},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+	[20] = {
+		id = 96,
+		level = 20,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {741},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz5",
+	},
+},
+[97] = {
+	[1] = {
+		id = 97,
+		level = 1,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=30,consume = true},},
+		actRange = {742},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[2] = {
+		id = 97,
+		level = 2,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {743},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[3] = {
+		id = 97,
+		level = 3,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=70,consume = true},},
+		actRange = {744},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[4] = {
+		id = 97,
+		level = 4,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=90,consume = true},},
+		actRange = {745},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[5] = {
+		id = 97,
+		level = 5,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=110,consume = true},},
+		actRange = {746},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[6] = {
+		id = 97,
+		level = 6,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=130,consume = true},},
+		actRange = {747},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[7] = {
+		id = 97,
+		level = 7,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {748},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[8] = {
+		id = 97,
+		level = 8,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=170,consume = true},},
+		actRange = {749},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[9] = {
+		id = 97,
+		level = 9,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=190,consume = true},},
+		actRange = {750},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[10] = {
+		id = 97,
+		level = 10,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=210,consume = true},},
+		actRange = {751},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[11] = {
+		id = 97,
+		level = 11,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=230,consume = true},},
+		actRange = {752},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[12] = {
+		id = 97,
+		level = 12,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=250,consume = true},},
+		actRange = {753},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[13] = {
+		id = 97,
+		level = 13,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=270,consume = true},},
+		actRange = {754},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[14] = {
+		id = 97,
+		level = 14,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=290,consume = true},},
+		actRange = {755},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[15] = {
+		id = 97,
+		level = 15,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=310,consume = true},},
+		actRange = {756},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[16] = {
+		id = 97,
+		level = 16,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=330,consume = true},},
+		actRange = {757},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[17] = {
+		id = 97,
+		level = 17,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=350,consume = true},},
+		actRange = {758},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[18] = {
+		id = 97,
+		level = 18,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=370,consume = true},},
+		actRange = {759},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[19] = {
+		id = 97,
+		level = 19,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=390,consume = true},},
+		actRange = {760},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+	[20] = {
+		id = 97,
+		level = 20,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=410,consume = true},},
+		actRange = {761},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz4",
+	},
+},
+[98] = {
+	[1] = {
+		id = 98,
+		level = 1,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=10,consume = true},},
+		actRange = {762},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[2] = {
+		id = 98,
+		level = 2,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=20,consume = true},},
+		actRange = {763},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[3] = {
+		id = 98,
+		level = 3,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=30,consume = true},},
+		actRange = {764},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[4] = {
+		id = 98,
+		level = 4,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=40,consume = true},},
+		actRange = {765},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[5] = {
+		id = 98,
+		level = 5,
+		upgradeConds = {{cond=6,value=7,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {766},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[6] = {
+		id = 98,
+		level = 6,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=60,consume = true},},
+		actRange = {767},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[7] = {
+		id = 98,
+		level = 7,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=70,consume = true},},
+		actRange = {768},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[8] = {
+		id = 98,
+		level = 8,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=80,consume = true},},
+		actRange = {769},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[9] = {
+		id = 98,
+		level = 9,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=90,consume = true},},
+		actRange = {770},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[10] = {
+		id = 98,
+		level = 10,
+		upgradeConds = {{cond=6,value=12,consume = false},{cond=3,value=265,count=100,consume = true},},
+		actRange = {771},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[11] = {
+		id = 98,
+		level = 11,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=110,consume = true},},
+		actRange = {772},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[12] = {
+		id = 98,
+		level = 12,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=120,consume = true},},
+		actRange = {773},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[13] = {
+		id = 98,
+		level = 13,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=130,consume = true},},
+		actRange = {774},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[14] = {
+		id = 98,
+		level = 14,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=140,consume = true},},
+		actRange = {775},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[15] = {
+		id = 98,
+		level = 15,
+		upgradeConds = {{cond=6,value=18,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {776},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[16] = {
+		id = 98,
+		level = 16,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=160,consume = true},},
+		actRange = {777},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[17] = {
+		id = 98,
+		level = 17,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=170,consume = true},},
+		actRange = {778},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[18] = {
+		id = 98,
+		level = 18,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=180,consume = true},},
+		actRange = {779},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[19] = {
+		id = 98,
+		level = 19,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=190,consume = true},},
+		actRange = {780},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+	[20] = {
+		id = 98,
+		level = 20,
+		upgradeConds = {{cond=6,value=24,consume = false},{cond=3,value=265,count=200,consume = true},},
+		actRange = {781},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz1",
+	},
+},
+[99] = {
+	[1] = {
+		id = 99,
+		level = 1,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=30,consume = true},},
+		actRange = {782},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[2] = {
+		id = 99,
+		level = 2,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=50,consume = true},},
+		actRange = {783},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[3] = {
+		id = 99,
+		level = 3,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=70,consume = true},},
+		actRange = {784},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[4] = {
+		id = 99,
+		level = 4,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=90,consume = true},},
+		actRange = {785},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[5] = {
+		id = 99,
+		level = 5,
+		upgradeConds = {{cond=6,value=19,consume = false},{cond=3,value=265,count=110,consume = true},},
+		actRange = {786},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[6] = {
+		id = 99,
+		level = 6,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=130,consume = true},},
+		actRange = {787},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[7] = {
+		id = 99,
+		level = 7,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=150,consume = true},},
+		actRange = {788},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[8] = {
+		id = 99,
+		level = 8,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=170,consume = true},},
+		actRange = {789},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[9] = {
+		id = 99,
+		level = 9,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=190,consume = true},},
+		actRange = {790},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[10] = {
+		id = 99,
+		level = 10,
+		upgradeConds = {{cond=6,value=25,consume = false},{cond=3,value=265,count=210,consume = true},},
+		actRange = {791},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[11] = {
+		id = 99,
+		level = 11,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=230,consume = true},},
+		actRange = {792},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[12] = {
+		id = 99,
+		level = 12,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=250,consume = true},},
+		actRange = {793},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[13] = {
+		id = 99,
+		level = 13,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=270,consume = true},},
+		actRange = {794},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[14] = {
+		id = 99,
+		level = 14,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=290,consume = true},},
+		actRange = {795},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[15] = {
+		id = 99,
+		level = 15,
+		upgradeConds = {{cond=6,value=31,consume = false},{cond=3,value=265,count=310,consume = true},},
+		actRange = {796},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[16] = {
+		id = 99,
+		level = 16,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=330,consume = true},},
+		actRange = {797},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[17] = {
+		id = 99,
+		level = 17,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=350,consume = true},},
+		actRange = {798},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[18] = {
+		id = 99,
+		level = 18,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=370,consume = true},},
+		actRange = {799},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[19] = {
+		id = 99,
+		level = 19,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=390,consume = true},},
+		actRange = {800},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+	[20] = {
+		id = 99,
+		level = 20,
+		upgradeConds = {{cond=6,value=37,consume = false},{cond=3,value=265,count=410,consume = true},},
+		actRange = {801},
+		isSceneEffect = 1,
+		skillName = "skillicon2_jz2",
+	},
+},
+}

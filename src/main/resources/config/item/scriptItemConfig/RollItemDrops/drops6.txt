@@ -1,0 +1,36 @@
+--[[
+	--propability概率，概率的数字越大的话掉的物品的概率越高
+	--group是分组的id，类似怪物的爆率的配置, group为0，必出；相同group的按propability出一个
+--]]
+drops=
+{
+{ group = 0, type = 0, id = 145, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 146, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex= 0,strong = 8},
+{ group = 0, type = 0, id = 147, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex= 1,strong = 8},
+{ group = 0, type = 0, id = 148, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 149, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 150, count = 2, bind = 0, propability=1, broadcast=0, job=1,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 151, count = 2, bind = 0, propability=1, broadcast=0, job=1,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 152, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 153, count = 1, bind = 0, propability=1, broadcast=0, job=1,sex=-1,strong = 8},
+
+{ group = 0, type = 0, id = 154, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 155, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex= 0,strong = 8},
+{ group = 0, type = 0, id = 156, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex= 1,strong = 8},
+{ group = 0, type = 0, id = 157, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 158, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 159, count = 2, bind = 0, propability=1, broadcast=0, job=2,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 160, count = 2, bind = 0, propability=1, broadcast=0, job=2,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 161, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 162, count = 1, bind = 0, propability=1, broadcast=0, job=2,sex=-1,strong = 8},
+
+{ group = 0, type = 0, id = 163, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 164, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex= 0,strong = 8},
+{ group = 0, type = 0, id = 165, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex= 1,strong = 8},
+{ group = 0, type = 0, id = 166, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 167, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 168, count = 2, bind = 0, propability=1, broadcast=0, job=3,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 169, count = 2, bind = 0, propability=1, broadcast=0, job=3,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 170, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1,strong = 8},
+{ group = 0, type = 0, id = 171, count = 1, bind = 0, propability=1, broadcast=0, job=3,sex=-1,strong = 8},
+}

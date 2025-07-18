@@ -1,0 +1,37 @@
+--D-道具表配置.xlsx 装备衍生的属性加成
+EquipDeriveConfig={
+[1] = {
+	[4] = {
+		id = 1,
+		level = 4,
+		prop = {
+   {type = 9,value = 57},--最小物攻
+   {type = 11,value = 115},--最大物攻
+   {type = 13,value = 57},--最小魔攻
+   {type = 15,value = 115},--最大魔攻
+   {type = 17,value = 57},--最小道攻
+   {type = 19,value = 115},--最大道攻
+   {type = 21,value = 24},--最小物防
+   {type = 23,value = 39},--最大物防
+   {type = 25,value = 24},--最小魔防
+   {type = 27,value = 39},--最大魔防
+  },
+	},
+	[5] = {
+		id = 1,
+		level = 5,
+		prop = {
+   {type = 9,value = 75},--最小物攻
+   {type = 11,value = 150},--最大物攻
+   {type = 13,value = 75},--最小魔攻
+   {type = 15,value = 150},--最大魔攻
+   {type = 17,value = 75},--最小道攻
+   {type = 19,value = 150},--最大道攻
+   {type = 21,value = 31},--最小物防
+   {type = 23,value = 52},--最大物防
+   {type = 25,value = 31},--最小魔防
+   {type = 27,value = 52},--最大魔防
+  },
+	},
+},
+}

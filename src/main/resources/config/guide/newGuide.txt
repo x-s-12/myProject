@@ -1,0 +1,465 @@
+--#include "..\..\language\langCode.txt"
+Guide =
+{
+--guide1~guide20占用 为功能性引导(为测试引导所用的配置，sample)
+
+
+--guide21~88 为新手任务引导（至矿洞为止）
+--#include "newGuides/guide22.txt"--风幽草小飞翼
+--#include "newGuides/guide23.txt"--指引小飞翼
+--#include "newGuides/guide24.txt"--告之指引小飞翼
+--#include "newGuides/guide25.txt"--列阵指引小飞翼
+--#include "newGuides/guide26.txt"--指引VIP体验卡
+--#include "newGuides/guide27.txt"--特戒
+--#include "newGuides/guide28.txt"--特戒
+--[[
+
+
+
+
+--#include "newGuides/guide29.txt"
+--#include "newGuides/guide30.txt"
+--#include "newGuides/guide31.txt"
+--#include "newGuides/guide32.txt"
+--#include "newGuides/guide33.txt"
+--#include "newGuides/guide34.txt"
+--#include "newGuides/guide35.txt"
+--#include "newGuides/guide36.txt"
+--#include "newGuides/guide37.txt"
+--#include "newGuides/guide38.txt"
+--#include "newGuides/guide39.txt"
+--#include "newGuides/guide40.txt"
+--#include "newGuides/guide41.txt"
+--#include "newGuides/guide42.txt"
+--#include "newGuides/guide43.txt"
+--#include "newGuides/guide44.txt"
+--#include "newGuides/guide45.txt"
+--#include "newGuides/guide46.txt"
+--#include "newGuides/guide47.txt"
+--#include "newGuides/guide48.txt"
+--#include "newGuides/guide49.txt"
+--#include "newGuides/guide50.txt"
+--#include "newGuides/guide51.txt"
+--#include "newGuides/guide52.txt"
+--#include "newGuides/guide53.txt"
+--#include "newGuides/guide54.txt"
+--#include "newGuides/guide55.txt"
+--#include "newGuides/guide56.txt"
+--#include "newGuides/guide57.txt"
+--#include "newGuides/guide58.txt"
+--#include "newGuides/guide59.txt"
+--#include "newGuides/guide60.txt"
+--#include "newGuides/guide61.txt"
+--#include "newGuides/guide62.txt"
+--#include "newGuides/guide63.txt"
+--#include "newGuides/guide64.txt"
+--#include "newGuides/guide65.txt"
+--#include "newGuides/guide66.txt"
+--#include "newGuides/guide67.txt"
+--#include "newGuides/guide68.txt"
+--#include "newGuides/guide69.txt"
+--#include "newGuides/guide70.txt"
+--#include "newGuides/guide71.txt"
+--#include "newGuides/guide72.txt"
+--#include "newGuides/guide73.txt"
+--#include "newGuides/guide74.txt"
+--#include "newGuides/guide75.txt"
+--#include "newGuides/guide76.txt"
+--#include "newGuides/guide77.txt"
+--#include "newGuides/guide78.txt"
+--#include "newGuides/guide79.txt"
+--#include "newGuides/guide80.txt"
+--#include "newGuides/guide81.txt"
+--#include "newGuides/guide82.txt"
+--#include "newGuides/guide83.txt"
+--#include "newGuides/guide84.txt"
+--#include "newGuides/guide85.txt"
+--#include "newGuides/guide86.txt"
+--#include "newGuides/guide87.txt"
+--#include "newGuides/guide88.txt"
+
+
+--#include "newGuides/guide89.txt"
+--#include "newGuides/guide90.txt"
+--#include "newGuides/guide91.txt"
+--#include "newGuides/guide92.txt"
+
+
+--#include "newGuides/guide93.txt"
+--#include "newGuides/guide94.txt"
+--#include "newGuides/guide95.txt"
+--#include "newGuides/guide96.txt"
+--#include "newGuides/guide97.txt"
+--#include "newGuides/guide98.txt"
+--#include "newGuides/guide99.txt"
+
+
+--#include "newGuides/guide100.txt"
+--#include "newGuides/guide101.txt"
+
+
+--#include "newGuides/guide102.txt"
+--#include "newGuides/guide103.txt"
+--#include "newGuides/guide104.txt"
+--#include "newGuides/guide105.txt"
+--#include "newGuides/guide106.txt"
+--#include "newGuides/guide107.txt"
+--#include "newGuides/guide108.txt"
+--#include "newGuides/guide109.txt"
+--#include "newGuides/guide110.txt"
+--#include "newGuides/guide111.txt"
+--#include "newGuides/guide112.txt"
+--#include "newGuides/guide113.txt"
+--#include "newGuides/guide114.txt"
+--#include "newGuides/guide115.txt"
+--#include "newGuides/guide116.txt"
+--#include "newGuides/guide117.txt"
+--#include "newGuides/guide118.txt"
+--#include "newGuides/guide119.txt"
+--#include "newGuides/guide120.txt"
+
+--#include "newGuides/guide121.txt"
+
+--#include "newGuides/guide122.txt"
+--#include "newGuides/guide123.txt"
+
+--#include "newGuides/guide124.txt"
+--#include "newGuides/guide125.txt"	--天外之地（64）速传
+
+
+
+--#include "newGuides/guide126.txt"
+--#include "newGuides/guide127.txt"	--指引使用百年雪莲
+--#include "newGuides/guide128.txt"	--指引使用百年人参
+
+--#include "newGuides/guide129.txt"	--挖矿指引
+--#include "newGuides/guide130.txt"
+
+--#include "newGuides/guide131.txt"
+--#include "newGuides/guide132.txt"
+--#include "newGuides/guide133.txt"	--天书任务指引（86）
+
+--#include "newGuides/guide134.txt"
+--#include "newGuides/guide135.txt"
+--#include "newGuides/guide136.txt"
+--#include "newGuides/guide137.txt"
+--#include "newGuides/guide138.txt"
+--#include "newGuides/guide139.txt"	--体验经验玉指引
+--#include "newGuides/guide140.txt"
+
+--#include "newGuides/guide141.txt"
+--#include "newGuides/guide142.txt"
+--#include "newGuides/guide143.txt"
+--#include "newGuides/guide144.txt"
+--#include "newGuides/guide145.txt"
+--#include "newGuides/guide146.txt"--使用坐骑进阶丹
+--#include "newGuides/guide147.txt"--指引使用战神油
+--#include "newGuides/guide148.txt"--速传 执意（31）
+--#include "newGuides/guide149.txt"--速传 引见（67）
+--#include "newGuides/guide150.txt"--引见 领取双倍（67）
+--#include "newGuides/guide151.txt"
+
+--#include "newGuides/guide152.txt"
+--#include "newGuides/guide153.txt"
+--#include "newGuides/guide154.txt"--枯青散人 速传
+--#include "newGuides/guide155.txt"--北冥真人 速传
+--#include "newGuides/guide156.txt"
+
+--#include "newGuides/guide157.txt"
+--#include "newGuides/guide158.txt"
+
+--#include "newGuides/guide159.txt"
+
+
+--#include "newGuides/guide160.txt"
+--#include "newGuides/guide161.txt"
+--#include "newGuides/guide162.txt"
+--#include "newGuides/guide163.txt"
+--#include "newGuides/guide164.txt"
+--#include "newGuides/guide165.txt"--美女护送刷新
+--#include "newGuides/guide166.txt"--美女护送接任务
+--#include "newGuides/guide167.txt"
+--#include "newGuides/guide168.txt"
+--#include "newGuides/guide169.txt"
+--#include "newGuides/guide170.txt"
+--#include "newGuides/guide171.txt"
+--#include "newGuides/guide172.txt"
+--#include "newGuides/guide173.txt"
+--#include "newGuides/guide174.txt"
+--#include "newGuides/guide175.txt"
+--#include "newGuides/guide176.txt"
+--#include "newGuides/guide177.txt"
+--#include "newGuides/guide178.txt"
+--#include "newGuides/guide186.txt"--八戒大师 速传
+--#include "newGuides/guide187.txt"--伊智探 速传
+--#include "newGuides/guide188.txt"--当今之世 速传
+--#include "newGuides/guide189.txt"--杜至尚 速传
+--#include "newGuides/guide190.txt"--历史 速传
+--#include "newGuides/guide191.txt"--重任 速传
+--#include "newGuides/guide192.txt"--分头行事 速传
+--#include "newGuides/guide193.txt"--大乱 速传
+--#include "newGuides/guide194.txt"--命令 速传
+--#include "newGuides/guide195.txt"--聚集 速传
+--#include "newGuides/guide196.txt"--摇光 速传
+--#include "newGuides/guide197.txt"--重任 速传
+--#include "newGuides/guide198.txt"--神秘老人 速传
+----#include "newGuides/guide199.txt"--自动战斗 快捷 指引 data0
+----#include "newGuides/guide200.txt"--比骑任务 速传
+----#include "newGuides/guide201.txt"
+----#include "newGuides/guide202.txt"--个人BOSS副本 快捷 指引 data2
+----#include "newGuides/guide203.txt"
+----#include "newGuides/guide204.txt"
+----#include "newGuides/guide205.txt"--合成装备 快捷指引 data3
+----#include "newGuides/guide206.txt"--合成装备 快捷指引 data3
+----#include "newGuides/guide207.txt"--合成装备 快捷指引 data3
+----#include "newGuides/guide208.txt"--拜师 快捷指引 data4
+----#include "newGuides/guide209.txt"--收徒 快捷指引 data5
+----#include "newGuides/guide210.txt"--指引召唤美女打手
+----#include "newGuides/guide211.txt"--组队 快捷键指引 data6
+----#include "newGuides/guide212.txt"--组队 快捷键指引 data6
+----#include "newGuides/guide213.txt"--组队 快捷键指引 data6
+----#include "newGuides/guide214.txt"--组队 快捷键指引 data6
+--#include "newGuides/guide215.txt"--挖矿指引
+--#include "newGuides/guide216.txt"--指引召唤美女打手
+----#include "newGuides/guide217.txt"--个人副本 指引
+----#include "newGuides/guide218.txt"--悬赏任务 快捷键指引 data7
+----#include "newGuides/guide219.txt"--主线比骑任务指引
+----#include "newGuides/guide220.txt"--魂石指引
+----#include "newGuides/guide221.txt"--空格键快捷指引data8
+----#include "newGuides/guide222.txt"--坐骑提升
+----#include "newGuides/guide223.txt"--空格键快捷指引data8
+----#include "newGuides/guide224.txt"--空格键快捷指引data8
+----#include "newGuides/guide225.txt"--指引挂机
+----#include "newGuides/guide226.txt"--指引挂机
+----#include "newGuides/guide227.txt"--指引挂机
+----#include "newGuides/guide228.txt"--指引交比奇任务
+----#include "newGuides/guide229.txt"
+----#include "newGuides/guide230.txt"
+----#include "newGuides/guide231.txt"
+----#include "newGuides/guide232.txt"
+----#include "newGuides/guide233.txt"
+----#include "newGuides/guide234.txt"
+----#include "newGuides/guide235.txt"
+----#include "newGuides/guide236.txt"--坐骑快捷指引
+----#include "newGuides/guide237.txt"--BOSS快捷指引
+----#include "newGuides/guide238.txt"--拜师	--屏蔽师徒系统
+----#include "newGuides/guide239.txt"--收徒	--屏蔽师徒系统
+--#include "newGuides/guide240.txt"--探索副本
+--#include "newGuides/guide241.txt"
+--#include "newGuides/guide242.txt"
+--#include "newGuides/guide243.txt"
+--#include "newGuides/guide244.txt"
+--#include "newGuides/guide245.txt"
+--#include "newGuides/guide246.txt"
+--#include "newGuides/guide247.txt"
+--#include "newGuides/guide248.txt"
+--#include "newGuides/guide249.txt"
+--#include "newGuides/guide250.txt"
+--#include "newGuides/guide251.txt"
+--#include "newGuides/guide252.txt"
+--#include "newGuides/guide253.txt"
+--#include "newGuides/guide254.txt"
+--#include "newGuides/guide255.txt"
+--#include "newGuides/guide256.txt"
+--#include "newGuides/guide257.txt"
+--#include "newGuides/guide258.txt"
+--#include "newGuides/guide259.txt"
+--#include "newGuides/guide260.txt"
+--#include "newGuides/guide261.txt"
+--#include "newGuides/guide262.txt"
+--#include "newGuides/guide263.txt"
+--#include "newGuides/guide264.txt"
+--#include "newGuides/guide265.txt"
+--#include "newGuides/guide266.txt"
+--#include "newGuides/guide267.txt"
+--#include "newGuides/guide268.txt"
+--#include "newGuides/guide269.txt"
+--#include "newGuides/guide270.txt"
+--#include "newGuides/guide271.txt"
+--#include "newGuides/guide272.txt"
+--#include "newGuides/guide273.txt"
+--#include "newGuides/guide274.txt"
+--#include "newGuides/guide275.txt"
+--#include "newGuides/guide276.txt"--回复 零 速传
+--#include "newGuides/guide277.txt"--护送美女完成指引交任务
+--#include "newGuides/guide278.txt"--美女护送指引接任务 主线
+--#include "newGuides/guide279.txt"--比奇任务指引接任务 主线
+----#include "newGuides/guide280.txt"--美女护送指引 护送到达按钮
+----#include "newGuides/guide281.txt"--组队 快捷键 指引 data9
+--#include "newGuides/guide282.txt"--组队 快捷键 指引 data9
+--#include "newGuides/guide283.txt"--武魂指引
+--#include "newGuides/guide284.txt"
+--#include "newGuides/guide285.txt"
+--#include "newGuides/guide286.txt"
+--#include "newGuides/guide287.txt"
+--#include "newGuides/guide288.txt"
+--#include "newGuides/guide289.txt"
+--#include "newGuides/guide290.txt"
+--#include "newGuides/guide291.txt"
+--#include "newGuides/guide292.txt"
+--#include "newGuides/guide293.txt"
+--#include "newGuides/guide294.txt"
+--#include "newGuides/guide295.txt"
+--#include "newGuides/guide296.txt"
+--#include "newGuides/guide297.txt"
+--#include "newGuides/guide298.txt"
+--#include "newGuides/guide299.txt"
+--#include "newGuides/guide300.txt"
+--#include "newGuides/guide301.txt"
+--#include "newGuides/guide302.txt"
+--#include "newGuides/guide303.txt"
+--#include "newGuides/guide304.txt"
+--#include "newGuides/guide305.txt"
+--#include "newGuides/guide306.txt"
+--#include "newGuides/guide307.txt"
+--#include "newGuides/guide308.txt"
+--#include "newGuides/guide309.txt"
+--#include "newGuides/guide310.txt"
+--#include "newGuides/guide311.txt"
+--#include "newGuides/guide312.txt"
+--#include "newGuides/guide313.txt"
+--#include "newGuides/guide314.txt"
+--#include "newGuides/guide315.txt"
+--#include "newGuides/guide316.txt"
+--#include "newGuides/guide317.txt"
+--#include "newGuides/guide318.txt"
+--#include "newGuides/guide319.txt"
+--#include "newGuides/guide320.txt"
+--#include "newGuides/guide321.txt"
+--#include "newGuides/guide322.txt"
+--#include "newGuides/guide323.txt"
+--#include "newGuides/guide324.txt"
+--#include "newGuides/guide325.txt"
+--#include "newGuides/guide326.txt"
+--#include "newGuides/guide327.txt"
+--#include "newGuides/guide328.txt"
+--#include "newGuides/guide329.txt"
+--#include "newGuides/guide330.txt"
+--#include "newGuides/guide331.txt"
+----#include "newGuides/guide332.txt"
+--#include "newGuides/guide333.txt"--玉石指引
+----#include "newGuides/guide334.txt"--使用怒气丹
+--#include "newGuides/guide335.txt"--烈火斗神
+--#include "newGuides/guide336.txt"--寻宝令牌
+--#include "newGuides/guide337.txt"--10万经验
+--#include "newGuides/guide338.txt"--战士强化
+--#include "newGuides/guide339.txt"--法师强化
+--#include "newGuides/guide340.txt"--道士强化
+--#include "newGuides/guide341.txt"--战士鉴定
+--#include "newGuides/guide342.txt"--法师鉴定
+--#include "newGuides/guide343.txt"--道士鉴定
+--#include "newGuides/guide344.txt"--讨伐BOSS
+--#include "newGuides/guide345.txt"--装备熔炉
+--#include "newGuides/guide346.txt"--天兵神器
+--#include "newGuides/guide347.txt"--必杀技指引
+--#include "newGuides/guide348.txt"--必杀技指引
+--#include "newGuides/guide349.txt"--坐骑丹再指引
+--#include "newGuides/guide350.txt"--装备熔炉再指引
+----#include "newGuides/guide351.txt"--指引挂机
+----#include "newGuides/guide352.txt"--指引挂机
+----#include "newGuides/guide353.txt"--指引挂机
+--#include "newGuides/guide354.txt"--千年人参
+--#include "newGuides/guide355.txt"--千年雪莲
+--#include "newGuides/guide356.txt"--30万经验
+--#include "newGuides/guide357.txt"--战章指引
+--#include "newGuides/guide358.txt"--指引魂石
+--#include "newGuides/guide359.txt"--指引使用战神油
+--#include "newGuides/guide360.txt"--指引使用功勋
+--#include "newGuides/guide361.txt"--任务装备熔炉
+--#include "newGuides/guide362.txt"--任务装备熔炉
+--#include "newGuides/guide363.txt"--73接任务
+--#include "newGuides/guide364.txt"--73交任务
+--#include "newGuides/guide365.txt"--强化指向导航
+--#include "newGuides/guide366.txt"--体验VIP副本
+--#include "newGuides/guide367.txt"--伏魔任务指向小飞翼
+--#include "newGuides/guide368.txt"--护送美女前指向小飞翼
+--#include "newGuides/guide369.txt"
+--#include "newGuides/guide370.txt"
+--#include "newGuides/guide371.txt"
+--#include "newGuides/guide372.txt"
+--#include "newGuides/guide373.txt"
+--#include "newGuides/guide374.txt"
+--#include "newGuides/guide375.txt"
+--#include "newGuides/guide376.txt"
+--#include "newGuides/guide377.txt"
+--#include "newGuides/guide378.txt"
+--#include "newGuides/guide379.txt"
+--#include "newGuides/guide380.txt"
+--#include "newGuides/guide381.txt"
+--#include "newGuides/guide382.txt"
+--#include "newGuides/guide383.txt"
+--#include "newGuides/guide384.txt"
+--#include "newGuides/guide385.txt"
+--#include "newGuides/guide386.txt"
+--#include "newGuides/guide387.txt"
+--#include "newGuides/guide388.txt"
+--#include "newGuides/guide389.txt"
+--#include "newGuides/guide390.txt"
+--#include "newGuides/guide391.txt"
+--#include "newGuides/guide392.txt"
+--#include "newGuides/guide393.txt"
+--#include "newGuides/guide394.txt"
+--#include "newGuides/guide395.txt"
+--#include "newGuides/guide396.txt"
+--#include "newGuides/guide397.txt"
+--#include "newGuides/guide398.txt"
+--#include "newGuides/guide399.txt"
+--#include "newGuides/guide400.txt"
+--#include "newGuides/guide401.txt"
+--#include "newGuides/guide402.txt"
+--#include "newGuides/guide403.txt"
+--#include "newGuides/guide404.txt"
+--#include "newGuides/guide405.txt"
+--#include "newGuides/guide406.txt"
+--#include "newGuides/guide407.txt"
+--#include "newGuides/guide408.txt"
+--#include "newGuides/guide409.txt"
+--#include "newGuides/guide410.txt"
+--#include "newGuides/guide411.txt"
+--#include "newGuides/guide412.txt"
+--#include "newGuides/guide413.txt"
+--#include "newGuides/guide414.txt"
+--#include "newGuides/guide415.txt"
+--#include "newGuides/guide416.txt"
+--#include "newGuides/guide417.txt"
+--#include "newGuides/guide418.txt"
+--#include "newGuides/guide419.txt"
+--#include "newGuides/guide420.txt"
+--#include "newGuides/guide421.txt"
+--#include "newGuides/guide422.txt"
+--#include "newGuides/guide423.txt"
+--#include "newGuides/guide424.txt"
+--#include "newGuides/guide425.txt"
+--#include "newGuides/guide426.txt"
+--#include "newGuides/guide427.txt"
+--#include "newGuides/guide428.txt"   --五行启灵石指引
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--#include "newGuides/guide179.txt"   --雪莲指引
+--#include "newGuides/guide180.txt"   --人参指引
+
+--#include "newGuides/guide181.txt" --飞天鞋指引
+--#include "newGuides/guide182.txt"
+--#include "newGuides/guide183.txt"
+
+--#include "newGuides/guide184.txt"  --电影之后指引点NPC
+--#include "newGuides/guide185.txt"  --护送美女速传
+]]--
+
+}
+

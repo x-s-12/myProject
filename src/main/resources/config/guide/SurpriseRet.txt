@@ -1,0 +1,1324 @@
+
+
+--惊喜回馈 （通过后台开启）
+SurpriseRet =
+{
+	--[[奖励库
+	{
+		id = 1,				--id标识 这个也是客户端按钮ID 需要通知客户端添加
+
+		goalCount = 2000,		--目标元宝数
+		awardItemId = 995,			--礼包ID：充值后获得的礼包id，固定获得1个
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type = 0, id = 971, count = 1},	--此处配置的主要为显示在面板中的数量
+			{type = 0, id = 1044, count = 5},
+			{type = 0, id = 731, count = 10},
+			{type = 0, id = 918, count = 1},
+			{type = 0, id = 626, count = 5},
+			{type = 0, id = 383, count = 5},
+			{type = 0, id = 379, count = 10},
+
+
+		},
+	},
+	]]
+			--惊喜回馈 方案1：装备1
+	{
+		id = 1,				--id标识
+
+		goalCount = 888,		--目标元宝数
+		awardItemId = 483,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2055, count = 5},
+			{type =0, id = 278, count = 10},
+
+
+
+		},
+	},
+			--惊喜回馈 方案2：装备2
+	{
+		id = 2,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 484,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2055, count = 10},
+			{type =0, id = 868, count = 2},
+
+			
+
+		},
+	},
+			--惊喜回馈 方案3：装备3
+	{
+		id = 3,				--id标识
+
+		goalCount = 13888,		--目标元宝数
+		awardItemId = 485,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2055, count = 20},
+			{type =0, id = 1064, count = 1},
+			{type =0, id = 275, count = 50},
+
+
+
+		},
+	},
+			--惊喜回馈 方案4：装备4
+	{
+		id = 4,				--id标识
+
+		goalCount = 28888,		--目标元宝数
+		awardItemId = 486,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2055, count = 40},
+			{type =0, id = 1031, count = 1},
+			{type =0, id = 1172, count = 100},
+
+
+		},
+	},
+			--惊喜回馈 方案5：经验1
+	{
+		id = 5,				--id标识
+
+		goalCount = 888,		--目标元宝数
+		awardItemId = 533,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 333, count = 2},
+			{type =0, id = 331, count = 3},
+
+
+
+		},
+	},
+			--惊喜回馈 方案6：经验2
+	{
+		id = 6,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 534,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 334, count = 2},
+			{type =0, id = 331, count = 3},
+			{type =0, id = 2060, count = 5},
+
+
+		},
+	},
+			--惊喜回馈 方案7：经验3
+	{
+		id = 7,				--id标识
+
+		goalCount = 13888,		--目标元宝数
+		awardItemId = 535,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 922, count = 2},
+			{type =0, id = 331, count = 3},
+			{type =0, id = 2061, count = 5},
+
+
+		},
+	},
+			--惊喜回馈 方案8：经验4
+	{
+		id = 8,				--id标识
+
+		goalCount = 28888,		--目标元宝数
+		awardItemId = 536,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1048, count = 2},
+			{type =0, id = 627, count = 2},
+			{type =0, id = 2061, count = 5},
+
+
+		},
+	},
+			--惊喜回馈 方案9：坐骑1
+	{
+		id = 9,				--id标识
+
+		goalCount = 888,		--目标元宝数
+		awardItemId = 537,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 731, count = 15},
+			{type =0, id = 868, count = 2},
+
+		},
+	},
+			--惊喜回馈 方案10：坐骑2
+	{
+		id = 10,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 538,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 731, count = 30},
+			{type =0, id = 2204, count = 10},
+
+		},
+	},
+			--惊喜回馈 方案11：坐骑3
+	{
+		id = 11,				--id标识
+
+		goalCount = 13888,		--目标元宝数
+		awardItemId = 539,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 731, count = 50},
+			{type =0, id = 2017, count = 1},
+			{type =0, id = 2021, count = 1},
+			{type =0, id = 2025, count = 1},
+			{type =0, id = 2029, count = 1},
+
+		},
+	},
+			--惊喜回馈 方案12：坐骑4
+	{
+		id = 12,				--id标识
+
+		goalCount = 28888,		--目标元宝数
+		awardItemId = 530,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 731, count = 100},
+			{type =0, id = 272, count = 25},
+			{type =0, id = 2204, count = 30},
+			{type =0, id = 959, count = 1},
+
+		},
+	},
+			--惊喜回馈 方案13：灵石1
+	{
+		id = 13,				--id标识
+
+		goalCount = 888,		--目标元宝数
+		awardItemId = 526,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1155, count = 2},
+			{type =0, id = 797, count = 2},
+			{type =0, id = 777, count = 2},
+
+		},
+	},
+			--惊喜回馈 方案14：灵石2
+	{
+		id = 14,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 527,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1156, count = 2},
+			{type =0, id = 798, count = 3},
+			{type =0, id = 778, count = 3},
+
+		},
+	},
+			--惊喜回馈 方案15：灵石3
+	{
+		id = 15,				--id标识
+
+		goalCount = 13888,		--目标元宝数
+		awardItemId = 528,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1157, count = 1},
+			{type =0, id = 799, count = 3},
+			{type =0, id = 779, count = 3},
+
+		},
+	},
+			--惊喜回馈 方案16：灵石4
+	{
+		id = 16,				--id标识
+
+		goalCount = 28888,		--目标元宝数
+		awardItemId = 529,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1158, count = 1},
+			{type =0, id = 800, count = 2},
+			{type =0, id = 780, count = 2},
+
+		},
+	},
+			--惊喜回馈 方案17：武魂炼体1
+	{
+		id = 17,				--id标识
+
+		goalCount = 888,		--目标元宝数
+		awardItemId = 522,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2205, count = 20},
+			{type =0, id = 868, count = 2},
+
+		},
+	},
+			--惊喜回馈 方案18：武魂炼体2
+	{
+		id = 18,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 523,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2205, count = 50},
+			{type =0, id = 2229, count = 5},
+			{type =0, id = 2234, count = 5},
+
+
+
+		},
+	},
+			--惊喜回馈 方案19：武魂炼体3
+
+	{
+		id = 19,				--id标识
+
+		goalCount = 13888,		--目标元宝数
+		awardItemId = 524,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2238, count = 20},
+			{type =0, id = 2229, count = 10},
+			{type =0, id = 2235, count = 5},
+
+		},
+	},
+			--惊喜回馈 方案20：武魂炼体4
+
+	{
+		id = 20,				--id标识
+
+		goalCount = 28888,		--目标元宝数
+		awardItemId = 525,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2238, count = 50},
+			{type =0, id = 2229, count = 20},
+			{type =0, id = 2236, count = 5},
+
+		},
+	},
+
+
+			--惊喜回馈 方案21：装备5
+	
+	{
+		id = 21,				--id标识
+
+		goalCount = 38888,		--目标元宝数
+		awardItemId = 857,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2055, count = 50},
+			{type =0, id = 1031, count = 1},
+			{type =0, id = 1172, count = 120},
+			{type =0, id = 1374, count = 1},
+
+		},
+	},
+
+	
+		--惊喜回馈 方案22：经验5
+	
+	{
+		id = 22,				--id标识
+
+		goalCount = 38888,		--目标元宝数
+		awardItemId = 858,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1048, count = 2},
+			{type =0, id = 627, count = 3},
+			{type =0, id = 2061, count = 5},
+			{type =0, id = 1374, count = 1},
+
+
+		},
+	},
+	
+	
+	
+	
+		--惊喜回馈 方案23：坐骑5
+	
+	{
+		id = 23,				--id标识
+
+		goalCount = 38888,		--目标元宝数
+		awardItemId = 860,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 731, count = 100},
+			{type =0, id = 272, count = 30},
+			{type =0, id = 2204, count = 40},
+			{type =0, id = 959, count = 1},
+			{type =0, id = 1374, count = 1},
+
+		},
+	},
+	
+	
+
+		--惊喜回馈 方案24：灵石5
+	
+	{
+		id = 24,				--id标识
+
+		goalCount = 38888,		--目标元宝数
+		awardItemId = 861,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1158, count = 2},
+			{type =0, id = 800, count = 2},
+			{type =0, id = 780, count = 2},
+			{type =0, id = 1374, count = 1},
+
+
+		},
+	},
+		
+	
+	
+		--惊喜回馈 方案25：武魂炼体5
+	
+	{
+		id = 25,				--id标识
+
+		goalCount = 38888,		--目标元宝数
+		awardItemId = 862,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2238, count = 50},
+			{type =0, id = 2229, count = 20},
+			{type =0, id = 2236, count = 10},
+			{type =0, id = 1374, count = 1},
+
+
+		},
+	},
+	
+	
+	
+		--惊喜回馈 方案26：五行1
+	
+	{
+		id = 26,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 1653,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1550, count = 2},
+			{type =0, id = 868, count = 2},
+
+
+
+		},
+	},
+	
+
+
+		--惊喜回馈 方案27：雷神锤1
+	
+	{
+		id = 27,				--id标识
+
+		goalCount = 12888,		--目标元宝数
+		awardItemId = 1654,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1630, count = 1},
+			{type =0, id = 868, count = 2},
+
+
+
+		},
+	},
+	
+
+
+
+		--惊喜回馈 方案28：五行2
+	
+	{
+		id = 28,				--id标识
+
+		goalCount = 13888,		--目标元宝数
+		awardItemId = 1655,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 1550, count = 4},
+			{type =0, id = 1476, count = 20},
+
+
+
+		},
+	},
+	
+
+
+
+		--惊喜回馈 方案29：五行3
+	
+	{
+		id = 29,				--id标识
+
+		goalCount = 13888,		--目标元宝数
+		awardItemId = 1656,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			{type =0, id = 2055, count = 20},
+			{type =0, id = 1031, count = 1},
+			{type =0, id = 1550, count = 2},
+
+
+		},
+	},
+	
+
+
+
+		--惊喜回馈 方案30：五行幻武新版综合
+	
+	{
+		id = 30,				--id标识
+
+		goalCount = 16888,		--目标元宝数
+		awardItemId = 1657,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+			{type =0, id = 1630, count = 1},
+			{type =0, id = 1550, count = 2},
+			{type =0, id = 2055, count = 10},
+
+		},
+	},
+		
+		--惊喜回馈 方案31：混沌精华
+	
+	{
+		id = 31,				--id标识
+
+		goalCount = 8888,		--目标元宝数
+		awardItemId = 2419,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2055, count = 20},
+{type =0, id = 2374, count = 10},
+
+
+		},
+	},	
+	
+			--惊喜回馈 方案32：完美灵石
+	
+	{
+		id = 32,				--id标识
+
+		goalCount = 28888,		--目标元宝数
+		awardItemId = 2420,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2381, count = 1},
+{type =0, id = 2356, count = 1},
+{type =0, id = 2362, count = 1},
+
+
+		},
+	},	
+	
+		--惊喜回馈 方案33：红玉石&金刚石
+	
+	{
+		id = 33,				--id标识
+
+		goalCount = 28888,		--目标元宝数
+		awardItemId = 2421,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 1172, count = 50},
+{type =0, id = 282, count = 20},
+
+
+		},
+	},		
+	
+	
+		--惊喜回馈 方案34：坐骑兽灵
+	
+	{
+		id = 34,				--id标识
+
+		goalCount = 18888,		--目标元宝数
+		awardItemId = 2422,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2204, count = 30},
+{type =0, id = 272, count = 20},
+
+
+		},
+	},		
+	
+		--惊喜回馈 方案35：转生超值
+	
+	{
+		id = 35,				--id标识
+
+		goalCount = 18888,		--目标元宝数
+		awardItemId = 2423,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2055, count = 20},
+{type =0, id = 1083, count = 5},
+{type =0, id = 659, count = 2},
+
+
+		},
+	},			
+	
+	
+	{
+		id = 36,				--id标识
+
+		goalCount = 3888,		--目标元宝数
+		awardItemId = 2700,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2553, count = 1,bind=1,},
+{type =0, id = 1500, count = 1,bind=1,},
+{type =0, id = 2269, count = 10,bind=1,},
+{type =0, id = 1501, count = 1,bind=1,},
+
+
+
+
+		},
+	},		
+	
+
+	{
+		id = 37,				--id标识
+
+		goalCount = 38888,		--目标元宝数
+		awardItemId = 2701,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2829, count = 20,bind=1,},
+{type =0, id = 2055, count = 50,bind=1,},
+{type =0, id = 660, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+
+		},
+	},	
+
+
+	{
+		id = 38,				--id标识
+
+		goalCount = 63888,		--目标元宝数
+		awardItemId = 2702,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2055, count = 200,bind=1,},
+{type =0, id = 2374, count = 50,bind=1,},
+{type =0, id = 660, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+		},
+	},	
+
+	{
+		id = 39,				--id标识
+
+		goalCount = 36888,		--目标元宝数
+		awardItemId = 2703,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 258, count = 30,bind=1,},
+{type =0, id = 918, count = 1,bind=1,},
+{type =0, id = 660, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+
+
+		},
+	},	
+	
+	{
+		id = 40,				--id标识
+
+		goalCount = 46888,		--目标元宝数
+		awardItemId = 2704,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2204, count = 100,bind=1,},
+{type =0, id = 272, count = 20,bind=1,},
+{type =0, id = 2571, count = 6,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+
+
+		},
+	},		
+	
+	{
+		id = 41,				--id标识
+
+		goalCount = 51888,		--目标元宝数
+		awardItemId = 2705,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 924, count = 6,bind=1,},
+{type =0, id = 656, count = 1,bind=1,},
+{type =0, id = 660, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+		},
+	},		
+
+
+	{
+		id = 42,				--id标识
+
+		goalCount = 26888,		--目标元宝数
+		awardItemId = 2706,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2837, count = 1,bind=1,sex=1,},
+{type =0, id = 2836, count = 1,bind=1,sex=0,},
+{type =0, id = 258, count = 10,bind=1,},
+{type =0, id = 1057, count = 1,bind=1,},
+{type =0, id = 924, count = 1,bind=1,},
+{type =0, id = 2237, count = 1,bind=1,},
+
+
+
+		},
+	},	
+
+	
+	
+	{
+		id = 43,				--id标识
+
+		goalCount = 36888,		--目标元宝数
+		awardItemId = 2789,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2668, count = 20,bind=1,},
+{type =0, id = 869, count = 1,bind=1,},
+{type =0, id = 258, count = 5,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+		},
+	},	
+
+	
+	{
+		id = 44,				--id标识
+
+		goalCount = 51888,		--目标元宝数
+		awardItemId = 2790,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2374, count = 100,bind=1,},
+{type =0, id = 2055, count = 50,bind=1,},
+{type =0, id = 660, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+
+		},
+	},
+
+
+	{
+		id = 45,				--id标识
+
+		goalCount = 58888,		--目标元宝数
+		awardItemId = 2791,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2728, count = 50,bind=1,},
+{type =0, id = 1172, count = 50,bind=1,},
+{type =0, id = 2055, count = 20,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+
+
+		},
+	},
+
+	{
+		id = 46,				--id标识
+
+		goalCount = 68888,		--目标元宝数
+		awardItemId = 2792,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2553, count = 6,bind=1,},
+{type =0, id = 1500, count = 10,bind=1,},
+{type =0, id = 1057, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+
+
+
+
+		},
+	},
+
+	{
+		id = 47,				--id标识
+
+		goalCount = 98888,		--目标元宝数
+		awardItemId = 2793,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2542, count = 3,bind=1,},
+{type =0, id = 1057, count = 1,bind=1,},
+{type =0, id = 924, count = 1,bind=1,},
+{type =0, id = 2570, count = 2,bind=1,},
+{type =0, id = 2569, count = 2,bind=1,},
+
+		},
+	},
+
+	{
+		id = 48,				--id标识
+
+		goalCount = 31888,		--目标元宝数
+		awardItemId = 2866,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 1172, count = 200,bind=1,},
+{type =0, id = 660, count = 1,bind=1,},
+{type =0, id = 654, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+		},
+	},
+
+	{
+		id = 49,				--id标识
+
+		goalCount = 16888,		--目标元宝数
+		awardItemId = 2867,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 924, count = 2,bind=1,},
+{type =0, id = 2237, count = 2,bind=1,},
+{type =0, id = 660, count = 1,bind=1,},
+{type =0, id = 654, count = 1,bind=1,},
+{type =0, id = 910, count = 3,bind=1,},
+
+		},
+	},
+	
+
+	{
+		id = 50,				--id标识
+
+		goalCount = 8888,		--目标元宝数
+		awardItemId = 2868,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2553, count = 1,bind=1,},
+{type =0, id = 1500, count = 10,bind=1,},
+{type =0, id = 659, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+		},
+	},
+
+	{
+		id = 51,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 2869,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 258, count = 10,bind=1,},
+{type =0, id = 618, count = 1,bind=1,},
+{type =0, id = 2146, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+		},
+	},
+	
+	
+	{
+		id = 52,				--id标识
+
+		goalCount = 9888,		--目标元宝数
+		awardItemId = 2870,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 1057, count = 1,bind=1,},
+{type =0, id = 2017, count = 1,bind=1,},
+{type =0, id = 2021, count = 1,bind=1,},
+{type =0, id = 2025, count = 1,bind=1,},
+{type =0, id = 2029, count = 1,bind=1,},
+
+
+		},
+	},	
+	
+	{
+		id = 53,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 2871,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2037, count = 50,bind=1,},
+{type =0, id = 2038, count = 30,bind=1,},
+{type =0, id = 618, count = 1,bind=1,},
+{type =0, id = 2146, count = 1,bind=1,},
+{type =0, id = 910, count = 3,bind=1,},
+
+
+
+		},
+	},		
+	
+	
+	{
+		id = 54,				--id标识
+
+		goalCount = 9888,		--目标元宝数
+		awardItemId = 2872,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 869, count = 1,bind=1,},
+{type =0, id = 868, count = 10,bind=1,},
+{type =0, id = 867, count = 10,bind=1,},
+{type =0, id = 618, count = 1,bind=1,},
+{type =0, id = 2146, count = 1,bind=1,},
+
+		},
+	},		
+		
+	
+	{
+		id = 55,				--id标识
+
+		goalCount = 18888,		--目标元宝数
+		awardItemId = 2873,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 924, count = 1,bind=1,},
+{type =0, id = 1057, count = 1,bind=1,},
+{type =0, id = 2236, count = 5,bind=1,},
+{type =0, id = 918, count = 1,bind=1,},
+{type =0, id = 258, count = 5,bind=1,},
+
+		},
+	},		
+
+	{
+		id = 56,				--id标识
+
+		goalCount = 8888,		--目标元宝数
+		awardItemId = 2874,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 282, count = 20,bind=1,},
+{type =0, id = 618, count = 1,bind=1,},
+{type =0, id = 2146, count = 1,bind=1,},
+{type =0, id = 2570, count = 1,bind=1,},
+{type =0, id = 2569, count = 1,bind=1,},
+
+
+		},
+	},		
+
+	{
+		id = 57,				--id标识
+
+		goalCount = 5888,		--目标元宝数
+		awardItemId = 2875,			--礼包ID
+
+		imageList =
+		{
+
+		},
+		awards =
+		{
+			
+{type =0, id = 2667, count = 20,bind=1,},
+{type =0, id = 618, count = 1,bind=1,},
+{type =0, id = 2146, count = 1,bind=1,},
+{type =0, id = 1083, count = 1,bind=1,},
+{type =0, id = 910, count = 3,bind=1,},
+
+
+		},
+	},	
+	
+	
+	
+	
+}

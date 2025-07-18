@@ -1,0 +1,399 @@
+﻿--#include "..\..\language\LangCode.txt" once
+
+WingCfg = 
+{	
+
+	ClearLv = 4,				--当翅膀=4阶后（可配），只要在0点时翅膀幸运值大于0，	
+	nMaxRand = 10000,				--概率的分母
+	directLv =					--翅膀升级时直升下一级几率
+	{
+		--1阶翅膀
+		{
+			{74, 0,},			-- (0~449	, 0%)
+			{105, 1600,},			-- (450~600	, 16%)
+			{315, 10000,},			-- (601~1050	, 100%)
+		},
+		--2阶翅膀
+		{
+			{272, 0,},			-- (0~1799	, 0%)
+			{293, 960,},			-- (1800~2400	, 9.6%)
+			{312, 1076,},			-- (2401~3120	, 10.76%)
+			{390, 1321,},			-- (3121~3510	, 13.21%)
+			{897, 10000,},			-- (3511~3900	, 100%)
+		},
+		--3阶翅膀
+		{
+			{840,0,},			-- (0~6649	, 0%)
+			{900,576,},			-- (6650~7125	, 5.76%)
+			{960,654,},			-- (7126~7600	, 6.54%)
+			{1080,814,},			-- (7601~8550	, 8.14%)
+			{1200,1099,},			-- (8551~8899	, 10.99%)
+			{2640,10000,},			-- (8900~9500	, 100%)
+		},
+		--4阶翅膀
+		{
+			{3360, 0,},			-- (0~14174	, 0%)
+			{3600, 346,},			-- (14175~15188	, 3.46%)
+			{3840, 400,},			-- (15189~16200	, 4%)
+			{4320, 510,},			-- (16201~18225	, 5.1%)
+			{4800, 703,},			-- (18226~19349	, 7.03%)
+			{9840, 10000,},		-- (19350~20250	, 100%)
+		},
+
+		--5阶翅膀
+		{
+			{10080, 0,},			-- (0~26459	, 0%)
+			{10800, 207,},			-- (26460~28350	, 2.07%)
+			{11520, 248,},			-- (28351~30240	, 2.48%)
+			{12960, 328,},			-- (30241~34020	, 3.28%)
+			{14400, 466,},			-- (34021~36539	, 4.66%)
+			{28800, 10000,},		-- (36540~37800	, 100%)
+		},
+		--6阶翅膀
+		{
+			{26880, 0,},			-- (0~47039	, 0%)
+			{28800, 124,},			-- (47040~50400	, 1.24%)
+			{30720, 157,},			-- (50401~53760	, 1.57%)
+			{34560, 218,},			-- (53761~60480	, 2.18%)
+			{38400, 324,},			-- (60481~65519	, 3.24%)
+			{72960, 10000,},		-- (65520~67200	, 100%)
+		},
+		--7阶翅膀
+		{
+			{50400, 0,},			-- (0~79379	, 0%)
+			{54000, 75,},			-- (79380~85050	, 0.75%)
+			{57600, 102,},			-- (85051~90720	, 1.02%)
+			{64800, 153,},			-- (90721~102060, 1.53%)
+			{72000, 238,},			-- (102061~111239, 2.38%)
+			{128160, 10000,},		-- (111240~113400, 100%)
+		},
+		--8阶翅膀
+		{
+			{80640, 0,},			-- (0~135449	, 0%)
+			{86400, 45,},			-- (135450~145125, 0.45%)
+			{92160, 69,},			-- (145126~154800, 0.69%)
+			{103680, 113,},			-- (154801~174150, 1.13%)
+			{115200, 187,},			-- (174151~190799, 1.87%)
+			{193556, 10000,},		-- (190800~193500, 100%)
+		},
+		--9阶翅膀
+		{
+			{123480, 0,},			-- (0~229074	, 0%)
+			{132300, 27,},			-- (229075~245438, 0.27%)
+			{141120, 50,},			-- (245439~261800, 0.50%)
+			{158760, 89,},			-- (261801~294525, 0.89%)
+			{176400, 156,},			-- (294526~323949, 1.56%)
+			{278712, 10000,},		-- (323950~327250, 100%)
+		},
+		--10阶翅膀
+		{
+			{181440, 0,},			-- (0~390389	, 0%)
+			{194400, 16,},			-- (390390~418275, 0.16%)
+			{207360, 38,},			-- (418276~446160, 0.38%)
+			{233280, 75,},			-- (446161~501930, 0.75%)
+			{259200, 138,},			-- (501931~553739, 1.38%)
+			{375840, 10000,},		-- (553740~557700, 100%)
+		},
+	},
+	
+	level = --翅膀信息
+	{
+		{
+			nModelId = 1,		--外观id
+			Rolelevel = 40,		--可激活等级
+			LuckValue = 315,	--升级翅膀最大幸运值值
+			LuckRand = {12,18},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc100,
+			desc= OldLang.Item.almirahComment100,
+			strNotice = OldLang.Item.almirahNotice001,
+		},
+		{
+			nModelId = 2,		--外观id
+			Rolelevel = 50,		--可激活等级
+			LuckValue = 897,	--升级翅膀最大幸运值值
+			LuckRand = {24,36},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc101,
+			desc= OldLang.Item.almirahComment101,
+			strNotice = OldLang.Item.almirahNotice002,
+		},
+		{
+			nModelId = 3,		--外观id
+			Rolelevel = 60,		--可激活等级
+			LuckValue = 2640,	--升级翅膀最大幸运值值
+			LuckRand = {48,72},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc102,
+			desc= OldLang.Item.almirahComment102,
+			strNotice = OldLang.Item.almirahNotice003,
+		},
+		{
+			nModelId = 4,		--外观id
+			Rolelevel = 70,		--可激活等级
+			LuckValue = 9840,	--升级翅膀最大幸运值值
+			LuckRand = {96,144},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc103,
+			desc= OldLang.Item.almirahComment103,
+			strNotice = OldLang.Item.almirahNotice004,
+		},
+		{
+			nModelId = 5,		--外观id
+			Rolelevel = 80,		--可激活等级
+			LuckValue = 28800,	--升级翅膀最大幸运值值
+			LuckRand = {144,216},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc104,
+			desc= OldLang.Item.almirahComment104,
+			strNotice = OldLang.Item.almirahNotice005,
+		},
+		{
+			nModelId = 6,		--外观id
+			Rolelevel = 90,		--可激活等级
+			LuckValue = 72960,	--升级翅膀最大幸运值值
+			LuckRand = {192,288},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc105,
+			desc= OldLang.Item.almirahComment105,
+			strNotice = OldLang.Item.almirahNotice006,
+		},
+		{
+			nModelId = 7,		--外观id
+			Rolelevel = 100,	--可激活等级
+			LuckValue = 128160,	--升级翅膀最大幸运值值
+			LuckRand = {240,360},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc106,
+			desc= OldLang.Item.almirahComment106,
+			strNotice = OldLang.Item.almirahNotice007,
+		},
+		{
+			nModelId = 8,		--外观id
+			Rolelevel = 110,	--可激活等级
+			LuckValue = 193556,	--升级翅膀最大幸运值值
+			LuckRand = {288,432},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc107,
+			desc= OldLang.Item.almirahComment107,
+			strNotice = OldLang.Item.almirahNotice008,
+		},
+		{
+			nModelId = 9,		--外观id
+			Rolelevel = 120,	--可激活等级
+			LuckValue = 278712,	--升级翅膀最大幸运值值
+			LuckRand = {336,504},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc108,
+			desc= OldLang.Item.almirahComment108,
+			strNotice = OldLang.Item.almirahNotice009,
+		},
+		{
+			nModelId = 10,		--外观id
+			Rolelevel = 130,	--可激活等级
+			LuckValue = 375840,	--升级翅膀最大幸运值值
+			LuckRand = {384,576},	--单次获得随机幸运值范围
+			Yb = 25,		--元宝替代
+			iconId=1,
+			wingsName = OldLang.Item.almirahDesc109,
+			desc= OldLang.Item.almirahComment109,
+			strNotice = OldLang.Item.almirahNotice010,
+		},
+	},
+	consumes =		--消耗【如果有同时有道具+货币消耗，货币消耗必须排在道具消耗的下方】
+	{	
+		--一阶的消耗
+		{
+			{type = 0, id = 1102, count = 3,},
+		},
+		--二阶的消耗
+		{
+			{type = 0, id = 1102, count = 6,},
+		},
+		--三阶的消耗
+		{
+			{type = 0, id = 1102, count = 12,},
+		},
+		--四阶的消耗
+		{
+			{type = 0, id = 1102, count = 24,},
+		},
+		--五阶的消耗
+		{
+			{type = 0, id = 1102, count = 36,},
+		},
+		--六阶的消耗
+		{
+			{type = 0, id = 1102, count = 48,},
+		},
+		--七阶的消耗
+		{
+			{type = 0, id = 1102, count = 60,},
+		},
+		--八阶的消耗
+		{
+			{type = 0, id = 1102, count = 72,},
+		},
+		--九阶的消耗
+		{
+			{type = 0, id = 1102, count = 84,},
+		},
+		--十阶的消耗
+		{
+			{type = 0, id = 1102, count = 96,},
+		},
+	},		
+	basePropConfig = --属性
+	{
+		--1阶的属性
+		{
+			{ type = 9, addmode=0, value = 23, },--最小物理攻击
+			{ type = 11, addmode=0, value = 53, },--最大物理攻击
+			{ type = 13, addmode=0, value = 23, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 53, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 23, },--最小道术攻击
+			{ type = 19, addmode=0, value = 53, },--最大道术攻击
+			{ type = 21, addmode=0, value = 12, },--最小物理防御
+			{ type = 23, addmode=0, value = 20, },--最大物理防御
+			{ type = 25, addmode=0, value = 12, },--最小魔法防御
+			{ type = 27, addmode=0, value = 20, },--最大魔法防御
+			{ type = 5, addmode=0, value = 399, },--生命值
+		},
+		--2阶的属性
+		{
+			{ type = 9, addmode=0, value = 41, },--最小物理攻击
+			{ type = 11, addmode=0, value = 92, },--最大物理攻击
+			{ type = 13, addmode=0, value = 41, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 92, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 41, },--最小道术攻击
+			{ type = 19, addmode=0, value = 92, },--最大道术攻击
+			{ type = 21, addmode=0, value = 21, },--最小物理防御
+			{ type = 23, addmode=0, value = 35, },--最大物理防御
+			{ type = 25, addmode=0, value = 21, },--最小魔法防御
+			{ type = 27, addmode=0, value = 35, },--最大魔法防御
+			{ type = 5, addmode=0, value = 699, },--生命值
+		},
+		--3阶的属性
+		{
+			{ type = 9, addmode=0, value = 70, },--最小物理攻击
+			{ type = 11, addmode=0, value = 156, },--最大物理攻击
+			{ type = 13, addmode=0, value = 70, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 156, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 70, },--最小道术攻击
+			{ type = 19, addmode=0, value = 156, },--最大道术攻击
+			{ type = 21, addmode=0, value = 36, },--最小物理防御
+			{ type = 23, addmode=0, value = 59, },--最大物理防御
+			{ type = 25, addmode=0, value = 36, },--最小魔法防御
+			{ type = 27, addmode=0, value = 59, },--最大魔法防御
+			{ type = 5, addmode=0, value = 1189, },--生命值
+		},
+		--4阶的属性
+		{
+			{ type = 9, addmode=0, value = 116, },--最小物理攻击
+			{ type = 11, addmode=0, value = 258, },--最大物理攻击
+			{ type = 13, addmode=0, value = 116, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 258, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 116, },--最小道术攻击
+			{ type = 19, addmode=0, value = 258, },--最大道术攻击
+			{ type = 21, addmode=0, value = 59, },--最小物理防御
+			{ type = 23, addmode=0, value = 98, },--最大物理防御
+			{ type = 25, addmode=0, value = 59, },--最小魔法防御
+			{ type = 27, addmode=0, value = 98, },--最大魔法防御
+			{ type = 5, addmode=0, value = 1962, },--生命值
+		},
+		--5阶的属性
+		{
+			{ type = 9, addmode=0, value = 185, },--最小物理攻击
+			{ type = 11, addmode=0, value = 412, },--最大物理攻击
+			{ type = 13, addmode=0, value = 185, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 412, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 185, },--最小道术攻击
+			{ type = 19, addmode=0, value = 412, },--最大道术攻击
+			{ type = 21, addmode=0, value = 94, },--最小物理防御
+			{ type = 23, addmode=0, value = 157, },--最大物理防御
+			{ type = 25, addmode=0, value = 94, },--最小魔法防御
+			{ type = 27, addmode=0, value = 157, },--最大魔法防御
+			{ type = 5, addmode=0, value = 3139, },--生命值
+		},
+		--6阶的属性
+		{
+			{ type = 9, addmode=0, value = 287, },--最小物理攻击
+			{ type = 11, addmode=0, value = 639, },--最大物理攻击
+			{ type = 13, addmode=0, value = 287, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 639, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 287, },--最小道术攻击
+			{ type = 19, addmode=0, value = 639, },--最大道术攻击
+			{ type = 21, addmode=0, value = 146, },--最小物理防御
+			{ type = 23, addmode=0, value = 243, },--最大物理防御
+			{ type = 25, addmode=0, value = 146, },--最小魔法防御
+			{ type = 27, addmode=0, value = 243, },--最大魔法防御
+			{ type = 5, addmode=0, value = 4865, },--生命值
+		},
+		--7阶的属性
+		{
+			{ type = 9, addmode=0, value = 431, },--最小物理攻击
+			{ type = 11, addmode=0, value = 958, },--最大物理攻击
+			{ type = 13, addmode=0, value = 431, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 958, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 431, },--最小道术攻击
+			{ type = 19, addmode=0, value = 958, },--最大道术攻击
+			{ type = 21, addmode=0, value = 219, },--最小物理防御
+			{ type = 23, addmode=0, value = 365, },--最大物理防御
+			{ type = 25, addmode=0, value = 219, },--最小魔法防御
+			{ type = 27, addmode=0, value = 365, },--最大魔法防御
+			{ type = 5, addmode=0, value = 7298, },--生命值
+		},
+		--8阶的属性
+		{
+			{ type = 9, addmode=0, value = 625, },--最小物理攻击
+			{ type = 11, addmode=0, value = 1389, },--最大物理攻击
+			{ type = 13, addmode=0, value = 625, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 1389, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 625, },--最小道术攻击
+			{ type = 19, addmode=0, value = 1389, },--最大道术攻击
+			{ type = 21, addmode=0, value = 317, },--最小物理防御
+			{ type = 23, addmode=0, value = 529, },--最大物理防御
+			{ type = 25, addmode=0, value = 317, },--最小魔法防御
+			{ type = 27, addmode=0, value = 529, },--最大魔法防御
+			{ type = 5, addmode=0, value = 10582, },--生命值
+
+		},
+		--9阶的属性
+		{
+			{ type = 9, addmode=0, value = 875, },--最小物理攻击
+			{ type = 11, addmode=0, value = 1944, },--最大物理攻击
+			{ type = 13, addmode=0, value = 875, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 1944, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 875, },--最小道术攻击
+			{ type = 19, addmode=0, value = 1944, },--最大道术攻击
+			{ type = 21, addmode=0, value = 444, },--最小物理防御
+			{ type = 23, addmode=0, value = 741, },--最大物理防御
+			{ type = 25, addmode=0, value = 444, },--最小魔法防御
+			{ type = 27, addmode=0, value = 741, },--最大魔法防御
+			{ type = 5, addmode=0, value = 14815, },--生命值
+		},
+		--10阶的属性
+		{
+			{ type = 9, addmode=0, value = 1181, },--最小物理攻击
+			{ type = 11, addmode=0, value = 2625, },--最大物理攻击
+			{ type = 13, addmode=0, value = 1181, },--最小魔法攻击
+			{ type = 15, addmode=0, value = 2625, },--最大魔法攻击
+			{ type = 17, addmode=0, value = 1181, },--最小道术攻击
+			{ type = 19, addmode=0, value = 2625, },--最大道术攻击
+			{ type = 21, addmode=0, value = 600, },--最小物理防御
+			{ type = 23, addmode=0, value = 1000, },--最大物理防御
+			{ type = 25, addmode=0, value = 600, },--最小魔法防御
+			{ type = 27, addmode=0, value = 1000, },--最大魔法防御
+			{ type = 5, addmode=0, value = 20000, },--生命值
+		},
+	},
+}

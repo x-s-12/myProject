@@ -1,0 +1,705 @@
+
+--#include "..\..\language\LangCode.txt" once
+--��Ӱ����������
+MovieGuide =
+{
+	--���ֵ����Ͷ���   xxAction
+	-- 1 ��ʾ����
+	-- 2 װ����Ʒ
+	-- 3 �˳�����
+        -- 7 ��Ӱ����ʱ
+	--��Ӱ1 ����
+	--[[{
+		steps =
+		{
+			--����1
+			{
+				faceId =14,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ���������� ��ͷ��ID����·��jxClient\data\lang\zh-cn\interface\guide\face�� 
+				faceWidth = 210,   --ͷ�����
+				faceHeight = 220,  --ͷ��߶�
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00001,      --˵��������
+				say = OldLang.MovieGuide.m00002,         --˵�Ļ�
+				clickEffHide = false,   --�Ƿ����ص����Ч
+
+				--����ı���(�������������)
+				actions =
+				{
+					{action = 1, data = "21,<font color='#FFFF00' size='24'>Equip</font>"},
+				}
+
+			},
+
+			--����2
+			{
+				faceId = 11,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				faceWidth = 210,   --ͷ�����
+				faceHeight = 220,  --ͷ��߶�
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00003,      --˵��������
+				say = OldLang.MovieGuide.m00004,         --˵�Ļ�
+				clickEffHide = false,   --�Ƿ����ص����Ч
+
+				--����ı���(�������������)
+				actions =
+				{
+					{action = 1, data = "21,<font color='#FFFF00' size='24'>Equip</font>"},
+				}
+
+			},
+		},
+
+		--����ʱ����ı���(����װ����Ʒ)
+		endMovieActions =
+		{
+			{action = 2, data = "573,1"},
+		}
+	},]]
+
+
+	--��Ӱ0 ���ִ�
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 13,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00001,      --˵��������
+				say = OldLang.MovieGuide.m00002,         --˵�Ļ�
+
+			},
+
+		},
+                     
+
+				
+	},
+
+
+	--��Ӱ1 ����ɽ��
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 10,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay =OldLang.MovieGuide.m00003,      --˵��������
+				say = OldLang.MovieGuide.m00004,         --˵�Ļ�
+
+			},
+
+			
+		},
+
+	},
+
+
+
+	--��Ӱ2 ������Ժ
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00005,      --˵��������
+				say = OldLang.MovieGuide.m00006,         --˵�Ļ�
+
+			},
+            
+			
+		},
+
+
+		
+		
+	},
+
+	--��Ӱ3 �������
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 9,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00007,      --˵��������
+				say = OldLang.MovieGuide.m00008,         --˵�Ļ�
+
+			},
+                     
+            
+		},
+	},
+
+	--��Ӱ4 ɳ��ӡ��
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 9,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00009,      --˵��������
+				say = OldLang.MovieGuide.m00010,         --˵�Ļ�
+
+			},
+
+			
+		},
+	},
+
+	--��Ӱ5 �����þ�
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00011,      --˵��������
+				say = OldLang.MovieGuide.m00012,         --˵�Ļ�
+
+			},
+
+			
+		},
+	},
+
+	--��Ӱ6 �����ض�
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 9,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00013,      --˵��������
+				say = OldLang.MovieGuide.m00014,         --˵�Ļ�
+
+			},
+
+			
+		},
+	},
+
+	--��Ӱ7 ������Ѩ
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 8,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00015,      --˵��������
+				say = OldLang.MovieGuide.m00016,         --˵�Ļ�
+
+			},
+
+			
+		},
+	},
+
+	--��Ӱ8 ����
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00017,      --˵��������
+				say = OldLang.MovieGuide.m00018,         --˵�Ļ�
+
+			},
+
+			
+		},
+	},
+	
+	--��Ӱ10���ض�3
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				faceWidth = 248,   --ͷ�����
+				faceHeight = 237,  --ͷ��߶�
+				whoSay = OldLang.MovieGuide.m00019,      --˵��������
+				say = OldLang.MovieGuide.m00020,         --˵�Ļ�
+
+			},
+
+			
+		},
+
+
+		
+	},
+
+	--��Ӱ11 ����
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 0,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00080,      --˵��������
+				say = OldLang.MovieGuide.m00081,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId = 9,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00082,      --˵��������
+				say = OldLang.MovieGuide.m00083,           --˵�Ļ�
+
+			},
+            
+			--����3
+			{
+				faceId = 0,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00084,      --˵��������
+				say = OldLang.MovieGuide.m00085,           --˵�Ļ�
+
+			},
+			--����4
+			{
+				faceId = 9,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00086,      --˵��������
+				say = OldLang.MovieGuide.m00087,           --˵�Ļ�
+
+			},
+			
+
+		},
+
+	},
+
+   --��Ӱ12 תְ
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 20,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00090,      --˵��������
+				say = OldLang.MovieGuide.m00091,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00092,      --˵��������
+				say = OldLang.MovieGuide.m00093,           --˵�Ļ�
+
+			},
+            
+			--����3
+			{
+				faceId = 23,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00094,      --˵��������
+				say = OldLang.MovieGuide.m00095,           --˵�Ļ�
+
+			},
+			--����4
+			{
+				faceId = 21,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00096,      --˵��������
+				say = OldLang.MovieGuide.m00097,           --˵�Ļ�
+
+			},
+			
+
+		},
+
+	},
+	
+    --��Ӱ13 ����493 
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00072,      --˵��������
+				say = OldLang.MovieGuide.m00073,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId =20,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00074,      --˵��������
+				say = OldLang.MovieGuide.m00075,           --˵�Ļ�
+
+			},
+
+			--����3
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00076,      --˵��������
+				say = OldLang.MovieGuide.m00077,           --˵�Ļ�
+
+			},
+			--����4
+			{
+				faceId = 7,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00078,      --˵��������
+				say = OldLang.MovieGuide.m00079,           --˵�Ļ�
+
+			},
+		},
+	},
+	
+	   --��Ӱ14 ����526������ 
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 20,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00080,      --˵��������
+				say = OldLang.MovieGuide.m00081,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId =22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00082,      --˵��������
+				say = OldLang.MovieGuide.m00083,           --˵�Ļ�
+
+			},
+
+			--����3
+			{
+				faceId = 20,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00084,      --˵��������
+				say = OldLang.MovieGuide.m00085,           --˵�Ļ�
+
+			},
+			--����4
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00086,      --˵��������
+				say = OldLang.MovieGuide.m00087,           --˵�Ļ�
+
+			},
+			--����5
+			{
+				faceId = 21,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00088,      --˵��������
+				say = OldLang.MovieGuide.m00089,           --˵�Ļ�
+
+			},
+		},
+	},
+
+     --��Ӱ15 ��ջ������ 
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00090,      --˵��������
+				say = OldLang.MovieGuide.m00091,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId =3,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00092,      --˵��������
+				say = OldLang.MovieGuide.m00093,           --˵�Ļ�
+
+			},
+
+			--����3
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00094,      --˵��������
+				say = OldLang.MovieGuide.m00095,           --˵�Ļ�
+
+			},
+			--����4
+			{
+				faceId = 8,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00096,      --˵��������
+				say = OldLang.MovieGuide.m00097,           --˵�Ļ�
+
+			},
+			--����5
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00098,      --˵��������
+				say = OldLang.MovieGuide.m00099,           --˵�Ļ�
+
+			},
+		},
+	},
+	
+	     --��Ӱ16 ���з��� 
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00100,      --˵��������
+				say = OldLang.MovieGuide.m00101,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId =21,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00102,      --˵��������
+				say = OldLang.MovieGuide.m00103,           --˵�Ļ�
+
+			},
+
+			--����3
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00104,      --˵��������
+				say = OldLang.MovieGuide.m00105,           --˵�Ļ� 
+
+			},
+					--����4
+			{
+				faceId = 21,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00106,      --˵��������
+				say = OldLang.MovieGuide.m00107,           --˵�Ļ�
+				
+				--����ı���(�������������)
+				actions =
+				{
+					{action = 1, data = OldLang.MovieGuide.m00017},
+				}
+
+			},
+		},
+		--����ʱ����ı���(����װ����Ʒ)
+		endMovieActions =
+		{
+			{action = 2, data = "905,1"},
+		}	
+		
+	},
+	
+	--��Ӱ17 ˮկ1 
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00108,      --˵��������
+				say = OldLang.MovieGuide.m00109,           --˵�Ļ�
+			},
+		},
+	},
+	--��Ӱ18 ˮկ2 
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00110,      --˵��������
+				say = OldLang.MovieGuide.m00111,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId =22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00112,      --˵��������
+				say = OldLang.MovieGuide.m00113,           --˵�Ļ�
+
+			},
+
+			--����3
+			{
+				faceId = 20,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00114,      --˵��������
+				say = OldLang.MovieGuide.m00115,           --˵�Ļ�
+
+			},
+					--����4
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00116,      --˵��������
+				say = OldLang.MovieGuide.m00117,           --˵�Ļ�
+
+			},
+		},
+	},
+	
+	--��Ӱ19 �߼ҵ�1
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = -1,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00118,      --˵��������
+				say = OldLang.MovieGuide.m00119,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId =20,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00120,      --˵��������
+				say = OldLang.MovieGuide.m00121,           --˵�Ļ�
+
+			},
+
+			--����3
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00122,      --˵��������
+				say = OldLang.MovieGuide.m00123,           --˵�Ļ�
+
+			},
+		},
+	},
+	
+		--��Ӱ20 �߼ҵ�2
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00124,      --˵��������
+				say = OldLang.MovieGuide.m00125,           --˵�Ļ�
+
+			},
+
+		},
+	},
+	
+		--��Ӱ21 ��ָɽ��1
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00126,      --˵��������
+				say = OldLang.MovieGuide.m00127,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId =20,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00128,      --˵��������
+				say = OldLang.MovieGuide.m00129,           --˵�Ļ�
+
+			},
+
+		},
+	},
+	
+		--��Ӱ22 ��ָɽ��2
+	{
+		steps =
+		{
+			--����1
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00130,      --˵��������
+				say = OldLang.MovieGuide.m00131,           --˵�Ļ�
+
+			},
+
+			--����2
+			{
+				faceId =20,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 1,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00132,      --˵��������
+				say = OldLang.MovieGuide.m00133,           --˵�Ļ�
+
+			},
+
+			--����3
+			{
+				faceId = 22,    --ͷ��id   -1��ʾ���������Ա�ѡ��ͷ��  -2��ʾ�������Ա��෴, ����������
+				facePos = 0,       --ͷ��λ�� 0��  1��
+				whoSay = OldLang.MovieGuide.m00134,      --˵��������
+				say = OldLang.MovieGuide.m00135,           --˵�Ļ�
+
+			},
+		},
+	},
+
+   --�������������޶���
+}

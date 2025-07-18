@@ -1,0 +1,317 @@
+
+--�������ļ�����һЩ����ĵ�ͼ����ʾһЩ������������ʾ������Ҹ�������֪��ÿ��������ã�������Ӫ��ս����
+
+--#include "..\..\language\LangCode.txt"
+MapLabels=
+{
+    --���˶�
+  {
+		sceneId = 2,      --����ID
+		--��ǰ����Ҫ��ʾ���ı�
+		labels =
+		{
+			--name   	 Ҫ��ʾ���ı�
+			--size    	�ı������С
+			--color   	�ı���ɫ
+			--filterColor   �ı��ⷢ�����ɫ
+			--x ,y           �ı���λ��
+			{name=OldLang.SceneName.boss0001, size=12, color="FF0000", filterColor="000000", x=460,y=260},
+			
+	    },
+  },
+    --����ɽ��
+  {
+		sceneId = 3,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0002, size=12, color="FF0000", filterColor="000000", x=330,y=50},
+			
+	    },
+  },
+    --������Ժ
+  {
+		sceneId = 13,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0022, size=12, color="FF0000", filterColor="000000", x=350,y=200},
+			
+	    },
+  },
+    --�涴
+  {
+		sceneId = 6,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0004, size=12, color="FF0000", filterColor="000000", x=135,y=190},
+			
+	    },
+  },
+    --����
+  {
+		sceneId = 19,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0005, size=12, color="FF0000", filterColor="000000", x=90,y=100},
+			
+	    },
+  },
+    --����
+  {
+		sceneId = 22,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0006, size=12, color="FF0000", filterColor="000000", x=300,y=180},
+			
+	    },
+  },
+    --����
+  {
+		sceneId = 44,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0007, size=12, color="FF0000", filterColor="000000", x=300,y=160},
+			
+	    },
+  },
+    --ţħ
+  {
+		sceneId = 29,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0008, size=12, color="FF0000", filterColor="000000", x=370,y=220},
+			
+	    },
+  },
+    --����
+  {
+		sceneId = 28,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0009, size=12, color="FF0000", filterColor="000000", x=270,y=200},
+			
+	    },
+  },
+    --����
+  {
+		sceneId = 62,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0010, size=12, color="FF0000", filterColor="000000", x=430,y=85},
+			
+	    },
+  },
+    --BOSS֮��һ��
+  {
+		sceneId = 31,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0011, size=12, color="FF0000", filterColor="000000", x=245,y=215},
+			{name=OldLang.SceneName.boss0015, size=12, color="FF0000", filterColor="000000", x=100,y=290},
+			{name=OldLang.SceneName.boss0003, size=12, color="FF0000", filterColor="000000", x=95,y=150},
+			{name=OldLang.SceneName.boss0005, size=12, color="FF0000", filterColor="000000", x=355,y=270},
+			{name=OldLang.SceneName.boss0014, size=12, color="FF0000", filterColor="000000", x=175,y=100},
+			{name=OldLang.SceneName.boss0007, size=12, color="FF0000", filterColor="000000", x=460,y=235},
+			{name=OldLang.SceneName.boss0012, size=12, color="FF0000", filterColor="000000", x=385,y=130},
+			{name=OldLang.SceneName.boss0004, size=12, color="FF0000", filterColor="000000", x=320,y=90},
+			{name=OldLang.SceneName.boss0006, size=12, color="FF0000", filterColor="000000", x=465,y=165},
+			{name=OldLang.SceneName.boss0013, size=12, color="FF0000", filterColor="000000", x=460,y=90},
+			
+	    },
+  },
+    --BOSS֮�Ҷ���
+  {
+		sceneId = 32,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0017, size=12, color="FF0000", filterColor="000000", x=335,y=165},
+			{name=OldLang.SceneName.boss0008, size=12, color="FF0000", filterColor="000000", x=180,y=235},
+			{name=OldLang.SceneName.boss0016, size=12, color="FF0000", filterColor="000000", x=275,y=70},
+			{name=OldLang.SceneName.boss0009, size=12, color="FF0000", filterColor="000000", x=510,y=190},
+			
+	    },
+  },
+    --BOSS֮������
+  {
+		sceneId = 33,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0010, size=12, color="FF0000", filterColor="000000", x=260,y=175},
+			{name=OldLang.SceneName.boss0019, size=12, color="FF0000", filterColor="000000", x=115,y=105},
+			{name=OldLang.SceneName.boss0020, size=12, color="FF0000", filterColor="000000", x=465,y=55},
+			{name=OldLang.SceneName.boss0018, size=12, color="FF0000", filterColor="000000", x=390,y=255},
+			
+	    },
+  },
+    --����һ��
+  {
+		sceneId = 35,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0003, size=12, color="FF0000", filterColor="000000", x=120,y=265},
+			{name=OldLang.SceneName.boss0021, size=12, color="FF0000", filterColor="000000", x=145,y=110},
+			{name=OldLang.SceneName.boss0012, size=12, color="FF0000", filterColor="000000", x=455,y=100},
+			{name=OldLang.SceneName.boss0011, size=12, color="FF0000", filterColor="000000", x=450,y=260},
+			
+	    },
+  },
+    --���Ŷ���
+  {
+		sceneId = 36,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0022, size=12, color="FF0000", filterColor="000000", x=365,y=155},
+			{name=OldLang.SceneName.boss0004, size=12, color="FF0000", filterColor="000000", x=240,y=90},
+			{name=OldLang.SceneName.boss0023, size=12, color="FF0000", filterColor="000000", x=95,y=155},
+			{name=OldLang.SceneName.boss0005, size=12, color="FF0000", filterColor="000000", x=235,y=215},
+			
+	    },
+  },
+    --��������
+  {
+		sceneId = 37,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0007, size=12, color="FF0000", filterColor="000000", x=125,y=185},
+			{name=OldLang.SceneName.boss0025, size=12, color="FF0000", filterColor="000000", x=290,y=105},
+			{name=OldLang.SceneName.boss0024, size=12, color="FF0000", filterColor="000000", x=435,y=175},
+			{name=OldLang.SceneName.boss0015, size=12, color="FF0000", filterColor="000000", x=280,y=255},
+			
+	    },
+  },
+    --�����Ĳ�
+  {
+		sceneId = 38,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0017, size=12, color="FF0000", filterColor="000000", x=90,y=80},
+			{name=OldLang.SceneName.boss0026, size=12, color="FF0000", filterColor="000000", x=190,y=245},
+			{name=OldLang.SceneName.boss0008, size=12, color="FF0000", filterColor="000000", x=375,y=240},
+			{name=OldLang.SceneName.boss0016, size=12, color="FF0000", filterColor="000000", x=400,y=140},
+			
+	    },
+  },
+    --�������
+  {
+		sceneId = 39,
+		labels =
+		{
+			{name=OldLang.SceneName.boss0020, size=12, color="FF0000", filterColor="000000", x=100,y=80},
+			{name=OldLang.SceneName.boss0028, size=12, color="FF0000", filterColor="000000", x=105,y=265},
+			{name=OldLang.SceneName.boss0027, size=12, color="FF0000", filterColor="000000", x=470,y=85},
+			{name=OldLang.SceneName.boss0019, size=12, color="FF0000", filterColor="000000", x=470,y=270},
+			
+	    },
+  },
+  --δ֪����
+  {
+		sceneId = 69,
+		labels =
+		{
+            {name=OldLang.SceneName.boss0309, size=12, color="FF0000", filterColor="000000", x=114,y=213},      --��֮����
+            {name=OldLang.SceneName.boss0310, size=12, color="FF0000", filterColor="000000", x=75,y=301},      --��֮����
+            {name=OldLang.SceneName.boss0311, size=12, color="FF0000", filterColor="000000", x=300,y=280},      --��֮ѩ��
+            {name=OldLang.SceneName.boss0312, size=12, color="FF0000", filterColor="000000", x=182,y=243},      --��֮���ħ
+            {name=OldLang.SceneName.boss0313, size=12, color="FF0000", filterColor="000000", x=230,y=150},      --��֮��ħ
+            {name=OldLang.SceneName.boss0314, size=12, color="FF0000", filterColor="000000", x=376,y=236},      --��֮����
+            {name=OldLang.SceneName.boss0315, size=12, color="FF0000", filterColor="000000", x=470,y=160},      --��֮���
+            {name=OldLang.SceneName.boss0316, size=12, color="FF0000", filterColor="000000", x=398,y=116},      --��֮��Ы
+            {name=OldLang.SceneName.boss0317, size=12, color="FF0000", filterColor="000000", x=350,y=80},      --��֮����ħ
+            {name=OldLang.SceneName.boss0318, size=12, color="FF0000", filterColor="000000", x=480,y=60},      --��֮������
+			
+	    },
+  },
+    --��������
+  {
+		sceneId = 72,
+		labels =
+		{
+            {name=OldLang.SceneName.bj0001, size=12, color="FF0000", filterColor="000000", x=292,y=182},      --ɢ�������
+            {name=OldLang.SceneName.bj0002, size=12, color="FF0000", filterColor="000000", x=96,y=188},      --��֮����
+            {name=OldLang.SceneName.bj0003, size=12, color="FF0000", filterColor="000000", x=499,y=186},      --��֮ѩ��
+			
+	    },
+  },
+  --�л�ħ��1��
+  {
+		sceneId = 80,
+		labels =
+		{
+            {name=OldLang.SceneName.hh0001, size=12, color="FF0000", filterColor="000000", x=300,y=225},      --BOSSλ��
+			
+	    },
+  },  
+  --�л�ħ��2��
+  {
+		sceneId = 81,
+		labels =
+		{
+            {name=OldLang.SceneName.hh0001, size=12, color="FF0000", filterColor="000000", x=300,y=225},      --BOSSλ��
+			
+	    },
+  },  
+  --�л�ħ��3��
+  {
+		sceneId = 82,
+		labels =
+		{
+            {name=OldLang.SceneName.hh0001, size=12, color="FF0000", filterColor="000000", x=300,y=225},      --BOSSλ��
+			
+	    },
+  },  
+  --�л�ħ��4��
+  {
+		sceneId = 83,
+		labels =
+		{
+            {name=OldLang.SceneName.hh0001, size=12, color="FF0000", filterColor="000000", x=300,y=225},      --BOSSλ��
+			
+	    },
+  },  
+  --�л�ħ��5��
+  {
+		sceneId = 84,
+		labels =
+		{
+            {name=OldLang.SceneName.hh0001, size=12, color="FF0000", filterColor="000000", x=300,y=225},      --BOSSλ��
+			
+	    },
+  },  
+  --�л�ħ��6��
+  {
+		sceneId = 85,
+		labels =
+		{
+            {name=OldLang.SceneName.hh0001, size=12, color="FF0000", filterColor="000000", x=300,y=225},      --BOSSλ��
+			
+	    },
+  },  
+  --�л�ħ��7��
+  {
+		sceneId = 86,
+		labels =
+		{
+            {name=OldLang.SceneName.hh0001, size=12, color="FF0000", filterColor="000000", x=300,y=225},      --BOSSλ��
+			
+	    },
+  },  
+  --�л�ħ��8��
+  {
+		sceneId = 87,
+		labels =
+		{
+            {name=OldLang.SceneName.hh0001, size=12, color="FF0000", filterColor="000000", x=300,y=225},      --BOSSλ��
+			
+	    },
+  },  
+   --ʯĹ����
+  {
+		sceneId = 78,
+		labels =
+		{
+            {name=OldLang.SceneName.sm0001, size=12, color="FF0000", filterColor="000000", x=80,y=195},      --BOSSλ��
+			{name=OldLang.SceneName.sm0002, size=12, color="FF0000", filterColor="000000", x=500,y=180},      --BOSSλ��
+	    },
+  },  
+
+
+}

@@ -1,0 +1,94 @@
+﻿--野外BOSS
+--#include "..\..\language\LangCode.txt" once
+
+BossAttackConfig =
+{
+	{	--第1波
+		boss = 
+		{
+			{ monsterId=395, sceneId=46, num=1, pos={408,101}, livetime=1800,},--青丘冰狐			
+		},
+
+		monsters = 
+		{
+		    { monsterId=383, sceneId=46, num=30, range={460,147,476,161}, livetime=1800,},--雪原野人
+			{ monsterId=383, sceneId=46, num=30, range={449,150,460,178}, livetime=1800,},--雪原野人
+			{ monsterId=383, sceneId=46, num=30, range={440,102,452,121}, livetime=1800,},--雪原野人
+			{ monsterId=384, sceneId=46, num=30, range={431,176,443,197}, livetime=1800,},--钉耙狮兽
+			{ monsterId=384, sceneId=46, num=30, range={420,103,440,120}, livetime=1800,},--钉耙狮兽
+			{ monsterId=384, sceneId=46, num=30, range={411,120,447,141}, livetime=1800,},--钉耙狮兽
+			{ monsterId=385, sceneId=46, num=30, range={411,120,447,141}, livetime=1800,},--尖嘴鸠
+			{ monsterId=385, sceneId=46, num=30, range={403,84,420,115}, livetime=1800,},--尖嘴鸠
+			{ monsterId=385, sceneId=46, num=30, range={375,101,383,135}, livetime=1800,},--尖嘴鸠
+			{ monsterId=386, sceneId=46, num=30, range={393,94,403,122}, livetime=1800,},--狮人弓箭手
+			{ monsterId=386, sceneId=46, num=30, range={359,87,370,123}, livetime=1800,},--狮人弓箭手
+			{ monsterId=386, sceneId=46, num=30, range={367,133,380,145}, livetime=1800,},--狮人弓箭手
+			{ monsterId=387, sceneId=46, num=30, range={388,150,399,167}, livetime=1800,},--多节甲蹩
+			{ monsterId=387, sceneId=46, num=30, range={375,101,383,135}, livetime=1800,},--多节甲蹩
+			{ monsterId=388, sceneId=46, num=30, range={460,146,476,161}, livetime=1800,},--绿爪蜘蛛
+			{ monsterId=388, sceneId=46, num=30, range={431,176,443,197}, livetime=1800,},--绿爪蜘蛛
+			{ monsterId=389, sceneId=46, num=30, range={420,103,440,120}, livetime=1800,},--赤翼守卫
+			{ monsterId=389, sceneId=46, num=30, range={351,95,377,107}, livetime=1800,},--赤翼守卫
+			
+
+		},
+	},
+	
+	{	--第2波
+		boss = 
+		{
+			{ monsterId=396, sceneId=46, num=1, pos={408,101}, livetime=1200,},--蒙面恶镰
+		},
+
+		monsters = 
+		{
+            { monsterId=385, sceneId=46, num=30, range={460,147,476,161}, livetime=1200,},--尖嘴鸠
+			{ monsterId=385, sceneId=46, num=30, range={449,150,460,178}, livetime=1200,},--尖嘴鸠
+			{ monsterId=385, sceneId=46, num=30, range={440,102,452,121}, livetime=1200,},--尖嘴鸠
+			{ monsterId=386, sceneId=46, num=30, range={431,176,443,197}, livetime=1200,},--狮人弓箭手
+			{ monsterId=386, sceneId=46, num=30, range={420,103,440,120}, livetime=1200,},--狮人弓箭手
+			{ monsterId=386, sceneId=46, num=30, range={411,120,447,141}, livetime=1200,},--狮人弓箭手
+			{ monsterId=387, sceneId=46, num=30, range={495,162,404,174}, livetime=1200,},--多节甲蹩
+			{ monsterId=387, sceneId=46, num=30, range={403,84,420,115}, livetime=1200,},--多节甲蹩
+			{ monsterId=387, sceneId=46, num=30, range={375,101,383,135}, livetime=1200,},--多节甲蹩
+			{ monsterId=388, sceneId=46, num=30, range={393,94,403,122}, livetime=1200,},--绿爪蜘蛛
+			{ monsterId=388, sceneId=46, num=30, range={359,87,370,123}, livetime=1200,},--绿爪蜘蛛
+			{ monsterId=388, sceneId=46, num=30, range={367,133,380,145}, livetime=1200,},--绿爪蜘蛛
+			{ monsterId=389, sceneId=46, num=30, range={388,150,399,167}, livetime=1200,},--赤翼守卫
+			{ monsterId=389, sceneId=46, num=30, range={375,101,383,135}, livetime=1200,},--赤翼守卫
+			{ monsterId=390, sceneId=46, num=30, range={388,150,399,167}, livetime=1200,},--巨斧魔人
+			{ monsterId=391, sceneId=46, num=30, range={403,84,420,115}, livetime=1200,},--暗域守卫
+			{ monsterId=392, sceneId=46, num=30, range={411,120,447,141}, livetime=1200,},--审判魔人
+			{ monsterId=393, sceneId=46, num=30, range={369,130,380,147}, livetime=1200,},--双头巨人
+			{ monsterId=394, sceneId=46, num=30, range={351,95,377,107}, livetime=1200,},--无月守卫
+		},
+	},
+	
+	{	--第3波
+		boss = 
+		{			
+			{ monsterId=397, sceneId=46, num=1, pos={408,101}, livetime=600,},--冥域玄武
+		},
+
+		monsters = 
+		{
+            { monsterId=387, sceneId=46, num=30, range={460,147,476,161}, livetime=600,},--多节甲蹩
+			{ monsterId=387, sceneId=46, num=30, range={431,176,443,197}, livetime=600,},--多节甲蹩
+			{ monsterId=387, sceneId=46, num=30, range={392,146,399,171}, livetime=600,},--多节甲蹩
+			{ monsterId=388, sceneId=46, num=30, range={369,130,380,147}, livetime=600,},--绿爪蜘蛛
+			{ monsterId=388, sceneId=46, num=30, range={420,103,440,120}, livetime=600,},--绿爪蜘蛛
+			{ monsterId=388, sceneId=46, num=30, range={411,120,447,141}, livetime=600,},--绿爪蜘蛛
+			{ monsterId=389, sceneId=46, num=30, range={449,150,460,178}, livetime=600,},--赤翼守卫
+			{ monsterId=389, sceneId=46, num=30, range={403,84,420,115}, livetime=600,},--赤翼守卫
+			{ monsterId=389, sceneId=46, num=30, range={375,101,383,135}, livetime=600,},--赤翼守卫
+			{ monsterId=390, sceneId=46, num=30, range={393,94,403,122}, livetime=600,},--巨斧魔人
+			{ monsterId=390, sceneId=46, num=30, range={359,87,370,123}, livetime=600,},--巨斧魔人
+			{ monsterId=391, sceneId=46, num=30, range={367,133,380,145}, livetime=600,},--暗域守卫
+			{ monsterId=391, sceneId=46, num=30, range={388,150,399,167}, livetime=600,},--暗域守卫
+			{ monsterId=392, sceneId=46, num=30, range={375,101,383,135}, livetime=600,},--审判魔人
+			{ monsterId=392, sceneId=46, num=30, range={388,150,399,167}, livetime=600,},--审判魔人
+			{ monsterId=393, sceneId=46, num=30, range={369,130,380,147}, livetime=600,},--双头巨人
+			{ monsterId=394, sceneId=46, num=30, range={351,95,377,107}, livetime=600,},--无月守卫
+		},
+	},
+}

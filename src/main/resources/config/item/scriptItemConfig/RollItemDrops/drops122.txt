@@ -1,0 +1,11 @@
+--[[
+	--propability概率，概率的数字越大的话掉的物品的概率越高
+	--group是分组的id，类似怪物的爆率的配置, group为0，必出；相同group的按propability出一个
+--]]
+drops=
+{
+{ group = 0, type = 13, id = 1, count = 1000, bind = 1, propability=1, broadcast=0,},
+{ group = 0, type = 0, id = 1102, count = 30, bind = 1, propability=1, broadcast=0,},--羽化石
+{ group = 0, type = 0, id = 1255, count = 3, bind = 1, propability=1, broadcast=0,},--金砖(小)
+{ group = 0, type = 0, id = 1356, count = 8, bind = 1, propability=1, broadcast=0,},--暗黑的护符
+}

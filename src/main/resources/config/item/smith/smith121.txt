@@ -1,0 +1,41 @@
+﻿{
+	-- = 极品库121（测试用）
+	--  最大血增加
+{type = 5,prop =  10,job=0, maxNum=2, typeValue = {{min = 50,max = 60,prop = 1,},{min = 70,max = 90,prop = 3,},{min = 90,max = 120,prop = 6,},},},		
+	--最大蓝增加
+{type = 7,prop =  1,job=0, maxNum=1, typeValue = {{min = 50,max = 60,prop = 1,},{min = 70,max = 90,prop = 3,},{min = 90,max = 120,prop = 6,},},},
+	--  准确增加
+{type = 29,prop =  1,job=0, maxNum=2, typeValue = {{min = 1,max = 5,prop = 1,},{min = 6,max = 10,prop = 3,},{min = 11,max = 15,prop = 6,},},},		
+	--	敏捷增加
+{type = 31,prop =  4,job=0, typeValue = {{min = 1,max = 5,prop = 1,},{min = 6,max = 10,prop = 3,},{min = 11,max = 15,prop = 6,},},},
+
+--[[
+	--	最小物理攻击增加
+{type = 9,prop =  1,job=1, maxNum=1, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+	--	最小物理攻击倍率增加
+{type = 11,prop = 1,job=1, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+	--	最大物理攻击增加
+{type = 21,prop = 1,job=1, maxNum=1, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+	--最大物理攻击倍率增加
+{type = 23,prop = 1,job=1, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+
+	--	最小魔法攻击增加
+{type = 13,prop =  1,job=2, maxNum=1, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+	--	最小魔法攻击倍率增加
+{type = 15,prop = 1,job=2, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+	--	最大魔法攻击增加
+{type = 25,prop = 1,job=2, maxNum=1, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+	--最大魔法攻击倍率增加
+{type = 27,prop = 1,job=2, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+
+	--	最小道术攻击增加
+{type = 17,prop =  1,job=3, maxNum=1, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+	--	最小道术攻击倍率增加
+{type = 138,prop = 1,job=3, typeValue = {{min = 0.005,max = 0.006,prop = 1,},{min = 0.007,max = 0.009,prop = 3,},{min = 0.009,max = 0.012,prop = 6,},},},
+	--	最大道术攻击增加
+{type = 19,prop = 1,job=3, maxNum=1, typeValue = {{min = 5,max = 6,prop = 1,},{min = 7,max = 9,prop = 3,},{min = 9,max = 12,prop = 6,},},},
+	--最大道术攻击倍率增加
+{type = 139,prop = 1,job=3, typeValue = {{min = 0.005,max = 0.006,prop = 1,},{min = 0.007,max = 0.009,prop = 3,},{min = 0.009,max = 0.012,prop = 6,},},},
+
+]]
+},

@@ -1,0 +1,6 @@
+--英雄体力丹
+
+HeroForceConfig = 
+{
+   {itemid = 1331, force = 10},
+}

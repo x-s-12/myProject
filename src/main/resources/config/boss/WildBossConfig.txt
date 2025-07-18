@@ -1,0 +1,10 @@
+﻿--野外BOSS
+--#include "..\..\language\LangCode.txt" once
+
+WildBossConfig =
+{
+	WildBoss = 
+	{
+
+	},
+}

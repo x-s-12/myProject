@@ -1,0 +1,26 @@
+﻿--#include "..\..\language\LangCode.txt"
+--关闭游戏-说明配置
+CloseNoticeConfig =
+{
+	--列表
+	list =
+	{	--注意 id 不能随便改 只能往后加
+		--desc 描述信息，如果是变量用$value$
+		--sortId:排序id 控制从小到大排序,可以改动
+
+		{id=1,desc=OldLang.SceneName.Z00001,sortId=1001,},--★ 道具——X份在线奖励可领取
+		
+		{id=2,desc=OldLang.SceneName.Z00002,sortId=2002,},--★ 经验——主线任务没有完成
+		{id=3,desc=OldLang.SceneName.Z00003,sortId=2003,},--★ 经验——今日渡魔任务剩余X次
+		{id=4,desc=OldLang.SceneName.Z00004,sortId=2004,},--★ 经验——地图挂机
+		
+		{id=5,desc=OldLang.SceneName.Z00005,sortId=3001,},--★ 装备——寻宝
+		{id=6,desc=OldLang.SceneName.Z00006,sortId=3002,},--★ 装备——赏金任务未完成,今日可重置X次
+		--{id=7,desc=OldLang.SceneName.Z00007,sortId=3003,},--★ 装备——赏金任务未完成		
+		{id=8,desc=OldLang.SceneName.Z00008,sortId=3004,},--★ 装备——参加BOSS挑战
+
+		{id=9,desc=OldLang.SceneName.Z00009,sortId=1,},--★ 登录器下载
+		
+		{id=10,desc=OldLang.SceneName.Z00010,sortId=1002,},--★ 道具——副本挑战
+	},
+}

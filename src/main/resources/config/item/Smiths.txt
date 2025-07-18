@@ -1,0 +1,2 @@
+--#include ".\SmithConfig.config"
+--#include ".\QualityDataIndex.config"

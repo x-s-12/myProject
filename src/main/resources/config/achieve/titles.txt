@@ -1,0 +1,23 @@
+
+-- 称号增加groupId 表示这个称号是哪个组的，默认是0，否则填写buff的id,从1开始，一个buff组里的buff只能存在一个
+-- 同时增加了time 表示有效时间，默认是0可以不配置，否则表示这个称号的有效时间，单位秒
+-- 增加了showOnlyGet 标记，默认是false，可以不配置，否则只在玩家有这个称号的时候才显示，如果配置了true，那么只有玩家在有这个称号才会显示
+--isDelete 表示称号是删除的，默认是false，如果是true表示该称号被删除了，客户端不用显示出来
+-- headTitleId 设置称号对应的头衔id 不配置默认0
+-- isFamous 是否是名人堂的称号，这种称号需要特殊处理，拥有以后有一些特权 isFamous=true表示是，默认不用配置
+Titles=
+{
+
+	{
+		name = "",
+		desc = "",
+		buff = { 
+							{ type = 0, group = 2, value = 0 },
+		       },
+		groupId = 0,
+		showOnlyGet = false,
+		time = 0,
+		isDelete = false,
+		headTitleId = 0,
+	},
+}

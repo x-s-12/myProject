@@ -1,0 +1,612 @@
+--幻武、玄甲类装备的强化升星（要求与普通装备不同）
+ExtraEquipStar = 
+{
+    --注意： 如果该位置没有升星属性，则 [位置] = {}，需要填写,不可跳过。
+	{
+		items = {1192, 1193, 1194, 1195, 1196, 1197},   		--指定道具
+		stars = 
+		{
+{
+	-- =     升1星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 10000 },
+            { type = 0, id = 505, count = 10 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 5, job = 1 },
+            { type = 11, value = 8, job = 1 },
+            { type = 13, value = 5, job = 2 },
+            { type = 15, value = 8, job = 2 },
+            { type = 13, value = 5, job = 3 },
+            { type = 15, value = 8, job = 3 }, 
+	},
+},
+{
+	-- =     升2星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 23859 },
+            { type = 0, id = 505, count = 13 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 7, job = 1 },
+            { type = 11, value = 12, job = 1 },
+            { type = 13, value = 7, job = 2 },
+            { type = 15, value = 12, job = 2 },
+            { type = 13, value = 7, job = 3 },
+            { type = 15, value = 12, job = 3 }, 
+	},
+},
+{
+	-- =     升3星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 42693 },
+            { type = 0, id = 505, count = 16 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 11, job = 1 },
+            { type = 11, value = 18, job = 1 },
+            { type = 13, value = 11, job = 2 },
+            { type = 15, value = 18, job = 2 },
+            { type = 13, value = 11, job = 3 },
+            { type = 15, value = 18, job = 3 }, 
+	},
+},
+{
+	-- =     升4星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 67906 },
+            { type = 0, id = 505, count = 18 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 15, job = 1 },
+            { type = 11, value = 25, job = 1 },
+            { type = 13, value = 15, job = 2 },
+            { type = 15, value = 25, job = 2 },
+            { type = 13, value = 15, job = 3 },
+            { type = 15, value = 25, job = 3 }, 
+	},
+},
+{
+	-- =     升5星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 101259 },
+            { type = 0, id = 505, count = 21 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 20, job = 1 },
+            { type = 11, value = 34, job = 1 },
+            { type = 13, value = 20, job = 2 },
+            { type = 15, value = 34, job = 2 },
+            { type = 13, value = 20, job = 3 },
+            { type = 15, value = 34, job = 3 }, 
+	},
+},
+{
+	-- =     升6星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 144953 },
+            { type = 0, id = 505, count = 25 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 26, job = 1 },
+            { type = 11, value = 44, job = 1 },
+            { type = 13, value = 26, job = 2 },
+            { type = 15, value = 44, job = 2 },
+            { type = 13, value = 26, job = 3 },
+            { type = 15, value = 44, job = 3 }, 
+	},
+},
+{
+	-- =     升7星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 201739 },
+            { type = 0, id = 505, count = 29 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 33, job = 1 },
+            { type = 11, value = 55, job = 1 },
+            { type = 13, value = 33, job = 2 },
+            { type = 15, value = 55, job = 2 },
+            { type = 13, value = 33, job = 3 },
+            { type = 15, value = 55, job = 3 }, 
+	},
+},
+{
+	-- =     升8星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 275042 },
+            { type = 0, id = 505, count = 34 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 41, job = 1 },
+            { type = 11, value = 69, job = 1 },
+            { type = 13, value = 41, job = 2 },
+            { type = 15, value = 69, job = 2 },
+            { type = 13, value = 41, job = 3 },
+            { type = 15, value = 69, job = 3 }, 
+	},
+},
+{
+	-- =     升9星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 369119 },
+            { type = 0, id = 505, count = 40 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 50, job = 1 },
+            { type = 11, value = 83, job = 1 },
+            { type = 13, value = 50, job = 2 },
+            { type = 15, value = 83, job = 2 },
+            { type = 13, value = 50, job = 3 },
+            { type = 15, value = 83, job = 3 }, 
+	},
+},
+{
+	-- =     升10星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 489259 },
+            { type = 0, id = 505, count = 46 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 60, job = 1 },
+            { type = 11, value = 100, job = 1 },
+            { type = 13, value = 60, job = 2 },
+            { type = 15, value = 100, job = 2 },
+            { type = 13, value = 60, job = 3 },
+            { type = 15, value = 100, job = 3 }, 
+	},
+},
+{
+	-- =     升11星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 642018 },
+            { type = 0, id = 505, count = 54 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 71, job = 1 },
+            { type = 11, value = 118, job = 1 },
+            { type = 13, value = 71, job = 2 },
+            { type = 15, value = 118, job = 2 },
+            { type = 13, value = 71, job = 3 },
+            { type = 15, value = 118, job = 3 }, 
+	},
+},
+{
+	-- =     升12星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 835510 },
+            { type = 0, id = 505, count = 63 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 81, job = 1 },
+            { type = 11, value = 135, job = 1 },
+            { type = 13, value = 81, job = 2 },
+            { type = 15, value = 135, job = 2 },
+            { type = 13, value = 81, job = 3 },
+            { type = 15, value = 135, job = 3 }, 
+	},
+},
+{
+	-- =     升13星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 1079764 },
+            { type = 0, id = 505, count = 74 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 94, job = 1 },
+            { type = 11, value = 156, job = 1 },
+            { type = 13, value = 94, job = 2 },
+            { type = 15, value = 156, job = 2 },
+            { type = 13, value = 94, job = 3 },
+            { type = 15, value = 156, job = 3 }, 
+	},
+},
+{
+	-- =     升14星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 1387168 },
+            { type = 0, id = 505, count = 86 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 106, job = 1 },
+            { type = 11, value = 176, job = 1 },
+            { type = 13, value = 106, job = 2 },
+            { type = 15, value = 176, job = 2 },
+            { type = 13, value = 106, job = 3 },
+            { type = 15, value = 176, job = 3 }, 
+	},
+},
+{
+	-- =     升15星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 1772997 },
+            { type = 0, id = 505, count = 100 },
+
+ 
+	},
+	attrs = { 
+            { type = 9, value = 118, job = 1 },
+            { type = 11, value = 197, job = 1 },
+            { type = 13, value = 118, job = 2 },
+            { type = 15, value = 197, job = 2 },
+            { type = 13, value = 118, job = 3 },
+            { type = 15, value = 197, job = 3 }, 
+	},
+},
+{
+	-- =     升16星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 2256068 },
+
+            { type = 0, id = 506, count = 100 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 131, job = 1 },
+            { type = 11, value = 219, job = 1 },
+            { type = 13, value = 131, job = 2 },
+            { type = 15, value = 219, job = 2 },
+            { type = 13, value = 131, job = 3 },
+            { type = 15, value = 219, job = 3 }, 
+	},
+},
+{
+	-- =     升17星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 2859542 },
+
+            { type = 0, id = 506, count = 111 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 145, job = 1 },
+            { type = 11, value = 242, job = 1 },
+            { type = 13, value = 145, job = 2 },
+            { type = 15, value = 242, job = 2 },
+            { type = 13, value = 145, job = 3 },
+            { type = 15, value = 242, job = 3 }, 
+	},
+},
+{
+	-- =     升18星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 3611899 },
+
+            { type = 0, id = 506, count = 123 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 161, job = 1 },
+            { type = 11, value = 268, job = 1 },
+            { type = 13, value = 161, job = 2 },
+            { type = 15, value = 268, job = 2 },
+            { type = 13, value = 161, job = 3 },
+            { type = 15, value = 268, job = 3 }, 
+	},
+},
+{
+	-- =     升19星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 4548122 },
+
+            { type = 0, id = 506, count = 136 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 177, job = 1 },
+            { type = 11, value = 295, job = 1 },
+            { type = 13, value = 177, job = 2 },
+            { type = 15, value = 295, job = 2 },
+            { type = 13, value = 177, job = 3 },
+            { type = 15, value = 295, job = 3 }, 
+	},
+},
+{
+	-- =     升20星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 5711156 },
+
+            { type = 0, id = 506, count = 151 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 194, job = 1 },
+            { type = 11, value = 323, job = 1 },
+            { type = 13, value = 194, job = 2 },
+            { type = 15, value = 323, job = 2 },
+            { type = 13, value = 194, job = 3 },
+            { type = 15, value = 323, job = 3 }, 
+	},
+},
+{
+	-- =     升21星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 7153668 },
+
+            { type = 0, id = 506, count = 167 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 213, job = 1 },
+            { type = 11, value = 355, job = 1 },
+            { type = 13, value = 213, job = 2 },
+            { type = 15, value = 355, job = 2 },
+            { type = 13, value = 213, job = 3 },
+            { type = 15, value = 355, job = 3 }, 
+	},
+},
+{
+	-- =     升22星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 8940208 },
+
+            { type = 0, id = 506, count = 185 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 233, job = 1 },
+            { type = 11, value = 389, job = 1 },
+            { type = 13, value = 233, job = 2 },
+            { type = 15, value = 389, job = 2 },
+            { type = 13, value = 233, job = 3 },
+            { type = 15, value = 389, job = 3 }, 
+	},
+},
+{
+	-- =     升23星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 11149831 },
+
+            { type = 0, id = 506, count = 205 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 255, job = 1 },
+            { type = 11, value = 425, job = 1 },
+            { type = 13, value = 255, job = 2 },
+            { type = 15, value = 425, job = 2 },
+            { type = 13, value = 255, job = 3 },
+            { type = 15, value = 425, job = 3 }, 
+	},
+},
+{
+	-- =     升24星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 13879287 },
+
+            { type = 0, id = 506, count = 226 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 278, job = 1 },
+            { type = 11, value = 464, job = 1 },
+            { type = 13, value = 278, job = 2 },
+            { type = 15, value = 464, job = 2 },
+            { type = 13, value = 278, job = 3 },
+            { type = 15, value = 464, job = 3 }, 
+	},
+},
+{
+	-- =     升25星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 17246914 },
+
+            { type = 0, id = 506, count = 250 },
+ 
+	},
+	attrs = { 
+            { type = 9, value = 303, job = 1 },
+            { type = 11, value = 505, job = 1 },
+            { type = 13, value = 303, job = 2 },
+            { type = 15, value = 505, job = 2 },
+            { type = 13, value = 303, job = 3 },
+            { type = 15, value = 505, job = 3 }, 
+	},
+},
+{
+	-- =     升26星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 21397360 },
+
+
+            { type = 0, id = 507, count = 200 }, 
+	},
+	attrs = { 
+            { type = 9, value = 329, job = 1 },
+            { type = 11, value = 548, job = 1 },
+            { type = 13, value = 329, job = 2 },
+            { type = 15, value = 548, job = 2 },
+            { type = 13, value = 329, job = 3 },
+            { type = 15, value = 548, job = 3 }, 
+	},
+},
+{
+	-- =     升27星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 26507336 },
+
+
+            { type = 0, id = 507, count = 221 }, 
+	},
+	attrs = { 
+            { type = 9, value = 357, job = 1 },
+            { type = 11, value = 594, job = 1 },
+            { type = 13, value = 357, job = 2 },
+            { type = 15, value = 594, job = 2 },
+            { type = 13, value = 357, job = 3 },
+            { type = 15, value = 594, job = 3 }, 
+	},
+},
+{
+	-- =     升28星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 32792599 },
+
+
+            { type = 0, id = 507, count = 245 }, 
+	},
+	attrs = { 
+            { type = 9, value = 386, job = 1 },
+            { type = 11, value = 643, job = 1 },
+            { type = 13, value = 386, job = 2 },
+            { type = 15, value = 643, job = 2 },
+            { type = 13, value = 386, job = 3 },
+            { type = 15, value = 643, job = 3 }, 
+	},
+},
+{
+	-- =     升29星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 40516439 },
+
+
+            { type = 0, id = 507, count = 271 }, 
+	},
+	attrs = { 
+            { type = 9, value = 417, job = 1 },
+            { type = 11, value = 695, job = 1 },
+            { type = 13, value = 417, job = 2 },
+            { type = 15, value = 695, job = 2 },
+            { type = 13, value = 417, job = 3 },
+            { type = 15, value = 695, job = 3 }, 
+	},
+},
+{
+	-- =     升30星,
+	rate = 100,
+	rate1 = 0,
+	rate2 = 0,
+	consumes = { 
+            { type = 3, id = 0, count = 50000000 },
+
+
+            { type = 0, id = 507, count = 300 }, 
+	},
+	attrs = { 
+            { type = 9, value = 450, job = 1 },
+            { type = 11, value = 750, job = 1 },
+            { type = 13, value = 450, job = 2 },
+            { type = 15, value = 750, job = 2 },
+            { type = 13, value = 450, job = 3 },
+            { type = 15, value = 750, job = 3 }, 
+	},
+},	
+		},	
+	},
+
+}

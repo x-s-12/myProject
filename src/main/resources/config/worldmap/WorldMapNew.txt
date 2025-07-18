@@ -1,0 +1,26 @@
+﻿--#include "..\..\language\LangCode.txt"
+--#include "..\..\config\worldmap\MapLabels.txt"
+--世界地图配置
+WorldMapConfig =
+{
+	--世界地图块列表
+	list =
+	{
+		--sceneId:场景Id --name:场景名称 --desc:等级描术 --posX:坐标X posY:坐标Y
+		{sceneId = 1,name=OldLang.SceneName.y00001,desc = OldLang.SceneName.m00001,posX=407,posY=300,imgWidth=90,imgHight=112,blockIcon=1,levelOffsetY=32,}, --新手村
+		{sceneId = 2,name=OldLang.SceneName.y00002,desc = OldLang.SceneName.m00002,posX=301,posY=271,imgWidth=90,imgHight=112,blockIcon=2,levelOffsetY=32,}, --毒蛇山谷
+		{sceneId = 3,name=OldLang.SceneName.y00003,desc = OldLang.SceneName.m00003,posX=205,posY=299,imgWidth=90,imgHight=112,blockIcon=3,levelOffsetY=32,}, --兽人洞穴
+		{sceneId = 5,name=OldLang.SceneName.y00004,desc = OldLang.SceneName.m00004,posX=361,posY=209,imgWidth=90,imgHight=112,blockIcon=4,levelOffsetY=32,}, --沃玛寺院
+		{sceneId = 46,name=OldLang.SceneName.y00005,desc = OldLang.SceneName.m00005,posX=161,posY=129,imgWidth=143,imgHight=139,blockIcon=5,levelOffsetY=32,}, --玛法大陆
+		{sceneId = 8,name=OldLang.SceneName.y00006,desc = OldLang.SceneName.m00006,posX=42,posY=58,imgWidth=90,imgHight=112,blockIcon=6,levelOffsetY=32,}, --黑暗地带
+		{sceneId = 10,name=OldLang.SceneName.y00007,desc = OldLang.SceneName.m00007,posX=164,posY=11,imgWidth=90,imgHight=112,blockIcon=7,levelOffsetY=32,}, --石墓洞穴
+		{sceneId = 19,name=OldLang.SceneName.y00008,desc = OldLang.SceneName.m00008,posX=298,posY=34,imgWidth=90,imgHight=112,blockIcon=8,levelOffsetY=32,}, --祖玛寺庙
+		{sceneId = 24,name=OldLang.SceneName.y00009,desc = OldLang.SceneName.m00009,posX=368,posY=102,imgWidth=90,imgHight=112,blockIcon=9,levelOffsetY=32,}, --赤血洞
+		{sceneId = 35,name=OldLang.SceneName.y00010,desc = OldLang.SceneName.m00010,posX=31,posY=174,imgWidth=90,imgHight=112,blockIcon=10,levelOffsetY=32,}, --牛魔洞
+		{sceneId = 60,name=OldLang.SceneName.y00011,desc = OldLang.SceneName.m00011,posX=105,posY=260,imgWidth=90,imgHight=112,blockIcon=11,levelOffsetY=32,}, --狐狸洞
+		{sceneId = 58,name=OldLang.SceneName.y00012,desc = OldLang.SceneName.m00012,posX=17,posY=303,imgWidth=90,imgHight=112,blockIcon=12,levelOffsetY=32,}, --火龙洞
+	
+	},
+	
+	MapLabels = MapLabels,
+}

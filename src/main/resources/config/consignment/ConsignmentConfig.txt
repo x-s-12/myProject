@@ -1,0 +1,93 @@
+--交易行
+--#include "..\..\language\LangCode.txt"
+ConsignmentConfig =
+{
+	openlevel = 45,			--开启等级
+	minSellPrice = 10,		--单个最低售价
+	maxSellPrice = 999999,  --单个最高售价
+	pageCount = 5,			--每页显示多少条数据
+	maxShelfCount = 5,		--最多上架数量
+	sellTime	= 24,		--售卖时间(小时)
+	taxRate		= 0.1,		--税的比例
+	shoutTime	= 5,		--吆喝间隔(秒)
+	shoutMoney = 5000,		--吆喝金币
+	FilterCond =	--筛选条件
+	{
+		Level = 
+		{
+			{min= 0,max = 0},
+			{min=71,max = 80},
+			{min=81,max = 90},
+			{min=91,max = 100},
+			{min=101,max = 110},
+			{min=111,max = 120},
+			--{min=81,max = 90},
+
+		},
+		Circle = 
+		{
+			1,3,5,7,9
+		},
+	},
+	ConsignmentClass =
+	{
+		{
+			class1Id =1,--一级分类Id
+			--攻击装备
+			class1Name = OldLang.Script.Consignment01,
+			--武器、项链、宝石、戒指、手镯
+			class2 = 
+			{
+				{consignType = 1, class2Name = OldLang.Script.Consignment001},
+				{consignType = 4, class2Name = OldLang.Script.Consignment004},
+				{consignType = 6, class2Name = OldLang.Script.Consignment006},
+				{consignType = 7, class2Name = OldLang.Script.Consignment007},
+				{consignType =10, class2Name = OldLang.Script.Consignment010},
+			},
+		},
+		{
+			class1Id =2,--一级分类Id
+			--防御装备
+			class1Name = OldLang.Script.Consignment02,
+			--护甲、头盔、腰带、鞋子
+			class2 = 
+			{
+				{consignType = 2, class2Name = OldLang.Script.Consignment002},
+				{consignType = 3, class2Name = OldLang.Script.Consignment003},
+				{consignType = 8, class2Name = OldLang.Script.Consignment008},
+				{consignType = 9, class2Name = OldLang.Script.Consignment009},
+				
+			},
+		},
+		{
+			class1Id =3,--一级分类Id
+			--属性道具
+			class1Name = OldLang.Script.Consignment03,
+			--技能书、兵魂道具、翅膀道具、装备素材、龙珠道具、坐骑相关
+			class2 = 
+			{
+				{consignType = 21, class2Name = OldLang.Script.Consignment021},			
+				{consignType = 11, class2Name = OldLang.Script.Consignment011},
+				{consignType = 12, class2Name = OldLang.Script.Consignment012},
+				{consignType = 13, class2Name = OldLang.Script.Consignment013},
+				{consignType = 18, class2Name = OldLang.Script.Consignment018},
+				{consignType = 19, class2Name = OldLang.Script.Consignment019},
+			},
+		},
+		{
+			class1Id =4,--一级分类Id
+			--常用道具
+			class1Name = OldLang.Script.Consignment04,
+			--药品、增益药、日常品（回城卷、经验珠等）、行会相关、活动道具
+			class2 = 
+			{
+				{consignType = 14, class2Name = OldLang.Script.Consignment014},
+				{consignType = 15, class2Name = OldLang.Script.Consignment015},
+				{consignType = 16, class2Name = OldLang.Script.Consignment016},
+				{consignType = 17, class2Name = OldLang.Script.Consignment017},
+				{consignType = 20, class2Name = OldLang.Script.Consignment020},
+
+			},
+		},
+	},
+}

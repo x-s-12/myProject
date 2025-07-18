@@ -1,0 +1,544 @@
+﻿----成就系统配置
+--#include "..\..\language\LangCode.txt" once
+
+--[[
+特权类型
+privilege = 
+{
+1、百分比增加获得功勋值，配置值1代表1%
+   与日后其他系统功勋值加成为叠加关系
+2、固定值增加仓库格子，配置1代表1个格子
+3、固定值增加装备回收系统上限，配置1代表增加1万上限
+4、固定值增加金砖使用次数上限，配置1代表增加1次使用次数
+5、百分比减少受到玩家伤害的值，配置100代表减少1%受到玩家伤害
+   在伤害结算时，该值放在减少各职业伤害百分比后进行结算
+6、固定值增加神魔令上限值，配置1代表增加上限1点 
+}
+]]
+
+AchieveCfg = 
+{
+	{
+		Type = 1,
+		name = OldLang.AchieveName.topGroupName1001,			--成就分类名
+		AchieveInfo =
+		{	
+            {--除魔卫道[1]
+                id = 1,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName1,    --成就名
+                desc = OldLang.AchieveName.desc1,         --成就描述
+                showName = OldLang.AchieveName.showName1,   --界面显示名
+                taskId = 801,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 100000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 6, value = 10, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--除魔卫道[2]
+                id = 2,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName2,    --成就名
+                desc = OldLang.AchieveName.desc2,         --成就描述
+                showName = OldLang.AchieveName.showName2,   --界面显示名
+                taskId = 802,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 500000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 4, value = 10, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--除魔卫道[3]
+                id = 3,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName3,    --成就名
+                desc = OldLang.AchieveName.desc3,         --成就描述
+                showName = OldLang.AchieveName.showName3,   --界面显示名
+                taskId = 803,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 1250000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 6, value = 10, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--除魔卫道[4]
+                id = 4,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName4,    --成就名
+                desc = OldLang.AchieveName.desc4,         --成就描述
+                showName = OldLang.AchieveName.showName4,   --界面显示名
+                taskId = 804,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 2550000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 3, value = 3000, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--除魔卫道[5]
+                id = 5,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName5,    --成就名
+                desc = OldLang.AchieveName.desc5,         --成就描述
+                showName = OldLang.AchieveName.showName5,   --界面显示名
+                taskId = 805,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 4640000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 2, value = 10, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--除魔卫道[6]
+                id = 6,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName6,    --成就名
+                desc = OldLang.AchieveName.desc6,         --成就描述
+                showName = OldLang.AchieveName.showName6,   --界面显示名
+                taskId = 806,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 7720000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 117,addmode=0, value = 500, }, 
+            },
+
+		},
+	},
+	
+	{
+		Type = 2,
+		name = OldLang.AchieveName.topGroupName1002,			--成就分类名
+		AchieveInfo =
+		{
+            {--击败敌酋[1]
+                id = 20,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName20,    --成就名
+                desc = OldLang.AchieveName.desc20,         --成就描述
+                showName = OldLang.AchieveName.showName20,   --界面显示名
+                taskId = 820,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 400000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 59,addmode=0, value = 0.05, }, 
+            },
+            {--击败敌酋[2]
+                id = 21,                  --成就id递增 定好不能修改 
+                level = {0,85},           --等级限制
+                name = OldLang.AchieveName.groupName21,    --成就名
+                desc = OldLang.AchieveName.desc21,         --成就描述
+                showName = OldLang.AchieveName.showName21,   --界面显示名
+                taskId = 821,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 1600000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 3, value = 3000, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--击败敌酋[3]
+                id = 22,                  --成就id递增 定好不能修改 
+                level = {0,90},           --等级限制
+                name = OldLang.AchieveName.groupName22,    --成就名
+                desc = OldLang.AchieveName.desc22,         --成就描述
+                showName = OldLang.AchieveName.showName22,   --界面显示名
+                taskId = 822,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 3840000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 2, value = 10, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--击败敌酋[4]
+                id = 23,                  --成就id递增 定好不能修改 
+                level = {1,90},           --等级限制
+                name = OldLang.AchieveName.groupName23,    --成就名
+                desc = OldLang.AchieveName.desc23,         --成就描述
+                showName = OldLang.AchieveName.showName23,   --界面显示名
+                taskId = 823,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 7710000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 3, value = 3000, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--击败敌酋[5]
+                id = 24,                  --成就id递增 定好不能修改 
+                level = {1,90},           --等级限制
+                name = OldLang.AchieveName.groupName24,    --成就名
+                desc = OldLang.AchieveName.desc24,         --成就描述
+                showName = OldLang.AchieveName.showName24,   --界面显示名
+                taskId = 824,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 13910000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 1, value = 30, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--击败敌酋[6]
+                id = 25,                  --成就id递增 定好不能修改 
+                level = {1,100},           --等级限制
+                name = OldLang.AchieveName.groupName25,    --成就名
+                desc = OldLang.AchieveName.desc25,         --成就描述
+                showName = OldLang.AchieveName.showName25,   --界面显示名
+                taskId = 825,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 23060000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 141,addmode=0, value = 0.1, }, 
+            },
+
+		},		
+	},
+	
+
+	{
+		Type = 3,
+		name = OldLang.AchieveName.topGroupName1003,			--成就分类名
+		AchieveInfo =
+		{
+            {--强身健体[1]
+                id = 40,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName40,    --成就名
+                desc = OldLang.AchieveName.desc40,         --成就描述
+                showName = OldLang.AchieveName.showName40,   --界面显示名
+                taskId = 840,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 800000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 4, value = 10, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--强身健体[2]
+                id = 41,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName41,    --成就名
+                desc = OldLang.AchieveName.desc41,         --成就描述
+                showName = OldLang.AchieveName.showName41,   --界面显示名
+                taskId = 841,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 2480000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 3, value = 3000, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--强身健体[3]
+                id = 42,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName42,    --成就名
+                desc = OldLang.AchieveName.desc42,         --成就描述
+                showName = OldLang.AchieveName.showName42,   --界面显示名
+                taskId = 842,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 5760000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 141,addmode=0, value = 0.1, }, 
+            },
+            {--强身健体[4]
+                id = 43,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName43,    --成就名
+                desc = OldLang.AchieveName.desc43,         --成就描述
+                showName = OldLang.AchieveName.showName43,   --界面显示名
+                taskId = 843,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 11740000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 117,addmode=0, value = 500, }, 
+            },
+            {--强身健体[5]
+                id = 44,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName44,    --成就名
+                desc = OldLang.AchieveName.desc44,         --成就描述
+                showName = OldLang.AchieveName.showName44,   --界面显示名
+                taskId = 844,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 21930000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 3, value = 3000, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+
+		},
+	},
+	
+	{
+		Type = 4,
+		name = OldLang.AchieveName.topGroupName1004,			--成就分类名
+		AchieveInfo =
+		{
+            {--天关闯关[1]
+                id = 50,                  --成就id递增 定好不能修改 
+                level = {0,75},           --等级限制
+                name = OldLang.AchieveName.groupName50,    --成就名
+                desc = OldLang.AchieveName.desc50,         --成就描述
+                showName = OldLang.AchieveName.showName50,   --界面显示名
+                taskId = 850,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 200000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 3, value = 3000, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--天关闯关[2]
+                id = 51,                  --成就id递增 定好不能修改 
+                level = {0,80},           --等级限制
+                name = OldLang.AchieveName.groupName51,    --成就名
+                desc = OldLang.AchieveName.desc51,         --成就描述
+                showName = OldLang.AchieveName.showName51,   --界面显示名
+                taskId = 851,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 580000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 59,addmode=0, value = 0.05, }, 
+            },
+            {--天关闯关[3]
+                id = 52,                  --成就id递增 定好不能修改 
+                level = {0,90},           --等级限制
+                name = OldLang.AchieveName.groupName52,    --成就名
+                desc = OldLang.AchieveName.desc52,         --成就描述
+                showName = OldLang.AchieveName.showName52,   --界面显示名
+                taskId = 852,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 1430000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 141,addmode=0, value = 0.1, }, 
+            },
+            {--天关闯关[4]
+                id = 53,                  --成就id递增 定好不能修改 
+                level = {0,90},           --等级限制
+                name = OldLang.AchieveName.groupName53,    --成就名
+                desc = OldLang.AchieveName.desc53,         --成就描述
+                showName = OldLang.AchieveName.showName53,   --界面显示名
+                taskId = 853,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 3250000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 4, value = 10, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--天关闯关[5]
+                id = 54,                  --成就id递增 定好不能修改 
+                level = {0,90},           --等级限制
+                name = OldLang.AchieveName.groupName54,    --成就名
+                desc = OldLang.AchieveName.desc54,         --成就描述
+                showName = OldLang.AchieveName.showName54,   --界面显示名
+                taskId = 854,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 6930000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 3, value = 3000, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--天关闯关[6]
+                id = 55,                  --成就id递增 定好不能修改 
+                level = {0,100},           --等级限制
+                name = OldLang.AchieveName.groupName55,    --成就名
+                desc = OldLang.AchieveName.desc55,         --成就描述
+                showName = OldLang.AchieveName.showName55,   --界面显示名
+                taskId = 855,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 13960000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 59,addmode=0, value = 0.05, }, 
+            },
+            {--天关闯关[7]
+                id = 56,                  --成就id递增 定好不能修改 
+                level = {0,100},           --等级限制
+                name = OldLang.AchieveName.groupName56,    --成就名
+                desc = OldLang.AchieveName.desc56,         --成就描述
+                showName = OldLang.AchieveName.showName56,   --界面显示名
+                taskId = 856,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 26620000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 141,addmode=0, value = 0.1, }, 
+            },
+            {--天关闯关[8]
+                id = 57,                  --成就id递增 定好不能修改 
+                level = {0,110},           --等级限制
+                name = OldLang.AchieveName.groupName57,    --成就名
+                desc = OldLang.AchieveName.desc57,         --成就描述
+                showName = OldLang.AchieveName.showName57,   --界面显示名
+                taskId = 857,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 48020000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { },
+                --成就的属性
+                basePropConfig = {type = 117,addmode=0, value = 500, }, 
+            },
+            {--天关闯关[9]
+                id = 58,                  --成就id递增 定好不能修改 
+                level = {0,120},           --等级限制
+                name = OldLang.AchieveName.groupName58,    --成就名
+                desc = OldLang.AchieveName.desc58,         --成就描述
+                showName = OldLang.AchieveName.showName58,   --界面显示名
+                taskId = 858,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 81730000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 1, value = 30, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+            {--天关闯关[10]
+                id = 59,                  --成就id递增 定好不能修改 
+                level = {0,130},           --等级限制
+                name = OldLang.AchieveName.groupName59,    --成就名
+                desc = OldLang.AchieveName.desc59,         --成就描述
+                showName = OldLang.AchieveName.showName59,   --界面显示名
+                taskId = 859,            --完成某任务给成就
+                consume =                --激活成就消耗
+                {
+                    {type = 3, id = 0, count = 130870000, quality = 0, strong = 0, bind=0 },
+                },    
+                --成就的奖励
+                award = { }, 
+                --成就的特权
+                privilege = { type = 5, value = 5, },
+                --成就的属性
+                basePropConfig = { }, 
+            },
+			
+		},
+	},
+
+}

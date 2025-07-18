@@ -1,0 +1,125 @@
+--#include "..\..\language\LangCode.txt" once
+
+RecommendedUpgradeCfg = 
+{
+	{
+		EnterPos = {41, 61, 160, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {105,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)
+		strLeve	= OldLang.MiscConfig.xianshi011,
+		connect	= OldLang.MiscConfig.connect011,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 20000},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},
+	{
+		EnterPos = {58, 70, 64, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {105,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)
+        strLeve	= OldLang.MiscConfig.xianshi010,		
+		connect	= OldLang.MiscConfig.connect010,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 20000},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},	{
+		EnterPos = {54, 114, 279, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {95,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)		
+		strLeve	= OldLang.MiscConfig.xianshi009,
+		connect	= OldLang.MiscConfig.connect009,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 17500},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},
+	{
+		EnterPos = {60, 108, 226, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {95,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)		
+		strLeve	= OldLang.MiscConfig.xianshi008,
+		connect	= OldLang.MiscConfig.connect008,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 17500},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},	{
+		EnterPos = {36, 56, 155, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {85,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)	
+        strLeve	= OldLang.MiscConfig.xianshi007,		
+		connect	= OldLang.MiscConfig.connect007,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 15000},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},
+	{
+		EnterPos = {35, 112, 85, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {85,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)		
+		strLeve	= OldLang.MiscConfig.xianshi006,
+		connect	= OldLang.MiscConfig.connect006,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 15000},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},	{
+		EnterPos = {45, 80, 87, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {80,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)		
+		strLeve	= OldLang.MiscConfig.xianshi005,
+		connect	= OldLang.MiscConfig.connect005,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 12500},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},
+	{
+		EnterPos = {45, 160, 160, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {80,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)		
+		strLeve	= OldLang.MiscConfig.xianshi004,
+		connect	= OldLang.MiscConfig.connect004,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 12500},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},	
+	{
+		EnterPos = {20, 214, 220, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {70,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)		
+		strLeve	= OldLang.MiscConfig.xianshi003,
+		connect	= OldLang.MiscConfig.connect003,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 10000},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},
+	{
+		EnterPos = {19, 297, 63, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {70,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)		
+		strLeve	= OldLang.MiscConfig.xianshi002,
+		connect	= OldLang.MiscConfig.connect002,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 10000},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},	
+	{
+		EnterPos = {11, 233, 126, 0, 0,3,0}, 					--�����id ,����x,y,X��Χ��Y��Χ
+		level = {65,0}, 									--�Ƽ��ȼ�(�ȼ���ת��)		
+		strLeve	= OldLang.MiscConfig.xianshi001,
+		connect	= OldLang.MiscConfig.connect001,				--����
+		consum = 											--��������
+		{
+			money = {type = 0, count = 6000},				--���Ļ���
+			Item  = {ItemId = 0,count = 0},					--���ĵ���				
+		},			
+	},
+	
+}
+

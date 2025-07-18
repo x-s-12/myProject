@@ -1,0 +1,33 @@
+--经验盒子的
+
+MaxDailyUseExpBoxTimes = 5    --一天最多使用经验盒子的次数
+
+--使用经验盒子的特殊配置
+ExpBoxTable = 
+{
+	{
+		item_id = 874,
+	},
+
+	{
+		item_id = 875,
+	},
+
+	{
+		item_id = 876,
+	},
+
+	{
+		item_id = 877,
+	},
+
+	{
+		item_id = 878,
+	},
+	{
+		item_id = 933,
+	},
+	{
+		item_id = 934,
+	},
+}

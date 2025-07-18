@@ -1,0 +1,45 @@
+--D-道具表配置.xlsx 套装属性
+Suit={
+[1] = {
+	id = 1,
+	lv = 100,
+	name = OldLang.Item.t1,
+	circle = 0,
+	level = 80,
+	items = {},
+	attrs = {
+                {type =9,value =51,need =10},  --最小物攻
+                {type =11,value =113,need =10},  --最大物攻
+                {type =13,value =51,need =10},  --最小魔攻
+                {type =15,value =113,need =10},  --最大魔攻
+                {type =17,value =51,need =10},  --最小道攻
+                {type =19,value =113,need =10},  --最大道攻
+                {type =21,value =33,need =10},  --最小物防
+                {type =23,value =55,need =10},  --最大物防
+                {type =25,value =33,need =10},  --最小魔防
+                {type =27,value =55,need =10},  --最大魔防
+                {type =5,value =1269,need =10},  --最大血量
+   },
+},
+[2] = {
+	id = 2,
+	lv = 101,
+	name = OldLang.Item.t1,
+	circle = 0,
+	level = 90,
+	items = {},
+	attrs = {
+                {type =9,value =70,need =10},  --最小物攻
+                {type =11,value =156,need =10},  --最大物攻
+                {type =13,value =70,need =10},  --最小魔攻
+                {type =15,value =156,need =10},  --最大魔攻
+                {type =17,value =70,need =10},  --最小道攻
+                {type =19,value =156,need =10},  --最大道攻
+                {type =21,value =45,need =10},  --最小物防
+                {type =23,value =75,need =10},  --最大物防
+                {type =25,value =45,need =10},  --最小魔防
+                {type =27,value =75,need =10},  --最大魔防
+                {type =5,value =1696,need =10},  --最大血量
+   },
+},
+}

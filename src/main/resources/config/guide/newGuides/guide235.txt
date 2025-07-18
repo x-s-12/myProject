@@ -1,0 +1,27 @@
+--自动战斗指引
+{
+  maxLevel = 35,
+  --触发条件
+  triggerList =
+  {
+		{ type = 5, valueList = {30,31,32,33,34,35}},      --等级达35
+		{ type = 1, valueList = {8500,}},      --比骑任务	
+  } ,
+
+  --引导的步骤
+  steps =
+	{
+    --第1步 出现快捷键指引的条件
+    {
+      condList =
+      {
+				{ type = 15,  helpId = 0, dataList = {10,} },		--在指定地图
+ 				{ type = 5,  helpId = 0, dataList = {8500,} },      --存在任务
+	  },
+
+      --快捷键提示出现
+      action = { type = 15, helpId = 0, data = 0, desc = 0 },
+    },
+
+	},
+},

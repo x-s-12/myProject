@@ -1,0 +1,44 @@
+--挑战副本-坐骑副本
+
+RideFubenCfg = 
+{
+	index = 2,
+	pos = 2,				--按钮的排序(1技能，2坐骑，3强化，4翅膀，5装备，6金币，7龙珠)
+	dailyChellengeTimes = 2,		--每天挑战次数
+	fubens = 
+	{
+		{
+			fubenType 	= 2,					--坐骑副本
+			name 		= OldLang.Script.StrongFBName06,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc06,		--副本描述
+			titleIcon	= 103,		--标题图片
+			backIcon	= 300,		--背景图片
+			sceneId 	= 30,								--场景ID
+			fubenId 	= 12,								--副本ID
+			levelLimit 	= {0,67},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 12500,							--推荐战力(不强制要求)
+			enterPos 	= {56,62},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=211, sceneId=30, num=1, pos={45,55,46,56}, livetime=1800,},--鬣豚
+				{ monsterId=219, sceneId=30, num=5, pos={42,50,52,61}, livetime=1800,},--白炼蛇魅
+			},
+
+			makeScore = 							--评分
+			{
+				
+			},
+
+			awards = 
+			{
+				{type = 0, id = 938, count = 4, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 160,			--翻倍领取需要的元宝
+		},
+	},
+}
+
+

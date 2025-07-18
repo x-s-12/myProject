@@ -1,0 +1,109 @@
+--�������޵�
+{
+  --��������
+  triggerList =
+  {
+		{ type = 1, valueList = {1917,}},      --���������
+  } ,
+  
+
+  --�����Ĳ��� 
+  steps = 
+  {
+
+    --��1�� ָ�򵼺���ǩ
+    {
+      condList = 
+      {
+				{ type = 1,  helpId = 50, dataList = {0,} },       --����׷�����ɼ�
+				{ type = 15,  helpId = 51, dataList = {1,} },      --����׷�����û��ѡ�е�һ��
+				{ type = 2,  helpId = 40, dataList = {0,} },     --npc�Ի��򲻿ɼ�
+				{ type = 28,  helpId = 40, dataList = {143,} },     --����ָ������
+				{ type = 29,  helpId = 40, dataList = {1917,} },     --����δ���
+      },
+
+      action = { type = 2, helpId = 51, data = 1, desc = OldLang.GuideLang.desc1 },  --ָ������׷������һ��
+    },
+
+
+    --��2�� ָ��������
+    {
+      condList = 
+      {
+				{ type = 1,  helpId = 50, dataList = {0,} },     --����׷�����ɼ�
+				{ type = 3,  helpId = 51, dataList = {1,} },     --����׷�����ѡ�е�һ��
+				{ type = 2,  helpId = 40, dataList = {0,} },     --npc�Ի��򲻿ɼ�
+				{ type = 28,  helpId = 40, dataList = {143,} },     --����ָ������
+				{ type = 29,  helpId = 40, dataList = {1917,} },     --����δ���
+      },
+      
+      --ָ������Ѱ·����
+      action = { type = 5, helpId = 1917, data = OldLang.GuideLang.name34, desc = OldLang.GuideLang.desc2 },
+    },
+
+    --��3�� ָ��npc�Ի����б�������
+    {
+      condList = 
+      {
+				{ type = 1,  helpId = 40, dataList = {0,} },     --npc�Ի���ɼ�
+				{ type = 28,  helpId = 40, dataList = {143,} },     --����ָ������
+				{ type = 29,  helpId = 40, dataList = {1917,} },     --����δ���
+      },
+      
+      --ָ��npc�Ի�����ѡ��ĵ�һ��
+      action = { type = 13, helpId = 42, data = 3, desc = OldLang.GuideLang.desc25 },
+    },
+
+    --��4�� ָ�����񵼺��Ĺ���
+    {
+      condList = 
+      {
+				{ type = 2,  helpId = 40, dataList = {0,} },     --npc�Ի��򲻿ɼ�
+				{ type = 27,  helpId = 40, dataList = {143,} },     --��ָ������
+				{ type = 29,  helpId = 40, dataList = {1917,} },     --����δ���
+      },
+      
+      --ָ��npc�Ի�����ѡ��ĵ�һ��
+      action = { type = 5, helpId = 1917, data = OldLang.GuideLang.name35, desc = OldLang.GuideLang.desc23 },
+    },
+
+     --��5�� ָ�����񵼺��Ĺ˲���
+    {
+      condList = 
+      {
+				{ type = 3,  helpId = 51, dataList = {1,} },     --����׷�����ѡ�е�һ��
+				{ type = 2,  helpId = 40, dataList = {0,} },     --npc�Ի��򲻿ɼ�
+				{ type = 30,  helpId = 40, dataList = {1917,} },     --�������
+				{ type = 16,  helpId = 40, dataList = {1917,} },     --��������
+      },
+      
+      --ָ��npc�Ի�����ѡ��ĵ�һ��
+      action = { type = 5, helpId = 1917, data = OldLang.GuideLang.name34, desc = OldLang.GuideLang.desc2 },
+    },
+
+    --��6�� ָ��npc�Ի�����������ť
+    {
+      condList = 
+      {
+				{ type = 1,  helpId = 40, dataList = {0,} },     --npc�Ի���ɼ�
+				{ type = 30,  helpId = 40, dataList = {1917,} },     --�������
+				{ type = 16,  helpId = 40, dataList = {1917,} },     --��������
+      },
+      
+      --ָ��npc�Ի�����ѡ��ĵ�һ��
+      action = { type = 1, helpId = 41, data = 3, desc = OldLang.GuideLang.desc20 },
+    },
+
+    --��7�� ����
+    {
+      condList = 
+      {
+				{ type = 17,  helpId = 40, dataList = {1917,} },     --����������
+      },
+      
+      --������
+      action = { type = 0, helpId = 0, data = 3, desc = OldLang.GuideLang.desc20 },
+    },
+
+ }
+}

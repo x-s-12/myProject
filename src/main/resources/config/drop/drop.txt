@@ -1,0 +1,3 @@
+--#include ".\dropgroup.config" once	
+--#include ".\droptable.config" once	
+--#include ".\dropAttribute.config" once	

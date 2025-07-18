@@ -1,0 +1,1447 @@
+﻿--[[
+装备鉴定
+]]
+EquipIdentifyCfg = {
+{
+	level = {0,1,1,255},
+	consume = 
+        {
+          identifyConsume =
+          {
+              {  --每次鉴定1条属性的消耗（只解锁了1条属性）
+                  {type = 0,id = 1371,count = 2 },
+                  {type = 3,id = 0,count = 5000 },
+              },
+
+              {  --每次鉴定2条属性的消耗（只解锁了2条属性）
+                  {type = 0,id = 1371,count = 4 },
+                  {type = 3,id = 0,count = 10000 },
+              },
+
+              {  --每次鉴定3条属性的消耗（只解锁了3条属性）
+                  {type = 0,id = 1371,count = 6 },
+                  {type = 3,id = 0,count = 15000 },
+              },
+          },
+
+        
+          unlockSlotConsume =   --解锁属性槽的费用
+          {
+              {  --解锁第1个属性槽的费用（免费则留空）
+
+              },
+
+              {  --解锁第2个属性槽的费用
+                  {type = 0,id = 1373,count = 1 },
+                  {type = 10,id = 0,count = 200 },
+              },
+
+              {  --解锁第3个属性槽的费用
+                  {type = 0,id = 1374,count = 1 },
+                  {type = 10,id = 0,count = 400 },
+              },
+          },
+
+        
+          lockPropConsume =   --锁住属性所增加额外的鉴定费用
+          {
+              {  --锁住1条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 1 },
+              },
+
+              {  --锁住2条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 2 },
+              },
+
+              {  --锁住3条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 3 },
+              },
+          },
+
+        
+          transferConsume =   --转移鉴定属性的费用
+          {
+              {  --转移1条鉴定属性的费用
+                  {type = 3,id = 0,count = 50000 },
+                  {type = 10,id = 0,count = 500 },
+              },
+
+              {  --转移2条鉴定属性的费用
+                  {type = 3,id = 0,count = 100000 },
+                  {type = 10,id = 0,count = 1000 },
+              },
+
+              {  --转移3条鉴定属性的费用
+                  {type = 3,id = 0,count = 150000 },
+                  {type = 10,id = 0,count = 1500 },
+              },
+          },
+      },
+
+        
+          attrsMax =   --客户端显示等级段装备属性最大值
+          {
+              {type = 9, value = 36,},
+              {type = 11, value = 80,},
+              {type = 13, value = 36,},
+              {type = 15, value = 80,},
+              {type = 17, value = 36,},
+              {type = 19, value = 80,},
+              {type = 21, value = 32,},
+              {type = 23, value = 52,},
+              {type = 25, value = 32,},
+              {type = 27, value = 52,},
+              {type = 29, value = 1,},
+              {type = 31, value = 1,},
+              {type = 138, value = 12,},
+              {type = 139, value = 120,},
+              {type = 5, value = 400,},
+              {type = 7, value = 100,},
+              {type = 49, value = -5,},
+              {type = 140, value = 30,},
+              {type = 109, value = 0.01,},
+              {type = 39, value = 0.04,},
+              {type = 41, value = 0.04,},
+          },
+
+        
+          identify =   --鉴定获得属性
+          {
+				  {    --1武器
+					   {
+						  cond = {0,50},
+						  smithId = 13,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 14,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 15,
+					   },
+				   },
+
+				  {    --2衣服
+					   {
+						  cond = {0,50},
+						  smithId = 13,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 14,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 15,
+					   },
+				   },
+
+				  {    --3头盔
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --4项链
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --5勋章
+
+				   },
+
+				  {    --6手镯
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --7戒指
+					   {
+						  cond = {0,50},
+						  smithId = 13,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 14,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 15,
+					   },
+				   },
+
+				  {    --8腰带
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --9鞋子
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --10宝石
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --11特戒
+					   {
+						  cond = {0,50},
+						  smithId = 13,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 14,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 15,
+					   },
+				   },
+
+				  {    --12翅膀
+
+				   },
+
+				  {    --13幻武
+
+				   },
+
+				  {    --14玄甲
+
+				   },
+
+				  {    --15血魄
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --16神盾
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --17龙魂
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+
+				  {    --18智珠
+					   {
+						  cond = {0,50},
+						  smithId = 1,
+					   },
+
+					   {  
+						  cond = {51,100},
+						  smithId = 2,
+					   },
+
+					   {  
+						  cond = {101,9999},
+						  smithId = 3,
+					   },
+				   },
+			   },
+},
+{
+	level = {2,90,4,255},
+	consume = 
+        {
+          identifyConsume =
+          {
+              {  --每次鉴定1条属性的消耗（只解锁了1条属性）
+                  {type = 0,id = 1371,count = 3 },
+                  {type = 3,id = 0,count = 5000 },
+              },
+
+              {  --每次鉴定2条属性的消耗（只解锁了2条属性）
+                  {type = 0,id = 1371,count = 6 },
+                  {type = 3,id = 0,count = 10000 },
+              },
+
+              {  --每次鉴定3条属性的消耗（只解锁了3条属性）
+                  {type = 0,id = 1371,count = 9 },
+                  {type = 3,id = 0,count = 15000 },
+              },
+          },
+
+        
+          unlockSlotConsume =   --解锁属性槽的费用
+          {
+              {  --解锁第1个属性槽的费用（免费则留空）
+
+              },
+
+              {  --解锁第2个属性槽的费用
+                  {type = 0,id = 1373,count = 1 },
+                  {type = 10,id = 0,count = 200 },
+              },
+
+              {  --解锁第3个属性槽的费用
+                  {type = 0,id = 1374,count = 1 },
+                  {type = 10,id = 0,count = 400 },
+              },
+          },
+
+        
+          lockPropConsume =   --锁住属性所增加额外的鉴定费用
+          {
+              {  --锁住1条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 1 },
+              },
+
+              {  --锁住2条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 2 },
+              },
+
+              {  --锁住3条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 3 },
+              },
+          },
+
+        
+          transferConsume =   --转移鉴定属性的费用
+          {
+              {  --转移1条鉴定属性的费用
+                  {type = 3,id = 0,count = 50000 },
+                  {type = 10,id = 0,count = 500 },
+              },
+
+              {  --转移2条鉴定属性的费用
+                  {type = 3,id = 0,count = 100000 },
+                  {type = 10,id = 0,count = 1000 },
+              },
+
+              {  --转移3条鉴定属性的费用
+                  {type = 3,id = 0,count = 150000 },
+                  {type = 10,id = 0,count = 1500 },
+              },
+          },
+      },
+
+        
+          attrsMax =   --客户端显示等级段装备属性最大值
+          {
+              {type = 9, value = 54,},
+              {type = 11, value = 120,},
+              {type = 13, value = 54,},
+              {type = 15, value = 120,},
+              {type = 17, value = 54,},
+              {type = 19, value = 120,},
+              {type = 21, value = 47,},
+              {type = 23, value = 78,},
+              {type = 25, value = 47,},
+              {type = 27, value = 78,},
+              {type = 29, value = 2,},
+              {type = 31, value = 1,},
+              {type = 138, value = 17,},
+              {type = 139, value = 180,},
+              {type = 5, value = 600,},
+              {type = 7, value = 150,},
+              {type = 49, value = -9,},
+              {type = 140, value = 70,},
+              {type = 109, value = 0.015,},
+              {type = 39, value = 0.06,},
+              {type = 41, value = 0.06,},
+          },
+
+        
+          identify =   --鉴定获得属性
+          {
+				  {    --1武器
+					   {
+						  cond = {0,500},
+						  smithId = 16,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 17,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 18,
+					   },
+				   },
+
+				  {    --2衣服
+					   {
+						  cond = {0,500},
+						  smithId = 16,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 17,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 18,
+					   },
+				   },
+
+				  {    --3头盔
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --4项链
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --5勋章
+
+				   },
+
+				  {    --6手镯
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --7戒指
+					   {
+						  cond = {0,500},
+						  smithId = 16,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 17,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 18,
+					   },
+				   },
+
+				  {    --8腰带
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --9鞋子
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --10宝石
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --11特戒
+					   {
+						  cond = {0,500},
+						  smithId = 16,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 17,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 18,
+					   },
+				   },
+
+				  {    --12翅膀
+
+				   },
+
+				  {    --13幻武
+
+				   },
+
+				  {    --14玄甲
+
+				   },
+
+				  {    --15血魄
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --16神盾
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --17龙魂
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+
+				  {    --18智珠
+					   {
+						  cond = {0,500},
+						  smithId = 4,
+					   },
+
+					   {  
+						  cond = {501,1000},
+						  smithId = 5,
+					   },
+
+					   {  
+						  cond = {1001,9999},
+						  smithId = 6,
+					   },
+				   },
+			   },
+
+},
+{
+	level = {5,90,7,255},
+	consume = 
+        {
+          identifyConsume =
+          {
+              {  --每次鉴定1条属性的消耗（只解锁了1条属性）
+                  {type = 0,id = 1371,count = 4 },
+                  {type = 3,id = 0,count = 5000 },
+              },
+
+              {  --每次鉴定2条属性的消耗（只解锁了2条属性）
+                  {type = 0,id = 1371,count = 8 },
+                  {type = 3,id = 0,count = 10000 },
+              },
+
+              {  --每次鉴定3条属性的消耗（只解锁了3条属性）
+                  {type = 0,id = 1371,count = 12 },
+                  {type = 3,id = 0,count = 15000 },
+              },
+          },
+
+        
+          unlockSlotConsume =   --解锁属性槽的费用
+          {
+              {  --解锁第1个属性槽的费用（免费则留空）
+
+              },
+
+              {  --解锁第2个属性槽的费用
+                  {type = 0,id = 1373,count = 1 },
+                  {type = 10,id = 0,count = 200 },
+              },
+
+              {  --解锁第3个属性槽的费用
+                  {type = 0,id = 1374,count = 1 },
+                  {type = 10,id = 0,count = 400 },
+              },
+          },
+
+        
+          lockPropConsume =   --锁住属性所增加额外的鉴定费用
+          {
+              {  --锁住1条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 1 },
+              },
+
+              {  --锁住2条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 2 },
+              },
+
+              {  --锁住3条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 3 },
+              },
+          },
+
+        
+          transferConsume =   --转移鉴定属性的费用
+          {
+              {  --转移1条鉴定属性的费用
+                  {type = 3,id = 0,count = 50000 },
+                  {type = 10,id = 0,count = 500 },
+              },
+
+              {  --转移2条鉴定属性的费用
+                  {type = 3,id = 0,count = 100000 },
+                  {type = 10,id = 0,count = 1000 },
+              },
+
+              {  --转移3条鉴定属性的费用
+                  {type = 3,id = 0,count = 150000 },
+                  {type = 10,id = 0,count = 1500 },
+              },
+          },
+      },
+
+        
+          attrsMax =   --客户端显示等级段装备属性最大值
+          {
+              {type = 9, value = 72,},
+              {type = 11, value = 160,},
+              {type = 13, value = 72,},
+              {type = 15, value = 160,},
+              {type = 17, value = 72,},
+              {type = 19, value = 160,},
+              {type = 21, value = 63,},
+              {type = 23, value = 104,},
+              {type = 25, value = 63,},
+              {type = 27, value = 104,},
+              {type = 29, value = 2,},
+              {type = 31, value = 1,},
+              {type = 138, value = 23,},
+              {type = 139, value = 240,},
+              {type = 5, value = 800,},
+              {type = 7, value = 200,},
+              {type = 49, value = -14,},
+              {type = 140, value = 110,},
+              {type = 109, value = 0.02,},
+              {type = 39, value = 0.08,},
+              {type = 41, value = 0.08,},
+          },
+
+        
+          identify =   --鉴定获得属性
+          {
+				  {    --1武器
+					   {
+						  cond = {0,1000},
+						  smithId = 19,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 20,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 21,
+					   },
+				   },
+
+				  {    --2衣服
+					   {
+						  cond = {0,1000},
+						  smithId = 19,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 20,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 21,
+					   },
+				   },
+
+				  {    --3头盔
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --4项链
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --5勋章
+
+				   },
+
+				  {    --6手镯
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --7戒指
+					   {
+						  cond = {0,1000},
+						  smithId = 19,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 20,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 21,
+					   },
+				   },
+
+				  {    --8腰带
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --9鞋子
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --10宝石
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --11特戒
+					   {
+						  cond = {0,1000},
+						  smithId = 19,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 20,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 21,
+					   },
+				   },
+
+				  {    --12翅膀
+
+				   },
+
+				  {    --13幻武
+
+				   },
+
+				  {    --14玄甲
+
+				   },
+
+				  {    --15血魄
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --16神盾
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --17龙魂
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+
+				  {    --18智珠
+					   {
+						  cond = {0,1000},
+						  smithId = 7,
+					   },
+
+					   {  
+						  cond = {1001,1500},
+						  smithId = 8,
+					   },
+
+					   {  
+						  cond = {1501,9999},
+						  smithId = 9,
+					   },
+				   },
+			   },
+},			  
+{
+	level = {8,90,12,255},
+	consume = 
+        {
+          identifyConsume =
+          {
+              {  --每次鉴定1条属性的消耗（只解锁了1条属性）
+                  {type = 0,id = 1371,count = 5 },
+                  {type = 3,id = 0,count = 5000 },
+              },
+
+              {  --每次鉴定2条属性的消耗（只解锁了2条属性）
+                  {type = 0,id = 1371,count = 10 },
+                  {type = 3,id = 0,count = 10000 },
+              },
+
+              {  --每次鉴定3条属性的消耗（只解锁了3条属性）
+                  {type = 0,id = 1371,count = 15 },
+                  {type = 3,id = 0,count = 15000 },
+              },
+          },
+
+        
+          unlockSlotConsume =   --解锁属性槽的费用
+          {
+              {  --解锁第1个属性槽的费用（免费则留空）
+
+              },
+
+              {  --解锁第2个属性槽的费用
+                  {type = 0,id = 1373,count = 1 },
+                  {type = 10,id = 0,count = 200 },
+              },
+
+              {  --解锁第3个属性槽的费用
+                  {type = 0,id = 1374,count = 1 },
+                  {type = 10,id = 0,count = 400 },
+              },
+          },
+
+        
+          lockPropConsume =   --锁住属性所增加额外的鉴定费用
+          {
+              {  --锁住1条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 1 },
+              },
+
+              {  --锁住2条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 2 },
+              },
+
+              {  --锁住3条属性所增加额外的鉴定费用
+                  {type = 0,id = 1372,count = 3 },
+              },
+          },
+
+        
+          transferConsume =   --转移鉴定属性的费用
+          {
+              {  --转移1条鉴定属性的费用
+                  {type = 3,id = 0,count = 50000 },
+                  {type = 10,id = 0,count = 500 },
+              },
+
+              {  --转移2条鉴定属性的费用
+                  {type = 3,id = 0,count = 100000 },
+                  {type = 10,id = 0,count = 1000 },
+              },
+
+              {  --转移3条鉴定属性的费用
+                  {type = 3,id = 0,count = 150000 },
+                  {type = 10,id = 0,count = 1500 },
+              },
+          },
+      },
+
+        
+          attrsMax =   --客户端显示等级段装备属性最大值
+          {
+              {type = 9, value = 90,},
+              {type = 11, value = 200,},
+              {type = 13, value = 90,},
+              {type = 15, value = 200,},
+              {type = 17, value = 90,},
+              {type = 19, value = 200,},
+              {type = 21, value = 78,},
+              {type = 23, value = 130,},
+              {type = 25, value = 78,},
+              {type = 27, value = 130,},
+              {type = 29, value = 2,},
+              {type = 31, value = 1,},
+              {type = 138, value = 28,},
+              {type = 139, value = 300,},
+              {type = 5, value = 1000,},
+              {type = 7, value = 250,},
+              {type = 49, value = -20,},
+              {type = 140, value = 150,},
+              {type = 109, value = 0.025,},
+              {type = 39, value = 0.1,},
+              {type = 41, value = 0.1,},
+          },
+
+        
+          identify =   --鉴定获得属性
+          {
+
+				  {    --1武器
+					   {
+						  cond = {0,3000},
+						  smithId = 22,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 23,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 24,
+					   },
+				   },
+
+				  {    --2衣服
+					   {
+						  cond = {0,3000},
+						  smithId = 22,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 23,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 24,
+					   },
+				   },
+
+				  {    --3头盔
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --4项链
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --5勋章
+
+				   },
+
+				  {    --6手镯
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --7戒指
+					   {
+						  cond = {0,3000},
+						  smithId = 22,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 23,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 24,
+					   },
+				   },
+
+				  {    --8腰带
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --9鞋子
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --10宝石
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --11特戒
+					   {
+						  cond = {0,3000},
+						  smithId = 22,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 23,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 24,
+					   },
+				   },
+
+				  {    --12翅膀
+
+				   },
+
+				  {    --13幻武
+
+				   },
+
+				  {    --14玄甲
+
+				   },
+
+				  {    --15血魄
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --16神盾
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --17龙魂
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+
+				  {    --18智珠
+					   {
+						  cond = {0,3000},
+						  smithId = 10,
+					   },
+
+					   {  
+						  cond = {3001,3500},
+						  smithId = 11,
+					   },
+
+					   {  
+						  cond = {3501,9999},
+						  smithId = 12,
+					   },
+				   },
+			   },
+},
+}

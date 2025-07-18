@@ -1,0 +1,133 @@
+﻿--野外BOSS
+--#include "..\..\language\LangCode.txt" once
+
+LockBossConfig =
+{
+
+	{
+		monsterId		=	200, 
+		sceneId			=	41, 
+		num				=	1, 
+		pos				=	{31,27}, 					--BOSS刷出位置
+		livetime		=	0,
+		deadMonsterId 	=	207,						--BOSS死亡后的墓碑怪
+		revivalCd		=	2700,						--复活时间（秒）(等于墓碑怪的生命周期)
+
+		needCircle		=  {1,2},
+		enterConsume 	=								--进入场景的消耗
+		{
+			{type = 22, id = 0, count = 10, quality = 0, strong = 0, bind=0 },
+		},
+		enterPos		=  {21,37}, 					--玩家进入场景的坐标
+		--clickStr		=  OldLang.Script.LockBoss011,		--NPC点击的字符串
+	},
+
+	{
+		monsterId		=	201, 
+		sceneId			=	50, 
+		num				=	1, 
+		pos				=	{31,27}, 
+		livetime		=	0,
+		deadMonsterId 	=	208,
+		revivalCd		=	5400,
+
+		needCircle		=  {3,4},
+		enterConsume 	=
+		{
+			{type = 22, id = 0, count = 15, quality = 0, strong = 0, bind=0 },
+		},
+		enterPos		=  {21,37},
+		--clickStr		=  OldLang.Script.LockBoss012,	
+	},
+
+	{
+		monsterId		=	202, 
+		sceneId			=	71, 
+		num				=	1, 
+		pos				=	{31,27}, 
+		livetime		=	0,
+		deadMonsterId 	=	209,
+		revivalCd		=	7200,
+
+		needCircle		=  {5,6},
+		enterConsume 	=
+		{
+			{type = 22, id = 0, count = 20, quality = 0, strong = 0, bind=0 },
+		},
+		enterPos		=  {21,37},
+		--clickStr		=  OldLang.Script.LockBoss013,	
+	},
+
+	{
+		monsterId		=	203, 
+		sceneId			=	74, 
+		num				=	1, 
+		pos				=	{31,27},
+		livetime		=	0,
+		deadMonsterId 	=	210,
+		revivalCd		=	9000,
+		
+		needCircle		=  {7,8},
+		enterConsume 	=					--进入场景的消耗
+		{
+			{type = 22, id = 0, count = 25, quality = 0, strong = 0, bind=0 },
+		},
+		enterPos		=  {21,37}, 		--玩家进入场景的坐标
+		--clickStr		=  OldLang.Script.LockBoss014,	
+	},
+
+	{
+		monsterId		=	204, 
+		sceneId			=	75, 
+		num				=	1, 
+		pos				=	{31,27}, 
+		livetime		=	0,
+		deadMonsterId 	=	211,
+		revivalCd		=	12000,
+
+		needCircle		=  {9,10},
+		enterConsume 	=
+		{
+			{type = 22, id = 0, count = 30, quality = 0, strong = 0, bind=0 },
+		},
+		enterPos		=  {21,37},
+		--clickStr		=  OldLang.Script.LockBoss015,	
+	},
+
+	{
+		monsterId		=	205, 
+		sceneId			=	76, 
+		num				=	1, 
+		pos				=	{31,27}, 
+		livetime		=	0,
+		deadMonsterId 	=	212,
+		revivalCd		=	15600,
+
+		needCircle		=  {11,12},
+		enterConsume 	=
+		{
+			{type = 22, id = 0, count = 35, quality = 0, strong = 0, bind=0 },
+		},
+		enterPos		=  {21,37},
+		--clickStr		=  OldLang.Script.LockBoss016,	
+	},
+
+	{
+		monsterId		=	206, 
+		sceneId			=	77, 
+		num				=	1, 
+		pos				=	{31,27}, 
+		livetime		=	0,
+		deadMonsterId 	=	213,
+		revivalCd		=	21600,
+
+		needCircle		=  {13,99},
+		enterConsume 	=
+		{
+			{type = 22, id = 0, count = 40, quality = 0, strong = 0, bind=0 },
+		},
+		enterPos		=  {21,37},
+		--clickStr		=  OldLang.Script.LockBoss017,	
+	},
+
+}

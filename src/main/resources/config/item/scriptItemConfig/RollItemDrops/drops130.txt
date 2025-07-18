@@ -1,0 +1,14 @@
+--[[
+	--propability概率，概率的数字越大的话掉的物品的概率越高
+	--group是分组的id，类似怪物的爆率的配置, group为0，必出；相同group的按propability出一个
+--]]
+drops=
+{
+{ group = 1, type = 0, id = 1103, count = 1, bind = 1, propability=3400, broadcast=0, sex=-1,},--战神经验丹小
+{ group = 1, type = 0, id = 1249, count = 1, bind = 1, propability=1000, broadcast=0, sex=-1,},--20元宝
+{ group = 1, type = 0, id = 1279, count = 1, bind = 1, propability=600, broadcast=0, sex=-1,},--神圣药水
+{ group = 1, type = 0, id = 1102, count = 2, bind = 1, propability=1000, broadcast=0, sex=-1,},--羽化石
+{ group = 1, type = 0, id = 1107, count = 1, bind = 1, propability=1000, broadcast=0, sex=-1,},--战神进阶石
+{ group = 1, type = 0, id = 1379, count = 1, bind = 1, propability=3000, broadcast=0, sex=-1,},--座驾提升丹
+
+}

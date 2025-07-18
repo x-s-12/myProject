@@ -1,0 +1,403 @@
+--#include "..\..\language\LangCode.txt" once
+
+anheiBossConfig = 
+{
+  {
+	name = OldLang.Activity.anheiName001,
+	desc = OldLang.Activity.anheiDesc001,
+	modId = 342,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 571, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName001,sceneName1 = OldLang.Activity.anheiScene001, sceneid = 99,},
+	},
+	award = 
+	{
+		
+		{type = 0,id = 529,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 539,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 549,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 705,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+		
+	}
+  },
+  
+    {
+	name = OldLang.Activity.anheiName002,
+	desc = OldLang.Activity.anheiDesc002,
+	modId = 343,
+	modX = 247,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 572, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName002,sceneName1 = OldLang.Activity.anheiScene002, sceneid = 99,},
+	},
+	award = 
+	{
+		{type = 0,id = 531,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 541,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 551,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 705,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+		
+	}
+  },
+  
+  
+    {
+	name = OldLang.Activity.anheiName003,
+	desc = OldLang.Activity.anheiDesc003,
+	modId = 344,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 573, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName003,sceneName1 = OldLang.Activity.anheiScene003, sceneid = 99,},
+	},
+	award = 
+	{
+		{type = 0,id = 527,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 537,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 547,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 705,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+
+	}
+  },
+  
+  
+   {
+	name = OldLang.Activity.anheiName004,
+	desc = OldLang.Activity.anheiDesc004,
+	modId = 345,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 574, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName004, sceneName1 = OldLang.Activity.anheiScene004, sceneid = 100,},
+	},
+	award = 
+	{
+		{type = 0,id = 530,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 540,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 550,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 705,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  },
+  
+  {
+	name = OldLang.Activity.anheiName005,
+	desc = OldLang.Activity.anheiDesc005,
+	modId = 346,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 575, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName005 ,sceneName1 = OldLang.Activity.anheiScene005, sceneid = 100,},
+	},
+	award = 
+	{
+		{type = 0,id = 532,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 542,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 552,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 705,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  },
+  
+    {
+	name = OldLang.Activity.anheiName006,
+	desc = OldLang.Activity.anheiDesc006,
+	modId = 347,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 576, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName006, sceneName1 = OldLang.Activity.anheiScene006, sceneid = 101,},
+	},
+	award = 
+	{
+		{type = 0,id = 526,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 536,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 546,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 705,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  },
+  
+  
+   {
+	name = OldLang.Activity.anheiName007,
+	desc = OldLang.Activity.anheiDesc007,
+	modId = 348,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 577, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName007, sceneName1 = OldLang.Activity.anheiScene007, sceneid = 101,},
+	},
+	award = 
+	{
+		{type = 0,id = 524,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 525,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 534,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 535,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 544,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 545,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 705,count = 1,quality = 0,strong = 0, importantLevel=1},
+		
+		
+	}
+  },
+  
+     {
+	name = OldLang.Activity.anheiName008,
+	desc = OldLang.Activity.anheiDesc008,
+	modId = 349,
+	modX = 235,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 578, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName008, sceneName1 = OldLang.Activity.anheiScene008, sceneid = 101,},
+	},
+	award = 
+	{
+		{type = 0,id = 523,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 533,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 543,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 705,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  },
+  
+    {
+	name = OldLang.Activity.anheiName009,
+	desc = OldLang.Activity.anheiDesc009,
+	modId = 350,
+	modX = 235,
+	modY = 345,
+	boss = 
+	{
+		{bossid = 579, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName009, sceneName1 = OldLang.Activity.anheiScene009, sceneid = 102,},
+		{bossid = 587, x = 278, y = 371, sceneName = OldLang.Activity.anheiSceneName0099, sceneName1 = OldLang.Activity.anheiScene0099, sceneid = 103,},
+	
+	},
+	award = 
+	{
+		{type = 0,id = 559,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 569,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 579,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 558,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 568,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 578,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 706,count = 1,quality = 0,strong = 0, importantLevel=1},
+
+	}
+  },
+  
+     {
+	name = OldLang.Activity.anheiName010,
+	desc = OldLang.Activity.anheiDesc010,
+	modId = 351,
+	modX = 250,
+	modY = 330,
+	boss = 
+	{
+		{bossid = 580, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName010,sceneName1 = OldLang.Activity.anheiScene010, sceneid = 102,},
+		{bossid = 588, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName0100,sceneName1 = OldLang.Activity.anheiScene0100, sceneid = 103,},
+	},
+	award = 
+	{
+		{type = 0,id = 560,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 570,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 580,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 561,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 571,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 581,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 706,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  },
+  
+   {
+	name = OldLang.Activity.anheiName011,
+	desc = OldLang.Activity.anheiDesc011,
+	modId = 352,
+	modX = 250,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 581, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName011,sceneName1 = OldLang.Activity.anheiScene011, sceneid = 102,},
+		{bossid = 589, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName0111,sceneName1 = OldLang.Activity.anheiScene0111, sceneid = 103,},
+	},
+	award = 
+	{
+		
+		{type = 0,id = 554,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 555,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 564,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 565,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 574,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 575,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 706,count = 1,quality = 0,strong = 0, importantLevel=1},
+		
+	}
+  },
+  
+  {
+	name = OldLang.Activity.anheiName012,
+	desc = OldLang.Activity.anheiDesc012,
+	modId = 353,
+	modX = 235,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 582, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName012,sceneName1 = OldLang.Activity.anheiScene012, sceneid = 102,},
+		{bossid = 590, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName0122, sceneName1 = OldLang.Activity.anheiScene0122, sceneid = 103,},
+	},
+	award = 
+	{
+		
+		{type = 0,id = 553,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 563,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 573,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 706,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  },
+  
+  {
+	name = OldLang.Activity.anheiName013,
+	desc = OldLang.Activity.anheiDesc013,
+	modId = 354,
+	modX = 230,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 583, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName013,sceneName1 = OldLang.Activity.anheiScene013, sceneid = 102,},
+		{bossid = 591, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName0133, sceneName1 = OldLang.Activity.anheiScene0133, sceneid = 103,},
+	},
+	award = 
+	{
+		
+		{type = 0,id = 619,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 629,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 639,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 618,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 628,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 638,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 708,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  },
+  
+  {
+	name = OldLang.Activity.anheiName014,
+	desc = OldLang.Activity.anheiDesc014,
+	modId = 355,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 584, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName014, sceneName1 = OldLang.Activity.anheiScene014, sceneid = 102,},
+		{bossid = 592, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName0144, sceneName1 = OldLang.Activity.anheiScene0144, sceneid = 103,},
+	},
+	award = 
+	{
+		
+		{type = 0,id = 616,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 626,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 636,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 621,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 631,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 641,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 708,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  }, 
+  
+    {
+	name = OldLang.Activity.anheiName015,
+	desc = OldLang.Activity.anheiDesc015,
+	modId = 356,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 585, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName015, sceneName1 = OldLang.Activity.anheiScene015, sceneid = 102,},
+		{bossid = 593, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName0155, sceneName1 = OldLang.Activity.anheiScene0155, sceneid = 103,},
+	},
+	award = 
+	{
+		
+		{type = 0,id = 614,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 615,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 624,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 625,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 634,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 635,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 708,count = 1,quality = 0,strong = 0, importantLevel=1},
+		
+	}
+  }, 
+  
+    {
+	name = OldLang.Activity.anheiName016,
+	desc = OldLang.Activity.anheiDesc016,
+	modId = 357,
+	modX = 266,
+	modY = 370,
+	boss = 
+	{
+		{bossid = 586, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName016, sceneName1 = OldLang.Activity.anheiScene016, sceneid = 102,},
+		{bossid = 594, x = 278, y = 371, sceneName =  OldLang.Activity.anheiSceneName0166, sceneName1 = OldLang.Activity.anheiScene0166, sceneid = 103,},
+		
+	},
+	award = 
+	{
+		
+		{type = 0,id = 613,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 623,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 633,count = 1,quality = 3,strong = 0},
+		{type = 0,id = 938,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 511,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 708,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 893,count = 1,quality = 0,strong = 0, importantLevel=1},
+		{type = 0,id = 786,count = 1,quality = 0,strong = 0, importantLevel=1},
+	}
+  }, 
+  
+  
+}
+

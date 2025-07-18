@@ -1,0 +1,645 @@
+﻿--#include "..\..\language\LangCode.txt"
+--[[{
+        type            = 1,            -- 属于按钮几，策划自己定义,加完找客户端程序对应上
+        list =                          -- 该按钮下的显示列表
+        {
+            {
+                id                  = 20001,        --商城ID（唯一）
+                label               = 3,            -- 第几页标签页
+                index               = 1,            -- 在该标签页中属于第几个    
+                canuse              = 0,            -- 能否立即使用 0不能 1 可以
+                levelmin            = 1,            -- 显示最小等级
+                levelmax            = 999,          -- 显示最大等级
+                notopenserverday    = -1,           -- 开服几天后，-1表示没要求
+                notcombineserverday = -1,           -- 合服几天后，-1表示没要求
+                openserverday       = -1,           -- 开服前几天，-1表示没要求
+                combineserverday    = -1,           -- 合服前几天，-1表示没要求
+            },
+        },
+    },]]
+--元宝商城：lable = 0，绑元商城：lable = 3
+--快捷购买type：1-战神-体力，2-战神-经验，3-红名药水，4-神炉-血魄，5-神炉-神盾，6-神炉-龙魂，7-神炉-智珠，
+--				8-技能熟练丹【人物】，9-魔神令，10-修为丹，11-战神进阶,12-铭刻经验丹，13-金币，14-羽化石
+--              15-鉴定，16-功勋令牌,17-座驾提升丹
+
+FastStoreBuyCfg =
+{
+
+    {
+        type = 1,            -- 战神-体力
+        moneyTypes = -1,
+        itemIds = {1331},
+        list =                          
+        {
+            {
+                id                  	= 20013, 
+                label               	= 3, 
+                index               	= 13,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+			{
+                id                  	= 10017, 
+                label               	= 0, 
+                index               	= 17,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+        },
+    },
+	{
+        type = 2,            -- 战神-经验
+        moneyTypes = -1,
+        itemIds = {1103,1104,1105,},
+        list =                          
+        {
+            {
+                id                  	= 20006,
+                label              		= 3,
+                index               	= 6,
+                canuse             		= 0,
+                levelmin            	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,          
+                openserverday       	= -1,
+                combineserverday    	= -1,           
+            },
+			{
+                id                  	= 10036,
+                label              		= 0,
+                index               	= 36,
+                canuse             		= 0,
+                levelmin            	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,          
+                openserverday       	= -1,
+                combineserverday    	= -1,           
+            },
+			{
+                id                  	= 10037,
+                label              		= 0,
+                index               	= 37,
+                canuse             		= 0,
+                levelmin            	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,          
+                openserverday       	= -1,
+                combineserverday    	= -1,           
+            },
+        },
+    },
+	{
+        type = 3,            -- 红名药水
+        moneyTypes = -1,
+        itemIds = {},
+        list =                          
+        {
+            {
+                id                  	= 10018, 
+                label               	= 0, 
+                index               	= 18,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+        },
+    },
+	{
+        type = 4,            -- 神炉-血魄
+        moneyTypes = 26,
+        itemIds = {1093,1112,1113,1114},
+        list =                          
+        {
+            {
+                id                  	= 20002, 
+                label               	= 3, 
+                index               	= 2,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+        },
+    },
+	{
+        type = 5,            -- 神炉-神盾
+        moneyTypes = 25,
+        itemIds = {1094,1115,1116,1117},
+        list =                          
+        {
+            {
+                id                  	= 20003, 
+                label               	= 3, 
+                index               	= 3,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+        },
+    },
+	{
+        type = 6,            -- 神炉-龙魂
+        moneyTypes = 30,
+        itemIds = {1095,1118,1119,1120},
+        list =                          
+        {
+            {
+                id                  	= 20004, 
+                label               	= 3, 
+                index               	= 4,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+			{
+                id                  	= 10038, 
+                label               	= 0, 
+                index               	= 38,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+			{
+                id                  	= 10004, 
+                label               	= 0, 
+                index               	= 4,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+			{
+                id                  	= 10026, 
+                label               	= 0, 
+                index               	= 26,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+        },
+    },
+	{
+        type = 7,            -- 神炉-智珠
+        moneyTypes = 31,
+        itemIds = {1096,1121,1122,1123},
+        list =                          
+        {
+            {
+                id                  	= 20005, 
+                label               	= 3, 
+                index               	= 5,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+						{
+                id                  	= 10039, 
+                label               	= 0, 
+                index               	= 39,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+			{
+                id                  	= 10005, 
+                label               	= 0, 
+                index               	= 5,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+			{
+                id                  	= 10027, 
+                label               	= 0, 
+                index               	= 27,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+        },
+    },
+	{
+        type = 8,            -- 技能熟练丹【人物】
+        moneyTypes = -1,
+        itemIds = {1070},
+        list =                          
+        {
+            {
+                id                  	= 20008, 
+                label               	= 3, 
+                index               	= 8,  
+                canuse              	= 0,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+			{
+                id                  	= 10023, 
+                label               	= 0, 
+                index               	= 23,  
+                canuse              	= 0,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+			{
+                id                  	= 10035, 
+                label               	= 0, 
+                index               	= 35,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+        },
+    },
+	{
+        type = 9,            -- 魔神令
+        moneyTypes = 22,
+        itemIds = {1231},
+        list =                          
+        {
+            {
+                id                  	= 20009, 
+                label               	= 3, 
+                index               	= 9,  
+                canuse              	= 1,
+                levelmin           	    = 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+        },
+    },
+	{
+        type = 10,            -- 修为丹
+        moneyTypes = 14,
+        itemIds = {1232,1260,1261},
+        list =                          
+        {
+			{
+                id                  	= 10006, 
+                label               	= 0, 
+                index               	= 6,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+            {
+                id                  	= 10015, 
+                label               	= 0, 
+                index               	= 15,  
+                canuse              	= 1,
+                levelmin           		= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday		= -1,           
+            },
+        },
+    },
+    {
+        type = 11,            -- 战神进阶
+        moneyTypes = -1,
+        itemIds = {1107},
+        list =                          
+        {
+			{
+                id                  	= 20007, 
+                label               	= 3, 
+                index               	= 7,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+            {
+                id                  	= 10024, 
+                label               	= 0, 
+                index               	= 24,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+			{
+                id                  	= 10040, 
+                label               	= 0, 
+                index               	= 40,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+        },
+    },
+	{
+        type = 12,            -- 铭刻经验丹
+        moneyTypes = -1,
+        itemIds = {1092},
+        list =                          
+        {
+			{
+                id                  	= 10010, 
+                label               	= 0, 
+                index               	= 10,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+			{
+                id                  	= 10028, 
+                label               	= 0, 
+                index               	= 28,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+        },
+    },
+	{
+        type = 13,            -- 金币
+        moneyTypes = 3,
+        itemIds = {1255,1256,1257,1258},
+        list =                          
+        {
+			{
+                id                  	= 10001, 
+                label               	= 0, 
+                index               	= 1,  
+                canuse              	= 1,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+			{
+                id                  	= 10029, 
+                label               	= 0, 
+                index               	= 29,  
+                canuse              	= 1,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+        },
+    },
+	{
+        type = 14,            -- 羽化石
+        moneyTypes = -1,
+        itemIds = {1102},
+        list =                          
+        {
+			{
+                id                  	= 20001, 
+                label               	= 3, 
+                index               	= 1,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+			{
+                id                  	= 10025, 
+                label               	= 0, 
+                index               	= 25,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+			{
+                id                  	= 10034, 
+                label               	= 0, 
+                index               	= 34,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+        },
+    },
+	{
+        type = 15,            -- 鉴定
+        moneyTypes = -1,
+        itemIds = {1371},
+        list =                          
+        {
+			{
+                id                  	= 10019, 
+                label               	= 0, 
+                index               	= 19,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+			{
+                id                  	= 10021, 
+                label               	= 0, 
+                index               	= 21,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+			{
+                id                  	= 10020, 
+                label               	= 0, 
+                index               	= 20,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+			{
+                id                  	= 10022, 
+                label               	= 0, 
+                index               	= 22,  
+                canuse              	= 0,
+                levelmin           	= 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	= -1,           
+            },
+        },
+    },
+	{
+        type = 16,            -- 功勋
+        moneyTypes = 23,
+        itemIds = {1109},
+        list =                          
+        {
+			{
+                id                  	= 10011, 
+                label               	= 0, 
+                index               	= 11,  
+                canuse              	= 1,
+                levelmin           	    = 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	    = -1,           
+            },
+			{
+                id                  	= 10030, 
+                label               	= 0, 
+                index               	= 30,  
+                canuse              	= 1,
+                levelmin           	    = 1,
+                levelmax            	= 999,
+                notopenserverday    	= -1,
+                notcombineserverday 	= -1,
+                openserverday       	= -1,
+                combineserverday	    = -1,           
+            },
+        },
+    },
+    {
+        type = 17,            -- 座驾提升丹
+        moneyTypes = -1,
+        itemIds = {1379},
+        list =                          
+        {
+            {
+                id                      = 10032, 
+                label                   = 0, 
+                index                   = 32,  
+                canuse                  = 0,
+                levelmin                = 1,
+                levelmax                = 999,
+                notopenserverday        = -1,
+                notcombineserverday     = -1,
+                openserverday           = -1,
+                combineserverday        = -1,           
+            },
+            {
+                id                      = 10033, 
+                label                   = 0, 
+                index                   = 33,  
+                canuse                  = 0,
+                levelmin                = 1,
+                levelmax                = 999,
+                notopenserverday        = -1,
+                notcombineserverday     = -1,
+                openserverday           = -1,
+                combineserverday        = -1,           
+            },
+
+        },
+    },	
+}

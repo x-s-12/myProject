@@ -1,0 +1,15 @@
+--#include "..\..\language\LangCode.txt" once
+--通用活动礼包配置
+ActiGiftBagConfig = 
+{
+
+--------------------------------前端礼包常量 ActiGiftBagConst actiType
+--活动列表
+commonList=
+{
+--2015春节活动-祈福迎神 type=1039
+--#include "actigiftbags/SF2015/SF2015BlessToSprirt.txt"
+},
+
+
+}

@@ -1,0 +1,21 @@
+--#include "..\..\language\LangCode.txt" once
+--boss令
+
+
+bossTokenConfig = 
+{
+	BroadCastLevel = 80,	--广播可见等级
+	senceId = 15,			--场景id
+	lastTime = 1800,		--boss持续时间
+	bossTokenList = 
+	{
+		{
+			itemId = 1288,
+			bossId = 194,
+		},
+		{
+			itemId = 1289,
+			bossId = 195,
+		},
+	},
+}

@@ -1,0 +1,585 @@
+--个人爬塔副本
+--https://192.168.0.50/svn/LongChen/trunk/Res/Zgame/X-系统文档/H-活动汇总/G-个人试炼.docx
+PaTaType_Person = 0
+PaTaType_Team = 1
+
+PersonPaTaConfig = 
+{
+	--等级配置在Fuben.txt
+	--次数配置在FubenCountConfig.txt
+	fubenId = 24,			      --副本id
+	closeDay = 0,				  --结算不开放时间(closeDay + closeTime 是同时生效的)，星期日-星期六=0-6
+	closeTime = {23,1,0,23,59,59},--结算不开放时间(closeDay + closeTime 是同时生效的)[23:1:0 - 23:59:59]
+	refreshMonTime = 5  		 ,--刷怪间隔
+	npcId = 99,				  --对应npcId
+	viewRankPanelIndex = 2,		--查看试炼排行榜索引
+	Monster=
+	{ 
+		{ id = 451,  x = 46, y =46, liveTime = 1800, isBroad = false},--第一波
+		{ id = 452,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 453,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 454,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 455,  x = 46, y =46, liveTime = 1800, isBroad = true},
+		{ id = 456,  x = 46, y =46, liveTime = 1800, isBroad = false},--第六波
+		{ id = 457,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 458,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 459,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 460,  x = 46, y =46, liveTime = 1800, isBroad = true},
+		{ id = 461,  x = 46, y =46, liveTime = 1800, isBroad = false},--第11波
+		{ id = 462,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 463,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 464,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 465,  x = 46, y =46, liveTime = 1800, isBroad = true},
+		{ id = 466,  x = 46, y =46, liveTime = 1800, isBroad = false},--第16波
+		{ id = 467,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 468,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 469,  x = 46, y =46, liveTime = 1800, isBroad = false},
+		{ id = 470,  x = 46, y =46, liveTime = 1800, isBroad = true},
+		{ id = 471,  x = 46, y =46, liveTime = 1800, isBroad = true},--第21波
+		{ id = 472,  x = 46, y =46, liveTime = 1800, isBroad = true},
+		{ id = 473,  x = 46, y =46, liveTime = 1800, isBroad = true},
+		{ id = 474,  x = 46, y =46, liveTime = 1800, isBroad = true},
+		{ id = 475,  x = 46, y =46, liveTime = 1800, isBroad = true},
+	},
+	rankMinWaveLimit = 10,--上榜最低波数 10
+	rankTimeBaseScore = 10000000,--时间(毫秒)转积分基数
+	PassAwards = 
+	{
+		{ floor = 1,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 400, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 1, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 2,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 400, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 1, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 3,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 400, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 2, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 4,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 400, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 2, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 5,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1000, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 3, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 6,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 600, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 2, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 7,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 600, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 2, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 8,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 600, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 3, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 9,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 600, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 3, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 10,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1600, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 5, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 11,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 800, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 3, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 12,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 800, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 3, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 13,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 800, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 4, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 14,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 800, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 4, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 15,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 2000, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 8, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 16,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1000, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 6, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 17,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1000, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 6, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 18,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1000, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 8, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 19,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1000, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 8, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 20,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 3000, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 10, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 21,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1200, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 8, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 22,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1200, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 8, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 23,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1200, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 10, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 24,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 1200, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 10, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{ floor = 25,
+			Awards = 
+			{
+				{type = 13, id = 1, count = 4000, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1377, count = 20, quality = 0, strong = 0, bind=1},
+			},
+		},
+	},	
+	RankFirstTitleId = 11,
+	RankAwards =     	
+	{
+		{	--第1名奖励
+			rankIdx = {1,1},
+			award =
+			{
+				{type = 0, id = 1378, count = 1, quality = 0, strong = 0, bind=1, isShow = true},
+				{type = 0, id = 1377, count = 100, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 30, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第2名奖励
+			rankIdx = {2,2},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 80, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 25, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第3名奖励
+			rankIdx = {3,3},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 60, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 20, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第4名奖励
+			rankIdx = {4,4},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 50, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 15, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第5名奖励
+			rankIdx = {5,5},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 45, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 15, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第6名奖励
+			rankIdx = {6,6},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 40, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 12, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第7名奖励
+			rankIdx = {7,7},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 35, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 12, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第8名奖励
+			rankIdx = {8,8},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 30, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 12, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第9名奖励
+			rankIdx = {9,9},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 25, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 10, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第10名奖励
+			rankIdx = {10,10},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 20, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 8, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第11-20名奖励
+			rankIdx = {11,11},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 15, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 5, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第21-30名奖励
+			rankIdx = {21,30},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 10, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 4, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	--第31-99999名奖励
+			rankIdx = {31,100},
+			award =
+			{
+				
+				{type = 0, id = 1377, count = 5, quality = 0, strong = 0, bind=1},
+				{type = 0, id = 1371, count = 2, quality = 0, strong = 0, bind=1},
+			},
+		},
+
+	},
+}
+TeamPaTaConfig = 
+{
+	--等级配置在Fuben.txt
+	--Fuben.txt,需配置minPlayCount = 1,maxPlayCount = 5
+	--次数配置在FubenCountConfig.txt
+	fubenId = 29,			      --副本id
+	teleportNpcId = 99,		  --传送npcid
+	closeDay = 0,				  --结算不开放时间(closeDay + closeTime 是同时生效的)，星期日-星期六=0-6
+	closeTime = {23,1,0,23,59,59},--结算不开放时间(closeDay + closeTime 是同时生效的)[23:1:0 - 23:59:59]
+	rankMinWaveLimit = 10,--上榜最低波数
+	Monster=
+	{ 
+		--isBroad 击杀之后是否广播
+		{ id = 530,  x = 49, y =54, liveTime = 1800, isBroad = false, sceneId = 94},--第一波
+		{ id = 531,  x = 46, y =57, liveTime = 1800, isBroad = false, sceneId = 95},
+		{ id = 532,  x = 52, y =50, liveTime = 1800, isBroad = false, sceneId = 96},
+		{ id = 533,  x = 45, y =56, liveTime = 1800, isBroad = false, sceneId = 80},
+		{ id = 534,  x = 42, y =46, liveTime = 1800, isBroad = true,  sceneId = 97},
+		{ id = 535,  x = 48, y =59, liveTime = 1800, isBroad = false, sceneId = 93},--第六波
+		{ id = 536,  x = 42, y =46, liveTime = 1800, isBroad = false, sceneId = 97},
+		{ id = 537,  x = 49, y =54, liveTime = 1800, isBroad = false, sceneId = 94},
+		{ id = 538,  x = 45, y =56, liveTime = 1800, isBroad = false, sceneId = 80},
+		{ id = 539,  x = 52, y =50, liveTime = 1800, isBroad = true,  sceneId = 96},
+		{ id = 540,  x = 48, y =59, liveTime = 1800, isBroad = false, sceneId = 93},--第11波
+		{ id = 541,  x = 52, y =50, liveTime = 1800, isBroad = false, sceneId = 96},
+		{ id = 542,  x = 45, y =56, liveTime = 1800, isBroad = false, sceneId = 80},
+		{ id = 543,  x = 46, y =57, liveTime = 1800, isBroad = false, sceneId = 95},
+		{ id = 544,  x = 42, y =46, liveTime = 1800, isBroad = true,  sceneId = 97},
+		{ id = 545,  x = 48, y =59, liveTime = 1800, isBroad = false, sceneId = 93},--第16波
+		{ id = 546,  x = 46, y =57, liveTime = 1800, isBroad = false, sceneId = 95},
+		{ id = 547,  x = 45, y =56, liveTime = 1800, isBroad = false, sceneId = 80},
+		{ id = 548,  x = 42, y =46, liveTime = 1800, isBroad = false, sceneId = 97},
+		{ id = 549,  x = 52, y =50, liveTime = 1800, isBroad = true,  sceneId = 96},
+		{ id = 550,  x = 42, y =46, liveTime = 1800, isBroad = true,  sceneId = 97},--第21波
+		{ id = 551,  x = 46, y =57, liveTime = 1800, isBroad = true,  sceneId = 95},
+		{ id = 552,  x = 48, y =59, liveTime = 1800, isBroad = true,  sceneId = 93},
+		{ id = 553,  x = 42, y =46, liveTime = 1800, isBroad = true,  sceneId = 97},
+		{ id = 554,  x = 49, y =54, liveTime = 1800, isBroad = true,  sceneId = 94},
+	},
+	--[[
+	Landscapes =
+	{
+		{
+			sceneId = 80,
+			Landscape = 
+			{	
+				--liveTime 毫秒
+				{modelid = 18, posX = 76, posY =86, liveTime = 1800,},
+			},
+		},
+	},
+	]]--
+
+	PassAwards = 
+	{
+		{	floor = 1,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 8, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 2000000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 2,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 9, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 2200000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 3,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 11, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 2400000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 4,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 14, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 2600000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 5,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 16, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 2800000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 6,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 19, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 3000000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 7,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 21, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 3200000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 8,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 24, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 3400000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 9,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 27, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 3700000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 10,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 31, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 3900000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 11,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 34, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 4200000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 12,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 38, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 4500000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 13,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 43, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 4800000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 14,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 47, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 5100000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 15,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 52, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 5400000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 16,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 57, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 5800000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 17,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 63, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 6200000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 18,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 69, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 6500000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 19,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 75, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 7000000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 20,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 82, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 7400000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 21,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 90, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 7800000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 22,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 98, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 8300000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 23,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 107, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 8800000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 24,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 116, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 9300000, quality = 0, strong = 0, bind=1},
+			},
+		},
+		{	floor = 25,
+			Awards = 
+			{
+				{type = 0, id = 508, count = 126, quality = 0, strong = 0, bind=1},
+				{type = 1, id = 0, count = 9800000, quality = 0, strong = 0, bind=1},
+			},
+		},
+	},	
+	--第一名奖励
+	Awards = 
+	{
+		{type = 0, id = 939, count = 5, quality = 0, strong = 0, bind=1},
+		{type = 0, id = 864, count = 2, quality = 0, strong = 0, bind=1},
+		{type = 0, id = 786, count = 1, quality = 0, strong = 0, bind=1},
+	},
+}

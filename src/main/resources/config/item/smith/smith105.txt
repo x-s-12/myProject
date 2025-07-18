@@ -1,0 +1,16 @@
+﻿{
+	-- = 极品库105,
+	-- = 
+{type = 119,prop = 2,typeValue = {{min = 23,max = 30,prop = 1,},{min = 34,max = 45,prop = 3,},{min = 45,max = 60,prop = 6,},},},
+	-- = 
+{type = 119,prop = 7,typeValue = {{min = 34,max = 45,prop = 3,},{min = 68,max = 90,prop = 4,},{min = 79,max = 105,prop = 3,},},},
+	-- = 
+{type = 119,prop = 1,typeValue = {{min = 90,max = 120,prop = 6,},{min = 101,max = 135,prop = 3,},{min = 113,max = 150,prop = 1,},},},
+	-- = 
+--,
+	-- = 
+--,
+	-- = 
+--,
+	-- = ,
+},

@@ -1,0 +1,9 @@
+--英雄经验丹
+--注，这里修改了，data\config\Hero\HeroConfig.txt 需要同步修改
+HeroExpConfig = 
+{
+   {itemid = 1103, exp = 100000},
+   {itemid = 1104, exp = 1000000},   
+   {itemid = 1105, exp = 10000000},
+   {itemid = 1106, exp = 100000000},   
+}

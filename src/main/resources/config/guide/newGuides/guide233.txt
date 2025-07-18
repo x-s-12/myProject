@@ -1,0 +1,43 @@
+--�һ�ָ������������
+{
+  maxLevel = 45,
+forever= 1,
+  triggerList =
+	{
+		{ type = 1, valueList = {74,}},      --�����������
+                 { type = 1, valueList = {8500,}},      --�����������
+	},
+
+
+  --�����Ĳ���
+  steps =
+	{
+    --��1�� ָ�򵼺���ǩ
+    {
+      condList =
+      {
+               { type = 15,  helpId = 0, dataList = {10,} },		--��ָ����ͼ
+               { type = 43,  helpId = 0, dataList = {0,} },            --�ж��Ƿ�һ�
+                 { type =7, helpId = 0, dataList = {8500,}},      --�����������
+                 { type =7, helpId = 0, dataList = {74,}},      --�����������
+      },
+
+      action = { type = 1, helpId = 4, data = 1, desc = OldLang.GuideLang.desc1 },  --ָ��һ���ť
+    },
+
+    
+
+    --��2�� ����ָ��
+    {
+      condList =
+      {
+				
+				{ type = 6,  helpId = 0, dataList = {87,} },			--����������
+                                
+      },
+
+      --������
+      action = { type = 0, helpId = 20, data = 0, desc = OldLang.GuideLang.desc5 },
+    },
+	},
+},

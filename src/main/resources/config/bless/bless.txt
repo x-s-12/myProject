@@ -1,0 +1,3 @@
+--#include ".\Bless.config" once	
+--#include ".\BlessConstConfig.config" once	
+--#include ".\BlessLuck.config" once	

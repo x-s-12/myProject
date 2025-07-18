@@ -1,0 +1,4209 @@
+--#include "..\..\language\LangCode.txt"
+
+--���а����� 						= ������
+--��Ҿ�̬����	���½ڡ����ؿ��� 	= ������ս����
+--				���½ڡ� 			= {ͨ��ʱ�䣬�ػ�����Ƿ���}
+
+AllDayOther = 
+{
+   CountDown = 50, --�ɹ��󵹼�ʱ
+}
+AllDayCfg = 
+{
+	--��һ��
+	{	
+		FbId = 2,							--����id���������йؿ�ͨ��һ������	
+		level = {0,70},						--һ���µĿ��ŵȼ�
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ��������꣨���õ��˳������Ľӿڣ��������������������û���ˣ�	
+		--1�ǣ�2�ǣ�3�ǵ�����
+		Star = {600,		480, 		240,},	
+		rankLimit = 10,		--�ϰ��������(�����½ڶ������ֵ)		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian001,	--�ؿ�����
+				Level = 70,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {7,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 25, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 2, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 					--��������
+				{
+					{monsterId=233, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=10, livetime=600,},
+					{monsterId=299, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=5, livetime=600,},
+				},
+				ShowAward = 				--����ؿ��ĵ����е���ʾ
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 20000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 					--��ͬͨ�����۵Ľ���
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 20000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 20000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 20000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian002,	--�ؿ�����
+				Level = 70,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {7,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 25, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 2, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=234, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=15, livetime=600,},
+					{monsterId=349, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 25000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},				
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 25000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 25000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 25000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian003,	--�ؿ�����
+				Level = 70,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {7,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 25, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 2, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=235, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=20, livetime=600,},
+					{monsterId=359, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 30000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 30000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 30000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 30000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian004,	--�ؿ�����
+				Level = 70,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {7,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 25, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 2, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=236, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=20, livetime=600,},
+					{monsterId=369, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 35000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 35000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 35000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+							{type = 1, id = 0, count = 1500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 35000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian005,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips001,
+				Level = 70,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {7,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 140, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 8, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=237, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=1, livetime=600,},
+					{monsterId=379, x1 = 24, x2 = 42, y1 = 31, y2 = 43, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+							{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 91, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 100, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 109, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1107, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{				
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1, },--Ѫ����Ƭ(С)
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1, },--�����Ƭ(С)
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1, },--ף����
+					{ group = 0, type = 0, id = 1107,  minCount = 1, maxCount = 1, propability = 1, bind = 1, },	--ս�����ʯ								
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+							{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+							{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+							{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+							{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --�����·�������������Ϣ
+		AwardCfg = 
+		{		
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 123, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 1},		--90������
+					{type = 0, id = 132, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 2},		--90������
+					{type = 0, id = 141, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 3},		--90������
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�½�ͨ�غ���ػ����
+		Package = 		
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1256, count = 10, moneyType = 3, Oldmoney = 1000, money = 750, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--�ؿ�·���ϵ�2������
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+				},
+			},				
+		},		
+	},
+	--�ڶ���
+	{	
+		FbId = 8,							--����id	
+		level = {0,80},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian006,	--�ؿ�����
+				Level = 80,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {8,35,25,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 30, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 3, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=238, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=10, livetime=600,},
+					{monsterId=350, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 30000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},				
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 30000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 30000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 30000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian007,	--�ؿ�����
+				Level = 80,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {8,35,25,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 30, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 3, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=239, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=15, livetime=600,},
+					{monsterId=360, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 35000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 35000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 35000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 35000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian008,	--�ؿ�����
+				Level = 80,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {8,35,25,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 30, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 3, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=240, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=20, livetime=600,},
+					{monsterId=370, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 40000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 40000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 40000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 40000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian009,	--�ؿ�����
+				Level = 80,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {8,35,25,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 30, quality = 0, strong = 0, bind=0 },	
+				},				
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 3, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=241, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=25, livetime=600,},
+					{monsterId=380, x1 = 26, x2 = 42, y1 = 21, y2 = 33,num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 45000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 45000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 45000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 45000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian010,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips002,
+				Level = 80,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {8,35,25,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 160, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 9, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=242, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=1, livetime=600,},
+					{monsterId=300, x1 = 26, x2 = 42, y1 = 21, y2 = 33, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 4500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 118, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 127, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 136, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1107, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 1, maxCount = 1, propability = 1, bind = 1,},									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 4500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 4500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 4500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 124, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 1},		--90����ָ
+					{type = 0, id = 133, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 2},		--90����ָ
+					{type = 0, id = 142, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 3},		--90����ָ
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1112, count = 20, moneyType = 3, Oldmoney = 2000, money = 1500, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+				},
+			},				
+		},		
+	},
+	--������
+	{	
+		FbId = 9,							--����id	
+		level = {0,90},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian011,	--�ؿ�����
+				Level = 90,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {9,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 30, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 4, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=243, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=15, livetime=600,},
+					{monsterId=301, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 40000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 40000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 40000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 40000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian012,	--�ؿ�����
+				Level = 90,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {9,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 30, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 4, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=244, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=20, livetime=600,},
+					{monsterId=351, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 45000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 45000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 45000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 45000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian013,	--�ؿ�����
+				Level = 90,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {9,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 30, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 4, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=245, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=25, livetime=600,},
+					{monsterId=361, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian014,	--�ؿ�����
+				Level = 90,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {9,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 30, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 4, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=246, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=25, livetime=600,},
+					{monsterId=371, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 55000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 55000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 55000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 1900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 55000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian015,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips003,
+				Level = 90,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {9,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 250, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 10, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=247, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=1, livetime=600,},
+					{monsterId=381, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 145, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 154, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 163, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1107, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 2, maxCount = 2, propability = 1, bind = 1,},										
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 150, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 1},		--1ת����
+					{type = 0, id = 159, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 2},		--1ת����
+					{type = 0, id = 168, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 3},		--1ת����
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1107, count = 20, moneyType = 3, Oldmoney = 2000, money =1500, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+				},
+			},				
+		},		
+	},
+	--������
+	{	
+		FbId = 10,							--����id	
+		level = {0,90},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian016,	--�ؿ�����
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {10,30,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 35, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 5, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=248, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=15, livetime=600,},
+					{monsterId=302, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 50000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian017,	--�ؿ�����
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {10,30,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 35, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 5, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=249, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=20, livetime=600,},
+					{monsterId=352, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 55000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 55000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 55000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 55000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian018,	--�ؿ�����
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {10,30,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 35, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 5, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=250, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=25, livetime=600,},
+					{monsterId=362, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian019,	--�ؿ�����
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {10,30,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 35, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 5, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=251, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=25, livetime=600,},
+					{monsterId=372, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 65000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 65000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 65000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 65000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian020,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips004,
+				Level = 90,					--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {10,30,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 260, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 11, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=252, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=1, livetime=600,},
+					{monsterId=382, x1 = 19, x2 = 37, y1 = 28, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 7500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 145, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 154, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 163, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1107, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 2, maxCount = 2, propability = 1, bind = 1,},	
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 7500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 7500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 7500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 151, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 1},		--1ת��ָ
+					{type = 0, id = 160, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 2},		--1ת��ָ
+					{type = 0, id = 169, count = 1, bind = 2 , strong = 0 ,quality = 0 ,job = 3},		--1ת��ָ
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1102, count = 66, moneyType = 3, Oldmoney = 1980, money = 1485, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+				},
+			},				
+		},		
+	},
+	--������
+	{	
+		FbId = 11,							--����id	
+		level = {0,90},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian021,	--�ؿ�����
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {11,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 35, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 6, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=253, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=15, livetime=600,},
+					{monsterId=303, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 60000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian022,	--�ؿ�����
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {11,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 35, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 6, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=254, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=20, livetime=600,},
+					{monsterId=353, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 65000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 65000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 65000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 65000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian023,	--�ؿ�����
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {11,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 35, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 6, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=255, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=25, livetime=600,},
+					{monsterId=363, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian024,	--�ؿ�����
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {11,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 35, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 6, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=256, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=25, livetime=600,},
+					{monsterId=373, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 75000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 75000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 75000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 75000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian025,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips001,
+				Level = 90,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {11,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 270, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 12, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=257, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=1, livetime=600,},
+					{monsterId=383, x1 = 25, x2 = 41, y1 = 28, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 9000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 172, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 181, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 190, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 2, maxCount = 2, propability = 1, bind = 1,},										
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 9000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 9000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 9000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 1271, count = 1, bind = 2 , strong = 0 ,quality = 0 ,},			--���������
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1119, count = 2, moneyType = 3, Oldmoney = 2000, money = 1500, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+				},
+			},				
+		},		
+	},
+	--������
+	{	
+		FbId = 12,							--����id	
+		level = {0,100},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian026,	--�ؿ�����
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {55,25,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 40, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 7, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=258, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=20, livetime=600,},
+					{monsterId=304, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 70000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian027,	--�ؿ�����
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {55,25,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 40, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 7, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=259, x1 = 22, x2 = 39, y1 = 27, y2 = 40,num=25, livetime=600,},
+					{monsterId=354, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 75000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 75000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 75000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 75000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian028,	--�ؿ�����
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {55,25,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 40, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 7, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=260, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=30, livetime=600,},
+					{monsterId=364, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian029,	--�ؿ�����
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {55,25,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 40, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 7, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=261, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=30, livetime=600,},
+					{monsterId=374, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian030,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips002,
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {55,25,30,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 360, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 13, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=262, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=1, livetime=600,},
+					{monsterId=384, x1 = 22, x2 = 39, y1 = 27, y2 = 40, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 10500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 172, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 181, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 190, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 3, maxCount = 3, propability = 1, bind = 1,},										
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 10500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 10500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 10500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 1271, count = 1, bind = 2 , strong = 0 ,quality = 0 ,},			--���������
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1122, count = 2, moneyType = 3, Oldmoney = 2000, money = 1500, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},				
+		},		
+	},
+	--������
+	{	
+		FbId = 13,							--����id	
+		level = {0,100},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian031,	--�ؿ�����
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {56,25,40,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 40, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 8, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=263, x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=20, livetime=600,},
+					{monsterId=305, x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 80000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian032,	--�ؿ�����
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {56,25,40,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 40, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 8, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=264,  x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=25, livetime=600,},
+					{monsterId=355, x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian033,	--�ؿ�����
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {56,25,40,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 40, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 8, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=265,  x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=30, livetime=600,},
+					{monsterId=365, x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian034,	--�ؿ�����
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {56,25,40,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 40, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 8, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=266, x1 = 26, x2 = 48, y1 = 30, y2 = 47,  num=30, livetime=600,},
+					{monsterId=375, x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 95000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 95000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 95000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2700000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 95000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian035,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips003,
+				Level = 100,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {56,25,40,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 370, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 14, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=267,  x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=1, livetime=600,},
+					{monsterId=385, x1 = 26, x2 = 48, y1 = 30, y2 = 47, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 12000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 199, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 208, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 217, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 3, maxCount = 3, propability = 1, bind = 1,},							
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 12000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 12000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 12000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 1271, count = 1, bind = 2 , strong = 0 ,quality = 0 ,},			--���������
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1119, count = 2, moneyType = 3, Oldmoney = 2000, money = 1500, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},				
+		},		
+	},
+	--�ڰ���
+	{	
+		FbId = 14,							--����id	
+		level = {0,110},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian036,	--�ؿ�����
+				Level = 110,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {57,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 9, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=268, x1 = 21, x2 = 42, y1 = 27, y2 = 42, num=25, livetime=600,},
+					{monsterId=306, x1 = 21, x2 = 42, y1 = 27, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 90000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian037,	--�ؿ�����
+				Level = 110,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {57,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 9, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=269, x1 = 21, x2 = 42, y1 = 27, y2 = 42,num=30, livetime=600,},
+					{monsterId=356, x1 = 21, x2 = 42, y1 = 27, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 95000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 95000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 95000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 95000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian038,	--�ؿ�����
+				Level = 110,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {57,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 9, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=270, x1 = 21, x2 = 42, y1 = 27, y2 = 42,num=30, livetime=600,},
+					{monsterId=366, x1 = 21, x2 = 42, y1 = 27, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian039,	--�ؿ�����
+				Level = 110,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {57,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 9, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=271, x1 = 21, x2 = 42, y1 = 27, y2 = 42,num=30, livetime=600,},
+					{monsterId=376, x1 = 21, x2 = 42, y1 = 27, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 2900000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian040,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips005,
+				Level = 110,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {57,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 390, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 15, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=272, x1 = 21, x2 = 42, y1 = 27, y2 = 42, num=1, livetime=600,},
+					{monsterId=386, x1 = 21, x2 = 42, y1 = 27, y2 = 42, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 13500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 199, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 208, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 217, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 3, maxCount = 3, propability = 1, bind = 1,},										
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 13500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 13500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 13500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 1271, count = 1, bind = 2 , strong = 0 ,quality = 0 ,},			--���������
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1122, count = 2, moneyType = 3, Oldmoney = 2000, money = 1500, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},				
+		},		
+	},
+	--�ھ���
+	{	
+		FbId = 15,							--����id	
+		level = {0,120},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian041,	--�ؿ�����
+				Level = 120,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {58,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 10, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=273, x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=30, livetime=600,},
+					{monsterId=307, x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 100000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian042,	--�ؿ�����
+				Level = 120,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {58,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 10, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=274, x1 = 22, x2 = 44, y1 = 22, y2 = 39,num=30, livetime=600,},
+					{monsterId=357, x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian043,	--�ؿ�����
+				Level = 120,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {58,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 10, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=275, x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=30, livetime=600,},
+					{monsterId=367, x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 105000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 1050000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 1050000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 1050000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian044,	--�ؿ�����
+				Level = 120,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {58,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 10, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=276,x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=30, livetime=600,},
+					{monsterId=377, x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 85000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3100000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian045,	--�ؿ�����
+				achieveTips = OldLang.NoticeStr.achieveTips006,
+				Level = 120,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {58,30,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 490, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 15, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=277,x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=1, livetime=600,},
+					{monsterId=387, x1 = 22, x2 = 44, y1 = 22, y2 = 39, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 15000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 130000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 226, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 235, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 244, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 4, maxCount = 4, propability = 1, bind = 1,},									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 15000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 130000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 15000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 15000000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 1271, count = 1, bind = 2 , strong = 0 ,quality = 0 ,},			--���������
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1119, count = 2, moneyType = 3, Oldmoney = 2000, money = 1500, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},				
+		},		
+	},
+	--��ʮ��
+	{	
+		FbId = 16,							--����id	
+		level = {0,130},
+		ExitPos = {4,107,78,3,3},			--�˳��ĳ���������	
+		--10��һ��	80�����	--60������
+		Star = {600,		480, 		240,},		
+		rankLimit = 10,		--�ϰ��������		
+		 --�ؿ���Ϣ
+		Checkpoint = 
+		{
+			{
+				name = OldLang.NoticeStr.tian046,	--�ؿ�����
+				Level = 130,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {59,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 11, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=278, x1 = 29, x2 = 45, y1 = 37, y2 = 49, num=30, livetime=600,},
+					{monsterId=308, x1 = 29, x2 = 45, y1 = 37, y2 = 49, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 110000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian047,	--�ؿ�����
+				Level = 130,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {59,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 11, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=279, x1 = 29, x2 = 45, y1 = 37, y2 = 49,num=30, livetime=600,},
+					{monsterId=358, x1 = 29, x2 = 45, y1 = 37, y2 = 49, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian048,	--�ؿ�����
+				Level = 130,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {59,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 11, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=280, x1 = 29, x2 = 45, y1 = 37, y2 = 49,num=30, livetime=600,},
+					{monsterId=368, x1 = 29, x2 = 45, y1 = 37, y2 = 49, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 120000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian049,	--�ؿ�����
+				Level = 130,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 10,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {59,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 45, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 11, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=281, x1 = 29, x2 = 45, y1 = 37, y2 = 49,num=30, livetime=600,},
+					{monsterId=378, x1 = 29, x2 = 45, y1 = 37, y2 = 49, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 125000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 125000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 125000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 3300000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 125000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+			{
+				name = OldLang.NoticeStr.tian050,	--�ؿ�����
+				Level = 130,				--�Ƽ��ȼ������ȼ�����ʱ��������ʾ��ɫ����֮��ʾ��ɫ��
+				Count = 3,					--ÿ����ս����
+				IntervalTime = 60,			--��ս���  
+				EnterPos = {59,25,35,1,1},	--����id������
+				SweepConsume =              --ɨ������Ԫ��
+				{
+				{type = 10, id = 0, count = 500, quality = 0, strong = 0, bind=0 },	
+				},
+				consume = 					--��ս����
+				{
+					{type = 22, id = 0, count = 17, quality = 0, strong = 0, bind=0 },
+				},
+				Monsters = 
+				{
+					{monsterId=282,x1 = 29, x2 = 45, y1 = 37, y2 = 49,num=1, livetime=600,},
+					{monsterId=388, x1 = 29, x2 = 45, y1 = 37, y2 = 49, num=5, livetime=600,},
+				},
+				ShowAward = 
+				{
+					--ͨ�ؽ���
+					{
+						{type = 1, id = 0, count = 16500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 140000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+					},
+					--��Ʒչʾ
+					{
+						
+						{type = 0, id = 253, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 262, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 271, count = 1, quality = 0, strong = 0, bind=2},
+						{type = 0, id = 1103, count = 1, quality = 0, strong = 0, bind=1},
+						{type = 0, id = 1115, count = 1, quality = 0, strong = 0, bind=1},
+					}
+				},	
+				--ɨ������
+				SweepAward = 
+				{
+					{ group = 0, type = 0, id = 1093, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1094, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1230, minCount = 1, maxCount = 1, propability = 1, bind = 1,},
+					{ group = 0, type = 0, id = 1107,  minCount = 4, maxCount = 4, propability = 1, bind = 1,},	
+									
+				},
+				--ͨ�ؽ���		
+				Awards = 
+				{
+					{
+						myStar = 1,
+						Award = 
+						{
+						{type = 1, id = 0, count = 16500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 140000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 2,
+						Award = 
+						{
+						{type = 1, id = 0, count = 16500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 140000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+					{
+						myStar = 3,
+						Award = 
+						{
+						{type = 1, id = 0, count = 16500000, bind = 0 , strong = 0 ,quality = 0 ,},	--����
+						{type = 3, id = 0, count = 140000, bind = 0 , strong = 0 ,quality = 0 ,},	--���
+						},
+					},
+				},
+			},
+		},
+		 --������Ϣ
+		AwardCfg = 
+		{
+			{
+				myStar = 5,
+				Award = 
+				{
+					{type = 0, id = 1107, count = 2, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 100, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 10,
+				Award = 
+				{
+					{type = 0, id = 1103, count = 4, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				myStar = 15,
+				Award = 
+				{
+					{type = 0, id = 1271, count = 1, bind = 2 , strong = 0 ,quality = 0 ,},			--���������
+					{type = 5, id = 0, count = 500, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 6000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����	
+					{type = 3, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���	
+				},
+			},
+		},
+		--�ػ����
+		Package = 
+		{
+			SurplusTime = 86400,	--�������ʱ  
+			Shop =
+			{  
+				{id = 1122, count = 2, moneyType = 3, Oldmoney = 2000, money = 1500, bind = 1, importantLevel =1, broadcast = true,},
+			},	
+		},	
+		--����
+		Chest = 
+		{
+			{
+				condition = 2,		--��ȡ�������˵ڶ���
+				Award = 
+				{
+					{type = 0, id = 1103, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս���鵤
+					{type = 5, id = 0, count = 200, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 1000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},
+			{
+				condition = 4,		--��ȡ�������˵��Ĺ�
+				Award = 
+				{
+					{type = 0, id = 1107, count = 3, bind = 1 , strong = 0 ,quality = 0 ,},		--ս����׵�
+					{type = 5, id = 0, count = 300, bind = 1 , strong = 0 ,quality = 0 ,},			--��Ԫ��
+					{type = 1, id = 0, count = 3000000, bind = 0 , strong = 0 ,quality = 0 ,},		--����
+					{type = 3, id = 0, count = 2000000, bind = 0 , strong = 0 ,quality = 0 ,},		--���
+				},
+			},				
+		},		
+	},
+}
+

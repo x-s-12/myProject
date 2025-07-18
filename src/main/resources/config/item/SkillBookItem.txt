@@ -1,0 +1,37 @@
+--技能书配置表
+
+SkillBoolConfig =
+{
+	-- item_id: 物品id
+	-- skill_id: 技能id
+	-- skill_Level: 技能的等级
+	-- jop_id:对应的职业id  0 任何职业都可以使用 1战士 2法师 3道士
+	-- needConsume:是否需要消耗
+{item_id=1158,skill_id=1,skill_Level=1,jop_id=1,needConsume=true,circle = 0, level = 1},--1级攻杀剑法
+{item_id=1159,skill_id=2,skill_Level=1,jop_id=1,needConsume=true,circle = 0, level = 1},--1级刺杀剑法
+{item_id=1160,skill_id=3,skill_Level=1,jop_id=1,needConsume=true,circle = 0, level = 1},--1级圆月弯刀
+{item_id=1161,skill_id=4,skill_Level=1,jop_id=1,needConsume=true,circle = 0, level = 1},--1级野蛮冲撞
+{item_id=1163,skill_id=5,skill_Level=1,jop_id=1,needConsume=true,circle = 0, level = 1},--1级烈火剑法
+{item_id=1164,skill_id=6,skill_Level=1,jop_id=1,needConsume=true,circle = 0, level = 1},--1级逐日剑法
+{item_id=1162,skill_id=7,skill_Level=1,jop_id=1,needConsume=true,circle = 0, level = 1},--1级铜皮铁骨
+{item_id=1179,skill_id=8,skill_Level=1,jop_id=1,needConsume=true,circle = 0, level = 1},--1级擒龙手
+
+{item_id=1165,skill_id=9,skill_Level=1,jop_id=2,needConsume=true,circle = 0, level = 1},--1级雷电术
+{item_id=1168,skill_id=10,skill_Level=1,jop_id=2,needConsume=true,circle = 0, level = 1},--1级抗拒冰环
+{item_id=1167,skill_id=11,skill_Level=1,jop_id=2,needConsume=true,circle = 0, level = 1},--1级火墙术
+{item_id=1166,skill_id=12,skill_Level=1,jop_id=2,needConsume=true,circle = 0, level = 1},--1级魔法盾
+{item_id=1169,skill_id=13,skill_Level=1,jop_id=2,needConsume=true,circle = 0, level = 1},--1级冰咆哮
+{item_id=1170,skill_id=14,skill_Level=1,jop_id=2,needConsume=true,circle = 0, level = 1},--1级雷光咆哮
+{item_id=1171,skill_id=15,skill_Level=1,jop_id=2,needConsume=true,circle = 0, level = 1},--1级焰天火雨
+{item_id=1180,skill_id=16,skill_Level=1,jop_id=2,needConsume=true,circle = 0, level = 1},--1级移形换位
+
+{item_id=1172,skill_id=17,skill_Level=1,jop_id=3,needConsume=true,circle = 0, level = 1},--1级火符
+{item_id=1174,skill_id=18,skill_Level=1,jop_id=3,needConsume=true,circle = 0, level = 1},--1级治疗术
+{item_id=1177,skill_id=19,skill_Level=1,jop_id=3,needConsume=true,circle = 0, level = 1},--1级隐身术
+{item_id=1173,skill_id=20,skill_Level=1,jop_id=3,needConsume=true,circle = 0, level = 1},--1级施毒术
+{item_id=1175,skill_id=21,skill_Level=1,jop_id=3,needConsume=true,circle = 0, level = 1},--1级神圣祝福
+{item_id=1176,skill_id=22,skill_Level=1,jop_id=3,needConsume=true,circle = 0, level = 1},--1级召唤神兽
+{item_id=1181,skill_id=23,skill_Level=1,jop_id=3,needConsume=true,circle = 0, level = 1},--1级冰封术
+{item_id=1178,skill_id=24,skill_Level=1,jop_id=3,needConsume=true,circle = 0, level = 1},--1级召唤虎卫
+}
+

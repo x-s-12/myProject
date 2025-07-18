@@ -1,0 +1,8 @@
+--英魂道具
+
+CircleSoulItem = 
+{
+	{ item_id = 880, value = 200, },    --value值为英魂
+	{ item_id = 881, value = 500, },    --value值为英魂
+	{ item_id = 882, value = 1000, },    --value值为英魂	
+}

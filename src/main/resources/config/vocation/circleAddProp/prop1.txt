@@ -1,0 +1,10 @@
+﻿{{type=9,value=56},{type=11,value=93},{type=5,value=736},{type=7,value=136},},--1转
+{{type=9,value=97},{type=11,value=162},{type=5,value=1670},{type=7,value=330},},--2转
+{{type=9,value=149},{type=11,value=249},{type=5,value=2824},{type=7,value=594},},--3转
+{{type=9,value=214},{type=11,value=356},{type=5,value=4218},{type=7,value=940},},--4转
+{{type=9,value=292},{type=11,value=487},{type=5,value=5871},{type=7,value=1382},},--5转
+{{type=9,value=386},{type=11,value=643},{type=5,value=7799},{type=7,value=1934},},--6转
+{{type=9,value=497},{type=11,value=828},{type=5,value=10023},{type=7,value=2613},},--7转
+{{type=9,value=627},{type=11,value=1045},{type=5,value=12564},{type=7,value=3436},},--8转
+{{type=9,value=778},{type=11,value=1296},{type=5,value=15442},{type=7,value=4418},},--9转
+{{type=9,value=952},{type=11,value=1586},{type=5,value=18676},{type=7,value=5579},},--10转

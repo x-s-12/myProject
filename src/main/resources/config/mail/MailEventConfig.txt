@@ -1,0 +1,54 @@
+--[[邮件触发事件
+必须经过当前条件触发，不可追朔
+简单逻辑，如果需要指出复杂的逻辑，则需要使用成就系统
+如果cond[2]不使用就配置为 0
+
+//邮件事件
+1,			//角色升级
+2,			//坐骑升级
+]]
+MailEventCfg = 
+{
+	{	--角色升级
+		isUse 	= false,					--是否使用中，false为不使用、失效
+		mails = 
+		{
+			{	--熔铸装备宝箱邮件
+				cond 	= {1, 80},				--角色升级到1转80级触发
+				title 	= OldLang.Script.MailEventTitle0011,
+				content = OldLang.Script.MailEventTitle0012,
+				awards = 
+				{
+					{type = 0, id = 942, count = 1, quality = 0, strong = 0, bind=1},
+					{type = 0, id = 1017, count = 1, quality = 0, strong = 0, bind=1},
+				},
+			},
+			{	--行会宝箱邮件
+				cond 	= {0, 70},				--角色升级到0转70级触发
+				title 	= OldLang.Script.MailEventTitle0031,
+				content = OldLang.Script.MailEventTitle0032,
+				awards = 
+				{
+					{type = 0, id = 791, count = 1, quality = 0, strong = 0, bind=1},
+				},
+			},
+		},
+	},
+
+	{	--坐骑升级
+		isUse 	= false,					--是否使用中
+		mails = 
+		{
+			{	--坐骑宝箱邮件
+				cond 	= {0, 5},				--坐骑升级到0阶3星触发
+				title 	= OldLang.Script.MailEventTitle0021,
+				content = OldLang.Script.MailEventTitle0022,
+				awards = 
+				{
+					{type = 0, id = 1159, count = 1, quality = 0, strong = 0, bind=1},
+				},
+			},
+		},
+	},
+}
+

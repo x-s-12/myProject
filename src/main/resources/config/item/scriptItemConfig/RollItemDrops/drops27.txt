@@ -1,0 +1,9 @@
+--[[
+	--propability概率，概率的数字越大的话掉的物品的概率越高
+	--group是分组的id，类似怪物的爆率的配置, group为0，必出；相同group的按propability出一个
+--]]
+drops=
+{
+{ group = 0, type = 0, id = 1089, count = 1, bind = 0, propability=1, broadcast=0,},
+
+}

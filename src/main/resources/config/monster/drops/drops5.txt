@@ -1,0 +1,7 @@
+{ group = 1, type = 0, id = 44, propability = 1, count = 1 },
+{ group = 1, type = 0, id = 53, propability = 2, count = 1 },
+{ group = 1, type = 0, id = 62, propability = 3, count = 1 },
+{ group = 1, type = 0, id = 45, propability = 4, count = 1 },
+{ group = 1, type = 0, id = 54, propability = 5, count = 1 },
+{ group = 1, type = 0, id = 63, propability = 6, count = 1 },
+--

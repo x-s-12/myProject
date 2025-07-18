@@ -1,0 +1,147 @@
+﻿--世界BOSS
+--#include "..\..\language\LangCode.txt" once
+
+WorldBossConfig =
+{
+	WorldBoss = 
+	{
+	--[[
+		{ 
+			monsterId=335, sceneId=46, num=1, pos={124,249}, livetime=3600, level=90,
+			sceneName 	= OldLang.Script.worldBossScene001,
+			desc 		= OldLang.Script.worldBossDesc001,
+			freshWeek 	= 1,					--周1刷新
+			freshTime 	= {21,00},				--BOSS刷新时间，仅客户端用
+			maxHp		= 19281375,				--最大hp（客户端用，客户端不能从StdMonster中获取）
+			bossOffsetX	= 200,					--boss偏移（客户端用）
+			bossOffsetY	= 390,
+			award = --仅供显示，走怪物掉落逻辑
+			{
+				{type = 0, id = 651, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 661, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 671, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 650, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 660, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 670, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+			},
+		},
+
+		{ 
+			monsterId=336, sceneId=46, num=1, pos={124,249}, livetime=3600, level=90,
+			sceneName 	= OldLang.Script.worldBossScene001,
+			desc 		= OldLang.Script.worldBossDesc002,
+			freshWeek 	= 2,					--周2刷新
+			freshTime 	= {21,00},				--BOSS刷新时间，仅客户端用
+			maxHp		= 19281375,
+			bossOffsetX	= 200,
+			bossOffsetY	= 390,
+			award = 
+			{
+				{type = 0, id = 651, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 661, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 671, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 647, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 657, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 667, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+			},
+		},
+
+		{
+			monsterId=337, sceneId=46, num=1, pos={124,249}, livetime=3600, level=90,
+			sceneName 	= OldLang.Script.worldBossScene001,
+			desc 		= OldLang.Script.worldBossDesc003,
+			freshWeek 	= 3,					--周3刷新
+			freshTime 	= {21,00},				--BOSS刷新时间，仅客户端用
+			maxHp		= 19281375,
+			bossOffsetX	= 200,
+			bossOffsetY	= 390,
+			award = 
+			{
+				{type = 0, id = 647, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 657, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 667, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 650, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 660, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 670, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+			},
+		},
+
+		{ 
+			monsterId=338, sceneId=46, num=1, pos={124,249}, livetime=3600, level=90,
+			sceneName 	= OldLang.Script.worldBossScene001,
+			desc 		= OldLang.Script.worldBossDesc004,
+			freshWeek 	= 4,					--周4刷新
+			freshTime 	= {21,00},	--BOSS刷新时间，仅客户端用
+			maxHp		= 19281375,
+			bossOffsetX	= 200,
+			bossOffsetY	= 390,
+			award = 
+			{
+				{type = 0, id = 649, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 659, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 669, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 652, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 662, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 672, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+			},
+		},
+		{ 
+			monsterId=339, sceneId=46, num=1, pos={124,249}, livetime=3600, level=90,
+			sceneName 	= OldLang.Script.worldBossScene001,
+			desc 		= OldLang.Script.worldBossDesc005,
+			freshWeek 	= 5,					--周5刷新
+			freshTime 	= {21,00},				--BOSS刷新时间，仅客户端用
+			maxHp		= 19281375,
+			bossOffsetX	= 200,
+			bossOffsetY	= 390,
+			award = 
+			{
+				{type = 0, id = 648, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 658, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 668, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 646, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 656, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 666, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+			},
+		},
+		{ 
+			monsterId=340, sceneId=46, num=1, pos={124,249}, livetime=3600, level=90,
+			sceneName 	= OldLang.Script.worldBossScene001,
+			desc 		= OldLang.Script.worldBossDesc006,
+			freshWeek 	= 6,					--周6刷新
+			freshTime 	= {21,00},				--BOSS刷新时间，仅客户端用
+			maxHp		= 19281375,
+			bossOffsetX	= 200,
+			bossOffsetY	= 390,
+			award = 
+			{
+				{type = 0, id = 644, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 645, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 654, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 655, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 664, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 665, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+			},
+		},
+		{ 
+			monsterId=341, sceneId=46, num=1, pos={124,249}, livetime=3600, level=90,
+			sceneName 	= OldLang.Script.worldBossScene001,
+			desc 		= OldLang.Script.worldBossDesc007,
+			freshWeek 	= 7,					--周7刷新
+			freshTime 	= {21,00},				--BOSS刷新时间，仅客户端用
+			maxHp		= 19281375,
+			bossOffsetX	= 200,
+			bossOffsetY	= 390,
+			award = 
+			{
+				{type = 0, id = 241, count = 1, bind = 0 , quality = 3 , strong = 0 ,},
+				{type = 0, id = 251, count = 1, bind = 0 , quality = 3 , strong = 0 ,},
+				{type = 0, id = 261, count = 1, bind = 0 , quality = 3 , strong = 0 ,},
+				{type = 0, id = 643, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 653, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+				{type = 0, id = 663, count = 1, bind = 0 , quality = 4 , strong = 0 ,},
+			},
+		},
+	]]--
+	},
+}

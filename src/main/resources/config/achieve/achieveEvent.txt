@@ -1,0 +1,7 @@
+﻿--成就事件表
+--#include "..\..\language\LangCode.txt"
+AchieveEvents =
+{	
+--#include "achieves/achieveEvent.txt"
+
+}

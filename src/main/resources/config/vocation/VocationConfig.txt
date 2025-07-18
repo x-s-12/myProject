@@ -1,0 +1,7 @@
+﻿--#include "..\..\language\LangCode.txt"
+
+--职业的配置文件
+
+--#include ".\ActorInit.config"
+--#include ".\Vocation.config"
+--#include ".\LevelProp.config"

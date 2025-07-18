@@ -1,0 +1,17 @@
+﻿--暂时废弃，会不删除开包的礼包
+--按概率的总和的方式掉落物品
+--比如那种箱子的方式,策划从一堆物品里按配置的概率抽取n个出来,具体的抽取的方式见后面的配置
+ProabolityItemConfig = 
+{
+	{	--测试
+		item_id = 99999,
+		itemCount = 1,
+		needMinBagGrid = 2,
+		needDelete = true,
+		needYuanBao = 0,			--使用需要身上的最低元宝数
+		dropName = "data/config/item/scriptItemConfig/ProabilityDrops/probDrops1.txt",
+		-- = 1，测试，,
+	},
+}
+
+

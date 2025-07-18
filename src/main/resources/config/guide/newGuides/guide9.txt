@@ -1,0 +1,51 @@
+--��ȡ���� �Ŵ���   (׷����������)
+{
+  maxLevel = 10,
+  triggerList =
+  {
+		{ type = 1, valueList = {1702,}},      --���������
+  } ,
+  
+
+  --�����Ĳ��� 
+  steps = 
+  {
+    --��1�� ָ�� ����׷�� ����
+    {
+      condList = 
+      {
+				{ type = 1,  helpId = 50, dataList = {0,} },       --����׷�����ɼ�
+				{ type = 15,  helpId = 51, dataList = {1,} },      --����׷�����û��ѡ�е�һ��
+				{ type = 16,  helpId = 40, dataList = {1702,} },   --��������
+      },
+      
+      --ָ������׷������һ��
+     action = { type = 2, helpId = 51, data = 1, desc = OldLang.GuideLang.desc6},  
+    },
+
+    --��2�� ָ�� ����׷�� ��������
+    {
+      condList = 
+      {
+				{ type = 1,  helpId = 50, dataList = {0,} },     --����׷�����ɼ�
+				{ type = 3,  helpId = 51, dataList = {1,} },     --����׷�����ѡ�е�һ��
+				{ type = 2,  helpId = 40, dataList = {0,} },     --npc�Ի��򲻿ɼ�
+				{ type = 16,  helpId = 40, dataList = {1702,} }, --��������
+      },
+      
+      --ָ������Ѱ·����
+     action = { type = 5, helpId = 1702, data = OldLang.GuideLang.name15, desc = OldLang.GuideLang.desc12},
+    },
+
+    --��3�� ����
+    {
+      condList = 
+      {
+				{ type = 17,  helpId = 40, dataList = {1702,} }, --����������
+      },
+      
+      --ָ������Ѱ·����
+     action = { type = 5, helpId = 1702, data = 0, desc = OldLang.GuideLang.desc12},
+    },
+ }
+}

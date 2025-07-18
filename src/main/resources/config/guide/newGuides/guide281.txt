@@ -1,0 +1,27 @@
+--组队 快捷键指引
+{
+  maxLevel = 45,
+  --触发条件
+  triggerList =
+  {
+		{ type = 5, valueList = {45,46,47,48,49,50}},      --等级达45
+		
+  } ,
+
+  --引导的步骤
+  steps =
+	{
+    --第1步 出现快捷键指引的条件
+    {
+      condList =
+      {
+				{ type = 15,  helpId = 0, dataList = {8,} },		--在石墓洞穴
+ 				
+	  },
+
+      --快捷键提示出现
+      action = { type = 15, helpId = 0, data = 9, desc = 0 },
+    },
+
+	},
+},

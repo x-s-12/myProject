@@ -1,0 +1,292 @@
+--#include "..\..\language\LangCode.txt" once
+
+EliteMonsterCfg = 
+{
+	{	--玛法之城
+		sceneName = OldLang.Script.RefreshScene001,
+		monster = 
+		{
+			{ 
+				sceneId=46, 
+				monsterId= 257,                                 --怪物ID
+				num=0,
+				pos={76,207,76,207}, --{x1,y1,x2,y2}
+				livetime= 0, 
+				RefreshTime = OldLang.Script.RefreshTime001,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace001,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+			{ 
+				sceneId=46, 
+				monsterId= 258,                                 --怪物ID
+				num=0,
+				pos={419,232,419,232}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime002,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace002,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 30,--偏移量y
+			},	
+		},
+		award = --仅供显示，怪物掉落
+		{
+			{type = 0, id = 453, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--1级技能书
+			{type = 0, id = 703, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--动燃精华
+			{type = 0, id = 91, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--战圣
+			{type = 0, id = 101, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--法神	
+		},
+	},	
+	
+	{	--黑暗地带
+		sceneName = OldLang.Script.RefreshScene002,
+		monster = 
+		{
+			{ 
+				sceneId=44, 
+				monsterId= 259,                                 --怪物ID
+				num=0,
+				pos={67,91,67,91}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime003,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace003,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+			{ 
+				sceneId=44, 
+				monsterId= 260,                                 --怪物ID
+				num=0,
+				pos={34,104,34,104}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime004,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace004,		--时间间隔
+				DeviationX = -5,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+		},
+		award = --仅供显示，怪物掉落
+		{
+			{type = 0, id = 453, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--1级技能书
+			{type = 0, id = 703, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--动燃精华
+			{type = 0, id = 111, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--道尊
+			{type = 0, id = 100, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--战圣之石			
+		},
+	},	
+	
+	{	--石墓洞穴
+		sceneName = OldLang.Script.RefreshScene003,
+		monster = 
+		{
+			{ 
+				sceneId=12, 
+				monsterId= 261,                                 --怪物ID
+				num=0,
+				pos={24,31,24,31}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime005,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace005,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+			{ 
+				sceneId=12, 
+				monsterId= 262,                                 --怪物ID
+				num=0,
+				pos={36,45,36,45}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime006,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace006,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+		},
+		award = --仅供显示，怪物掉落
+		{
+			{type = 0, id = 453, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--1级技能书
+			{type = 0, id = 703, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--动燃精华
+			{type = 0, id = 110, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--虎翼
+			{type = 0, id = 120, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--犬神
+		},
+	},	
+	
+	{	--祖玛寺院
+		sceneName = OldLang.Script.RefreshScene004,
+		monster = 
+		{
+			{ 
+				sceneId=19, 
+				monsterId= 263,                                 --怪物ID
+				num=0,
+				pos={285,77,285,77}, --{x1,y1,x2,y2}
+				livetime=900, 
+				RefreshTime = OldLang.Script.RefreshTime007,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace007,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+			{ 
+				sceneId=43, 
+				monsterId= 264,                                 --怪物ID
+				num=0,
+				pos={81,82,81,82}, --{x1,y1,x2,y2}
+				livetime=900, 
+				RefreshTime = OldLang.Script.RefreshTime008,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace008,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+		},
+		award = --仅供显示，怪物掉落
+		{
+			{type = 0, id = 453, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--2级技能书
+			{type = 0, id = 703, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--动燃精华
+			{type = 0, id = 121, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--龙牙
+			{type = 0, id = 131, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--犬神之石		
+		},
+	},	
+	
+	{	--赤血洞
+		sceneName = OldLang.Script.RefreshScene005,
+		monster = 
+		{
+			{ 
+				sceneId=24, 
+				monsterId= 265,                                 --怪物ID
+				num=0,
+				pos={104,85,104,85}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime009,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace009,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+			{ 
+				sceneId=26, 
+				monsterId= 266,                                 --怪物ID
+				num=0,
+				pos={110,91,110,91}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime010,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace010,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+		},
+		award = --仅供显示，怪物掉落
+		{
+			{type = 0, id = 453, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--2级技能书
+			{type = 0, id = 703, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--动燃精华
+			{type = 0, id = 141, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--虎翼板甲(男)
+			{type = 0, id = 130, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--犬神罩袍(女)
+		},
+	},	
+	{	--牛魔洞
+		sceneName = OldLang.Script.RefreshScene006,
+		monster = 
+		{
+			{ 
+				sceneId=35, 
+				monsterId= 267,                                 --怪物ID
+				num=0,
+				pos={75,65,75,65}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime011,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace011,		--时间间隔
+				DeviationX = 10,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+			{ 
+				sceneId=36, 
+				monsterId= 268,                                 --怪物ID
+				num=0,
+				pos={155,67,155,67}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime012,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace012,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+		},
+		award = --仅供显示，怪物掉落
+		{
+			{type = 0, id = 453, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--2级技能书
+			{type = 0, id = 703, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--动燃精华
+			{type = 0, id = 151, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--虎翼板甲(男)
+			{type = 0, id = 161, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--犬神罩袍(女)
+		},
+	},	
+	{	--狐狸洞
+		sceneName = OldLang.Script.RefreshScene007,
+		monster = 
+		{
+			{ 
+				sceneId=60, 
+				monsterId= 269,                                 --怪物ID
+				num=0,
+				pos={43,107,43,107}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime013,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace013,		--时间间隔
+				DeviationX = 10,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+			{ 
+				sceneId=54, 
+				monsterId= 270,                                 --怪物ID
+				num=0,
+				pos={48,59,48,59}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime014,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace014,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+		},
+		award = --仅供显示，怪物掉落
+		{
+			{type = 0, id = 453, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--2级技能书
+			{type = 0, id = 703, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--动燃精华
+			{type = 0, id = 171, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--虎翼板甲(男)
+			{type = 0, id = 180, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--犬神罩袍(女)
+		},
+	},	
+	
+	{	--火龙前厅
+		sceneName = OldLang.Script.RefreshScene008,
+		monster = 
+		{
+			{ 
+				sceneId=58, 
+				monsterId= 271,                                 --怪物ID
+				num=0,
+				pos={171,139,171,139}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime015,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace015,		--时间间隔
+				DeviationX = 10,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+			{ 
+				sceneId=59, 
+				monsterId= 272,                                 --怪物ID
+				num=0,
+				pos={113,125,113,125}, --{x1,y1,x2,y2}
+				livetime=0, 
+				RefreshTime = OldLang.Script.RefreshTime016,		--刷新时间
+				RefreshSpace = OldLang.Script.RefreshSpace016,		--时间间隔
+				DeviationX = 1,	--偏移量x
+				DeviationY = 20,--偏移量y
+			},	
+		},
+		award = --仅供显示，怪物掉落
+		{
+			{type = 0, id = 454, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--2级技能书
+			{type = 0, id = 703, count = 1, bind = 1 , strong = 0 ,quality = 0 ,},--动燃精华
+			{type = 0, id = 181, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--虎翼板甲(男)
+			{type = 0, id = 191, count = 1, bind = 1 , strong = 0 ,quality = 3 ,},--犬神罩袍(女)
+		},
+	},	
+
+}
+

@@ -1,0 +1,46 @@
+--挑战副本-翅膀副本
+
+WingFubenCfg = 
+{
+	index = 4,
+	pos = 4,				--按钮的排序(1技能，2坐骑，3强化，4翅膀，5装备，6金币，7龙珠)
+	dailyChellengeTimes = 2,		--每天挑战次数
+	fubens = 
+	{
+		{
+			fubenType 	= 4,								--翅膀副本
+			name 		= OldLang.Script.StrongFBName04,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc04,		--副本描述
+			titleIcon	= 103,		--标题图片
+			backIcon	= 200,		--背景图片
+			sceneId 	= 28,								--场景ID
+			fubenId 	= 10,								--副本ID
+			levelLimit 	= {0,77},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 18000,							--推荐战力(不强制要求)
+			enterPos 	= {53,63},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=209, sceneId=28, num=1, pos={46,53,47,54}, livetime=1800,},--雷牙
+				{ monsterId=217, sceneId=28, num=5, pos={42,49,50,59}, livetime=1800,},--神坛侍者
+			},
+
+			makeScore = 							--评分
+			{
+				--{killTime = {0,   60}, score = 3, },			--击杀时间评分-3分
+				--{killTime = {61, 120}, score = 2, },	
+				--{killTime = {121, 300}, score = 1, },	
+			},
+
+			awards = 
+			{
+				{type = 0, id = 762, count = 3, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 60,			--翻倍领取需要的元宝
+		},
+	},
+}
+
+

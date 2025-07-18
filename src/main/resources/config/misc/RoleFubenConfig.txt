@@ -1,0 +1,89 @@
+﻿--刷怪的配置
+RoleFubenConfig =
+{
+	[25] = 
+	{
+		
+		{id = 492, count = 1, x1 = 33, y1 = 26, x2 = 33, y2 = 26, liveTime = 1800},	
+	},
+	[26] = 
+	{
+		
+		{id = 493, count = 1,x1 = 33, y1 = 26, x2 = 33, y2 = 26, liveTime = 1800},	
+	},
+	[27] = 
+	{
+		
+		{id = 494, count = 1, x1 = 33, y1 = 26, x2 = 33, y2 = 26, liveTime = 1800},
+		{id = 58, count = 1, x1 = 35, y1 = 31, x2 = 35, y2 = 31, liveTime = 1800},
+		
+	},
+	[28] = 
+	{
+		
+		{id = 495, count = 1, x1 = 33, y1 = 26, x2 = 33, y2 = 26, liveTime = 1800},		
+	},
+}
+
+--奖励及时间的配置
+RoleFubenAwardsConfig  = 
+{
+  [25] = { 
+    time = 90,
+	telport = {2,124,69}, --完成后传送点
+	npc = OldLang.Script.FubenRoleNpc001,  --完成后打开的NPC
+	consumes = 
+	{
+	   
+	},
+	
+   	awards  = 
+	{
+	   {type = 1, id = 0, count = 20000},
+	   {type = 0, id = 1103, count = 1,bind = 1},
+	},
+  },
+  [26] = {
+    time = 90,
+	telport = {3,85,44}, --完成后传送点
+	npc = OldLang.Script.FubenRoleNpc002,  --完成后打开的NPC
+	consumes = 
+	{
+	   
+	},
+   	awards  = 
+	{
+	   {type = 1, id = 0, count = 50000},
+	   {type = 0, id = 1103, count = 1,bind = 1},
+	},
+  },
+  [27] = {
+    time = 90,
+	telport = {12,89,78}, --完成后传送点
+	npc = OldLang.Script.FubenRoleNpc003,  --完成后打开的NPC
+	consumes = 
+	{
+	   
+	},
+   	awards  = 
+	{
+	   {type = 1, id = 0, count = 100000},
+	   {type = 0, id = 1102, count = 10,bind = 1},
+	},
+  },
+  [28] = {
+    time = 90,
+	telport = {17,62,52}, --完成后传送点
+	npc = OldLang.Script.FubenRoleNpc004,  --完成后打开的NPC
+	consumes = 
+	{
+	   
+	},
+   	awards  = 
+	{
+	   {type = 1, id = 0, count = 200000},
+	   {type = 0, id = 1379, count = 5,bind = 1},
+	},
+  },
+}
+

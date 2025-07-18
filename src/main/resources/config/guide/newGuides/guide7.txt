@@ -1,0 +1,122 @@
+--ǿ��������
+{
+  maxLevel = 35,
+  --��������
+	triggerList =
+	{
+		{ type = 1, valueList = {1976,}},      --���������
+	} ,
+  
+
+  --�����Ĳ��� 
+	steps = 
+	{
+
+    --��1�� ָ�򵼺�ǿ����ť
+		{
+			condList = 
+			{
+				{ type = 29,  helpId = 33, dataList = {1976,} },    --���������
+				{ type = 2,  helpId = 120, dataList = {0,} },      --ǿ������û��
+			},
+
+			action = { type = 1, helpId = 3, data = 0, desc = OldLang.GuideLang.desc38 },
+		},
+
+
+    --��2�� ָ��ǿ��������ť
+		{
+			condList = 
+			{
+				{ type = 29,  helpId = 33, dataList = {1976,} },    --���������
+				{ type = 1,  helpId = 120, dataList = {0,} },        --ǿ�������
+				{ type = 15,  helpId = 121, dataList = {1,} },      --����û��ѡ�е�1��
+			},
+
+			action = { type = 2, helpId = 121, data = 1, desc = OldLang.GuideLang.desc44 },
+		},
+
+    --��3�� ָ����Ʒ�����ķ�����������װ��
+		{
+			condList = 
+			{
+				{ type = 29,  helpId = 33, dataList = {1976,} },    --���������
+				{ type = 1,  helpId = 120, dataList = {0,} },      --ǿ�������
+				{ type = 3,  helpId = 122, dataList = {2,} },      --����ѡ�еڶ���
+				{ type = 10,  helpId = 120, dataList = {299,310,288,277,} },    --����û����Щ��Ʒ
+			},
+
+      --������� �������װ��
+			action = { type = 2, helpId = 122, data = 1, desc = OldLang.GuideLang.desc40 },
+		},
+
+    --��4�� ָ����Ʒ�����ķ�������������Ʒ
+		{
+			condList = 
+			{
+				{ type = 29,  helpId = 33, dataList = {1976,} },    --���������
+				{ type = 1,  helpId = 120, dataList = {0,} },      --ǿ�������
+				{ type = 3,  helpId = 122, dataList = {1,} },      --����ѡ�е�һ��
+				{ type = 6,  helpId = 120, dataList = {299,310,288,277,} },    --��������Щ��Ʒ
+			},
+
+			action = { type = 2, helpId = 122, data = 2, desc = OldLang.GuideLang.desc40 },
+		},
+	
+     --��5�� ָ������װ�����е�װ��
+		{
+			condList = 
+			{
+				{ type = 29,  helpId = 33, dataList = {1976,} },    --���������
+				{ type = 1,  helpId = 120, dataList = {0,} },      --ǿ�������
+				{ type = 3,  helpId = 122, dataList = {1,} },      --����ѡ�е�һ��
+				{ type = 10,  helpId = 120, dataList = {299,310,288,277,} },    --����û����Щ��Ʒ
+				{ type = 34,  helpId = 128, dataList = {0,} },      --ǿ��cellû����
+			},
+
+      --ָ����Щ��Ʒ
+			action = { type = 6, helpId = 123, data = {299,310,288,277,}, desc = OldLang.GuideLang.desc34 },
+		},
+
+     --��6�� ָ�򱳰���Ʒ�е�װ��
+		{
+			condList = 
+			{
+				{ type = 29,  helpId = 33, dataList = {1976,} },    --���������
+				{ type = 1,  helpId = 120, dataList = {0,} },      --ǿ�������
+				{ type = 3,  helpId = 122, dataList = {2,} },      --����ѡ�еڶ���
+				{ type = 6,  helpId = 120, dataList = {299,310,288,277,} },    --��������Щ��Ʒ
+				{ type = 34,  helpId = 128, dataList = {0,} },      --ǿ��cellû����
+			},
+
+      --ָ����Щ��Ʒ
+			action = { type = 6, helpId = 124, data = {299,310,288,277,}, desc = OldLang.GuideLang.desc34 },
+		},
+
+    --��7�� ��ǿ����ť
+		{
+      condList = 
+			{
+				{ type = 29,  helpId = 33, dataList = {1976,} },    --���������
+				{ type = 1,  helpId = 120, dataList = {0,} },      --ǿ�������
+				{ type = 29,  helpId = 120, dataList = {1976,} },   --����û���
+				{ type = 33,  helpId = 128, dataList = {0,} },      --ǿ��cell������
+			},
+
+      --������ҵ��
+			action = { type = 1, helpId = 127, data = 0, desc = OldLang.GuideLang.desc43 },
+		},
+
+    --��8�� ����
+    {
+      condList = 
+      {
+				{ type = 17,  helpId = 40, dataList = {1976,} },     --����������
+      },
+      
+      --������
+      action = { type = 0, helpId = 0, data = 3, desc = OldLang.GuideLang.desc5 },
+    },
+
+	}
+}

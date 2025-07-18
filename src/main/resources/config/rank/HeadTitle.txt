@@ -1,0 +1,39 @@
+--#include "..\..\language\LangCode.txt"
+--[[
+	//这里表示DB读出的排行榜类型
+	enum RankType 
+	{
+		rtBattlePower = 0,			//战力排行
+		rtWarriorBp,				//战士战力排行
+		rtMagicianBp,				//法师战力排行
+		rtWizardBp,					//道士战力排行
+		rtLevel,					//等级排行
+		rtWarriorLevel,				//战士等级排行
+		rtMagicianLevel,			//法师等级排行
+		rtWizardLevel,				//道士等级排行
+		rtCoin,						//金币排行
+		rtGirlCharm,				//女性魅力排行榜
+		rtBoyCharm,					//男性帅气排行榜
+		
+	}
+--]]
+
+
+--[[
+	TitleId =
+	{
+		[0] = "第一战士",   --战士战力排名第一
+		[1] = "第一法师",   --法师战力排名第一
+		[2] = "第一道士",   --道士战力排名第一
+	}
+--]]
+
+
+--现最多支持0-31 个头衔
+HeadTitle =
+{
+--#include "headTitle/headTitle0.txt"
+--#include "headTitle/headTitle1.txt"
+--#include "headTitle/headTitle2.txt"
+--#include "headTitle/headTitle3.txt"
+}

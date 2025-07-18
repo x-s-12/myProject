@@ -1,0 +1,46 @@
+--挑战副本-金币副本
+
+CoinFubenCfg = 
+{
+	index = 7,
+	pos = 6,						--按钮的排序(1技能，2坐骑，3强化，4翅膀，5装备，6金币，7龙珠)
+	dailyChellengeTimes = 2,				--每天挑战次数
+	fubens = 
+	{
+		{
+			fubenType 	= 7,								--金币副本
+			name 		= OldLang.Script.StrongFBName01,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc01,		--副本描述
+			titleIcon	= 103,		--标题图片
+			backIcon	= 107,		--背景图片
+			sceneId 	= 33,								--场景ID
+			fubenId 	= 7,								--副本ID
+			levelLimit 	= {1,83},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 17500,							--推荐战力(不强制要求)
+			enterPos 	= {38,49},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=207, sceneId=33, num=1, pos={52,58,53,59}, livetime=1800,},--白炼
+				{ monsterId=215, sceneId=33, num=5, pos={48,53,55,65}, livetime=1800,},--白炼蛇魅
+			},
+
+			makeScore = 							--评分
+			{
+				--{killTime = {0,   60}, score = 3, },			--击杀时间评分-3分
+				--{killTime = {61, 120}, score = 2, },	
+				--{killTime = {121, 300}, score = 1, },	
+			},
+
+			awards = 
+			{
+				{type = 3, id = 0, count = 3000000, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 50,			--翻倍领取需要的元宝
+		},
+	},
+}
+
+

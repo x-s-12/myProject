@@ -1,0 +1,7 @@
+﻿--lua script
+--#include "..\..\language\LangCode.txt"
+--#include "..\..\language\LangCode.config"
+--#include ".\Guild.config"
+--#include ".\GuildLeveL.config"
+--#include ".\GuildDonate.config"
+--#include ".\GuildBuild.config"

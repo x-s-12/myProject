@@ -1,0 +1,3 @@
+--lua script
+--#include "..\..\language\LangCode.config"
+--#include ".\StdItems.config"

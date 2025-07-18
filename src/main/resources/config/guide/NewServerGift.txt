@@ -1,0 +1,167 @@
+--新服特惠礼包
+--svn://192.168.0.160/idgp/Phoenix2/X-新传奇项目系统文档/J-界面UI/X-新服特惠礼包界面调整.docx
+NewServerGift =
+{	
+	--job 1战 2法 3道 不限制职业奖励则job = 0 或不配置
+	--sex 0男 1女 不限制性别奖励则sex = -1或不配置
+	-- {   
+		-- openServerDay = 1,--开服第几天开始
+		-- lastDays = 5,--持续几天
+		-- payYb = 688, --消费元宝
+		-- awards =
+		-- {
+			-- {type = 0, id = 67, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 68, count = 1, strong = 5, quality = 0, job= 1,sex= 0, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 69, count = 1, strong = 5, quality = 0, job= 1,sex= 1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 70, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 71, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 72, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 73, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 74, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 75, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 76, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 77, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 78, count = 1, strong = 5, quality = 0, job= 2,sex= 0, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 79, count = 1, strong = 5, quality = 0, job= 2,sex= 1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 80, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 81, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 82, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 83, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 84, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 85, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 86, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 87, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 88, count = 1, strong = 5, quality = 0, job= 3,sex= 0, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 89, count = 1, strong = 5, quality = 0, job= 3,sex= 1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 90, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 91, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 92, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 93, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 94, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 95, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 96, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			-- {type = 0, id = 925, count = 1, strong = 0, quality = 0, job= 0,sex= -1, bind = 1, importantLevel =1,},	
+		-- },
+	-- },
+	--50级新服礼包
+	{   
+		openServerDay = 1,--开服第几天开始
+		lastDays = 5,--持续几天
+		payYb = 888, --消费元宝
+		awards =
+		{
+			{type = 0, id = 97, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 98, count = 1, strong = 5, quality = 0, job= 1,sex= 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 99, count = 1, strong = 5, quality = 0, job= 1,sex= 1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 100, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 101, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 102, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 103, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 104, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 105, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 106, count = 1, strong = 5, quality = 0, job= 1,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 107, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 108, count = 1, strong = 5, quality = 0, job= 2,sex= 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 109, count = 1, strong = 5, quality = 0, job= 2,sex= 1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 110, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 111, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 112, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 113, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 114, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 115, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 116, count = 1, strong = 5, quality = 0, job= 2,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 117, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 118, count = 1, strong = 5, quality = 0, job= 3,sex= 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 119, count = 1, strong = 5, quality = 0, job= 3,sex= 1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 120, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 121, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 122, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 123, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 124, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 125, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 126, count = 1, strong = 5, quality = 0, job= 3,sex= -1, bind = 1, importantLevel =1,},	
+			{type = 0, id = 927, count = 1, strong = 0, quality = 0, job= 0,sex= -1, bind = 1, importantLevel =1,},			
+	
+		},
+	},
+	{
+		
+		openServerDay = 1,--开服第几天开始
+		lastDays = 5,--持续几天
+		payYb = 8888, --消费元宝
+		awards =
+		{
+			{ group = 0, type = 0, id = 127, count = 1, bind = 0,job = 1,strong=7,sex=-1 ,importantLevel =1, },
+            { group = 0, type = 0, id = 128, count = 1, bind = 0,job = 1,strong=7,sex=0 ,importantLevel =1,},
+            { group = 0, type = 0, id = 129, count = 1, bind = 0,job = 1,strong=7,sex=1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 130, count = 1, bind = 0,job = 1,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 131, count = 1, bind = 0,job = 1,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 132, count = 1, bind = 0,job = 1,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 133, count = 1, bind = 0,job = 1,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 134, count = 1, bind = 0,job = 1,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 135, count = 1, bind = 0,job = 1,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 136, count = 1, bind = 0,job = 1,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 137, count = 1, bind = 0,job = 2,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 138, count = 1, bind = 0,job = 2,strong=7,sex=0 ,importantLevel =1,},
+            { group = 0, type = 0, id = 139, count = 1, bind = 0,job = 2,strong=7,sex=1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 140, count = 1, bind = 0,job = 2,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 141, count = 1, bind = 0,job = 2,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 142, count = 1, bind = 0,job = 2,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 143, count = 1, bind = 0,job = 2,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 144, count = 1, bind = 0,job = 2,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 145, count = 1, bind = 0,job = 2,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 146, count = 1, bind = 0,job = 2,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 147, count = 1, bind = 0,job = 3,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 148, count = 1, bind = 0,job = 3,strong=7,sex=0 ,importantLevel =1,},
+            { group = 0, type = 0, id = 149, count = 1, bind = 0,job = 3,strong=7,sex=1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 150, count = 1, bind = 0,job = 3,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 151, count = 1, bind = 0,job = 3,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 152, count = 1, bind = 0,job = 3,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 153, count = 1, bind = 0,job = 3,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 154, count = 1, bind = 0,job = 3,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 155, count = 1, bind = 0,job = 3,strong=7,sex=-1 ,importantLevel =1,},
+            { group = 0, type = 0, id = 156, count = 1, bind = 0,job = 3,strong=7,sex=-1 ,importantLevel =1,},	
+			{type = 0, id = 928, count = 1, strong = 0, quality = 0, job= 0,sex= -1, bind = 1, importantLevel =1,},	
+		},
+	},
+	{
+		
+		openServerDay = 1,--开服第几天开始
+		lastDays = 5,--持续几天
+		payYb = 3888, --消费元宝
+		awards =
+		{
+			{type = 6, id = 0, count = 200000, strong = 0, quality = 0, job=0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 926, count = 1, strong = 0, quality = 0, job=0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 731, count = 30, strong = 0, quality = 0, job=0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 2055, count = 10, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 334, count = 1, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 748, count = 1, strong = 0, quality = 0, bind = 1,job= 1, importantLevel =1,},	
+			{type = 0, id = 758, count = 1, strong = 0, quality = 0, bind = 1,job= 2, importantLevel =1,},	
+			{type = 0, id = 768, count = 1, strong = 0, quality = 0, bind = 1,job= 3, importantLevel =1,},	
+			{type = 0, id = 778, count = 1, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 798, count = 1, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 2773, count = 5, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 258, count = 3, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+		},
+	},
+	{
+		
+		openServerDay = 1,--开服第几天开始
+		lastDays = 5,--持续几天
+		payYb = 8888, --消费元宝
+		awards =
+		{
+			{type = 5, id = 0, count = 3000000, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 6, id = 0, count = 300000, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 789, count = 1, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 2055, count = 20, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 1031, count = 1, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 922, count = 1, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 370, count = 20, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			{type = 0, id = 731, count = 50, strong = 0, quality = 0, bind = 1, importantLevel =1,},	
+			
+
+		},
+	},
+}

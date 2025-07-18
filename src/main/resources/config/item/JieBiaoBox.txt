@@ -1,0 +1,36 @@
+--劫镖盒子
+
+JieBiaoBox = 
+{
+	{
+	   itemid = 724,
+	   Awards =
+	   {
+	       { type = 13, id = 1, count = 200, bind = 0 , strong = 0 , quality = 0},
+	   }
+	},
+	
+	{
+	   itemid = 725,
+	   Awards =
+	   {
+	       { type = 13, id = 1, count = 400, bind = 0 , strong = 0 , quality = 0},
+	   }
+	},
+	
+	{
+	   itemid = 726,
+	   Awards =
+	   {
+	       { type = 13, id = 1, count = 800, bind = 0 , strong = 0 , quality = 0},
+	   }
+	},
+	
+	{
+	   itemid = 728,
+	   Awards =
+	   {
+	       { type = 13, id = 1, count = 1200, bind = 0 , strong = 0 , quality = 0},
+	   }
+	},
+}

@@ -1,0 +1,492 @@
+
+--职业竞技配置
+CombatConfig =
+{
+    maxCombatCount = 2,    --每次挑战使用神魔令数
+    maxSelectCount = 5,    --每日更换对手次数
+    maxCDTime = 1800,      --cd最大值(秒)
+
+    --竞技结果奖励
+    combatResultAward = 
+    {  
+        --胜利奖励
+        {
+            {type = 33, id = 0, count = 200, quality = 0, strong = 0, bind=0},
+            {type = 3, id = 0, count = 50000, quality = 0, strong = 0, bind=0},
+        },
+        --失败奖励
+        {
+            {type = 33, id = 0, count = 150, quality = 0, strong = 0, bind=0},
+            {type = 3, id = 0, count = 30000, quality = 0, strong = 0, bind=0},
+        },
+    },
+
+    --竞技排名奖励
+    combatRankAward =
+    {
+        {
+            rankRange = {1, 1},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 1200, quality = 0, strong = 0, bind=1},     --血魄碎片 * 1200
+                {type = 0, id = 1070, count = 10, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 10
+                {type = 33, id = 0, count = 20000, quality = 0, strong = 0, bind=1},     --斗魂 * 20000
+            },
+        },
+        {
+            rankRange = {2, 2},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 1000, quality = 0, strong = 0, bind=1},     --血魄碎片 * 1000
+                {type = 0, id = 1070, count = 9, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 9
+                {type = 33, id = 0, count = 10000, quality = 0, strong = 0, bind=1},     --斗魂 * 10000
+            },
+        },
+        {
+            rankRange = {3, 3},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 900, quality = 0, strong = 0, bind=1},     --血魄碎片 * 900
+                {type = 0, id = 1070, count = 8, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 8
+                {type = 33, id = 0, count = 10000, quality = 0, strong = 0, bind=1},     --斗魂 * 10000
+            },
+        },
+        {
+            rankRange = {4, 4},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 800, quality = 0, strong = 0, bind=1},     --血魄碎片 * 800
+                {type = 0, id = 1070, count = 7, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 7
+                {type = 33, id = 0, count = 9600, quality = 0, strong = 0, bind=1},     --斗魂 * 9600
+            },
+        },
+        {
+            rankRange = {5, 5},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 800, quality = 0, strong = 0, bind=1},     --血魄碎片 * 800
+                {type = 0, id = 1070, count = 7, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 7
+                {type = 33, id = 0, count = 8800, quality = 0, strong = 0, bind=1},     --斗魂 * 8800
+            },
+        },
+        {
+            rankRange = {6, 6},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 700, quality = 0, strong = 0, bind=1},     --血魄碎片 * 700
+                {type = 0, id = 1070, count = 6, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 6
+                {type = 33, id = 0, count = 8000, quality = 0, strong = 0, bind=1},     --斗魂 * 8000
+            },
+        },
+        {
+            rankRange = {7, 7},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 700, quality = 0, strong = 0, bind=1},     --血魄碎片 * 700
+                {type = 0, id = 1070, count = 6, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 6
+                {type = 33, id = 0, count = 7200, quality = 0, strong = 0, bind=1},     --斗魂 * 7200
+            },
+        },
+        {
+            rankRange = {8, 8},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 700, quality = 0, strong = 0, bind=1},     --血魄碎片 * 700
+                {type = 0, id = 1070, count = 6, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 6
+                {type = 33, id = 0, count = 6400, quality = 0, strong = 0, bind=1},     --斗魂 * 6400
+            },
+        },
+        {
+            rankRange = {9, 9},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 700, quality = 0, strong = 0, bind=1},     --血魄碎片 * 700
+                {type = 0, id = 1070, count = 6, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 6
+                {type = 33, id = 0, count = 5600, quality = 0, strong = 0, bind=1},     --斗魂 * 5600
+            },
+        },
+        {
+            rankRange = {10, 10},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 700, quality = 0, strong = 0, bind=1},     --血魄碎片 * 700
+                {type = 0, id = 1070, count = 6, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 6
+                {type = 33, id = 0, count = 4800, quality = 0, strong = 0, bind=1},     --斗魂 * 4800
+            },
+        },
+        {
+            rankRange = {11, 30},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 600, quality = 0, strong = 0, bind=1},     --血魄碎片 * 600
+                {type = 0, id = 1070, count = 5, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 5
+                {type = 33, id = 0, count = 4000, quality = 0, strong = 0, bind=1},     --斗魂 * 4000
+            },
+        },
+        {
+            rankRange = {31, 50},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 500, quality = 0, strong = 0, bind=1},     --血魄碎片 * 500
+                {type = 0, id = 1070, count = 4, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 4
+                {type = 33, id = 0, count = 3200, quality = 0, strong = 0, bind=1},     --斗魂 * 3200
+            },
+        },
+        {
+            rankRange = {51, 100},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 400, quality = 0, strong = 0, bind=1},     --血魄碎片 * 400
+                {type = 0, id = 1070, count = 3, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 3
+                {type = 33, id = 0, count = 2400, quality = 0, strong = 0, bind=1},     --斗魂 * 2400
+            },
+        },
+        {
+            rankRange = {100, 300},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 300, quality = 0, strong = 0, bind=1},     --血魄碎片 * 300
+                {type = 0, id = 1070, count = 2, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 2
+                {type = 33, id = 0, count = 1600, quality = 0, strong = 0, bind=1},     --斗魂 * 1600
+            },
+        },
+        {
+            rankRange = {300, 1000},       --排名区间
+            awards =                   --奖励
+            {
+                {type = 26, id = 0, count = 200, quality = 0, strong = 0, bind=1},     --血魄碎片 * 200
+                {type = 0, id = 1070, count = 1, quality = 0, strong = 0, bind=1},     --技能熟练道具 * 1
+                {type = 33, id = 0, count = 800, quality = 0, strong = 0, bind=1},     --斗魂 * 800
+            },
+        },
+    },
+
+    --排名兑换商店
+    openDay = 1,    --开服多少天开放
+    rankShop = 
+    {
+        {
+            id = 10001,        --商品id
+            rankLimit = 1,           --排名限制
+            item = 173,         --龙魂战甲(男)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 20000,
+            sex = 0,
+            job = 1,
+        },
+        {
+            id = 10002,        --商品id
+            rankLimit = 1,           --排名限制
+            item = 174,         --龙魂战甲(女)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 20000,
+            sex = 1,
+            job = 1,
+        },
+        {
+            id = 10003,        --商品id
+            rankLimit = 1,           --排名限制
+            item = 182,         --海王法袍(男)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 20000,
+            sex = 0,
+            job = 2,
+        },
+        {
+            id = 10004,        --商品id
+            rankLimit = 1,           --排名限制
+            item = 183,         --海王法袍(女)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 20000,
+            sex = 1,
+            job = 2,
+        },
+        {
+            id = 10005,        --商品id
+            rankLimit = 1,           --排名限制
+            item = 191,         --苍炎道衣(男)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 20000,
+            sex = 0,
+            job = 3,
+        },
+        {
+            id = 10006,        --商品id
+            rankLimit = 1,           --排名限制
+            item = 192,         --苍炎道衣(女)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 20000,
+            sex = 1,
+            job = 3,
+        },
+        {
+            id = 10007,        --商品id
+            rankLimit = 3,           --排名限制
+            item = 178,         --龙魂战戒*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 10000,
+            sex = -1,
+            job = 1,
+        },
+        {
+            id = 10008,        --商品id
+            rankLimit = 3,           --排名限制
+            item = 187,         --海王法戒*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 10000,
+            sex = -1,
+            job = 2,
+        },
+        {
+            id = 10009,        --商品id
+            rankLimit = 3,           --排名限制
+            item = 196,         --苍炎道戒*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 0,
+            price = 10000,
+            sex = -1,
+            job = 3,
+        },
+        {
+            id = 10010,        --商品id
+            rankLimit = 5,           --排名限制
+            item = 1076,         --烈火剑法(初级)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 5000,
+            sex = -1,
+            job = 1,
+        },
+        {
+            id = 10011,        --商品id
+            rankLimit = 5,           --排名限制
+            item = 1078,         --雷电术(初级)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 5000,
+            sex = -1,
+            job = 2,
+        },
+        {
+            id = 10012,        --商品id
+            rankLimit = 5,           --排名限制
+            item = 1085,         --灵魂符咒(初级)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 5000,
+            sex = -1,
+            job = 3,
+        },
+        {
+            id = 10013,        --商品id
+            rankLimit = 10,           --排名限制
+            item = 1077,         --逐日剑法(初级)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 5000,
+            sex = -1,
+            job = 1,
+        },
+        {
+            id = 10014,        --商品id
+            rankLimit = 10,           --排名限制
+            item = 1079,         --魔法盾(初级)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 5000,
+            sex = -1,
+            job = 2,
+        },
+        {
+            id = 10015,        --商品id
+            rankLimit = 10,           --排名限制
+            item = 1089,         --召唤神兽(初级)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 5000,
+            sex = -1,
+            job = 3,
+        },
+        {
+            id = 10016,        --商品id
+            rankLimit = 20,           --排名限制
+            item = 1254,         --1000元宝*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10017,        --商品id
+            rankLimit = 30,           --排名限制
+            item = 1256,         --金砖(中)*10
+            count = 10,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10018,        --商品id
+            rankLimit = 50,           --排名限制
+            item = 1254,         --1000元宝*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10019,        --商品id
+            rankLimit = 100,           --排名限制
+            item = 1119,         --龙魂碎片(大)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10020,        --商品id
+            rankLimit = 200,           --排名限制
+            item = 1231,         --魔神令牌*10
+            count = 10,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10021,        --商品id
+            rankLimit = 300,           --排名限制
+            item = 1260,         --修为丹(中)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10022,        --商品id
+            rankLimit = 400,           --排名限制
+            item = 1113,         --血魄碎片(大)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10023,        --商品id
+            rankLimit = 500,           --排名限制
+            item = 1256,         --金砖(中)*10
+            count = 10,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10024,        --商品id
+            rankLimit = 600,           --排名限制
+            item = 1102,         --羽化石*33
+            count = 33,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10025,        --商品id
+            rankLimit = 700,           --排名限制
+            item = 1254,         --1000元宝*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+        {
+            id = 10026,        --商品id
+            rankLimit = 900,           --排名限制
+            item = 1119,         --龙魂碎片(大)*1
+            count = 1,           
+            quality = 0,
+            strong = 0,
+            bind = 1,
+            price = 1000,
+            sex = -1,
+            job = 0,
+        },
+    },
+
+	skills = 
+	{
+		-- 职业技能
+		{25, 26, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, },
+		{15, 11, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, },
+		{17, 20, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, },
+	}
+
+ }
+
+

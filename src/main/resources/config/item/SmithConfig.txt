@@ -1,0 +1,33 @@
+--D-道具表配置.xlsx 极品属性生成配置表
+SmithConfig={
+[1] = {
+	[1] = {
+		id = 1,
+		index = 1,
+		type = 9,
+		prop = 1500,
+		job = 0,
+		maxNum = 3,
+		lockMaxValue = 36,
+		typeValue = { 
+      {min = 1,max = 10,prop =1,},
+      {min = 11,max = 20,prop =1,},
+      {min = 1,max = 10,prop =1,},
+    },
+	},
+	[2] = {
+		id = 1,
+		index = 2,
+		type = 11,
+		prop = 800,
+		job = 0,
+		maxNum = 3,
+		lockMaxValue = 80,
+		typeValue = { 
+      {min = 1,max = 10,prop =1,},
+      {min = 11,max = 20,prop =1,},
+      {min = 1,max = 10,prop =1,},
+    },
+	},
+},
+}

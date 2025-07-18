@@ -1,0 +1,93 @@
+--#include "..\..\language\LangCode.txt" once
+--特殊戒指
+SpecialRingConfig = 
+{
+	--特殊属性类型
+	spAttrTypes={65,105,106,103,104},
+	
+	--特殊属性描述
+	spAttrDescs=
+	{
+		 --麻痹戒指
+		{
+			itemId = 1163,
+			desc=OldLang.Item.SpecialRing001,		
+		},
+		{
+			itemId = 1164,
+			desc=OldLang.Item.SpecialRing002,
+		},
+		{
+			itemId = 1165,
+			desc=OldLang.Item.SpecialRing003,
+		},
+		{
+			itemId = 1166,
+			desc=OldLang.Item.SpecialRing004,
+		},
+		{
+			itemId = 1167,
+			desc=OldLang.Item.SpecialRing005,
+		},
+		{
+			itemId = 1168,
+			desc=OldLang.Item.SpecialRing006,
+		},
+		 --神力
+		 {
+			--道具id
+			itemId = 1169,
+			--描述属性列表
+			desc=OldLang.Item.SpecialRing011,
+		},
+		{
+			itemId = 1170,
+			desc=OldLang.Item.SpecialRing012,
+		},
+		{
+			itemId = 1171,
+			desc=OldLang.Item.SpecialRing013,
+		},
+		{
+			itemId = 1172,
+			desc=OldLang.Item.SpecialRing014,
+		},
+		{
+			itemId = 1173,
+			desc=OldLang.Item.SpecialRing015,
+		},
+		{
+			itemId = 1174,
+			desc=OldLang.Item.SpecialRing016,
+		},
+		 --防御
+		 {
+			--道具id
+			itemId = 1175,
+			--描述属性列表
+			desc=OldLang.Item.SpecialRing021,
+		},
+		{
+			itemId = 1176,
+			desc=OldLang.Item.SpecialRing022,
+		},
+		{
+			itemId = 1177,
+			desc=OldLang.Item.SpecialRing023,
+		},
+		{
+			itemId = 1178,
+			desc=OldLang.Item.SpecialRing024,
+		},
+		{
+			itemId = 1179,
+			desc=OldLang.Item.SpecialRing025,
+		},
+		{
+			itemId = 1180,
+			desc=OldLang.Item.SpecialRing026,
+		},
+	},
+	
+
+}

@@ -1,0 +1,67 @@
+--27���������ȥ������
+{
+  maxLevel = 25,
+  triggerList =
+	{
+		{ type = 1, valueList = {27,}},      --�����������
+	},
+
+
+  --�����Ĳ���
+  steps =
+	{
+    --��1�� ָ�򵼺���ǩ
+    {
+      condList =
+      {
+				{ type = 1,  helpId = 50, dataList = {0,} },		--����׷�����ɼ�
+				{ type = 4,  helpId = 51, dataList = {1,} },		--����׷�����û��ѡ�е�һ��
+				{ type = 5,  helpId = 0, dataList = {27,} },			--��������
+      },
+
+      action = { type = 2, helpId = 51, data = 1, desc = OldLang.GuideLang.desc1 },  --ָ������׷������һ��
+    },
+
+    --��2�� ָ�������ӣ�ɱ�֣�
+     {
+      condList =
+      {
+				{ type = 1,  helpId = 50, dataList = {0,} },		--����׷�����ɼ�
+				{ type = 3,  helpId = 51, dataList = {1,} },		--����׷�����ѡ�е�һ��
+				{ type = 2,  helpId = 40, dataList = {0,} },	  --npc�Ի��򲻿ɼ�
+				{ type = 5,  helpId = 0, dataList = {27,} },			--��������
+      },
+
+      --ָ������Ѱ·����
+      action = { type = 5, helpId = 27, data = OldLang.GuideLang.name27, desc = OldLang.GuideLang.desc2 },
+    },
+
+    
+    --��3�� ָ�������ӣ�NPC��������
+    {
+      condList =
+      {
+				{ type = 1,  helpId = 40, dataList = {0,} },	  --npc�Ի���ɼ�
+				{ type = 5,  helpId = 0, dataList = {27,} },			--��������
+				{ type = 19, helpId = 40, dataList = {OldLang.GuideLang.name26,} },     --ָ��NPC
+				{ type = 8,  helpId = 0, dataList = {27,} },			--�������
+      },
+
+      --ָ��NPC�Ի������ɰ�ť
+      action = { type = 1, helpId = 41, data = 0, desc = OldLang.GuideLang.desc3 },
+    },
+
+
+    --��4�� ָ��npc�Ի��� �������ť
+    	{
+      condList =
+      {
+				{ type = 2,  helpId = 40, dataList = {0,} },	  --npc�Ի��򲻿ɼ�
+				{ type = 6,  helpId = 0, dataList = {27,} },			--����������
+      },
+
+      --������
+      action = { type = 0, helpId = 20, data = 0, desc = OldLang.GuideLang.desc5 },
+		},
+	},
+},

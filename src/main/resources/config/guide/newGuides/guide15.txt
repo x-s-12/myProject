@@ -1,0 +1,64 @@
+--��������ϴ��������
+{
+  maxLevel = 40,
+  --��������
+  triggerList =
+  {
+       { type = 1, valueList = {1982,}},      --���������
+  },
+  
+
+  --�����Ĳ��� 
+  steps = 
+  {
+
+    --��1�� ���޽���û��
+    {
+      condList = 
+      {
+		{ type = 29,  helpId = 33, dataList = {1982,} },    --���������
+		{ type = 2,  helpId = 30, dataList = {0,} },     --���ﴰ�ڲ��ɼ�
+		{ type = 14,  helpId = 22, dataList = {0,} },    --�г���
+      },
+
+      action = { type = 1, helpId = 4, data = 0, desc = OldLang.GuideLang.desc9 },
+    },
+
+
+    --��2�� �������ϴ����ť
+    {
+      condList = 
+      {
+				{ type = 29,  helpId = 33, dataList = {1982,} },    --���������
+				{ type = 1,  helpId = 30, dataList = {0,} },    --���ﴰ�ڿɼ�
+				{ type = 2,  helpId = 36, dataList = {0,} },    --����ϴ�����ڲ��ɼ�
+				{ type = 14,  helpId = 30, dataList = {0,} },   --�г���
+      },
+
+      action = { type = 1, helpId = 35, data = 0, desc = OldLang.GuideLang.desc56 },
+    },
+
+    --��3�� ָ������ϴ�����İ�ť
+    {
+      condList = 
+      {
+				{ type = 29,  helpId = 33, dataList = {1982,} },    --���������
+				{ type = 1,  helpId = 36, dataList = {0,} },    --����ϴ�����ڿɼ�
+      },
+
+      action = { type = 1, helpId = 37, data = 0, desc = OldLang.GuideLang.desc57 },
+    },
+    
+    --��4�� �رմ���
+    {
+      condList = 
+      {
+				{ type = 29,  helpId = 33, dataList = {1982,} },    --���������
+				{ type = 1,  helpId = 36, dataList = {0,} },    --����ϴ�����ڿɼ�
+      },
+
+      --������ҹرմ���
+      action = { type = 4, helpId = 36, data = 0, desc = OldLang.GuideLang.desc5 },
+    },
+  } 
+}

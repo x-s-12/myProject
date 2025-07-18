@@ -1,0 +1,14 @@
+--[[
+	--propability概率，概率的数字越大的话掉的物品的概率越高
+	--group是分组的id，类似怪物的爆率的配置, group为0，必出；相同group的按propability出一个
+--]]
+drops=
+{
+{ group = 1, type = 0, id = 1375, count = 6, bind = 1, propability=25, broadcast=0, sex=-1,},--魔神碎片
+{ group = 1, type = 0, id = 1375, count = 5, bind = 1, propability=88, broadcast=0, sex=-1,},--魔神碎片
+{ group = 1, type = 0, id = 1375, count = 4, bind = 1, propability=88, broadcast=0, sex=-1,},--魔神碎片
+{ group = 1, type = 0, id = 1375, count = 3, bind = 1, propability=188, broadcast=0, sex=-1,},--魔神碎片
+{ group = 1, type = 0, id = 1375, count = 3, bind = 1, propability=200, broadcast=0, sex=-1,},--魔神碎片
+{ group = 1, type = 0, id = 1375, count = 4, bind = 1, propability=188, broadcast=0, sex=-1,},--魔神碎片
+{ group = 1, type = 0, id = 1375, count = 3, bind = 1, propability=433, broadcast=0, sex=-1,},--魔神碎片
+}

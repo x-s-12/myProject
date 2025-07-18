@@ -1,0 +1,22 @@
+--[[
+	--propability概率，概率的数字越大的话掉的物品的概率越高
+	--group是分组的id，类似怪物的爆率的配置, group为0，必出；相同group的按propability出一个
+--]]
+drops=
+{
+{ group = 1, type = 0, id = 1071, count = 1, bind = 0, propability=2, broadcast=0,job=1},
+{ group = 1, type = 0, id = 1073, count = 1, bind = 0, propability=2, broadcast=0,job=1},
+{ group = 1, type = 0, id = 1074, count = 1, bind = 0, propability=2, broadcast=0,job=1},
+{ group = 1, type = 0, id = 1075, count = 1, bind = 0, propability=2, broadcast=0,job=1},
+
+{ group = 1, type = 0, id = 1081, count = 1, bind = 0, propability=2, broadcast=0,job=2},
+{ group = 1, type = 0, id = 1082, count = 1, bind = 0, propability=2, broadcast=0,job=2},
+{ group = 1, type = 0, id = 1083, count = 1, bind = 0, propability=2, broadcast=0,job=2},
+{ group = 1, type = 0, id = 1084, count = 1, bind = 0, propability=2, broadcast=0,job=2},
+
+{ group = 1, type = 0, id = 1088, count = 1, bind = 0, propability=2, broadcast=0,job=3},
+{ group = 1, type = 0, id = 1090, count = 1, bind = 0, propability=2, broadcast=0,job=3},
+{ group = 1, type = 0, id = 1087, count = 1, bind = 0, propability=2, broadcast=0,job=3},
+{ group = 1, type = 0, id = 1089, count = 1, bind = 0, propability=2, broadcast=0,job=3},
+
+}

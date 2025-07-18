@@ -1,0 +1,53 @@
+--ʹ�ù�ѫ��ָ��
+{
+  maxLevel = 70,
+  --��������
+  triggerList =
+  {
+		
+		{ type = 4, valueList = {2855,},},   --�а����˲�
+  },
+
+
+  --�����Ĳ���
+  steps =
+  {
+    --��1�� ָ�򵼺�������ť
+    {
+      condList =
+      {
+				{ type = 2,  helpId = 20, dataList = {0,} },    --�������ɼ�
+				{ type = 13,  helpId = 21, dataList = {2855,} }, --����Ʒ:�����˲�
+				
+      },
+
+      action = { type = 1, helpId = 2, data = 0, desc = OldLang.GuideLang.desc7 },
+    },
+
+    --��2�� ˫��ʹ�õ���
+    {
+      condList =
+      {
+				{ type = 1,  helpId = 20, dataList = {0,} },    --�����ɼ�
+				{ type = 13,  helpId = 21, dataList = {2855,} }, --����Ʒ:�����˲�
+				
+      },
+
+      action = { type = 10, helpId = 21, data = 2855, desc = OldLang.GuideLang.desc8 },
+    },
+
+   
+    --��4�� ����ָ��
+    {
+      condList =
+      {
+				
+				{ type = 14,  helpId = 21, dataList = {2855,} }, --û����Ʒ:�����˲�
+				
+      },
+
+      --������
+      action = { type = 0, helpId = 20, data = 0, desc = OldLang.GuideLang.desc9 },
+    },
+	},
+},

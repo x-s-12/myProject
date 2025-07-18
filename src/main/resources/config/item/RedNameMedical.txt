@@ -1,0 +1,14 @@
+--#include "..\..\language\LangCode.txt" once
+--红名药水
+
+
+RedNameMedicalConfig = 
+{
+	MedicalList = 
+	{
+		{
+			itemId = 1353,
+			value = 100,
+		},
+	},
+}

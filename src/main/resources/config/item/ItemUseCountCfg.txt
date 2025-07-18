@@ -1,0 +1,307 @@
+﻿
+
+--[[每日限制使用次数道具配置
+group:使用同group的道具共用一个限制
+	1-体力药水，
+	2-经验魔盒
+	3-英魂道具
+dailyUseLimit:每日使用次数的限制
+
+buyVipPriv vip特权
+eVipGoldBrick=4,	//金砖使用次数
+eVipExpItem=5,		//经验道具使用次数
+eVipMeritorious=6,	//功勋道具使用次数
+eVipForceItem = 7,	//魔神令使用次数
+]]
+ItemUseCountCfg = 
+{
+	--group 1-魔神令
+	--道具id
+	[1231] = 
+	{
+		group = 1,
+		dailyUseLimit = 30,
+		vipPriv = enConcVipPriv_ForceItem,
+		--AchievePriv = enAddToken,
+		buyVipPriv = eVipForceItem,
+	},	
+	--group 2-经验魔盒
+	[874] = 
+	{
+		group = 2,
+		dailyUseLimit = 30,
+		vipPriv = enConcVipPriv_ExpBoxNum,
+	},
+	[875] =  
+	{
+		group = 2,
+		dailyUseLimit = 30,
+		vipPriv = enConcVipPriv_ExpBoxNum,
+	},
+	[876] = 
+	{
+		group = 2,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpBoxNum,
+	},
+	[877] = 
+	{
+		group = 2,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpBoxNum,
+	},
+	[878] = 
+	{
+		group = 2,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpBoxNum,
+	},
+		[933] = 
+	{
+		group = 2,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpBoxNum,
+	},
+		[934] = 
+	{
+		group = 2,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpBoxNum,
+	},
+	
+	--group 3 英魂道具
+	[880] = 
+	{
+		group = 3,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_SoulItem,
+	},
+	[881] = 
+	{
+		group = 3,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_SoulItem,
+	},
+	[882] = 
+	{
+		group = 3,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_SoulItem,
+	},
+	
+	--group 4  经验勾玉
+	[893] =
+	{
+		group = 4,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpJade,
+	},
+	
+	
+	--group 5  劫镖盒子
+	[724] =
+	{
+		group = 5,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpJade,
+	},
+	
+	[725] =
+	{
+		group = 5,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpJade,
+	},
+	
+	[726] =
+	{
+		group = 5,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpJade,
+	},
+	
+	[728] =
+	{
+		group = 5,
+		dailyUseLimit = 1000,
+		vipPriv = enConcVipPriv_ExpJade,
+	},
+	--group 6  功勋道具
+	[1109] =
+	{
+		group = 6,
+		dailyUseLimit = 10,
+		vipPriv = enConcVipPriv_Meritorious,
+		buyVipPriv = 7,
+	},	
+	--group 7英雄体力丹
+	[1331] =
+	{
+		group = 7,
+		dailyUseLimit = 100,
+		vipPriv = enConcVipPriv_HeroForce,
+	},
+	--group 8金砖
+	[1255] =
+	{
+		group = 8,
+		dailyUseLimit = 60,
+		buyVipPriv = 4,
+		AchievePriv = enAddGod,
+	},
+	[1256] =
+	{
+		group = 8,
+		dailyUseLimit = 60,
+		buyVipPriv = eVipGoldBrick,
+		AchievePriv = enAddGod,
+	},
+	[1257] =
+	{
+		group = 8,
+		dailyUseLimit = 60,
+		buyVipPriv = eVipGoldBrick,
+		AchievePriv = enAddGod,
+	},
+	[1258] =
+	{
+		group = 8,
+		dailyUseLimit = 60,
+		buyVipPriv = eVipGoldBrick,
+		AchievePriv = enAddGod,
+	},
+	--group 9-经验丹（直接加经验那种）
+	[1233] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1234] =  
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1235] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1236] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1237] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1238] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1239] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1240] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1241] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1242] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1243] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1244] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1245] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1246] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+	[1247] = 
+	{
+		group = 9,
+		dailyUseLimit = 35,
+		buyVipPriv = eVipExpItem,
+	},
+}
+
+
+ClientItemUseCountCfg = 
+{
+	{
+		group = 1,
+		ItemType = 115,
+	},
+	{
+		group = 2,
+		ItemType = 113,
+	},
+	{
+		group = 3,
+		ItemType = 116,
+	},
+	{
+		group = 4,
+		ItemType = 117,
+	},
+	{
+		group = 5,
+		ItemType = 121,
+	},
+	{
+		group = 6,
+		ItemType = 123,
+	},
+	{
+		group = 7,
+		ItemType = 124,
+	},
+	{
+		group = 8,
+		ItemType = 125,
+	},
+	{
+		group = 9,
+		ItemType = 126,
+	},
+	
+}
+

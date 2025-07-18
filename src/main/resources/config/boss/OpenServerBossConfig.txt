@@ -1,0 +1,134 @@
+--[[����ȫ��BOSS]]
+--#include "..\..\language\LangCode.txt" once
+
+OpenServerBossConfig = 
+{
+    days = 7, --����ǰ����
+	list =
+	{
+	    {
+		    icon1 = 60001,
+			icon2 = 60002,
+			level = {0,80}, 
+			boss = {310,312,316,318}, --δ֪����
+			npc = {4,104,92}, --NPC����ID,����
+			npcName =  OldLang.Script.OpenServerBossNpc001,
+			awards = 
+			{
+				{type = 0, id = 124,count = 1,bind = 1 ,job = 1},
+				{type = 0, id = 133,count = 1,bind = 1 ,job = 2},
+				{type = 0, id = 142,count = 1,bind = 1 ,job = 3},
+				{type = 0, id = 1253,count =1,bind = 1 },
+				{type = 0, id = 1231,count =1,bind = 1 },
+				{type = 0, id = 1230,count =2,bind = 1 },
+			},		
+		},
+	    {
+		    icon1 = 10001,
+			icon2 = 10002,
+			level = {0,90}, 
+			boss = {177,169,170,179}, --boss֮��
+			npc = {4,102,90}, --NPC����ID,����
+			npcName =  OldLang.Script.OpenServerBossNpc002,
+			awards = 
+			{
+				{type = 0, id = 119,count = 1,bind = 1 ,job = 1,sex = 0},
+				{type = 0, id = 120,count = 1,bind = 1 ,job = 1,sex = 1},
+				{type = 0, id = 128,count = 1,bind = 1 ,job = 2,sex = 0},
+				{type = 0, id = 129,count = 1,bind = 1 ,job = 2,sex = 1},
+				{type = 0, id = 137,count = 1,bind = 1 ,job = 3,sex = 0},
+				{type = 0, id = 138,count = 1,bind = 1 ,job = 3,sex = 1},
+				{type = 0, id = 1253,count =2,bind = 1 },
+				{type = 0, id = 1231,count =1,bind = 1 },
+				{type = 0, id = 1094,count =5,bind = 1 },
+			},		
+		},
+	    {
+		    icon1 = 30001,
+			icon2 = 30002,
+			level = {1,90}, 
+			boss = {187,188,189,190}, --�������
+			npc = {4,108,96}, --NPC����ID,����
+			npcName =  OldLang.Script.OpenServerBossNpc003,
+			awards = 
+			{
+				{type = 0, id = 176,count = 1,bind = 0 ,job = 1},
+				{type = 0, id = 185,count = 1,bind = 0 ,job = 2},
+				{type = 0, id = 194,count = 1,bind = 0 ,job = 3},
+				{type = 0, id = 1253,count =3,bind = 1 },
+				{type = 0, id = 1231,count =1,bind = 1 },
+				{type = 0, id = 1095,count =5,bind = 1 },
+			},		
+		}, 
+		{
+		    icon1 = 20001,
+			icon2 = 20002,
+			level = {0,100}, 
+			boss = {171,172,173}, --����boss
+			npc = {4,102,90}, --NPC����ID,����
+			npcName =  OldLang.Script.OpenServerBossNpc002,
+			awards = 
+			{
+				{type = 0, id = 175,count = 1,bind = 0 ,job = 1},
+				{type = 0, id = 184,count = 1,bind = 0 ,job = 2},
+				{type = 0, id = 193,count = 1,bind = 0 ,job = 3},
+				{type = 0, id = 1253,count =4,bind = 1 },
+				{type = 0, id = 1231,count =1,bind = 1 },
+				{type = 0, id = 1096,count =5,bind = 1 },
+			},		
+		}, 
+		{
+		    icon1 = 30001,
+			icon2 = 30002,
+			level = {2,90}, 
+			boss = {181,191,182}, --�������
+			npc = {4,108,96}, --NPC����ID,����
+			npcName =  OldLang.Script.OpenServerBossNpc003,
+			awards = 
+			{
+				{type = 0, id = 207,count = 1,bind = 0 ,job = 1},
+				{type = 0, id = 216,count = 1,bind = 0 ,job = 2},
+				{type = 0, id = 225,count = 1,bind = 0 ,job = 3},
+				{type = 0, id = 1253,count =5,bind = 1 },
+				{type = 0, id = 1231,count =1,bind = 1 },
+				{type = 0, id = 1102,count =100,bind = 1 },
+			},		
+		}, 
+		{
+		    icon1 = 40001,
+			icon2 = 40002,
+			level = {0,100}, 
+			boss = {447,448,449,450}, --ʥ���Ĺ�
+			npc = {4,101,84}, --NPC����ID,����
+			npcName =  OldLang.Script.OpenServerBossNpc004,
+			awards = 
+			{
+				{type = 0, id = 286,count = 1,bind = 0 ,job = 1},
+				{type = 0, id = 295,count = 1,bind = 0 ,job = 2},
+				{type = 0, id = 304,count = 1,bind = 0 ,job = 3},
+				{type = 0, id = 1253,count =6,bind = 1 },
+				{type = 0, id = 1231,count =1,bind = 1 },
+				{type = 0, id = 1260,count =10,bind = 1 },
+			},		
+		}, 
+		{
+		    icon1 = 50001,
+			icon2 = 50002,
+			level = {0,110}, 
+			boss = {175}, --����֮��ʼ������
+			npc = {4,102,90}, --NPC����ID,����
+			npcName =  OldLang.Script.OpenServerBossNpc002,
+			awards = 
+			{
+				{type = 0, id = 231,count = 1,bind = 0 ,job = 1},
+				{type = 0, id = 240,count = 1,bind = 0 ,job = 2},
+				{type = 0, id = 249,count = 1,bind = 0 ,job = 3},
+				{type = 0, id = 1253,count =6,bind = 1 },
+				{type = 0, id = 1231,count =1,bind = 1 },
+				{type = 3, id = 0,count =50000000,bind = 1 },
+			},		
+		}, 
+	}
+
+}
+

@@ -1,0 +1,77 @@
+--强化材料副本
+--《Q-强化材料副本.docx》
+--#include "..\..\..\language\LangCode.txt" once
+
+StrongFubenCfg = 	--强化副本配置
+{
+	index = 3,
+	pos = 3,				--按钮的排序(1技能，2坐骑，3强化，4翅膀，5装备，6金币，7龙珠)
+	dailyChellengeTimes = 2,		--每天挑战次数
+	fubens = 
+	{
+		{
+			fubenType 	= 3,								--强化副本
+			name 		= OldLang.Script.StrongFBName02,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc02,		--副本描述
+			titleIcon	= 100,		--标题图片
+			backIcon	= 100,		--背景图片
+			sceneId 	= 27,								--场景ID
+			fubenId 	= 8,								--副本ID
+			levelLimit 	= {0,76},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 13000,							--推荐战力(不强制要求)
+			enterPos 	= {39,51},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=208, sceneId=27, num=1, pos={48,56,49,57}, livetime=1800,},--赤角
+				{ monsterId=216, sceneId=27, num=5, pos={45,52,52,63}, livetime=1800,},--洞穴行尸
+			},
+
+			makeScore = 							--评分
+			{
+				
+			},
+
+			awards = 
+			{
+				{type = 0, id = 505, count = 100, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 240,			--翻倍领取需要的元宝
+		},
+
+		{
+			fubenType 	= 3,
+			name 		= OldLang.Script.StrongFBName03,
+			desc 		= OldLang.Script.StrongFBDesc03,
+			titleIcon	= 101,
+			backIcon	= 101,
+			sceneId 	= 27,
+			fubenId 	= 9,
+			levelLimit 	= {5,100},
+			scoreLimit 	= nil,						--要求第1个副本的评分达到2分
+			recPower	= 26000,
+			enterPos 	= {39,51},
+
+			monsters = 
+			{
+		    		{ monsterId=331, sceneId=27, num=1, pos={48,56,49,57}, livetime=1800,},--鬼角
+				{ monsterId=216, sceneId=27, num=5, pos={45,52,52,63}, livetime=1800,},--洞穴行尸
+			},
+
+			makeScore = 							--评分
+			{
+				
+			},
+
+			awards = 
+			{
+				{type = 0, id = 506, count = 100, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 300,			--翻倍领取需要的元宝
+		},
+	},
+}
+

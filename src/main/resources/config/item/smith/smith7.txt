@@ -1,0 +1,40 @@
+﻿{
+	-- = 极品库7,
+	-- =     --最小物理攻击
+    {type=9,prop = 1500,job = 0,maxNum = 3,lockMaxValue = 72,typeValue = {{min = 1,max = 55,prop = 2,},{min = 55,max = 55,prop = 4,},{min = 55,max = 55,prop = 3,},},},
+	-- =     --最大物理攻击
+    {type=11,prop = 800,job = 0,maxNum = 3,lockMaxValue = 160,typeValue = {{min = 1,max = 121,prop = 2,},{min = 121,max = 122,prop = 4,},{min = 122,max = 122,prop = 3,},},},
+	-- =     --最小魔法攻击
+    {type=13,prop = 1500,job = 0,maxNum = 3,lockMaxValue = 72,typeValue = {{min = 1,max = 55,prop = 2,},{min = 55,max = 55,prop = 4,},{min = 55,max = 55,prop = 3,},},},
+	-- =     --最大魔法攻击
+    {type=15,prop = 800,job = 0,maxNum = 3,lockMaxValue = 160,typeValue = {{min = 1,max = 121,prop = 2,},{min = 121,max = 122,prop = 4,},{min = 122,max = 122,prop = 3,},},},
+	-- =     --最小道术攻击
+    {type=17,prop = 1500,job = 0,maxNum = 3,lockMaxValue = 72,typeValue = {{min = 1,max = 55,prop = 2,},{min = 55,max = 55,prop = 4,},{min = 55,max = 55,prop = 3,},},},
+	-- =     --最大道术攻击
+    {type=19,prop = 800,job = 0,maxNum = 3,lockMaxValue = 160,typeValue = {{min = 1,max = 121,prop = 2,},{min = 121,max = 122,prop = 4,},{min = 122,max = 122,prop = 3,},},},
+	-- =     --最小物理防御
+    {type=21,prop = 1500,job = 0,maxNum = 3,lockMaxValue = 63,typeValue = {{min = 1,max = 48,prop = 2,},{min = 48,max = 48,prop = 4,},{min = 48,max = 48,prop = 3,},},},
+	-- =     --最大物理防御
+    {type=23,prop = 1000,job = 0,maxNum = 3,lockMaxValue = 104,typeValue = {{min = 1,max = 79,prop = 2,},{min = 79,max = 80,prop = 4,},{min = 80,max = 80,prop = 3,},},},
+	-- =     --最小魔法防御
+    {type=25,prop = 1500,job = 0,maxNum = 3,lockMaxValue = 63,typeValue = {{min = 1,max = 48,prop = 2,},{min = 48,max = 48,prop = 4,},{min = 48,max = 48,prop = 3,},},},
+	-- =     --最大魔法防御
+    {type=27,prop = 1000,job = 0,maxNum = 3,lockMaxValue = 104,typeValue = {{min = 1,max = 79,prop = 2,},{min = 79,max = 80,prop = 4,},{min = 80,max = 80,prop = 3,},},},
+	-- =  ,
+	-- =  ,
+	-- =     --暴击几率
+    {type=138,prop = 50,job = 0,maxNum = 1,lockMaxValue = 23,typeValue = {{min = 1,max = 18,prop = 2,},{min = 18,max = 18,prop = 4,},{min = 18,max = 18,prop = 3,},},},
+	-- =     --暴击力
+    {type=139,prop = 800,job = 0,maxNum = 1,lockMaxValue = 240,typeValue = {{min = 1,max = 182,prop = 2,},{min = 182,max = 182,prop = 4,},{min = 182,max = 183,prop = 3,},},},
+	-- =     --生命
+    {type=5,prop = 3000,job = 0,maxNum = 3,lockMaxValue = 800,typeValue = {{min = 1,max = 605,prop = 2,},{min = 605,max = 608,prop = 4,},{min = 608,max = 610,prop = 3,},},},
+	-- =     --魔法
+    {type=7,prop = 2000,job = 0,maxNum = 3,lockMaxValue = 200,typeValue = {{min = 1,max = 152,prop = 2,},{min = 152,max = 152,prop = 4,},{min = 152,max = 153,prop = 3,},},},
+	-- =  ,
+	-- =  ,
+	-- =  ,
+	-- =     --生命恢复
+    {type=39,prop = 1200,job = 0,maxNum = 3,lockMaxValue = 0.08,typeValue = {{min = 0.0001,max = 0.0605,prop = 2,},{min = 0.0605,max = 0.0608,prop = 4,},{min = 0.0608,max = 0.061,prop = 3,},},},
+	-- =     --魔法恢复
+    {type=41,prop = 1150,job = 0,maxNum = 3,lockMaxValue = 0.08,typeValue = {{min = 0.0001,max = 0.0605,prop = 2,},{min = 0.0605,max = 0.0608,prop = 4,},{min = 0.0608,max = 0.061,prop = 3,},},},
+},

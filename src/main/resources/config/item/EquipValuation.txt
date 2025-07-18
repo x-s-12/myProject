@@ -1,0 +1,15 @@
+--D-道具表配置.xlsx 装备的评价的配置
+EquipValuation={
+[1] = {
+	[5] = {
+		voc = 1,
+		attrId = 5,
+		unitVal = 0.8,
+	},
+	[7] = {
+		voc = 1,
+		attrId = 7,
+		unitVal = 0,
+	},
+},
+}

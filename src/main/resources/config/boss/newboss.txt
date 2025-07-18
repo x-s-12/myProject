@@ -1,0 +1,5 @@
+--#include "..\..\language\LangCode.config"
+--#include ".\bossgrow.config" once	
+--#include ".\forbiddenarea.config" once
+--#include ".\boss.config" once	
+--#include ".\SZBossConfig.config" once	

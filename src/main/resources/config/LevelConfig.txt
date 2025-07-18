@@ -1,0 +1,112 @@
+﻿
+
+--服务端也可以调用
+--1.bool CActor::CheckOpenLevel(lvSoldierSoul) 
+--2.LevelConfig[lvSoldierSoul]
+-- 各种等级限制 放在这里
+-- level:等级、circle:转数、tipsIndex在客户端语言包的索引
+-- 例子：如排行榜需要提示，用排行榜TIPS位置-第一个位置 = 0，所以tipsIndex = 0，如果不需要飞出提示，不用配置
+-- 新加的等级限制一定要在最下面添加！中途乱入者乱棍打死！
+LevelConfig = {
+	{circle = 0, level = 30},-- 神炉 index=0
+	{circle = 0, level = 30},-- 神炉血魄 index=1
+	{circle = 0, level = 35},-- 神炉神盾 index=2
+	{circle = 0, level = 67},-- 神炉龙魂 index=3
+	{circle = 0, level = 72},-- 神炉智珠 index=4
+	{circle = 0, level = 70},-- 天关 index=5
+	{circle = 0, level = 81,tipsIndex = 12},--神秘商城（超值购）开放 index=6
+	{circle = 0, level = 82},--功勋开放 index=7
+	{circle = 0, level = 40,tipsIndex = 2},--翅膀界面 index=8
+	{circle = 0, level = 54},-- 装备回收 index=9
+	{circle = 0, level = 82},--宗师界面 index=10
+	{circle = 0, level = 75},--特权贵族界面 index=11
+	{circle = 0, level = 75},--Boss界面 index=12
+	{circle = 0, level = 1},	--头衔 index=13
+	{circle = 0, level = 80},	--行会 index=14
+	{circle = 0, level = 60,tipsIndex = 4},	--锻造-装备强化 (要跟面板中标签页最低的等级同步)index=15
+	{circle = 0, level = 80},	--材料副本 index=16
+	{circle = 1, level = 90,tipsIndex = 5},	--排行榜 index=17
+	{circle = 0, level = 59},	--战神 index=18
+	{circle = 0, level = 60,},	--锻造-强化转移 index=19
+	{circle = 0, level = 78,},	--锻造-装备合成 index=20
+	{circle = 2, level = 90,tipsIndex = 5},	--锻造-铭刻	index=21
+	{circle = 2, level = 90,tipsIndex = 5},	--锻造-铭刻转移	index=22
+	{circle = 0, level = 80},		--英雄城战 index=23
+	{circle = 0, level = 80},	--YY紫钻 index=24 原80
+	{circle = 0, level = 60},	--全民狂欢 index=25  全民狂欢解锁已跟每日竞技同步，故已废弃，后续可改为其他系统
+	{circle = 0, level = 60},	--活动面板 index=26
+	{circle = 0, level = 10,},	--福利大厅 index=27
+	{circle = 0, level = 22,},	--在线奖励 index=28
+	{circle = 2, level = 90,tipsIndex = 5},	--Boss提示的显示上限 index=29
+	{circle = 0, level = 80,},	--交易 index=30
+	{circle = 0, level = 70,},	--开服主题活动 index=31  开服神装解锁已跟每日竞技同步，故已废弃，后续可改为其他系统
+	{circle = 0, level = 57,},	--首充入口 index=32 原57
+	{circle = 0, level = 57,},	--每日充值入口 index=33 原57
+	{circle = 0, level = 90,},	--转生标签页 index=34
+	{circle = 0, level = 75,},-- 成就 index=35
+	{circle = 0, level = 82,},-- 寻宝 index=36
+	{circle = 0, level = 55},--7日登录奖励 index=37
+	{circle = 0, level = 58},--经验炼制 index=38
+	{circle = 0, level = 999},--摇钱树 index=39
+	{circle = 0, level = 85,tipsIndex = 5},--寻宝积分商店 index=40
+	{circle = 0, level = 54},--贴心指引 index=41
+	{circle = 0, level = 77},--背包药物不足提示 index=42
+	{circle = 0, level = 83},--你提我改提示 index=43
+	{circle = 0, level = 80},--护送物资 index=44
+	{circle = 1, level = 90},--鉴定 index=45
+	{circle = 1, level = 90},--鉴定转移 index=46
+	{circle = 0, level = 80},-- 战绩系统 index=47
+	{circle = 0, level = 22},-- 座驾系统 index=48
+	{circle = 0, level = 51},-- 每日竞技系统 index=49 51级开启 现用于开服活动
+	{circle = 0, level = 90},-- 自动穿戴装备提示 index=50 90级以前的装备系统自动穿戴
+	{circle = 0, level = 54},-- 微信礼包 index=51
+	{circle = 0, level = 15},-- YY大厅 index=52
+  {circle = 0, level = 80},-- 发红包 index=53
+  {circle = 0, level = 80},-- 合服活动 index=54
+  {circle = 0, level = 75},-- 强者之路 index=55
+  {circle = 0, level = 70},-- 组队系统 index=56
+  {circle = 0, level = 82},-- 全民Boss index=57
+  {circle = 0, level = 20,tipsIndex = 0},-- 登录送座驾 index=58	
+
+--[[
+	{circle = 0, level = 50},--首充
+	{circle = 0, level = 1},--经验炼制
+	{circle = 0, level = 80,},--转生
+	{circle = 0, level = 1},-- 在线奖励
+	{circle = 0, level = 66},-- 贴心指导出现
+	{circle = 0, level = 1},--微端下载
+
+
+
+
+	--以下为龙麟老功能，注意把等级设置很高
+	{circle = 999, level = 999},-- 继续任务按钮
+	{circle = 999, level = 999,openServerDay = 4,tipsIndex = 4},-- 启兵系统
+
+	{circle = 999, level = 999},--boss		10
+	{circle = 999, level = 999,tipsIndex = 5},--活动界面
+	{circle = 999, level = 999,tipsIndex = 9},--寄售界面
+	{circle = 999, level = 999,tipsIndex = 7},--龙珠界面
+	{circle = 999, level = 999,tipsIndex = 5},--团队副本 15
+	{circle = 999, level = 999,tipsIndex = 8},--行会开启
+	{circle = 999, level = 999,tipsIndex = 5},--个人副本
+	{circle = 999, level = 999},--熔炼
+	{circle = 999, level = 999},--升星 	20
+	{circle = 999, level = 999},--内劲
+	{circle = 999, level = 999},--美女客服
+	{circle = 999, level = 999,tipsIndex = 10},--全民诛魔面板
+	{circle = 999, level = 999,tipsIndex = 11},--坐骑系统
+	{circle = 999, level = 999},--活跃度
+	{circle = 999, level = 999},--手机绑定
+	{circle = 999, level = 999},--开服大礼包
+	{circle = 999, level = 999},--开服后出现的每日充值
+	{circle = 999, level = 999},--暗夜boss
+	{circle = 999, level = 999},--龙珠镶嵌界面提示上限
+	{circle = 999, level = 999},--充值大礼包
+
+	{circle = 999, level = 999, tipsIndex = 5},--分解 
+	{circle = 999, level = 999},--合成 
+	{circle = 999, level = 999},--技能
+]]--
+
+}

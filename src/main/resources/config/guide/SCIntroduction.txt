@@ -1,0 +1,36 @@
+﻿--#include "..\..\language\langCode.txt"
+
+SCIntroduction =
+{
+ --[[
+   key：快捷键
+   intro：快捷键说明 
+ ]]
+
+	{key = OldLang.SCIntroLang.key1, intro = OldLang.SCIntroLang.intro1},
+	{key = OldLang.SCIntroLang.key2, intro = OldLang.SCIntroLang.intro2},
+	{key = OldLang.SCIntroLang.key3, intro = OldLang.SCIntroLang.intro3},
+	{key = OldLang.SCIntroLang.key4, intro = OldLang.SCIntroLang.intro4},
+	{key = OldLang.SCIntroLang.key5, intro = OldLang.SCIntroLang.intro5},
+	{key = OldLang.SCIntroLang.key6, intro = OldLang.SCIntroLang.intro6},
+	{key = OldLang.SCIntroLang.key7, intro = OldLang.SCIntroLang.intro7},
+	{key = OldLang.SCIntroLang.key8, intro = OldLang.SCIntroLang.intro8},
+	{key = OldLang.SCIntroLang.key9, intro = OldLang.SCIntroLang.intro9},
+	{key = OldLang.SCIntroLang.key10, intro = OldLang.SCIntroLang.intro10},
+	{key = OldLang.SCIntroLang.key11, intro = OldLang.SCIntroLang.intro11},
+	{key = OldLang.SCIntroLang.key25, intro = OldLang.SCIntroLang.intro25},
+	{key = OldLang.SCIntroLang.key12, intro = OldLang.SCIntroLang.intro12},
+	{key = OldLang.SCIntroLang.key13, intro = OldLang.SCIntroLang.intro13},
+	{key = OldLang.SCIntroLang.key14, intro = OldLang.SCIntroLang.intro14},
+	{key = OldLang.SCIntroLang.key15, intro = OldLang.SCIntroLang.intro15},
+	{key = OldLang.SCIntroLang.key16, intro = OldLang.SCIntroLang.intro16},
+	{key = OldLang.SCIntroLang.key17, intro = OldLang.SCIntroLang.intro17},
+	{key = OldLang.SCIntroLang.key18, intro = OldLang.SCIntroLang.intro18},
+	{key = OldLang.SCIntroLang.key19, intro = OldLang.SCIntroLang.intro19},
+	{key = OldLang.SCIntroLang.key20, intro = OldLang.SCIntroLang.intro20},
+	{key = OldLang.SCIntroLang.key21, intro = OldLang.SCIntroLang.intro21},
+	{key = OldLang.SCIntroLang.key22, intro = OldLang.SCIntroLang.intro22},
+	{key = OldLang.SCIntroLang.key23, intro = OldLang.SCIntroLang.intro23},
+	{key = OldLang.SCIntroLang.key24, intro = OldLang.SCIntroLang.intro24},
+
+}

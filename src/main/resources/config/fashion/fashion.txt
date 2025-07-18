@@ -1,0 +1,8 @@
+fashion = {
+--#include "fashionattribute.config",
+,
+--#include "fashionaupgrade.config",
+,
+--#include "fashionset.config",
+,
+}

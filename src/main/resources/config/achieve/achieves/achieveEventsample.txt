@@ -1,0 +1,28 @@
+	--id = 0	����
+	{
+		id = 0,
+			--�ɾ��¼���ID
+		name = OldLang.AchieveName.event0000,
+			--�ɾ��¼�������
+		logicop = 1,
+			--�߼�����,logicop=1��ʾ��,logicop=2��ʾ��,����֧�ֶ������
+		atomEventId = 2,
+			--ԭ���¼���ID,svn://192.168.0.159/xhwebgameres/Wzym/C-�����趨/C-�ɾ��¼���ID.txt
+			-- LogicServer\script\interface\AchieveEvent.h
+		conds =
+		{
+			{
+				paramID = 1,
+					--�����¼��ڼ���������Ч,�����1������,��2������...�����������
+						-- paramType����������,��params���ʹ��
+						--1��ʾö��,��������id���Ϊ1,2,3,4,6,��ôparams ={1,2,3,4,6}
+						--2��ʾ��Χ,����20-30�Ļ�params������params ={20,30}
+				paramType =	2,
+					--���ɾ��¼���ID˵��������˵��������Ϊ2
+				params =
+				{
+					40,400
+				}
+			},
+		}
+	},

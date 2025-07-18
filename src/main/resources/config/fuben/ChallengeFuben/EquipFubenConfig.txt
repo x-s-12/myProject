@@ -1,0 +1,141 @@
+--挑战副本-装备副本
+
+EquipFubenCfg = 
+{
+	index = 5,
+	pos = 5,					--按钮的排序(1技能，2坐骑，3强化，4翅膀，5装备，6金币，7龙珠)
+	dailyChellengeTimes = 2,			--每天挑战次数
+	fubens = 
+	{
+		{
+			fubenType 	= 5,					--装备副本
+			name 		= OldLang.Script.StrongFBName08,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc08,		--副本描述
+			titleIcon	= 107,		--标题图片
+			backIcon	= 407,		--背景图片
+			sceneId 	= 32,								--场景ID
+			fubenId 	= 14,								--副本ID
+			levelLimit 	= {0,78},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 17000,							--推荐战力(不强制要求)
+			enterPos 	= {40,50},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=213, sceneId=32, num=1, pos={46,56,47,57}, livetime=1800,},--青牛
+				{ monsterId=221, sceneId=32, num=5, pos={42,51,52,64}, livetime=1800,},--祭坛使者
+			},
+
+			makeScore = 							--评分
+			{
+				
+			},
+
+			awards = 
+			{
+				{type = 0, id = 705, count = 4, quality = 0, strong = 0, bind=1, },
+				{type = 0, id = 511, count = 5, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 200,			--翻倍领取需要的元宝
+		},
+		{
+			fubenType 	= 5,					--技能副本
+			name 		= OldLang.Script.StrongFBName09,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc09,		--副本描述
+			titleIcon	= 108,		--标题图片
+			backIcon	= 408,		--背景图片
+			sceneId 	= 32,								--场景ID
+			fubenId 	= 30,								--副本ID
+			levelLimit 	= {1,85},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 24000,							--推荐战力(不强制要求)
+			enterPos 	= {40,50},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=214, sceneId=32, num=1, pos={46,56,47,57}, livetime=1800,},--双头护卫
+				{ monsterId=221, sceneId=32, num=5, pos={42,51,52,64}, livetime=1800,},--祭坛使者
+			},
+
+			makeScore = 							--评分
+			{
+				
+			},
+
+			awards = 
+			{
+				{type = 0, id = 706, count = 3, quality = 0, strong = 0, bind=1, },
+				{type = 0, id = 511, count = 2, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 240,			--翻倍领取需要的元宝
+		},
+		{
+			fubenType 	= 5,					--技能副本
+			name 		= OldLang.Script.StrongFBName10,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc10,		--副本描述
+			titleIcon	= 109,		--标题图片
+			backIcon	= 409,		--背景图片
+			sceneId 	= 32,								--场景ID
+			fubenId 	= 31,								--副本ID
+			levelLimit 	= {4,95},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 33000,							--推荐战力(不强制要求)
+			enterPos 	= {40,50},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=329, sceneId=32, num=1, pos={46,56,47,57}, livetime=1800,},--赤猪力
+				{ monsterId=221, sceneId=32, num=5, pos={42,51,52,64}, livetime=1800,},--祭坛使者
+			},
+
+			makeScore = 							--评分
+			{
+				
+			},
+
+			awards = 
+			{
+				{type = 0, id = 707, count = 2, quality = 0, strong = 0, bind=1, },
+				{type = 0, id = 511, count = 2, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 300,			--翻倍领取需要的元宝
+		},
+		{
+			fubenType 	= 5,					--技能副本
+			name 		= OldLang.Script.StrongFBName11,		--副本名称
+			desc 		= OldLang.Script.StrongFBDesc11,		--副本描述
+			titleIcon	= 110,		--标题图片
+			backIcon	= 410,		--背景图片
+			sceneId 	= 32,								--场景ID
+			fubenId 	= 32,								--副本ID
+			levelLimit 	= {5,100},							--等级要求
+			scoreLimit 	= nil,								--评分要求 {第N个副本，达到分数}
+			recPower	= 45000,							--推荐战力(不强制要求)
+			enterPos 	= {40,50},							--进入副本的坐标
+
+			monsters = 
+			{
+		    		{ monsterId=330, sceneId=32, num=1, pos={46,56,47,57}, livetime=1800,},--猪力王
+				{ monsterId=221, sceneId=32, num=5, pos={42,51,52,64}, livetime=1800,},--祭坛使者
+			},
+
+			makeScore = 							--评分
+			{
+				
+			},
+
+			awards = 
+			{
+				{type = 0, id = 708, count = 1, quality = 0, strong = 0, bind=1, },
+				{type = 0, id = 511, count = 1, quality = 0, strong = 0, bind=1, },
+			},
+
+			doubleAwardNeedYB = 400,			--翻倍领取需要的元宝
+		},
+	},
+}
+
+

@@ -1,0 +1,10 @@
+﻿--NPC 满血回复
+
+RestoreHpMp = 
+{
+   --金币回复
+   coin = 360000,
+   --绑元回复
+   bindyuan = 25,
+   
+}

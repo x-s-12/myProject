@@ -1,0 +1,244 @@
+﻿--极品属性生成配置表
+SmithConfig=
+{
+--#include "smithSample.txt" 
+--#include "smith1.txt"
+--#include "smith2.txt"
+--#include "smith3.txt"
+--#include "smith4.txt"
+--#include "smith5.txt"
+--#include "smith6.txt"
+--#include "smith7.txt"
+--#include "smith8.txt"
+--#include "smith9.txt"
+--#include "smith10.txt"
+--#include "smith11.txt"
+--#include "smith12.txt"
+--#include "smith13.txt"
+--#include "smith14.txt"
+--#include "smith15.txt"
+--#include "smith16.txt"
+--#include "smith17.txt"
+--#include "smith18.txt"
+--#include "smith19.txt"
+--#include "smith20.txt"
+--#include "smith21.txt"
+--#include "smith22.txt"
+--#include "smith23.txt"
+--#include "smith24.txt"
+--#include "smith25.txt"
+--#include "smith26.txt"
+--#include "smith27.txt"
+--#include "smith28.txt"
+--#include "smith29.txt"
+--#include "smith30.txt"
+--#include "smith31.txt"
+--#include "smith32.txt"
+--#include "smith33.txt"
+--#include "smith34.txt"
+--#include "smith35.txt"
+--#include "smith36.txt"
+--#include "smith37.txt"
+--#include "smith38.txt"
+--#include "smith39.txt"
+--#include "smith40.txt"
+--#include "smith41.txt"
+--#include "smith42.txt"
+--#include "smith43.txt"
+--#include "smith44.txt"
+--#include "smith45.txt"
+--#include "smith46.txt"
+--#include "smith47.txt"
+--#include "smith48.txt"
+--#include "smith49.txt"
+--#include "smith50.txt"
+--#include "smith51.txt"
+--#include "smith52.txt"
+--#include "smith53.txt"
+--#include "smith54.txt"
+--#include "smith55.txt"
+--#include "smith56.txt"
+--#include "smith57.txt"
+--#include "smith58.txt"
+--#include "smith59.txt"
+--#include "smith60.txt"
+--#include "smith61.txt"
+--#include "smith62.txt"
+--#include "smith63.txt"
+--#include "smith64.txt"
+--#include "smith65.txt"
+--#include "smith66.txt"
+--#include "smith67.txt"
+--#include "smith68.txt"
+--#include "smith69.txt"
+--#include "smith70.txt"
+--#include "smith71.txt"
+--#include "smith72.txt"
+--#include "smith73.txt"
+--#include "smith74.txt"
+--#include "smith75.txt"
+--#include "smith76.txt"
+--#include "smith77.txt"
+--#include "smith78.txt"
+--#include "smith79.txt"
+--#include "smith80.txt"
+--#include "smith81.txt"
+--#include "smith82.txt"
+--#include "smith83.txt"
+--#include "smith84.txt"
+--#include "smith85.txt"
+--#include "smith86.txt"
+--#include "smith87.txt"
+--#include "smith88.txt"
+--#include "smith89.txt"
+--#include "smith90.txt"
+--#include "smith91.txt"
+--#include "smith92.txt"
+--#include "smith93.txt"
+--#include "smith94.txt"
+--#include "smith95.txt"
+--#include "smith96.txt"
+--#include "smith97.txt"
+--#include "smith98.txt"
+--#include "smith99.txt"
+--#include "smith100.txt"
+--#include "smith101.txt"
+--#include "smith102.txt"
+--#include "smith103.txt"
+--#include "smith104.txt"
+--#include "smith105.txt"
+--#include "smith106.txt"
+--#include "smith107.txt"
+--#include "smith108.txt"
+--#include "smith109.txt"
+--#include "smith110.txt"
+--#include "smith111.txt"
+--#include "smith112.txt"
+--#include "smith113.txt"
+--#include "smith114.txt"
+--#include "smith115.txt"
+--#include "smith116.txt"
+--#include "smith117.txt"
+--#include "smith118.txt"
+--#include "smith119.txt"
+--#include "smith120.txt"
+--#include "smith121.txt"        --for test
+--#include "smith122.txt"        --for test
+--#include "smith123.txt"        --for test
+}
+
+--极品属性 属性对应文件 
+--现在支持怪物掉落(drop),奖励生成(award),商城(store)
+QualityDataIndex = 
+{	
+   {21,21,21,111,111},  --1
+   {31,31,31,111,111},  --2
+   {61,61,51,71,111},  --3
+   {41,71,41,61,111},  --4
+   {21,21,21,101,111},  --5
+   {31,31,31,101,111},  --6
+   {51,21,81,101,111},  --7
+   {51,31,81,101,111},  --8
+   {71,21,91,101,111},  --9
+   {71,31,91,101,111},  --10
+   {22,22,22,112,112},  --11
+   {32,32,32,112,112},  --12
+   {62,62,52,72,112},  --13
+   {42,72,42,62,112},  --14
+   {22,22,22,102,112},  --15
+   {32,32,32,102,112},  --16
+   {52,22,81,102,112},  --17
+   {52,32,81,102,112},  --18
+   {72,22,91,102,112},  --19
+   {72,32,91,102,112},  --20
+   {23,23,23,113,113},  --21
+   {33,33,33,113,113},  --22
+   {63,63,53,73,113},  --23
+   {43,73,43,63,113},  --24
+   {23,23,23,103,113},  --25
+   {33,33,33,103,113},  --26
+   {53,23,82,103,113},  --27
+   {53,33,82,103,113},  --28
+   {73,23,92,103,113},  --29
+   {73,33,92,103,113},  --30
+   {24,24,24,114,114},  --31
+   {34,34,34,114,114},  --32
+   {64,64,54,74,114},  --33
+   {44,74,44,64,114},  --34
+   {24,24,24,104,114},  --35
+   {34,34,34,104,114},  --36
+   {54,24,82,104,114},  --37
+   {54,34,82,104,114},  --38
+   {74,24,92,104,114},  --39
+   {74,34,92,104,114},  --40
+   {25,25,25,115,115},  --41
+   {35,35,35,115,115},  --42
+   {65,65,55,75,115},  --43
+   {45,75,45,65,115},  --44
+   {25,25,25,105,115},  --45
+   {35,35,35,105,115},  --46
+   {55,25,83,105,115},  --47
+   {55,35,83,105,115},  --48
+   {75,25,93,105,115},  --49
+   {75,35,93,105,115},  --50
+   {26,26,26,116,116},  --51
+   {36,36,36,116,116},  --52
+   {66,66,56,76,116},  --53
+   {46,76,46,66,116},  --54
+   {26,26,26,106,116},  --55
+   {36,36,36,106,116},  --56
+   {56,26,83,106,116},  --57
+   {56,36,83,106,116},  --58
+   {76,26,93,106,116},  --59
+   {76,36,93,106,116},  --60
+   {27,27,27,117,117},  --61
+   {37,37,37,117,117},  --62
+   {67,67,57,77,117},  --63
+   {47,77,47,67,117},  --64
+   {27,27,27,107,117},  --65
+   {37,37,37,107,117},  --66
+   {57,27,84,107,117},  --67
+   {57,37,84,107,117},  --68
+   {77,27,94,107,117},  --69
+   {77,37,94,107,117},  --70
+   {28,28,28,118,118},  --71
+   {38,38,38,118,118},  --72
+   {68,68,58,78,118},  --73
+   {48,78,48,68,118},  --74
+   {28,28,28,108,118},  --75
+   {38,38,38,108,118},  --76
+   {58,28,84,108,118},  --77
+   {58,38,84,108,118},  --78
+   {78,28,94,108,118},  --79
+   {78,38,94,108,118},  --80
+   {29,29,29,119,119},  --81
+   {39,39,39,119,119},  --82
+   {69,69,59,79,119},  --83
+   {49,79,49,69,119},  --84
+   {29,29,29,109,119},  --85
+   {39,39,39,109,119},  --86
+   {59,29,85,109,119},  --87
+   {59,39,85,109,119},  --88
+   {79,29,95,109,119},  --89
+   {79,39,95,109,119},  --90
+   {30,30,30,120,120},  --91
+   {40,40,40,120,120},  --92
+   {70,70,60,80,120},  --93
+   {50,80,50,70,120},  --94
+   {30,30,30,110,120},  --95
+   {40,40,40,110,120},  --96
+   {60,30,85,110,120},  --97
+   {60,40,85,110,120},  --98
+   {80,30,95,110,120},  --99
+   {80,40,95,110,120},  --100
+   {111,111,111,101,101},  --101
+   {112,112,112,102,102},  --102
+   {113,113,113,103,103},  --103
+   {114,114,114,104,104},  --104
+   {115,115,115,105,105},  --105
+   {116,116,116,106,106},  --106
+   {117,117,117,107,107},  --107
+   {118,118,118,108,108},  --108
+   {119,119,119,109,109},  --109
+   {120,120,120,110,110},  --110
+}
